@@ -1,0 +1,627 @@
+; German language for Ultra TC Editors 6.00
+; Translated by Dieter W. Rehfeld
+
+; Überarbeitet von TychoBarfy
+
+[UserLanguage]
+101=&Datei
+102=&Neu
+103=&Öffnen...
+104=&Speichern
+105=Speichern &als...
+106=Verwende &Totalcmd.inc...
+107=&Letzte Dateien
+108=Noch &keine Dateieinträge vorhanden
+109=L&iste löschen
+110=B&eenden
+111=Nach Totalcmd.inc &exportieren ...
+112=E&xportieren ...
+113=&Importieren ...
+114=Datendatei ö&ffnen ...
+115=Datendatei s&peichern
+116=Speichern und Total &Commander erneut starten
+118=Ins &Hauptmenü exportieren ...
+119=K&omplettmenüs erzeugen
+120=In Textdatei &exportieren ...
+
+121=&Bearbeiten
+122=&Menü hinzufügen
+123=&Untermenü hinzufügen
+124=&Trennlinie hinzufügen
+125=&Kommentar hinzufügen
+126=&Wiederholen
+127=S&tarter-Menü
+128=&Help Break
+129=aufwärts
+130=abwärts
+131=&Verschieben nach...
+132=&Löschen
+133=Umbe&nennen
+134=De&finition
+135=&Befehl hinzufügen
+136=&Dies hinzufügen
+137=&Eigenschaften
+138=Eintrag hinzuf&ügen
+139=Alles l&öschen...
+140=&Kommentar
+
+141=&Ansicht
+142=&Werkzeugleiste
+143=Status&leiste
+144=Befe&hlsliste
+145=&Senkrechte Panele
+146=&Panele tauschen
+147=&Baum erweitern
+148=Baum ver&kleinern
+149=Sortierte &Liste
+150=&Optionen...
+151=Bes&chreibung
+152=Alle &Keys
+153=Akti&vierte Keys
+154=&Deaktivierte Keys
+155=Immer im Vordergrund
+156=Alle Menüs sortieren
+157=Gewähltes Menü sortieren
+158=Nur er&weiterte Keys
+159=&Bau,ansicht
+
+161=&Hilfe
+162=Hilfe&themen
+163=&Über
+
+171=&Hinzufügen
+172=&Ersetzen
+173=&Alles wählen
+176=De&finition
+177=Kate&gorieliste
+178=Alle Ak&tiven markieren
+179=Alle &Inaktiven markieren
+
+190=&Rückgängig
+191=&Wiederherstellen
+192=&Wert bearbeiten
+193=Wert = &1
+194=Wert = &0
+195=Wert an&zeigen ...
+196=Key
+197=Wert
+198=Abschnitt
+
+200=Favori&ten
+201=Zu F&avoriten hinzufügen ...
+202=Favoriten &organisieren ...
+203=Name des Favoriten:
+204=Kann den favorisierten Key nicht finden!
+205=Füge Favoriten hinzu
+206=Organisiere Favoriten
+207=Favoritenliste kann max. 99 Einträge enthalten.
+208=Es existiert bereits ein Favorit mit diesem Key.
+
+220=&Neuer Key...
+221=&Umbenennen...
+222=Neuer Key
+223=Umbenennen
+224=Key-&Name:
+225=Ein Key mit angegebenem Namen existiert bereits. Bitte anderen Key-Namen angeben.
+
+250=&Suchen
+251=&Finden ...
+252=Finde &nächsten
+253=Finde
+254=Suchen nach:
+255=Suchen in:
+256=&Name des Keys
+257=Key-&Beschreibung
+258=Nur mit ganzem W&ort vergleichen
+259=Suche erfolglos
+260=Titel
+261=Pfad
+262=Key-&Wert
+263=&Suchen:
+
+301=Befehl:
+302=Parameter:
+303=Startpfad:
+304=Zielpfad:
+305=Shortcut:
+306=In &TC öffnen
+307=&Icon-Datei:
+308=&Tooltip:
+
+311=Icon ändern
+312=Diese Datei enthält keine Icons. Bitte eine andere Datei angeben.
+315=Befehl wählen
+
+320=In Datei Totalcmd.inc exportieren
+321=Die folgenden Befehle werden am Ende von Totalcmd.inc hinzugefügt.
+322=Jeder dieser Befehle kann im Hauptmenü verwendet werden.
+323=Nur Befehl &exportieren  (empfohlen)
+325=Abschnitt [Shortcuts], [ShortcutsWin] und [Alias] Wincmd.ini &aktualisieren
+326=Befehls&präfix:
+327=Kategorie&name:
+
+400=Hotkey:
+401=&Strg +
+402=&Alt +
+403=&Umsch +
+404=Strg
+405=Alt
+406=Umsch
+407=Spalten zum Export auswählen
+408=Vorschau:
+410=Alias:
+411=Num
+412=Modifier:
+413=Se&quenz:
+414=&Trennlinie:
+415=&Win +
+416=Win
+
+420=Ins Hauptmenü exportieren
+421=Nur &ersten Wert in jeder Spalte exportieren
+422=Nur &eine Spalte pro Befehl exportieren
+423=S&paltensequenz:
+424=&Spaltenpriorität:
+425=&Trennlinie:
+426=&Durchsuchen...
+427=&Entferne Leerzeichen aus Hotkeys
+428=Exportiere neu &definierte Vorgabe-Hotkeys
+429=Mar&kiere neu &definierte Vorgabe-Hotkeys
+430=Einfg|Entf|Pos1|Ende|BildAuf|BildAb|Leertaste|Return|Tab|Eingabe|Esc|Links|Rechts|Auf|Ab
+
+500=Total Commander Hauptmenü
+501=STARTMENU
+502=Help_Break
+510=Total Commander Startermenü
+511=Total Commander Verzeichnismenü
+512=Total Commander Erweiterte Befehle
+
+529=Datenschlüssel ändern
+530=Neuen Datenschlüssel hinzufügen
+531=&Name
+532=&Datei
+533=&Abschnitt
+534=Vorgabe&wert
+535=&Erweitert
+536=Dialo&g
+537=&Beschreibung
+538=Ve&rsion
+540=Ja
+541=Neon
+542=(Nichts)
+543=Datei öffnen
+544=Ordner öffnen
+545=Farbe
+546=Schrift
+547=Bit-Summe
+548=Icon-Bibliothek Vorschau
+549=Aus Dialogliste wählen
+
+560=&Datendatei
+561=Key &hinzufügen...
+562=Key &ändern...
+563=Key &löschen
+570=Willst du wirklich den Key '%s' aus der Datendatei löschen?
+
+601=&Anpassen...
+602=Werkzeugleiste anpassen
+
+1000=Optionen:
+1001=Optionen
+1002=Layout
+1003=Icons
+1004=Farbe und Schriftart
+1005=Operation
+1006=Sprache
+1007=Programmvorgabe
+1008=OK
+1009=Abbrechen
+1010=&Übernehmen
+
+1021=Optische Effekte:
+1022=Zeige Baum-&Icons
+1023=Zeige Baum&linien
+1024=Zeige &Gitternetzlinien
+1025=Feste &Rahmen
+1026=&Flaches Erscheinungsbild
+1027=&Zeige den Speicherstatus im Speicher-Button
+1028=&Zeige Datei-Icon
+1029=Zeige den Inhalt direkt nach dem Key-Namen
+1030=Zeige die Vorgabeinhalte der inaktiven Keys
+1031=Zeige Icons für interne &Befehle
+3407=Zeige &minimal für gewählten Key erforderliche Version
+
+1034=Trennlinie
+1035=&Tab-Breite:
+
+1041=Icon-Stil:
+1042=Benutze &Standard-Icons
+1043=Größe
+1044=&Ändern...
+
+1051=Text:
+1052=Vordergrund
+1053=Hintergrund
+1054=Aktuelles Menü:
+1055=Andere Einträge:
+1056=Kommentar
+1057=Trennzeichen
+1058=geprüfter Eintrag
+1059=defekter Link
+1061=Gesperrter Tab
+1062=Inaktiver Key
+1063=Aktiver Key (Wincmd.ini)
+1064=Aktiver Key (Wcx_ftp.ini)
+3402=Aktiver Befehl
+3403=Inaktiver Befehl
+3404=Befehl mit Hotkey
+3405=Befehl ohne Hotkey
+1065=Schriftart:
+1066=Übernehme Schrifteinstellungen zum Feld der Befehlsangaben.
+1067=Beschreibung:
+
+1071=Lese interne TC-Befehle aus:
+1072=&Vorgegeben ist Totalcmd.inc.
+1073=&Andere Datei.
+1074=Verschiedenes:
+1075=&Automatisch letzte Datei öffnen.
+1076=&Verknüpfe TC-Menüdateien (*.mnu) mit dem Programm.
+1077=&Befehle beim Einlesen gruppieren (empfohlen)
+1078=Anzahl von Leerstellen vor jedem Menüeintrag.
+1079=Einzugstiefe in Datei.
+
+1089=Sprache ändern:
+1090=Verwende &Standardsprache (Englisch)
+1091=&Andere
+
+1101=Automatisch vervollständigen:
+1102=Automatisch den Befehlsnamen als Titel verwenden.
+1103=Dateierweiterung vom Titel entfernen.
+1104=Automatisch neuen Befehl anlegen oder nächsten wählen.
+1107=Suche nach vorhandenen Dateien oder Ordnern im Netzwerk.
+1108=Suche nach vorhandenen Dateien oder Ordnern in austauschbaren Medien.
+1111=Export
+1112=Immer beim Speichern des Menüs nach Totalcmd.inc exportieren.
+1113=Immer an den Export der Änderungen erinnern.
+1120=&Wähle nach dem Bearbeiten den nächsten Key.
+1121=Automatischer Neustart von Total Commander nach dem Speichern der Änderungen.
+1123=Zeige Hotkeys in umgekehrter Reihenfolge.
+1124=Immer beim Sichern ins Hauptmenü exportieren.
+1125=Automatisches Erweitern des Kategoriebaums beim Start.
+1126=Nach dem Editieren &nächsten Befehl automatisch auswählen
+1127=Nur in Datendatei ge&listete Keys lesen
+
+1201=Verwende Totalcmd.inc
+1202=Kategorisieren
+1203=Alphabetisch
+1204=unverändert
+1205=Speichern
+1206=Schließen
+1207=Vorschau
+1208=DIESE BEFEHLE SIND NICHT IM MENÜ ENTHALTEN
+1209=Datei
+1210=Drucken
+1211=Art des Trennzeichens:
+1212=&Menütitel als Beschreibung verwenden.
+1213=Befehls-&Code zur Beschreibung hinzufügen.
+1214=&Trennzeichen zu jedem Untermenü hinzufügen.
+
+1251=Verschieben nach
+1252=Verschiebe [
+1253=] nach...
+
+1280=Parameterliste bearbeiten
+1281=&Hinzufügen
+1282=&Aufwärts
+1283=A&bwärts
+1284=&Vorgabe
+1285=Parameterliste
+1286=Parameter
+1287=Beschreibung
+1288=Als Menü an&zeigen
+1289=Parameter bearbeiten
+1290=Neuen Parameter hinzufügen
+1291=&Parameter:
+1292=&Beschreibung:
+
+1501=Über
+1502=Programmiert von:
+1503=Version
+1504=Registriert für:
+1505=Für aktuelle Information besuchen Sie bitte meine Homepage.
+1506=Website
+1507=E-Mail
+1508=Jetzt besuchen
+
+1601=Prüfe Abschnitte für Import.
+1602=Prüfe Abschnitte für Export.
+1603=Import
+1604=Export
+1605=Öffnen
+1606=Speichern
+1607=Speichern als
+
+1611=Zu importierende Kategorien prüfen.
+1612=Zu exportierende Kategorien prüfen.
+1613=Import-Optionen:
+1614=Export-Optionen:
+1615=Aktive Keys
+1616=Inaktive Keys
+1617=Redirection-Keys ausschließen (empfohlen)
+
+1650=Alles löschen
+1651=Prüfe zu löschende Abschnitte.
+1652=Auch gesperrte Tabs löschen.
+
+2001=Total Commander Hauptsymbolleiste
+2002=Mit Ultra TC Symbolleisten-Editor ändern
+2003=Button %i
+2004=Als Leiste anzeigen
+2005=Als Menü anzeigen
+2006=Zurück zur Hauptsymbolleiste
+2007=Zeilenumbruch
+2008=Verknüpfte Symbolleiste bearbeiten
+2009=Symbolleiste Dateiliste
+
+2101=Unterleiste hinzufügen
+2102=&Zeilenumbruch hinzufügen
+2103=&Button hinzufügen
+2111=Auss&chneiden
+2112=&Kopieren
+2113=&Einfügen
+2122=&Symbolleiste
+2123=Symbolleisten-&Baum
+2124=Symbolleistenn-Optio&nen
+
+2151=Kann Zwischenablage nicht öffnen.
+2152=Willst du diese Symbolleiste zur neuen Hauptsymbolleiste machen? (Die Hauptsymbolleiste wird beim Start von Total Commander geladen.)
+2153=Kann verknüpfte Symbolleiste "%s" nicht finden
+
+2201=Aussehen
+2202=&Größe:
+2203=&XP-Stil
+2204=F&lache Icons
+2205=&Kleine Icons
+2206=Pop&up-Icon-Größe:
+
+2211=Baum-Icon-&Größe:
+2212=&Symbolleisten-Icon-Größe:
+
+3000=Befehl als Text speichern
+3001=Befehl dezimal speichern
+3002=Befehl hexadezimal speichern
+3003=Beschreibung
+3004=Befehl
+3005=Code
+3006=Sie können hier keinen Befehl plazieren.
+3007=Help_Break kann nicht als Menüpunkt verwendet werden.
+3008=Es gibt nichts zu speichern!
+3009=Sind Sie sicher?
+3010=Dieser Punkt ist nicht wiederholbar.
+3011=Menü ist nicht leer
+3012=Dieser Befehlsblock ist nicht leer
+3013=Ein Menü kann nicht in sich selbst verschoben werden!
+3014=Kann Befehl nicht finden
+3015=Fehler in der Datei
+3016=Zeile:
+3017=Das Programm kann nicht fortgesetzt werden!
+3018=Ungültiges Format in der Menü-Datei!
+3019=Kann diese Datei nicht öffnen.
+3020=Änderungen speichern in
+3021=Kann diese Datei nicht finden
+3022=Bitte den angegebenen Pfad und Dateinamen prüfen.
+3023=%i ausgewählte(r) Befehl(e)
+3024=%i Befehl(e) in Menü [%s]
+3025=Lade Befehle... Bitte warten.
+3026=Speichere Menü... Bitte warten.
+3027=Lese Menü... Bitte warten.
+3028=Füge hinzu... Bitte warten.
+3029=Ersetze... Bitte warten.
+3030=TC-Icon
+3031=Menü
+3032=Aktuelles Menü
+3033=Befehl
+3034=Ungeprüfter Befehl
+3035=Trennlinie
+3036=Startermenü
+3037=Help Break
+3038=Kommentar
+3039=Bild ist zu groß. Bitte ein anderes wählen.
+3040=Ungültiges Icon! Bitte ein anderes wählen.
+3041=Gültige Einträge sind Zahlen von 1 bis 32.
+3042=Leerer Pfad.
+
+3045=Kann die Datei mit den Total-Commander-Einstellungen [Wcx_ftp.ini] nicht finden!
+3046=Kann die Datei mit den Total-Commander-Einstellungen [Wincmd.ini] nicht finden!
+3047=Kann Totalcmd.inc nicht finden!
+3048=Kann die LNG-Datei nicht finden!
+3049=Merken
+3050=Die Änderungen nach Totalcmd.inc exportieren?
+3051=Das Startermenü muss vor dem Export erst gespeichert werden. Dies ist wichtig, um keine nicht-plausiblen Einträge in der Datei Totalcmd.inc zu erhalten, was so aber passieren kann.
+3052=Änderungen speichern?
+3053=Die Verzeichnisliste darf nicht mehr als 199 Einträge enthälten
+3054=Das Startermenü darf nicht mehr als 199 Einträge enthälten
+3055=Ordner nicht gefunden.
+3056=Datei nicht gefunden.
+3057=existiert bereits in:
+3058=Soll es nochmals hinzugefügt werden?
+3059=Dieser Shortcut ist bereits verbunden mit:
+3060=Soll es damit verbunden werden? ->
+3061=Diese Datei enthält keinen Eintrag zur Verzeichnisliste!
+3062=Diese Datei enthält keinen Eintrag zum Startermenü!
+3063=Icon-Einstellungen wirken erst nach einem erneuten Programmstart.
+3064=Interner Befehl
+3065=Externer Befehl
+3066=Ordner-Link
+3067=(Nichts)
+3068=Normales Fenster
+3069=Minimiertes Fenster
+3070=Maximiertes Fenster
+3071=Startermenü
+3072=Verzeichnisliste
+
+3073=Total Commander Einstellungen
+3074=Kann Datei nicht finden! Zum Fortsetzen eine wählen
+3076=Sollen die Änderungen gespeichert werden?
+3077=%i Keys
+3078=Datei:
+3079=Zielbereich:
+3080=Eine Beschreibung ist nicht verfügbar!
+3406=Total Commander %s und neuer
+
+3081=Total Commander Versionsverlauf
+3082=Befehlszeile
+3083=Suche nach:
+3084=Suche in:
+3085=Finde Text:
+3086=Laden/Speichern
+3087=Auswahl
+3088=Umbenennen:
+3089=F2 Laden/Speichern
+3090=Linke Tabs
+3091=Rechte Tabs
+3092=Vorschau. Hier kein Bearbeiten möglich!
+3093=Nur 20 Einträge können je Abschnitt hinzugefügt werden.
+3094=Inhalt:
+3095=&Sperre diesen Tab
+3096=Leer
+3097=Benenne "Suchen nach" um in:
+3098=Benenne "Ersetzen mit" um in:
+3099=Gesperrt, a&ber Verzeichniswechsel sind möglich.
+3100=Linker Verlauf
+3101=Rechter Verlauf
+3102=Neues Verzeichnis
+3103=Synchronisier-Optionen
+3104=Plugin-Attribute
+3105=Größen splitten
+3106=Alte FTP-Verbindungen
+
+3110=Erweiterte Befehle
+3111=Erweiterter Befehl
+
+3120=Zugriff auf
+3121=ist in dieser Datei eingeschränkt.
+
+3141=Diese Kategorie enthält keinen Key!
+3142=Zu diesem Key gibt es keine oder fehlerhafte Datenfelder!
+3143=Bitte diesen Fehler in der aktuellen Datei korrigieren.
+3144=Die geöffnete Datei hat ein veraltetes Format. Soll sie in das neue Format konvertiert werden?
+3145=[Leerer Abschnitt]
+3146=Icon-Bibliothek Vorschau
+3147=&Bibliothek-Datei:
+3148=Bit-Summe
+3149=The data file contains the following error:\n\nLine: %i\nPosition: %i\nReason: %s\n
+
+3160=Kommentare
+3161=Kommentar hier eingeben
+3171=Startmenüeintrag %i
+3172=Ordnermenüeintrag %i
+3173=Erweiterter_Befehl_%i
+3176=Mit Ultra TC Start Menu Editor ändern
+3177=Mit Ultra TC Directory Menu Editor ändern
+3178=Ultra_TC_Erweiterte_Befehle_Editor
+
+3200=Vorgegebener Hotkey
+3201=Aktueller Hotkey
+3202=Hotkey hinzufügen
+3203=Vorgegebener Hotkey für:
+3204=Aktueller Hotkey für:
+3205=Lösche alle Hotkeys
+3206=Sie sind im Begriff, die aktuellen Hotkeys für ALLE Kommandos
+3207=in Ihrem Total Commander Start-Menü zu löschen.
+3208=ACHTUNG
+3209=Die Hotkeys dieser Liste sind noch nicht in Ihrer Total Commander Konfigurationsdatei gesichert.
+3210=Die Hotkeys müssen vor dem Export ins Hauptmenü gespeichert werden. Dies ist wichtig, um keine Fehler in ungespeicherten Hotkeys zu erhalten.
+3220=Kategorie
+3221=Alias
+3222=Alias hinzufügen
+3223=Alle Aliases löschen
+3224=Aktuelles Alias für:
+3225=Zuordnen an:
+3226=Sie sind dabei Aliases für ALLE Befehle zu löschen.
+
+3236=Total Commander Hotkey-Liste
+3237=Total Commander StartMenu-Hotkeys:
+3238=Export in Textdatei
+3239=Export als HTML-Code
+3241=&Beschreibung
+3242=B&efehl
+3243=&Code
+3244=&Vorgabe-Hotkey
+3245=Ben&utzerdefinierter Hotkey
+3246=&Alias
+3247=&Alle Befehle exportieren
+3248=&Schriftvorschau
+3249=&Trennlinie hinzufügen
+
+3250=Lese... Bitte warten.
+3251=Speichere... Bitte warten.
+3252=Importiere... Bitte warten.
+3253=Exportiere... Bitte warten.
+3254=Erstelle... Bitte warten.
+
+3301=Hauptmenü-Editor ausführen
+3302=Startermenü-Editor ausführen
+3303=Verzeichnismenü-Editor ausführen
+3304=Erweiterte Befehle Editor ausführen
+3305=Verlaufseditor ausführen
+3306=Konfigurationseditor ausführen
+3307=Hotkey-Editor ausführen
+3308=Immer im Vordergrund
+3309=Symbolleisten-Editor ausführen
+
+3321=Kürzel überprüfen...
+3322=Keine doppelten Kürzel gefunden.
+3323=Doppelte Kürzel gefunden: '%s'\nEs wird bereits verwendet in: '%s'\n\nFolgende Kürzel stehen zur Verfügung: %s
+3324=Doppelte Kürzel gefunden: '%s'\nEs wird bereits verwendet in: '%s'\n\nKein eindeutiges Kürzel steht zur Verfügung.
+3325=&Doppelten Kürzel hervorheben.
+3326=Einträge &ohne Kürzel hervorheben.
+3327=Alle Einträge mit Kürzeln.
+
+3341=&Import-Überschriften...
+3342=Import-Überschriften für &alle Befehle.
+3343=Nur Import-Überschriften für &Befehle unter dem Menü '%s'.
+
+3350=%s\nDiese Datei ist UTF-8-kodiert.\n\nWARNUNG: Jeder Eintrag enthält Zeichen einer Zeichensatzes, der sich vom Standard-Zeichensatz deines Systems unterscheidet. Du wirst diese Zeichen verlieren, wenn der Eintrag mit diesem Programm umbenannt wird.\n\nAnmerkung: Einträge die that solche Zeichen enthalten, jedoch nicht innerhalb des Programms umbenannt wurden, sind nicht davon betroffen. Fortfahren?
+3351=%s\nDiese Datei ist UTF-8-kodiert.\n\nDas Exportieren con Hotkeys in UTF-8-kodierte Dateien könnte diese beschädigen. Fortfahren?
+
+3601=?   als erster Parameter: erzwingt Dialog zur Parametereingabe
+3602=%P  fügt aktuellen Quellpfad ein
+3603=%N  fügt den Dateinamen unter dem Cursor ein
+3604=%T  fügt den aktuellen Zielpfad ein
+3605=%M  fügt den gegenwärtigen Dateinamen ins Zielverzeichnis ein
+3606=%O  fügt den gegenwärtigen Dateinamen ohne Erweiterung ein
+3607=%E  fügt lediglich die gegenwärtige Dateierweiterung ein (ohne Punkt)
+3608=%%  fügt das Prozentzeichen ein
+3610=%p  fügt den aktuellen Pfad ein (kurze Namen)
+3611=%n  fügt den Dateinamen unter dem Cursor ein (kurzer Name)
+3612=%t  fügt den aktuellen Zielpfad ein (kurzer Name)
+3613=%m  fügt den gegenwärtigen Dateinamen ins Zielverzeichnis ein (kurzer Name)
+3614=%o  fügt den gegenwärtigen Dateinamen ohne Erweiterung ein (kurzer Name)
+3615=%e  fügt lediglich die gegenwärtige Dateierweiterung ein (ohne Punkt, kurzer Name)
+3618=%L  lange Dateinamen mit vollständigem Pfad
+3619=%l  kurze Dateinamen mit vollständigem Pfad (kurze Schreibweise)
+3621=%F  langer Dateiname ohne Pfad, z.B. Langer Name.exe
+3622=%f  kurzer Dateiname ohne Pfad, z.B. LANGER~1.EXE
+3624=%D  kurzer Dateiname mit vollständigen Pfad, (DOS-Zeichensatz)
+3625=%d  kurzer Dateiname ohne Pfad, (DOS-Zeichensatz)
+3626=%S  fügt die Namen aller markierten Dateien ein
+3627=%s  fügt die Namen aller markierten Dateien ein (kurz)
+3628=%S10  fügt die Namen der ersten 10 markierten Dateien ein
+3629=%s10  fügt die Namen der ersten 10 markierten Dateien ein (kurz)
+3630=%A  fügt den Rest der eingegebenen Befehlszeile ein
+3631=%A0  gleich wie %A, verwenden wenn ein Parameter von einer Ziffer gefolgt werden muss
+3632=%A1  bis %A9 fügt den ersten bis zum neunten Parameter ein
+3633=%Z  übergibt Archive als Pfad an Programme für %P oer %T falls innerhalb eines Archivs
+3634=%R  fügt die Namen aller markierten Dateien aus dem Zielpanel ein
+3635=%r  fügt die Namen aller markierten Dateien aus dem Zielpanel ein (kurz)
+3636=%R10  fügt die Namen der ersten 10 markierten Dateien aus dem Zielpanel ein
+3637=%r10  fügt die Namen der ersten 10 markierten Dateien aus dem Zielpanel ein (kurz)
+3638=%X  interpretiert die folgenden Parameter als Links/Rechts anstatt Quelle/Ziel
+3639=%x  interpretiert die folgenden Parameter wieder als Quelle/Ziel
+3640=%UL  gleich wie %L, jedoch mit einer UTF-8-Unicode Listendatei
+3641=%WL  gleich wie %L, jedoch mit einer UTF-16-Unicode Listendatei
+3642=%UF  gleich wie %F, jedoch mit einer UTF-8-Unicode Listendatei
+3643=%WF  gleich wie %F, jedoch mit einer UTF-16-Unicode Listendatei
+3644=%v fügt den virtuellen Dateinamen im Fall eines Dateisystem-Plugins wie 'Virtual Panel' ein
+3645=%V Wie %v, jedoch einschließlich des vollen Pfades (einschl. dem Plugin-Namen)

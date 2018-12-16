@@ -1,0 +1,536 @@
+[sess]
+gr_mode=1
+gr_act=1
+split=50
+tab_act=0,0,0,0,0,0,
+tabs=1
+[f0]
+gr=1
+fn=C:\Users\Алексей\Documents\The Witcher 3\input.settings
+top=0,0
+caret=17572,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f1]
+gr=1
+fn=C:\Games\The Witcher 3 Wild Hunt\Mods\modRandomEncounters\content\scripts\local\modRandomEncountersExtra.ws
+top=0,0
+caret=367,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f2]
+gr=1
+fn=C:\Games\The Witcher 3 Wild Hunt\Mods\modRandomEncounters\content\scripts\local\re_Zones.ws
+top=0,0
+caret=158,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f3]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\gameplay\damage\damageManagerProcessor.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f4]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\gui\main_menu\commonIngameMenu.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f5]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\player.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f6]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\playerInput.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f7]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\r4Player.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f8]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\aimThrow.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f9]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\combat.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f10]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\exploration.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f11]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\swimming.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f12]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\dismountTheVehicle.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f13]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\horseRiding.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f14]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\mountBoat.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f15]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\mountHorse.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f16]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\mountTheVehicle.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f17]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\player\states\vehicles\sailing.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f18]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\content\scripts\game\vehicles\horse\horseComponent.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f19]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\gui_setup\GUI_ReadMe.txt
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f20]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\gui_setup\ImmCamMenu.xml
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f21]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\keybind_setup\input.settings
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f22]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\keybind_setup\input.xml
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f23]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\modImmersiveCam\keybind_setup\Keybind_ReadMe.txt
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f24]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\content\scripts\game\behavior_tree\tasks\rider\btBaseRidingManager.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f25]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\content\scripts\game\gameplay\focus\focus.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f26]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\content\scripts\game\player\states\vehicles\useVehicle.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f27]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\content\scripts\game\vehicles\horse\states\exploration.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f28]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\gui_setup\AltHorseControls.xml
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f29]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\gui_setup\GUI_ReadMe.txt
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f30]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\keybind_setup\input.settings
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f31]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\keybind_setup\input.xml
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f32]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modAltHorseControls\keybind_setup\Keybind_ReadMe.txt
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f33]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\ai_parameters\actionParams.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f34]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\ai_parameters\animalParams.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f35]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\ai_parameters\baseParams.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f36]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\ai_parameters\humanReactionParams.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f37]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\ai_parameters\monsterReactionParams.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f38]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\latent\behTreeLatentMoveAlongPath.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f39]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\latent\behTreeLatentMoveTo.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f40]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\behavior_tree\tasks\movement\btTaskMoveToWaypoint.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f41]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveAI\content\scripts\game\npc\npc.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f42]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\gui\hud\modules\hudModuleRadialMenu.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f43]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\gui\menus\commonMenu.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f44]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\gui\menus\meditationClockMenu.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f45]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\player\playerWitcher.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f46]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\player\states\meditation\meditation.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f47]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\content\scripts\game\player\states\meditation\meditationWaiting.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f48]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\gui_setup\GUI_ReadMe.txt
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f49]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMeditation\gui_setup\ImmersiveMeditationMenu.xml
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f50]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMotion\content\scripts\game\explorations\exploration_movement_system\explorationMovementCorrector.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f51]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\mod\Immersive_Cam_v_4.2-689-4-2\Дополнения\modImmersiveMotion\content\scripts\game\player\movement\locomotionDirectController.ws
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;
+[f52]
+gr=1
+fn=P:\Games\The Witcher 3 (nemos)\mod (install)\Immersive_Cam\readme\Readme.html
+top=0,0
+caret=0,0
+wrap=0,0
+prop=0,1,1,1,
+color=clNone
+colmark=
+folded=;

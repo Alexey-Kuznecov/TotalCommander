@@ -1,0 +1,527 @@
+; Acest fiºier conþine traducerea în limba românã pentru:
+;  Ultra TC Main Menu Editor
+;  Ultra TC Start Menu Editor
+;  Ultra TC Directory Menu Editor
+;  Ultra TC History Editor
+;  Ultra TC Configuration Editor
+;  Ultra TC Hotkeys Editor
+; Autor Taher Salem (Egypt)
+; Traducãtor Eugen ANTAL ( eugensyl [at] yahoo.com )
+; The world can be better - with us!
+; Last full translated version/Ultima versiune tradusa: 5.50
+
+[UserLanguage]
+101=&Fiºier
+102=&Nou
+103=&Deschide...
+104=&Salveazã
+105=Salveazã c&a...
+106=Design Totalcmd.inc...
+107=Fiºiere &Recent Utilizate
+108=Fãrã fiºiere Recente
+109=ªterge lista
+110=Ieºire
+111=&Export în Totalcmd.inc...
+112=E&xport...
+113=&Import...
+114=Deschide Fiºierul de &Date...
+115=Sal&veazã Fiºierul de Date
+116=Salveazã si &Reporneºte Total &Commander
+118=Export în &Meniul Principal...
+119=Creare &Meniu complet
+120=&Export în fiºier text...
+
+121=&Editeazã
+122=Adãugare &Meniu
+123=Adãugare &Submeniu
+124=Adãugare Sepa&rator
+125=Adãugare &Comentariu
+126=R&epetã
+127=Meniu s&tart
+128=&Ajutor
+129=Mutã în s&us
+130=Mutã în jo&s
+131=Mutã l&a...
+132=ª&terge
+133=&Redenumire
+134=De&finiþii
+135=Adãugare &Comandã
+136=&Adãugare
+137=Pr&oprietãþi
+138=&Adãugare articol
+139=ªterge &TOT...
+140=&Comentariu
+
+141=&Vizualizare
+142=&Unelte
+143=&Bara de Status
+144=Lista de &Comenzi
+145=Panouri &Verticale
+146=&Schimbã Panourile
+147=&Expandeazã structura
+148=&Restrânge structura
+149=Sorteazã &Lista
+150=&Opþiuni...
+151=&Descriere
+152=Toate &cheile
+153=Cheile &Active
+154=Cheile &Inactive
+155=&Totdeauna în Prim-Plan
+156=Sortare M&enuri - Toate
+157=Sortare Meniuri - Se&lectate
+158=Numai combinaþii a&vansate
+
+161=&Ajutor
+162=&Topic ajutor
+163=&Despre
+
+171=A&daugã
+172=ª&terge
+173=Selecteazã tot
+174=Selecteazã tot ce e &marcat
+175=Selecteazã tot ce e &nemarcat
+176=De&finiþii
+177=Listã &Categorii
+
+190=&Refacere
+191=&Anulare refacere
+192=Valoare &Editare
+193=Valoare = &1
+194=Valoare = &0
+195=Caut &Valoare...
+196=Comanda
+197=Valoare
+
+200=Favori&te
+201=&Adaugã la Favorite...
+202=&Organizeazã Favoritele...
+203=Nume Favorit:
+204=Nu gãsesc aceastã cheie favoritã!
+205=Adaugã la Favorite
+206=Organizeazã Favoritele
+207=Listele Favorite nu pot conþine mai mult de 99 elemente.
+208=Existã deja o intrare Favoritã cu aceastã cheie.
+
+220=Combiaþie &Nouã...
+221=Redenu&mire...
+222=Combinaþia nouã
+223=Redenumire
+224=&Nume combinaþie:
+225=Existã deja o combinaþie cu numele specificat. Daþi un nume diferit.
+
+250=&Cãutare
+251=&Caut...
+252=Cautã!
+253=Caut
+254=Text Cãutare:
+255=Locuri Cãutare:
+256=Nume C&heie
+257=&Descriere Cheie
+258=Numai &Cuvinte Întregi
+259=Nu gãsesc!
+260=Titlul
+261=Calea
+262=&Valoare combinaþie
+
+301=Comanda :
+302=Parametri :
+303=Calea la Lansare :
+304=Calea destinaþie :
+305=Scurtãtura :
+306=Deschide în &TC
+307=Fiºier &Iconiþe:
+308=&Balon info:
+
+311=Schimare Iconiþã
+312=Acest fiºier nu conþine iconiþe. Vã rog precizaþi alt fiºier.
+315=Alege comanda
+
+320=Export în fiºierul Totalcmd.inc
+321=Urmãtoarele comenzi vor fi adãugate la sfârsitul fiºierului Totalcmd.inc
+322=Puteþi folosi oricare din aceste comenzi în propriul meniu principal.
+323=Doar Exportã Comanda.  (Recomandat)
+325=Actualizare Wincmd.ini secþiunea [Scurtãturi].
+326=&Prefix comandã:
+327=&Nume categorie:
+
+400=Comb. activã:
+401=&Control +
+402=&Alt +
+403=&Shift +
+404=Ctrl
+405=Alt
+406=Shift
+407=Selectare Coloane pt. Export
+408=Previzualizare:
+410=Alias:
+411=Num
+412=Modificare:
+413=Se&cvenþa:
+414=Sepa&rator:
+415=&Win +
+416=Win
+
+420=Export în Meniul Principal
+421=Export numai prima &valoare din fiecare coloanã.
+422=Export numai &o coloanã pentru fiecare coloanã.
+423=Ordonare Coloa&ne:
+424=Prioritate Co&loane:
+425=&Separator:
+426=&Rãsfoire...
+427=ªterge spaþiile de la combinaþiile de taste									
+428=Export combinaþii implicite re&definite
+429=Mar&care combinaþii implicite redefinite
+430=Ins|Del|Home|End|PgUp|PgDn|Space|Back|Tab|Enter|Esc|Left|Right|Up|Down
+
+500=Total Commander - Meniu principal
+501=Meniu START
+502=Ajutor
+510=Total Commander - Meniu Start
+511=Total Commander - Meniu Directoare Favorite
+512=Total Commander - Comenzi Extinse
+
+1000=Opþiuni:
+1001=Opþiuni
+1002=Strat
+1003=Iconiþe
+1004=Culori si Fonturi
+1005=Operaþii
+1006=Limbaj
+1007=Pagina Implicitã
+1008=Ok
+1009=Abandon
+1010=&Aplicã
+
+1021=Efecte Vizuale :
+1022=Aratã structura &Iconiþelor
+1023=Aratã structura &Liniilor
+1024=Aratã &liniile de ghidare
+1025=&Margini fixe
+1026=Interfaþa p&latã
+1027=&Aratã modul de salvare în butonul Salvare
+1028=A&ratã iconiþa Fiºier
+1029=Aratã &Valoarea Direct Dupã Nume
+1030=Aratã &Valoarea &Implicitã pentru Combinaþiile inactive
+
+1034=Linie Separator
+1035=Lãþime Filã
+
+1041=Stil Iconiþe :
+1042=Foloseºte Iconiþele &implicite
+1043=Mãrime
+1044=&Schimba...
+
+1051=Text :
+1052=Partea din fatã
+1053=Fundal
+1054=Meniu Curent :
+1055=Culori ale obiectelor din prim-plan :
+1056=Comentariu
+1057=Separator
+1058=Obiect marcat
+1059=Legãturã defectã
+1061=Locaþie blocatã
+1062=Cheie Inactivã
+1063=Cheie Activã (Wincmd.ini)
+1064=Cheie Activã (Wcx_ftp.ini)
+1065=Font :
+1066=Aplicã setarea Fonturilor la câmpul proprietãþi ale comenzii.
+1067=Descriere:
+
+1071=Citeºte comenzile interne ale TC din :
+1072=Fiºierul &implicit Totalcmd.inc .
+1073=&Alt fiºier.
+1074=Altceva :
+1075=&Automat încarc ultimul fiºier.
+1076=A&sociazã meniul TC (*.mnu) cu acest program.
+1077=&Colecteazã Comentariu în Grup în timpul citirii fiºierului.(Recomandat)
+1078=Numãr de spaþii pentru Indentare a fiecãrui meniu.
+1079=&Numãr de Spaþii Indent în fiºierul de date.
+
+1089=Schimbã limbajul :
+1090=Foloseºte limbajul &implicit
+1091=&Altele
+
+1101=Auto-Completeazã :
+1102=Automat foloseºte comanda ca titlu.
+1103=ªterge extensia fiºierului din titlu.
+1104=Creazã automat o noua comanda sau selecteaz-o pe urmatoarea.
+1107=Cautã fiºierele sau directoarele într-o locaþie din reþea.
+1108=Cautã fiºierele sau directoarele pe discurile amovibile.
+1111=Export
+1112=Totdeauna Export în fiºierul Totalcmd.inc la salvarea meniului.
+1113=Aminteºte-mi totdeauna pentru a exporta modificãrile.
+1120=Selecteazã &Automat urmãtoarea cheie dupã editare.
+1121=Auto-&restart Total Commander dupã salvarea modificãrilor.
+1123=Aratã tastele rapide în ordine inversa
+1124=Întotdeauna Exporta în Meniul Principal la Salvare.
+1125=Auto &expandare categorii la pornire.
+1126=Auto selectare comanda &urmãtoare dupã editarea comenzii selectate.
+1127=Citeºte numai combinaþiile &listate în fiºierul de date
+
+1201=Aranjare Totalcmd.inc
+1202=Pe Categorii
+1203=Alfabetic
+1204=Aºa cum este
+1205=Salveazã
+1206=Închide
+1207=Previzualizeazã
+1208=ACESTE COMENZI NU SUNT IN MENIU
+1209=Fiºier
+1210=Tipãrire
+1211=Stil Separator :
+1212=&Foloseºte captura meniului pentru descriere.
+1213=Adaugã &Codul Comenzii la Descriere.
+1214=&Adaugã un separator pentru fiecare submeniu.
+
+1251=Muta la
+1252=Mutã [
+1253=] la...
+
+1280=Editeazã lista de parametri
+1281=&Adaugare
+1282=&Sus
+1283=J&os
+1284=&Implicit
+
+1501=Despre
+1502=Programator :
+1503=Versiune
+1504=Acest program este înregistrat la :
+1505=Pentru cele mai recente informatii despre program vizitaþi pagina pe Internet.
+1506=Web
+1507=e-mail
+1508=Vizitare Web Acum
+
+1601=&Verific secþiun(ea)ile pentru Import.
+1602=Verific &secþiun(ea)ile pentru Export.
+1603=Import
+1604=Export
+1605=Deschide
+1606=Salveazã
+1607=Salvare ca...
+
+1650=ªterge tot
+1651=Verific secþiun(ea)ile pentru ºtergere.
+1652=ªterg de asemenea locaþiile blocate.
+
+3000=Salveazã Comanda ca Text
+3001=Salveazã Comanda ca Zecimal
+3002=Salveazã Comanda ca Hexadecimal
+3003=Descriere
+3004=Comanda
+3005=Cod
+3006=Nu poþi plasa o comandã aici.
+3007=Un fiºier ajutor nu poate fi plasat într-un meniu.
+3008=Nu am nimic de salvat!
+3009=Eºti sigur?
+3010=Regret, nu poþi repeta acest element
+3011=Meniul nu e gol!
+3012=Acest bloc cu comentarii nu e gol
+3013=Nu poþi asigna un meniu ca propriul sau submeniu !!!
+3014=Nu gãsesc comanda
+3015=Fiºierul contine o eroare
+3016=Linia:
+3017=Programul nu poate continua!
+3018=Format de fiºier meniu Invalid!
+3019=Nu pot deschide fiºierul
+3020=Salveazã modificãrile în...
+3021=Nu gãsesc fiºierul.
+3022=Te rog verifica dacã numele ºi calea sunt corecte.
+3023=%i Comenzi Selectate
+3024=%i Comenzi în... %s
+3401=/E
+3025=Încarc Comenzile ...Puþinticã rãbdare.
+3026=Salvez Meniul ...Puþinticã rãbdare.
+3027=Citesc Meniul ...Puþinticã rãbdare.
+3028=Adaug ...Puþinticã rãbdare.
+3029=ªterg ...Puþinticã rãbdare.
+3030=Iconiþe TC
+3031=Meniu
+3032=Meniu Curent
+3033=Comanda
+3034=Comandã neselectatã
+3035=Separator
+3036=Meniu Start
+3037=Ajutor
+3038=Comentariu
+3039=Imagine prea mare. Te rog alege alta.
+3040=Iconiþã Invalidã. Te rog alege alta.
+3041=Valori Valide sunt numerele de la 1 la 32.
+3042=Calea este vidã!
+
+3045=Nu gãsesc fiºierul cu setãri ale Total Commander-ului[Wcx_ftp.ini]
+3046=Nu gãsesc fiºierul cu setãri ale Total Commander-ului[Wincmd.ini]
+3047=Nu gãsesc fiºierul Totalcmd.inc !
+3048=Nu gãsesc fiºierul cu limbajul !
+3049=Reaminteºte
+3050=Export modificãrile în fiºierul Totalcmd.inc ?
+3051=Trebuie sã salvaþi Meniul Start înainte de a-l exporta. Acesta este important pentru a nu avea intrãri eronate în fiºierul Totalcmd.inc file atunci când exportaþi un meniu nesalvat.
+3052=Salvaþi modificãrile acum?
+3053=Meniul Director nu poate conþine mai mult de 199 elemente
+3054=Meniul Start nu poate conþine mai mult de 199 elemente
+3055=Director negãsit.
+3056=Fiºier negãsit.
+3057=exista deja în :
+3058=Vrei sã-l adaugi din nou ?
+3059=Acesta scurtãtura este deja atribuitã la :
+3060=Vrei sã o atribui la :
+3061=Acest fiºier nu contine intrãri specifice pentru Meniu Director!
+3062=Acest fiºier nu contine intrãri specifice pentru Meniu Start!
+3063=Setãrile iconiþelor vor avea efect data viitoare când va fi pornit programul.
+3064=Comanda Internã
+3065=Comanda Externã
+3066=Scurtãturã la Director
+3067=(nimic)
+3068=Ruleazã Normal
+3069=Ruleazã Minimizat
+3070=Ruleazã Maximizat
+3071=Meniu Start
+3072=Meniu Director
+
+3073=Configurare Total Commander
+3074=Nu gãsesc fiºierul cu date! Va rog deschideþi unul pentru a continua
+3076=Salvez modificãrile în fiºierul de date al programului?
+3077=%i Combinaþii(e)
+3078=Fiºier de Date:
+3079=Secþiune Destinaþie:
+3080=Descriere indisponibilã!
+
+3081=Istoric Total Commander
+3082=Linia de Comandã
+3083=Cãutare:
+3084=Locaþii Cãutare:
+3085=Text cãutat:
+3086=Filtre predefinite
+3087=Selecþia
+3088=Redenumire - Mascã:
+3089=Redenumire - F2 Configuraþie
+3090=Locaþia stângã
+3091=Locaþia dreaptã
+3092=Panou Previzualizare. Nu se poate edita aici!
+3093=Numai 20 de elemente pot fi adãugate unei secþiuni.
+3094=Capturã:
+3095=&Blochez aceastã locaþie
+3096=Gol
+3097=Redenumire - Caut :
+3098=Redenumire - Înlocuiesc cu:
+3099=Blocat, &dar e permisã schimbarea directorului.
+3100=Istoric Stânga
+3101=Istoric Dreapta
+3102=Istoric Director Nou
+3103=Opþiuni Sincronizare
+3104=Atribute Module
+3105=Mãrime separator
+
+3110=Comenzi Extinse
+3111=Comandã Extinsã
+
+3120=Accesul la
+3121=în acest fiºier a fost restricþionat.
+
+3141=Acestã categorie nu are asignatã nici o combinaþie de taste!
+3142=Lipsesc sau sunt incorecte datele pentru aceastã combinaþie de taste!
+3143=Vã rog corectaþi eroarea în fiºierul curent de date.
+3144=Fiºierul pe care l-aþi deschis are un format mai vechi. Doriþi sã îl convertiþi la noul format?
+3145=[Secþiune goalã]
+3146=Previzualizeazã biblioteca de Iconiþe
+3147=Fiºier &Bibiotecã:
+3148=Sumã biþi
+
+3160=Comentariu
+3161=Scrieþi comentariul dumneavoastrã aici
+3171=/E
+3172=/E
+3173=/E
+3176=/E
+3177=/E
+3178=/E
+
+3200=Comb.Implicite
+3201=Comb.Actuale
+3202=Adãugare Combinaþie
+3203=Combinaþie Implicitã pentru :
+3204=Combinaþie Curentã pentru :
+3205=ªterge Toate Combinaþiile Actuale
+3206=Sunteþi pe cale sã ºtergeþi Toate Combinaþiile Curente Actuale de la TOATE comenzile!
+3207=în Meniul Start - Total Commander
+3208=Important
+3209=Tastele rapide din aceasta listã nu se salveazã încã în fiºierul de configurare al Total Commander.
+3210=Trebuie sã salvaþi tastele rapide înainte de export în Meniul Principal. Este important pentru a preveni greºelile la exportul listei de taste rapide.
+3220=Categorie
+3221=Alias
+3222=Adaug Alias
+3223=ªtege toate Alias-urile
+3224=Alias Curent pentru:
+3225=Doriþi assignare pentru:
+3226=Sunteþi pe cale sã ºtergeþi Aliasul pentru TOATE comenzile.
+
+3236=Listã combinaþii de taste Total Commander
+3237=Combinaþii de taste pentru meniul Start Total Commander
+3238=Export în Fiºier Text
+3239=Export în Format HTML
+3241=&Descriere
+3242=Co&manda
+3243=&Cod
+3244=Com&b. implicite
+3245=Comb. definite de &utilizator
+3246=&Alias
+3247=Exportã &toate comenzile
+3248=Pre&vizualizare font
+3249=Adãugare sepa&rator
+
+3250=Citesc... Te rog, ai un pic rãbdare.
+3251=Salvez... Te rog, ai un pic rãbdare.
+3252=Import... Te rog, ai un pic rãbdare.
+3253=Export... Te rog, ai un pic rãbdare.
+3254=Creez... Te rog, ai un pic rãbdare.
+
+3301=Ruleazã Editor Meniu Principal
+3302=Ruleazã Editor Meniu Start
+3303=Ruleazã Editor Meniu Directoare Favorite
+3304=Ruleazã Editor Comenzi Extinse
+3305=Ruleazã Editor Istoric
+3306=Ruleazã Editor Configurare
+3307=Ruleazã Editor Combinaþii de taste
+3308=Mereu în prim-plan
+
+3321=/E
+3322=/E
+3323=/E
+3324=/E
+3325=/E
+3326=/E
+3327=/E
+
+3341=/E
+3342=/E
+3343=/E
+
+3601=?   ca prim parametru: invoca dialogul pentru introducerea parametrilor
+3602=%P  insereazã calea - sursã curentã
+3603=%N  insereazã numele fiºierului de sub cursor
+3604=%T  insereazã calea - destinaþie curentã
+3605=%M  insereazã numele fiºierului curent în directorul destinaþie
+3606=%O  insereazã numele fiºierului curent fãrã extensie
+3607=%E  insereazã extensia curentã (fãrã punct)
+3608=%%  insereazã semnul procent
+3610=%p  insereazã calea - sursã actualã (scurt)
+3611=%n  insereazã numele fiºierului de sub cursor (scurt)
+3612=%t  insereazã calea - destinaþie curentã (scurt)
+3613=%m  insereazã numele fiºierului curent în directorul destinaþie (scurt)
+3614=%o  insereazã numele fiºierului curent fãrã extensie (scurt)
+3615=%e  insereazã extensia curentã (fãrã punct) (scurt)
+3618=%L  nume lung de fiºiere inclusiv calea completa
+3619=%l  nume scurt de fiºiere inclusiv calea completa
+3621=%F  nume lung de fiºiere - fãrã cale ex.: Nume lung.exe
+3622=%f  nume scurt de fiºiere - fãrã cale ex.: NUMELU~1.exe
+3624=%D  nume scurt de fiºiere inclusiv calea completã, (set caract. DOS)
+3625=%d  nume scurt de fiºiere inclusiv calea completã, (set caract. DOS)
+3626=%S  inserare nume pentru toate fiºierele selectate.
+3627=%s  inserare nume pentru toate fiºierele selectate. (scurt)
+3628=%S10  inserare nume pentru primele 10 fiºiere selectate.
+3629=%s10  inserare nume pentru primele 10 fiºiere selectate. (scurt)
+3630=/E
+3631=/E
+3632=/E
+

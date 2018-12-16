@@ -1,0 +1,521 @@
+; Langue Française pour Ultra TC Editors 5.50
+;Traduction : Franck Gartemann  <fgartemann@aol.com> et ;Claude Charries <charries@wanadoo.fr>
+
+[UserLanguage]
+101=&Fichier
+102=&Nouveau
+103=&Ouvrir…
+104=&Enregistrer
+105=Enregistrer &Sous…
+106=Personnaliser Totalcmd.inc…
+107=Fichiers &Récents
+108=Pas de fichier récent
+109=Effacer la liste
+110=Quitter
+111=&Exporter vers Totalcmd.inc…
+112=E&xporter…
+113=&Importer…
+114=Ouvrir un fichier de &Données
+115=Enregistrer un fichier de donn&ées
+116=Enregistrer et relancer T&C…
+118=Exporter vers le menu principal
+119=Créer un menu complet
+120=Exporter vers un fichier “Texte”…
+
+121=Édi&ter
+122=Ajouter &Menu
+123=Ajouter &Sous menu
+124=Ajouter Sé&parateur
+125=Ajouter &Commentaire
+126=R&épéter
+127=Menu &Utilisateur
+128=Cou&pure de l'Aide
+129=Vers le &Haut
+130=Vers le &Bas
+131=&Vers…
+132=&Effacer
+133=&Renommer
+134=Dé&finition
+135=Ajouter &Commande
+136=M'&ajouter
+137=Pr&opriétés
+138=A&jouter un élément
+139=Suppr&imer tout…
+140=&Commentaire
+
+141=&Voir
+142=&Barre d'outils
+143=Barre d'état
+144=&Liste des Commandes
+145=&Fenêtres superposées
+146=&Intervertir les fenêtres
+147=&Ouvrir Arbre
+148=&Fermer Arbre
+149=&Trier Liste
+150=&Options…
+151=&Description
+152=Toutes les instr&uctions
+153=Instructions &Actives
+154=Instructions inacti&ves
+155=Toujours &au dessus
+156=Trier tous les menus
+157=Trier le menu choisi
+158=Touches “Avancées” seulement
+
+161=&Aide
+162=Fichier d'Aide
+163=Au su&jet de…
+
+171=Ajouter
+172=&Supprimer
+173=Sélectionner &Tout
+174=Sélectionner tous les choisis
+175=Sélectionner tous les libres
+176=Dé&finition
+177=Liste de catégorie
+
+190=D&éfaire
+191=&Refaire
+192=Éditer la val&eur
+193=Valeur = &1
+194=Valeur = &0
+195=&Parcourir pour valeur…
+196=Clé
+197=Valeur
+
+200=Fa&voris
+201=&Ajouter aux Favoris
+202=&Organiser les Favoris
+203=Nom du Favori :
+204=Cette entrée de favori est introuvable!
+205=Ajoute un Favori
+206=Organise les Favoris
+207=La liste des Favoris ne peut contenir plus de 99 éléments.
+208=Il y a déjà un Favori qui utilise cette touche.
+
+220=&Nouvelle entrée…
+221=&Renommer…
+222=Nouvelle entrée
+223=Renommer
+224=No&m de l'entrée :
+225=Une entrée de même nom que celle indiquée existe déjà. Entrez un autre nom.
+
+250=Rec&herche
+251=&Chercher…
+252=Occura&nce suivante
+253=Recherche
+254=Ce que l'on cherche :
+255=Chercher dans :
+256=Nom de cl&é
+257=&Description de clé
+258=Acc&ord pour mot entier seulement
+259=Recherche infructueuse
+260=Titre
+261=Chemin
+262=&Valeur d'entrée
+
+301=&Commande :
+302=&Paramètres :
+303=C&hemin Initial :
+304=Che&min Cible :
+305=&Raccourci :
+306=Ouvrir dans &TC
+307=&Fichier d'icône :
+308=&Info-bulle :
+
+311=Changer d'icône
+312=Ce fichier ne contient pas d'icônes, veuillez en choisir un autre.
+315=Choisir la commande
+
+320=Exporter vers le fichier “Totalcmd.inc”
+321=Les commandes suivantes vont être ajoutées à la fin du fichier Totalcmd.inc
+322=Vous pouvez utiliser n'importe laquelle de ces commandes dans votre menu.
+323=Exporter seulement les commandes.  (Recommandé)
+325=Rafraîchir la section ¦Shortcuts¦ de <wincms.ini>
+326=&Préfixe de commande :
+327=&Nom de catégorie :
+
+400=Raccourci :
+401=&Contrôle +
+402=&Alt +
+403=Majuscule&s +
+404=Ctrl
+405=Alt
+406=Maj
+407=Sélectionner des colonnes à exporter :
+408=Aperçu :
+410=Substitut :
+411=NUM
+412=Modificateurs :
+413=&Ordre :
+414=S&éparateur :
+415=&Win +
+416=Win
+
+420=Exporter vers le menu principal
+421=&N'exporter que la 1ère. valeur de chaque colonne
+422=N'exporter qu'&une seule colonne pour chaque commande.
+423=Ordre des colo&nnes:
+424=&Priorité des colonnes :
+425=S&éparateur :
+426=Parcou&rir…
+427=&Enlever les espaces des raccourcis.
+428=Exporter les raccourcis par défaut re&définis
+429=Marquer raccourcis par défaut red&éfinis
+430=Inser|Suppr|Début|Fin|PgePréc.|PgeSuiv.|Espace|Ret.¦Effac.|Tabul.|Entrée|Échap|Fl-Gche.|Fl-Dr.|Fl-Haut|Fl-Bas
+
+500=Menu principal de Total Commander
+501=STARTMENU
+;Menu Utilisateur
+502=Help_Break
+;Coupure de l'Aide
+510=Menu Utilisateurde Total Commander
+511=Menu des répertoires de Total Commander
+512=Commandes étendues de  Total Commander
+
+1000=Options :
+1001=Options
+1002=Affichage
+1003=Icônes
+1004=Couleurs et Polices
+1005=Opération
+1006=Langue
+1007=Page par défaut
+1008=Confirmer
+1009=Annuler
+1010=&Appliquer
+
+1021=Affichage :
+1022=Afficher Arbre et Icônes
+1023=Afficher Arbre et &Lignes
+1024=Afficher la &Grille
+1025=Bordures fixes
+1026=&Interface Utilisateur à plat
+1027=A&fficher Mode d'enregistrement dans le bouton de sauvegarde
+1028=Afficher icônes des fic&hiers
+1029=Afficherla valeur de clé directement après son nom
+1030=Afficher la valeur par défaut pour clé inactive
+
+1034=&Ligne du Séparateur
+1035=Largeur &Tab. :
+
+1041=Style d'Icônes :
+1042=Utiliser les icônes par &défaut
+1043=&Taille
+1044=&Changer…
+
+1051=Texte :
+1052=Avant-plan
+1053=Arrière-plan
+1054=Menu en cours :
+1055=Couleur des autres éléments :
+1056=Commentaires
+1057=Séparateur
+1058=Élément sélectionnés
+1059=Lien pas valable
+1061=Onglet verrouillé
+1062=Clé inactive
+1063=Instruction active (Wincmd.ini)
+1064=Instruction active (Wcx_ftp.ini)
+1065=Police :
+1066=Appliquer la police aux champs des propriétés des commandes.
+1067=Description:
+
+1071=Lire les commandes internes de TC à partir de :
+1072=Fichier par &défaut Totalcmd.inc
+1073=A&utre fichier.
+1074=Divers :
+1075=Charger &automatiquement le dernier fichier lu.
+1076=A&ssocier les fichiers Menus (*.mnu) de TC au programme.
+1077=Regrouper les &commentaires en lisant le fichier (recommandé)
+1078=Nombre d'espaces pour indenter chaque Menu dans le fichier enregistré.
+1079=Nombres d'espaces d'indentation du fichier de données.
+
+1089=Changer de langue :
+1090=Employer la langue par &défaut
+1091=Au&tre
+
+1101=Compléter autom.  :
+1102=&Employer la commande comme titre d'élément automatiquement.
+1103=Enlever l'e&xtension du titre de fichier.
+1104=Création auto. d'une &nouvelle commande ou sélection de la suivante.
+1107=Rechercher s'il existe des fichiers ou des dossiers sur le &Réseau.
+1108=Rechercher s'il existe des fichiers¦dossiers sur des lecteurs &amovibles.
+1111=Exporter :
+1112=Toujours exporter dans Totalcmd.inc en enregistrant le Menu.
+1113=Me rappeler d'exporter les modifications.
+1120=Sélectionner &autom. l'instruction suivante après édition.
+1121=Relancer TC autom. après enregistrement des modifs.
+1123=Afficher les raccourcis en ordre inverse.
+1124=En enregistrant, exporter toujours aussi –> Menu principal.
+1125=Développer autom. l'arbre des catégories au lancement.
+1126=Marquer autom la commande suivante après édition de celle sélectionnée.
+1127=Ne lire que les entrées listées dans le fichier de données.
+
+1201=Personnaliser Totalcmd.inc
+1202=Par catégorie
+1203=Alphabétique
+1204=Tel-quel
+1205=Enregistrer…
+1206=Fermer
+1207=Aperçu
+1208=CES COMMANDES NE SONT PAS DANS LE MENU
+1209=Fichier
+1210=Imprimer
+1211=Style de séparateur :
+1212=&Utiliser la légende du menu comme description.
+1213=Ajouter la commande et le &Code à la description.
+1214=&Ajouter un séparateur à chaque  sous-menu.
+
+1251=Déplacer vers…
+1252=Déplacer [
+1253=] vers…
+
+1280=Éditer la liste des paramètres
+1281=&Ajouter
+1282=&Haut
+1283=&Bas
+1284=Dé&faut
+
+1501=Au sujet de…
+1502=Programmé par :
+1503=Version
+1504=Programme enregistré pour :
+1505=Obtenez les dernières nouvelles sur ce programme en visitant sa page Internet.
+1506=Site Internet
+1507=Courriel
+1508=Visiter maintenant
+
+1601=Cochez une¦des Section¦s à importer.
+1602=Cochez une¦des Section¦s à exporter.
+1603=Importer
+1604=Exporter
+1605=Ouvrir
+1606=Enregistrer
+1607=Enregister sous…
+
+1650=Supprimer tout
+1651=Cochez la¦les Section¦s que vous voulez supprimer.
+1652=Supprimer &aussi les onglets verrouillés.
+
+3000=Enregistrer la commande en Texte
+3001=Enregistrer la commande en Décimal
+3002=Enregistrer la commande en Hexadécimal
+3003=Description
+3004=Commande
+3005=Code
+3006=Vous ne pouvez pas mettre une commande ici.
+3007=La *Coupure de l'Aide* ne peut être mise dans un Menu.
+3008=Rien à enregistrer!
+3009=Voulez-vous vraiment?
+3010=Vous ne pouvez pas dupliquer cet élément
+3011=Le menu n'est pas vide.
+3012=Ce bloc de commentaires n'est pas vide
+3013=On ne peut pas déplacer un menu dans son propre sous-menu !
+3014=Commande introuvable
+3015=Erreur dans le fichier
+3016=Ligne :
+3017=Le programme ne peut continuer!
+3018=Format du fichier de menu pas valable!
+3019=Ne peut ouvrir le fichier
+3020=Enregistrer les modifs. dans :
+3021=Ce fichier est introuvable
+3022=Veuillez vérifier si le nom et le chemin donnés sont corrects.
+3023=%i Commande(s) sélectionnée(s)
+3024=%i Commande(s) dans %s
+3401=/E
+3025=Charge les Commandes… Veuillez patienter.
+3026=Enregistre le Menu… Veuillez patienter.
+3027=Lit le Menu… Veuillez patienter.
+3028=Ajoute… Veuillez patienter.
+3029=Efface… Veuillez patienter.
+3030=Icône de TC
+3031=Menu
+3032=Menu en cours
+3033=Commande
+3034=Commande pas cochée
+3035=Séparateur
+3036=Menu Utilisateur
+3037=Coupure de l'Aide
+3038=Commentaire
+3039=Image trop grosse, veuillez en choisir une autre.
+3040=Icône pas valable, essayez-en une autre.
+3041=Les valeurs correctes sont des nombres entiers de 1 à 32.
+3042=Chemin vide.
+
+3045=Le fichier des agencements de TC (Wcx_ftp.ini) est introuvable
+3046=Le fichier des agencements de TC (Wincmd.ini) est introuvable
+3047=Votre fichier Totalcmd.inc est introuvable !
+3048=Le fichier de langue est introuvable!
+3049=N'oubliez pas…
+3050=Exporter les modifs. dans le fichier Totalcmd.inc ?
+3051=Vous devez enregistrer le Menu Utilisateur avant de l'exporter. C'est important, pour ne pas avoir d'entrées disparates dans le fichier Totalcmd.inc si vous exportiez un menu pas enregistré.
+3052=Enregistrer les modifs.?
+3053=Le Menu des Répertoires Favoris ne peut comporter plus de 199 éléments
+3054=Le Menu Utilisateur ne peut comporter plus de 199 éléments
+3055=Dossier introuvable.
+3056=Fichier introuvable.
+3057=existe déjà dans :
+3058=Voulez-vous le doubler?
+3059=Ce raccourci est déjà attribué à :
+3060=Voulez-vous l'attribuer à :
+3061=Pas d'entrée du Menu des Répertoires Favoris dans ce fichier !
+3062=Pas d'entrée du Menu Utilisateur dans ce fichier !
+3063=L'agencement des icônes sera effectif au prochain lancement du programme.
+3064=Commande Interne
+3065=Commande Externe
+3066=Lien vers Dossier
+3067=(aucun)
+3068=Lancer
+3069=Lancer Taille Réduite
+3070=Lancer Taille Maxi.
+3071=Menu Utilisateur
+3072=Menu des Répertoires Favoris
+
+3073=Configuration de Total Commander
+3074=Fichier de données introuvable! Veuillez en ouvrir un pour continuer.
+3076=Enregistr. modifs. dans le fichier de données du programme?
+3077=%i Instruction(s)
+3078=Fichier de données:
+3079=Section-cible :
+3080=Description indisponible!
+
+3081=Historique de Total Commander
+3082=Ligne de commande
+3083=Rechercher:
+3084=Chercher dans:
+3085=Chercher du texte:
+3086=Charger¦Enregistrer
+3087=Sélection
+3088=Renommer le masque:
+3089=F2 Charge¦Enregistre
+3090=Onglets de gauche
+3091=Onglets de droite
+3092=Fenêtre d'aperçu. N'éditez pas ici!
+3093=On ne peut ajouter que 20 éléments à une section.
+3094=Légende:
+3095=Verroui&ller cet onglet
+3096=Vide
+3097=Renommer la Recherche de :
+3098=Renommer Remplacer en :
+3099=Verrouill&é, mais peut changer de répertoire
+3100=Historique Gauche
+3101=Historique Droite
+3102=Nouveau répertoire
+3103=Options d'appairage
+3104=Attributs des modules
+3105=Tailles de fractionnement
+
+3110=Commandes étendues
+3111=Commandes étendues
+
+3120=L'accès à
+3121=a été limité dans ce fichier.
+
+3141=Cette catégorie n'a pas la moindre clé !
+3142=Champs de données de cette clé manquants ou erronés!
+3143=Veuillez corriger cette erreur dans le fichier de données en cours.
+3144=Le fichier de données que vous ouvrez est d'un ancien format. Voulez-vous le convertir en nouveau format ?
+3145=[Section Vide]
+3146=Aperçu de bibliothèque d'icônes
+3147=Fichier de biblioth&èque :
+3148=Somme des bits
+
+3160=Commentaires
+3161=Tapez vos commentaires ici.
+3171=/E
+3172=/E
+3173=/E
+3176=/E
+3177=/E
+3178=/E
+
+3200=Raccourci par défaut
+3201=Raccourci en cours
+3202=Ajouter un raccourci
+3203=Raccourci par défaut pour :
+3204=Raccourci en cours pour :
+3205=Supprimer tous les raccourcis
+3206=Vous êtes sur le point de supprimer les raccourcis de TOUTES les commandes
+3207=dans votre Menu “Utilisateur” de Total Commander.
+3208=Important
+3209=Les raccourcis de cette liste n'ont pas encore été enregistrés dans le fichier de configuration de TC !
+3210=On doit enregistrer les raccourcis avant d'exporter vers le menu principal. C'est important, de façon à n'avoir aucune discordance quand on exporte des listes de raccourcis pas enregistrées
+3220=Catégorie
+3221=Substitut
+3222=Ajouter un substitut
+3223=Supprimer tous les substituts
+3224=Substitut en cours pour :
+3225=Voulez-vous l'assigner à :
+3226=Vous allez supprimer les substituts de TOUTES les commandes.
+
+3236=Liste des raccourcis de Total Commander
+3237=Raccourcis du menu Utilisateur de Total Commander
+3238=Exporter en fichier texte
+3239=Exporter en code HTML
+3241=&Description
+3242=Co&mmande
+3243=&Code
+3244=Raccourci par d&éfaut
+3245=Raccourci personnalisé
+3246=Substitut
+3247=E&xporter toutes les commandes
+3248=Aperçu de la police
+3249=Ajouter un séparateur
+
+3250=Lecture… Veuillez patienter.
+3251=Enregistrement… Veuillez patienter.
+3252=Import… Veuillez patienter.
+3253=Export… Veuillez patienter.
+3254=Création… Veuillez patienter.
+
+3301=Lancer l'éditeur de menu principal
+3302=Lancer l'éditeur de menu “Utilisateur”
+3303=Lancer l'éditeur de menu des répertoires
+3304=Lancer l'éditeur des commandes étendues
+3305=Lancer l'éditeur de l'historique
+3306=Lancer l'éditeur de configuration
+3307=Lancer l'éditeur des raccourcis
+3308=Toujours au dessus
+
+3321=/E
+3322=/E
+3323=/E
+3324=/E
+3325=/E
+3326=/E
+3327=/E
+
+3341=/E
+3342=/E
+3343=/E
+
+3601=?  comme premier paramètre : appelle le dialogue pour taper les paramètres
+3602=%P insère le chemin de source en cours
+3603=%N insère le nom du fichier sous le curseur
+3604=%T insère le chemin de cible en cours
+3605=%M insère le nom du fichier en cours dans le rép. cible
+3606=%O insère le nom du fichier en cours sans extension
+3607=%E insère l'extension en cours (sans interligne)
+3608=%% insère le caractère “%”
+3610=%p  insère le chemin de source en cours (court)
+3611=%n insère le nom du fichier sous le curseur (court)
+3612=%t insère le chemin de cible en cours (court)
+3613=%t insère le nom du fichier en cours dans le rép. cible (court)
+3614=%o insère le nom du fichier en cours sans extension (court)
+3615=%e insère l'extension en cours - sans interligne- (courte)
+3618=%L noms de fichiers longs, y compris le chemin complet
+3619=%l noms de fichiers courts, y compris le chemin complet
+3621=%F noms de fichiers longs sans chemin, p.ex. :  Nom_très_long.exe
+3622=%f noms de fichiers courts sans chemin, p. ex : NOM_TR~1.EXE
+3624=%D noms de fichiers courts, y compris le chemin complet (table caract. DOS)
+3625=%d noms de fichiers longs sans chemin (table caract. DOS)
+3626=%S Insère les noms de tous les fichiers sélectionnés
+3627=%s Insère les noms 8.3 de tous les fichiers sélectionnés
+3628=%S10 Insère les noms des 10 premiers fichiers sélectionnés
+3629=%s10 Insère les noms 8.3 des 10 premiers fichiers sélectionnés
+3630=/E
+3631=/E
+3632=/E
+
+

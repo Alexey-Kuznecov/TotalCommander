@@ -1,0 +1,25 @@
+[rus]
+Number of Hard Links=Число жёстких ссылок
+Reparse Point Type=Тип символической ссылки
+Reparse Point Type (Ext)=Тип символической ссылки (расш)
+Reparse Point Target=Целевой объект
+Relative=Относительная ссылка
+Valid Target=Корректная ссылка
+[pol]
+Number of Hard Links=Liczba twardych і№czy
+Reparse Point Type=Typ punktu zaczepienia
+Reparse Point Type (Ext)=Typ punktu zaczepienia (rozsz)
+Reparse Point Target=Obiekt docelowy
+Valid Target=Poprawny obiekt docelowy
+[ukr]
+Number of Hard Links=Кількість жорстких лінків
+Reparse Point Type=Тип символічного лінка
+Reparse Point Type (Ext)=Тип символiчного лiнка (розш)
+Reparse Point Target=Цільовий об'єкт
+Valid Target=Коректний лiнк
+[deu]
+Number of Hard Links=Anzahl Hardlinks
+Reparse Point Type=Analysepunkttyp
+Reparse Point Type (Ext)=Analysepunkttyp (Erw)
+Reparse Point Target=Analysepunktziel
+Valid Target=Gьltiges Ziel

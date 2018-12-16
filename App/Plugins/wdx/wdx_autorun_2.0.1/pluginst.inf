@@ -1,0 +1,6 @@
+[plugininstall]
+description=Manage tasks at Total Commander start. ***ATTENTION*** To enable autoloading of this plugin you need to perform additional action after installation. Please read documentation carefully!
+descriptionRUS=Выполняет различные задачи при запуске Total Commander. ***ВНИМАНИЕ*** Для включения автозагрузки этого плагина, после установки необходимо предпринять дополнительные действия. Пожалуйста, внимательно прочтите документацию!
+type=WDX
+file=autorun.wdx
+defaultdir=Autorun

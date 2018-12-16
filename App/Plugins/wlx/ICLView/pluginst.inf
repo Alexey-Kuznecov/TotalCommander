@@ -1,0 +1,9 @@
+[plugininstall]
+description=ICLView plugin displays icons in files. Supported extentions: ico, icl, exe, dll, scr, ocx, bpl, wlx, wfx, wcx, wdx, cpl, acm.
+descriptionrus=ICLView предназначен для просмотра иконок в файлах. Поддерживаемые расширения: ico, icl, exe, dll, scr, ocx, bpl, wlx, wfx, wcx, wdx, cpl, acm.
+descriptiondan=ICLView plugin viser ikoner i filer. Understottede filtyper: ico, icl, exe, dll, scr, ocx, bpl, wlx, wfx, wcx, wdx, cpl, acm.
+descriptionger=ICLView zeigt und entpackt Icons in Dateien und exportiert ins .icl Format.
+type=wlx
+file=ICLView.wlx
+defaultdir=Plugins\wlx\ICLView
+version=28.5.2017 (2.7.8)

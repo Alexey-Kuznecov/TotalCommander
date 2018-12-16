@@ -1,0 +1,108 @@
+2.0 release
+* незначительные изменени€ в справке
+
+1.6 beta 15
++ added variables %PROCESS_USERISADMIN%, %PROCESS_RUNASADMIN%, %PROCESS_ISELEVATED%, %PROCESS_INTEGRITYLEVEL% to Process plugin
++ added commands RegWrite, RegDelete
+* tweaks in API (older Process and Sysinfo plugins will not work)
+- fixed bug in MoveButton plugin on WinXP
+
+1.6 beta 14
+* help format changed, now in chm
+
+1.6 beta 13
++ added %ERROR% variable functionality
++ added commands SystemParametersInfo, GetSysColor into SysInfo plugin
++ basic functions for working with strings
+- removed Win9x/ME/NT4 support from Sysinfo plugin (Autorun will not work on these OS)
+* IniWrite will not show error dialog in case writing impossibility (sets %ERROR% instead)
+* changed API a bit, added sending a buffer size
+* reduced size of standard plugins
+* by default variables expanded, use /EV- switch to disable
+
+1.6 beta 12
++ added API for —++
+* system information moved to Sysinfo plugin
++ added Sysinfo plugin
+- fixed empty string handling in expressions
+- fixed incorrect script loading in certain situations
+
+1.6 beta 11
++ command ProcessExecGetOutput in Process plugin
++ command RegRead
+- fixed bug with expression that have and/or keywords
+
+1.6 beta 10
++ Additional examples of using quotes in documentation
++ /WAIT parameter for ShellExec
+* AutorunBlockUnload now used in Pragma (function leaved for compatibility)
+* FinalizeSection renamed to AutorunFinalizeSection and used in Pragma
++ New keyword Pragma for directives
+* FileExist works with dirs with trailing "\"
+
+1.6 beta 9
++ FileExist function
+* optimized code, slightly reduced plugin size
+* internal variables can have empty value
+
+1.6 beta 8
+- fixed incorrect line numbers in error messages
+- fixed crash when using == in comparison
+
+1.6 beta 7
++ ability to make actions when TC closing
++ added function ProcessTerminate in the Process plugin
++ configuration file can be either ANSI or UTF-16(LE).
+- fixed problem with ShellExec in certain conditions
+
+1.6 beta 6
++ added full-fledged comparison expressions
++ special functions for comparisons
++ Process plugin (working with processes)
+* language file changes
+
+1.6 beta 5
+* fully changed plugin API
++ %AUTORUN_TCPID% constant added
++ added Windows 8 detection
+* updated language
+
+1.6 beta 4
+- fixed string comparing
+- fixed OS detection
+
+1.6 beta 3
++ example of using conditional block is added to autorun.example.cfg
+- language file mistakes
+- fixed broken CommandExec command
+- fixed crash on exit when using T/TT keys in ShellExec
+
+1.6 beta 2
+* rewritten MoveButton plugin to reduce CPU load
++ added AUTORUN_TCARCH constant (32 or 64)
+- fixed wrong "Autorun" field
+
+1.6 beta 1 
++ added x64 version
+- fixed dll path searching
+
+
+1.5.0 - Added %AUTORUN_ISADMIN% constant
+1.4.9.6 beta - CommandExec rewritten
+1.4.9.5 beta - fixed closing routines
+1.4.9.4 beta - added /W for ShellExec
+1.4.9.3 beta - added /TT for ShellExec
+1.4.9.2 beta - added /T for ShellExec, added AutorunBlockUnload command, fixed versioninfo
+1.4.9.1 beta - added variables (Set), conditional expression, LoadFont, messages translation
+1.4.7 - added IniDelete command
+1.4.6 - fixed lockup on empty lines in configuration file
+1.4.5 - small fix in expand variables function, removed limitation of using mixed quotes
+1.4.4 - fixed installation via TC Plugin Manager, added version info
+1.4.3 - fixed bug when environment variable become empty in append mode, if it's initial length was big enough
+1.4.2 - added /AD parameter for SetEnv command (read the note)
+1.4.1 - fixed TC crash when calling cm_UnloadPlugins
+1.4 - changed handling of optional parameters/switches, added ability for loading libraries, added plugins, added IniWrite
+1.3 - added showing parameters for ShellExecute command, value of Autorun field can be compared to anything
+1.2 - first public version, script-like configuration file instead .ini
+1.1 - added environment variables support and some other improvements
+1.0 - first version, three commans, keep config in .ini file

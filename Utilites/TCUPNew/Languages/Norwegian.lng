@@ -1,0 +1,188 @@
+[About]
+Language=Norsk
+Language_en=Norwegian
+Translator=Svein-Ove Urdal
+Email=svein-ove.urdal@c2i.net
+
+[MainFrm]
+Btn_Directory=&Katalog
+Btn_File=&Fil
+Btn_Settings=Innstillinger
+Btn_OK=OK
+Btn_Cancel=Avbryt
+MainFrm=Ny...
+
+[Strings]
+DirNormal=Normal
+DirHidden=Skjult
+DirProject=Prosjekt
+DirList=Liste
+NewFile=Ny fil
+NewDir=Ny katalog
+ODFilter=Kjørbare filer
+
+[Settings_Main]
+Settings=Innstillinger
+Btn_OK=Ok
+Btn_Cancel=Avbryt
+
+[Settings_Language]
+Lang_Tab=Språk
+Lang_Settings=Fil for språk innstillinger
+Lang_Text=Her kan du sette hvilken språk fil (*.lng) du ønsker å bruke.
+Lang_About=Om oversettelsen
+Lang_Language=Language:
+Lang_Language_EN=
+Lang_Translator=Oversatt av:
+Lang_Email=Oversetters e-post:
+
+[Settings_About]
+About_Tab=Om
+About_About=Om TC UP Ny
+About_Version=Versjon:
+About_Programming=Programmering:
+About_Idea=Ide:
+About_Help=Hjelp og Støtte:
+About_Build=bygget
+
+[Settings_Misc]
+Misc_Tab=Div.
+Misc_Buttons=Meny knapper
+Misc_Buttons_Text=Her kan du sette hvordan "Edit" skal oppføre seg, "Åpne katalog" og "Lukk" knapper.
+Misc_Buttons_PopUp1=en meny popper opp
+Misc_Buttons_PopUp2=Bare sett neste opsjon
+Misc_Hints=Hjelp hint
+Misc_Hints_Text=Her kan du sette oppførselen til applikasjons hint
+Misc_Hints_RB_Show=Vis hint
+Misc_Hints_RB_Hide=Ikke vis hint
+Misc_Hints_Lbl_Color=Hint farge:
+Misc_Hints_Lbl_DT=Hint visnings tid [ms]:
+Misc_Hints_Lbl_HT=Hint skjul tid [ms]:
+Misc_Hints_Btn_Color=Velg
+Misc_GB_Alt_Path=Opprett Filer/Kataloger
+Misc_Lbl_Alt_Path_Desc=Velg katalog, hvor filer/kataloger vil bli opprettet (hvis du kjører TC UP New separat)
+Misc_RB_Alt_Path_Ask=Spør hver gang du oppretter fil/katalog
+Misc_RB_Alt_Path_UseIt=Bruk katalog under for å opprette fil/katalog
+Misc_Lbl_Alt_Path=Katalog:
+Misc_Btn_Alt_Path=Velg
+
+[Settings_Settings]
+Settings_Tab=Innstillinger
+Settings_GB=Lagre
+Settings_Text=Når du lukker programmet, så lager den dine innstillinger, navnene på de opprettede filene og katalogene, sist bruker modus.
+Settings_CB_Names=Lagre navnene
+Settings_CB_Mode=Lagre bruker modus
+Settings_GB_History=Slett historie
+Settings_FileName=Slett navn på opprettede filer
+Settings_Directories=Slett navn på opprettede kataloger
+Settings_CB_Clear=Tøm
+Settings_CB_Clear1=Tøm
+Settings_GB_Edit=Editer filer
+Settings_Text1=Når du har opprettet en fil så ønsker du kanskje å editere den. Her kan du sette hvilke program som skal åpne den, og hvilke parametere.
+Settings_Program=Program:
+Settings_Param=Parametere (hvor %s er filnavnet):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Utvidelser
+Extension_GB=Alle brukbare utvidelser
+Extension_Lbl_Ext=Legg til utvidelse:
+Extension_Btn_Add=Legg til
+Extension_Btn_Remove=Fjern
+Extension_Btn_Up=Flytt opp
+Extension_Btn_Down=Flytt ned
+
+[Settings_Name]
+Name_Tab=Navngivning
+Name_GB=Endre navnet du har skrevet inn
+Name_Text=Hvis du prøver å lage en fil som allerede eksisterer så vil programmet endre navnet du har skrevet inn, Her kan du sette hvordan du vil endre det.
+Name_FirstNumber=Første nummer:
+Name_Digits=Tall:
+Name_Text1=Navngivnings mønster (Hvor [N] er det originale navnet, og [C] er telleren (se under).
+Name_Counter=Teller innstillinger:
+
+[Settings_Appearance]
+Appearance_Tab=Utseende
+Appearance_GB_StayOnTop=Vær på toppen av TC
+Appearance_Text=Når Total Commander er aktivert, TC UP Ny reaktiverer seg selv, på denne måten, er den alltid på topp av TC i en Z-rekkefølge.
+Appearance_CB_Stay=Vær på toppen av Total Commander
+Appearance_GB_Pos=Posisjon
+Appearance_Text1=TC UP Ny kan detektere den eksakte posisjonen av det siste brukte Total Commander vinduet. Den kan også sette sin posisjon til å være som den er en del av Total Commander.
+Appearance_CB_Pos=Motta posisjon
+
+[ProjectSelectionFrm]
+ProjectSelection=Maler
+Project_Lbl_Text=Velg en prosjekt mal:
+Project_Btn_OK=Ok
+Project_Btn_Cancel=Avbryt
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Fil modus<0> er aktivert<b><u>
+Hint_DirModeActive=<3><b><u>Katalog modus<0> er aktivert<b><u>
+Hint_FileMode=<b><u>Fil modus<u><b>
+Hint_Btn_CloseFM1=Ved å klikke denne knappen så kan du <1>Opprette fil<0> og:
+Hint_Btn_CloseFM2=- <1>Lukk<0> TC UP Ny vindu
+Hint_Btn_CloseFM3=- <1>Forlat<0> TC UP Ny vindu som det er
+Hint_Btn_EditFM1=Ved å klikke denne knappen kan du <1>Opprete fil<0> og:
+Hint_Btn_EditFM2=- <1>Editer<0> fil med tilknyttet applikasjon
+Hint_Btn_EditFM3=- <1>Editer<0> fil
+Hint_Btn_EditFM4=- <1>Ikke Editer<0> fil
+Hint_DirMode=<b><u>Katalog modus<u><b>
+Hint_Btn_CloseDM1=Ved å klikke denne knappen kan du <1>Opprette katalog<0> og:
+Hint_Btn_CloseDM2=- <1>Lukk<0> TC UP Ny vindu
+Hint_Btn_CloseDM3=- <1>Forlat<0> TC UP Ny vindu som det er
+Hint_Btn_EditDM1=Ved å klikke på denne knappen kan du <1>Opprette katalog<0> og:
+Hint_Btn_EditDM2=- <1>Åpne<0> denne katalogen i TC UP
+Hint_Btn_EditDM3=- <1>Ikke åpne<0> den
+Hint_Btn_Directory=Denne knappen lar deg endre filer/kataloger opprettelses modus.
+Hint_Btn_Directory1=Ved å klikke denne knappen setter <1>Katalog modus<0>, som betyr at du kan:
+Hint_Btn_Directory2=- <1>Opprette katalog<0> og <1>Åpne<0> denne i TC UP (eller ikke).
+Hint_Btn_Directory3=- Du kan også <1>Lukke<0> TC UP Ny vindu eller forlate det åpen for å opprette en annen fil/katalog
+Hint_Btn_File=Denne knappen lar deg endre filer/kataloger opprettelses modus.
+Hint_Btn_File1=Ved å klikke denne knappen setter <1>Fil modus<0>, som betyr at du kan:
+Hint_Btn_File2=- <1>Opprett fil<0> og <1>Editer<0> denne filen (eller ikke) i tilknyttet program eller i TC UP
+Hint_Btn_File3=- Du kan også <1>Lukke<0> TC UP Ny vindu eller forlate det åpen for å opprette en annen fil/katalog
+Hint_Btn_Settings=Denne knappen lar deg åpne Instillinger,
+Hint_Btn_Settings1=Der du kan sette opsjoner for TC UP Ny
+Hint_CB_DirFileName=I denne kombinasjonsboksen kan du skrive inn Katalog/fil navnet som skal opprettes.
+Hint_CB_Ext=Denne kombinasjonsboksen lar deg velge opsjoner i henhold til valgt modus.
+Hint_CB_Ext1=Hvis du er i <b>Katalog modus<b>, kan du velge:
+Hint_CB_Ext2=- Normal: Oppretter Normal katalog
+Hint_CB_Ext3=- Skjult: Oppretter Kataloger som er skjulte
+Hint_CB_Ext4=- Prosjekt: Oppretter Prosjekt filer, definert i Maler (se Instillinger)
+Hint_CB_Ext5=- Liste: Oppretter et sett med kataliger, som er på bruker listen
+Hint_CB_Ext6=Hvis du er i <b>Fil modus<b>, kan du velge:
+Hint_CB_Ext7=- txt: Fil type som skal opprettes
+Hint_CB_Ext8=- php: Annen fil type som skal opprettes
+Hint_CB_Ext9=- etc.. (Du kan ligge til din egen type til denne listen)
+Hint_Btn_OK=Denne knappen lar deg lukke TC UP Ny og gjøre noen handlinger
+Hint_Btn_OK1=(som for eksempel: Opprette ny katalog)
+Hint_Btn_Cancel=Denne knappen lar deg lukke TC UP Ny uten noen handlinger
+
+[Menu]
+EditMenu1=Ikke editer
+EditMenu2=Editer fil med tilknyttet program
+EditMenu3=Editer fil
+OpenDirMenu1=Ikke åpne
+OpenDirMenu2=Åpne katalog i TC UP
+OpenDirMenu2_=Åpne katalog
+CloseMenu1=Opprett fil/katalog og lukk
+CloseMenu2=Ikke lukk
+
+[Messages]
+MsgDir1=Katalog
+MsgDir2=Eksisterer ikke!
+MsgDir3=Katalog eksisterer ikke...
+MsgExtAdd1=Før du klikker Legg til utvidelse knappen, må du spesifisere utvidelse.
+MsgExtAdd2=Bruk tekst feltet under for å skrive inn utvidelsen, for eksempel: txt
+MsgExtAdd3=Letter til utvidelse...
+MsgExtRemove1=Velg utvidelse du vil fjerne!
+MsgExtRemove2=Fjernet utvidelse...        
+MsgCF1=Konfigurasjons fil:
+MsgCF2=Eksisterer ikke!
+MsgCF3=Fil eksisterer ikke...
+MsgCFile=Velg katalog for å lagre den nye filen
+MsgCDir=Velg katalog for å lagre den nye katalogen
+MsgCFDC=Velg
+MsgCFDC1=Velg katalog, hvor filer/kataloger vil bli opprettet
+MsgDirError=Kan ikke opprette katalog:

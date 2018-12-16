@@ -1,0 +1,21 @@
+; NTLinksMaker 1.0.5.236, by sheppaul
+
+[NTLinks Maker]
+; Korean messages (949) - be careful with format parameters like "%s" and "%X"
+1=예(&Y)
+2=아니오(&N)
+3=확인(&O)
+4=취소(&C)
+5=모두 예(&A)
+6=모두 아니오(&O)
+7=모두 무시하기(&A)
+8=선택한 %d개 항목의 링크를 다음 경로에 만들기(&L):
+9=직접 링크를 생성할 하위 폴더 깊이(&F):
+10=링크 생성 오류:\n%s\n\n대상 링크:\n%s\n\n오류 설명:\n
+11=심링크 생성은 추가 권한이 필요합니다 (관리자 권한).
+12=윈도우가 심링크를 지원하지 않는 것 같습니다.\n\n대신 정션/하드링크를 만들까요?
+13=다음 경로를 참고해서 항목들의 상대 경로들을 감지하기(&B):
+14=Link t&ypes to create:
+15=Hardlinks and junctions
+16=Symlinks if necessary
+17=Symbolic links only

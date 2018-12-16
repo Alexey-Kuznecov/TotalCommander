@@ -1,0 +1,202 @@
+ChooseEditor V2.10 Copyright 2016 Wolfgang Morgeneier
+
+Allgemein:
+Das Programm ist ein Hilfsprogramm für den Dateimanager TotalCommander.
+Es dient dazu, die Arbeit mit mehreren Editoren zu vereinfachen.
+Es besteht aus zwei Teilen:
+Die Datei Editors.exe dient zur Auswahl des Editors für eine zu bearbeitende Datei.
+Die Datei ChooseEditor.exe ist das Einstellungsprogramm für Editors.exe.
+Für das Einstellungsprogramm wird die Laufzeitumgebung Net 2.0 benötigt.
+Das Programm ist Freeware und kann frei verwendet werden.  Es darf jedoch nur unverändert weitergegeben werden.
+Als Author übernehme ich keine Verantwortung für irgendwelche Schäden durch die Benutzung des Programms.  Für Hinweise auf Programmfehler bin ich jedoch dankbar.
+
+
+Installation:
+Die Dateien müssen in ein Verzeichnis kopiert werden, für welches der Benutzer Schreibrechte besitzt.
+Ist dies nicht möglich, so sind die Dateien Editors.ini und ChooseEditor.ini in das Verzeichnis <%USERPROFILE%\Appdata\Roaming\ChooseEditor> zu verschieben.
+Die Datei Editors.exe mit vollständigem Pfad ist als Editor für F4 im Programm TotalComander auszuwählen.
+Dadurch wird bei jedem Editieren mit TotalComander das Programm Editors.exe aufgerufen, mit welchem ein auszuwählender Editor aufgerufen wird.
+
+
+Benutzung von Editors.exe:
+Das Programm kann mit den folgenden Kommandozeilenparametern aufgerufen werden:
+-T: Editor.exe als Topmost Fenster
+-t: Editor.exe als nicht Topmost Fenster
+-m: <Show main Editors> ist angewählt 
+-e: <Show extended Editors> ist angewählt
+-a: <Show all Editors> ist angewählt
+-C: <Close program after calling Editor> ist angewählt
+-c: <Close program after calling Editor> ist nicht angewählt
+-x: wenn <Show main Editors> angewählt ist und ein Default-Editor existiert, wird dieser sofort aufgerufen 
+Die zu editierende Datei muß der letzte Parameter sein.
+Die Kommandozeilenparameter haben eine höhere Priorität als die Einstellungen in der Datei Editors.ini
+BeispieL: editors.exe -T -m Datei
+
+Nach dem Aufruf des Programms werden in einer Liste sämtliche Editoren angezeigt, die für die zu bearbeitende Datei mit der Dateierweiterung definiert sind.
+Durch Doppelklick auf einen Editor wird dieser mit der entsprechenden Datei gestartet.
+Weiterhin kann der gewünschte Editor ausgewählt werden und durch Drücken des Buttons <Call Editor> oder durch die Returntaste gestartet werden.
+Mit <Cancel> oder durch die Escapetaste wird das Programm beendet und nichts ausgeführt.
+Mit <Edit Defs> wird das Einstellungsprogramm aufgerufen.  Dieser Button kann mit dem Einstellungsprogramm versteckt werden.
+Wenn <Close program after calling Editor> angewählt ist (Defaulteinstellung), wird das Programm sofort nach Aufruf eines Editors beendet.  Wenn dieses nicht angewählt ist, wird das Programm minimiert 
+und läuft weiter, bis der aufgerufene Editor beendet wird.  Auf diese Weise ist es möglich, eine Datei in einem Archiv zu editieren und die geänderte Datei ins Archiv zurückzuspeichern. 
+Die angezeigten Editoren werden über 3 Optionsbuttons ausgewählt.
+<Show main Editors>: Dies ist die Standardoption, die beim Starten des Progamms angewählt ist.  Es werden nur Editoren angezeigt, die laut Definition für die zu bearbeitende Datei mit der 
+Dateierweiterung vollkommen geeignet sind.  Dies sind die Editoren, bei denen die Dateierweiterung in der Liste der Haupt-Dateierweiterungen eingetragen ist.
+In dieser Liste ist immer der Default-Editor für die entsprechende Dateierweiterung vorgewählt. 
+Wenn man einen anderen Editor auswählt, so wird bei Doppelklick auf diesen Editor die Vorauswahl beim nächsten Mal nicht geändert.  Bei Drücken von <Call Editor> wird die Vorauswahl jedoch geändert.
+<Show extended Editors>: Durch Auswahl dieser Option werden alle Editoren angezeigt, die laut Definition voll oder bedingt für die Dateierweiterung geeignet sind.
+Dies sind die Editoren, bei denen die Dateierweiterung in der Liste der erweiterten Dateierweiterungen eingetragen ist.
+Es ist kein Editor vorgewählt.
+<Show all Editors>: Es werden alle verfügbaren Editoren angezeigt.  Kein Editor ist vorgewählt.
+
+
+Benutzung von ChooseEditor.exe:
+Dies ist das Einstellungsprogramm für die Editoren.
+Das Fenster ist dreigeteilt.  Im oberen Bereich befinden sich allgemeine Einstellungen, in der Mitte die Liste der Editoren und unten die Befehlsbuttons.
+Die Größe dieses Fensters kann geändert werden und wird beim Beenden des Programms mit <Cancel/Quit> als neuer Standard gespeichert.
+
+Allgemeine Einstellungen:
+- Total number of editors: Hier wird die Anzahl der Editoren angezeigt (kann nicht geändert werden).
+- Textfeld <Left corner of dialog Editors.exe>: Entfernung des Dialogfensters von Editors.exe vom linken Monitorrand in Pixel.
+- Textfeld <Top corner of dialog Editors.exe>: Entfernung des Dialogfensters von Editors.exe vom oberen Monitorrand in Pixel.
+- Path of file editors.ini: Pfad der Datei editors.ini, die mit dem Einstellungsprogramm bearbeitet wird (kann nicht geändert werden).
+- Checkbox <Editors.exe as Topmost window>: Wenn dies angewählt ist, so wird das Dialogfenster von Editors.exe über allen anderen Fenstern geöffnet.
+- Checkbox <Hide edit defs button>: Wenn dies angewählt ist, so erscheint der Button <Edit Defs> im Dialogfenster von Editors.exe nicht.
+- Checkbox <Close program deactivated>: Wenn dies angewählt ist, dann wird <Close program after calling Editor> in Editors.exe nicht angewählt (also Editors.exe sofort nach Start eines Editors beendet)
+  Wenn dies nicht angewählt ist, dann wird <Close program after calling Editor> in Editors.exe angewählt (also Editors.exe nicht sofort nach Start eines Editors beendet)
+  Wenn sich die Checkbox im "Tristate"-Zustand befindet (dritter Zustand), entscheidet das Programm abhängig vom Pfad der zu editierenden Datei, ob <Close program after calling Editor> angewählt
+  wird oder nicht.  Wenn sich die Datei im Verzeichnis <%Temp%\_tc> befindet, also wahrscheinlich temporär aus einem Archiv entpackt ist, wird <Close program after calling Editor> nicht angewählt.
+  In allen anderen Fällen wird <Close program after calling Editor> angewählt.
+- Optionbox <Show main Editors>: Im Programm Editors.exe ist <Show main Editors> angewählt.
+- Optionbox <Show extended Editors>: Im Programm Editors.exe ist <Show extended Editors> angewählt.
+- Optionbox <Show all Editors>: Im Programm Editors.exe ist <Show all Editors> angewählt.
+
+In der Liste werden alle Editoren angezeigt, die in Editors.ini definiert sind.
+Die Liste zeigt folgendes an:
+- die Kurzbezeichnung des Editors
+- den vollständigen Pfad (oder eventuell nur der Dateiname, wenn sich dieser im Suchpfad befindet)
+- die Haupt-Dateierweiterungen, mit denen der Editor benutzt werden kann (einzelne Erweiterungen sind durch <|> getrennt)
+- die erweiterten Dateierweiterungen, mit denen der Editor benutzt werden kann (einzelne Erweiterungen sind durch <|> getrennt)
+- die Default-Erweiterungen, bei denen der Editor vorausgewählt ist (es kann immer nur ein Editor für eine Erweiterung vorausgewählt sein)
+
+Beschreibung der einzelnen Buttons:
+- <New Editor>: Es wird ein zusätzlicher Editor erzeugt.  Dazu wird der Dialog "Add new/Edit Editor" angezeigt.
+- <Edit Editor>: Der aktuell angewählte Editor kann bearbeitet werden (es darf nur ein Editor angewählt sein).  Dazu wird der Dialog "Add new/Edit Editor" angezeigt.
+- <Delete Editor(s)>: Alle aktuell angewählten Editoren werden nach einer Sicherheitsabfrage gelöscht.
+- <Save to Editors.ini>: Die Editoren mit allen Einstellungen werden nach einer Sicherheitsabfrage in der Datei Editors.ini gespeichert.
+- <Cancel/Quit>: Das Programm wird beendet.  Wenn Änderungen nicht gespeichert wurden, erfolgt eine Sicherheitsabfrage.
+- <New Editor with act Data>: Es wird ein zusätzlicher Editor erzeugt. Als Vorlage dient der aktuell angewählte Editor (es darf nur ein Editor angewählt sein).  Dazu wird der Dialog "Add new/Edit Editor" angezeigt.
+- <Read Editors from Reg>: Es wird versucht, aus der Registry Editoren für Dateierweiterungen auszulesen.  Diese können mit der Dialogbox "Add Editors from Registry" bearbeitet und hinzugefügt werden.
+   Die Methode ist nicht fehlersicher.  Sie kann falsche Ergebnisse liefern und viele Editoren übergehen.  Es wird jedoch die Registry nur gelesen und nicht verändert.
+- <Reload from Editors.ini>: Nach einer Sicherheitsabfrage werden alle Änderungen verworfen und die Editoren neu aus der Einstellungsdatei gelesen.
+- <Sort Editors a-z>: Nach einer Sicherheitsabfrage werden die Editoren nach der Kurzbezeichnung sortiert.  Auch die Dateierweiterungen der einzelnen Editoren können sortiert werden.
+- <Move Editor up>: Der aktuell angewählte Editor wird um eine Zeile nach oben verschoben (es darf nur ein Editor angewählt sein).
+- <Move Editor down>: Der aktuell angewählte Editor wird um eine Zeile nach unten verschoben (es darf nur ein Editor angewählt sein).
+
+Beschreibung des Dialogs "Add new/Edit Editor":
+Der Dialog dient dazu, vorhandene Editoren zu bearbeiten und neue Editoren zu erzeugen.
+Textfeld <Name of editor>: Dies ist die Kurzbezeichnung des Editors (der Editor wird so im Programm Editors.exe angezeigt).  Jeder Editor muß eine Kurzform haben, die sich von allen anderen Editoren unterscheidet (Groß- und Kleinschreibung wird nicht unterschieden).
+<Set directory as name>: Wenn in <Path of editor> ein Pfad angegeben ist, so wird das Verzeichnis des Editors als Kurzbezeichnung eingetragen.
+<Set filename as name>: Wenn in <Path of editor> ein Pfad angegeben ist, so wird der Dateiname des Editors (ohne Erweiterung) als Kurzbezeichnung eingetragen.
+Textfeld <Path of editor>: Dies ist der vollständige Pfad des Editors, einschließlich Dateiname und Extension.  Wenn sich die Datei im Suchpfad befindet, kann das Verzeichnis entfallen.
+In diesem Textfeld können auch Umgebungsvariablen angegeben werden (z.B. %userprofile%).
+<Select editor path>: Es erscheint ein Dialog zur Auswahl des Editors mit Pfad.
+Textfeld <Working directory>: Falls für den Editor ein bestimmtes Arbeitsverzeichnis erforderlich ist, ist dieses hier einzutagen.  Normalerweise wird dies nicht benötigt.
+<Select working dir>: Es erscheint ein Dialog zur Auswahl eines Pfades.
+Textfeld <Parameter before file>: Falls für den Editor vor der Angabe der zu bearbeitenden Datei ein zusätzlicher Parameter angegeben werden muß, ist dieser hier einzutragen.  Normalerweise wird dies nicht benötigt.
+Textfeld <Parameter after file>: Falls für den Editor nach der Angabe der zu bearbeitenden Datei ein zusätzlicher Parameter angegeben werden muß, ist dieser hier einzutragen.  Normalerweise wird dies nicht benötigt.
+Checkbox <Insert file without quotes>: Falls die zu bearbeitende Datei ohne Anführungszeichen eingesetzt werden soll, muß diese Checkbox angewählt werden.  Normalerweise darf die Checkbox nicht angewählt sein.
+Liste <List of main extensions>: Dies ist die Liste aller Haupt-Dateierweiterungen, für die der Editor vollständig benutzt werden kann.  Die Dateierweiterungen sind ohne Punkt einzugeben.  Für Dateien ohne Dateierweiterung ist ein <.> (Punkt) einzugeben.
+Für alle Dateierweiterungen ist ein <*> (Stern) einzugeben.  Wenn nur ein bestimmter Anfang der Dateierweiterung fest ist und der Rest variabel, so wird der Anfang und dann ein <*> eingegeben.
+Der Stern steht also für 0 oder mehr beliebige Zeichen.  Wenn ein Zeichen der Dateierweiterung ein beliebiges Zeichen sein kann, so ist hierfür ein <?> (Fragezeichen) einzugeben. Das Fragezeichen steht für genau 1 Zeichen.
+Stern und Fragezeichen dürfen nicht gemeinsam in einer Dateierweiterung verwendet werden. 
+Liste <List of extended extensions>: Dies ist die Liste aller erweiterten Dateierweiterungen, für die der Editor vollständig oder eingeschränkt benutzt werden kann.  Die Dateierweiterungen sind ohne Punkt einzugeben.  
+Für Dateien ohne Dateierweiterung ist ein <.> (Punkt) einzugeben.  Für alle Dateierweiterungen ist ein <*> (Stern) einzugeben.  Wenn nur ein bestimmter Anfang der Dateierweiterung fest ist und der Rest variabel, 
+so wird der Anfang und dann ein <*> eingegeben.  Der Stern steht also für 0 oder mehr beliebige Zeichen.  Wenn ein Zeichen der Dateierweiterung ein beliebiges Zeichen sein kann, so ist hierfür ein <?> (Fragezeichen) einzugeben. 
+Das Fragezeichen steht für genau 1 Zeichen.  Stern und Fragezeichen dürfen nicht gemeinsam in einer Dateierweiterung verwendet werden. 
+Liste <Default extensions>: Dies ist die Liste aller Standard-Dateierweiterungen, für die der Editor vorausgewählt wird.  Jede Standard-Dateierweiterung darf nur einmal existieren und es dürfen nur Dateierweiterungen eingegeben werden,
+die auch in der Liste der Haupt-Dateierweiterungen enthalten sind.  Die Dateierweiterungen sind ohne Punkt einzugeben.  Für Dateien ohne Dateierweiterung ist ein <.> (Punkt) einzugeben.  Es dürfen hier kein Stern und kein Fragezeichen
+eingegeben werden.
+Die Eintragungen können wie folgt bearbeitet werden:
+<New extension> bzw. <New default>: Es kann eine zusätzliche Dateierweiterung für den Editor eingegeben werden.
+<Edit extensions> bzw. <Edit defaults>: Die Dateierweiterungen des Editors können auf komfortable Weise bearbeitet werden.  Hierzu wird der Dialog "Edit extensions/Edit default extensions" aufgerufen.
+<Delete extension> bzw. <Delete default>: Die aktuell angewählte Dateierweiterung des Editors wird gelöscht (keine Sicherheitsabfrage).
+<Move extension up> bzw. <Move default up>: Die aktuell angewählte Dateierweiterung des Editors wird um eine Zeile nach oben verschoben.
+<Move extension down> bzw. <Move default down>: Die aktuell angewählte Dateierweiterung des Editors wird um eine Zeile nach unten verschoben.
+<Copy ext to extended>: Die aktuell angewählte Dateierweiterung wird in die Liste der erweiterten Dateierweiterungen kopiert.
+<Copy ext to main>: Die aktuell angewählte Dateierweiterung wird in die Liste der Haupt-Dateierweiterungen kopiert.
+<Copy all to extended>: Alle Dateierweiterungen werden in die Liste der erweiterten Dateierweiterungen kopiert.
+<Copy all to main>: Alle Dateierweiterungen werden in die Liste der Haupt-Dateierweiterungen kopiert.
+<Copy ext to default>: Die aktuell angewählte Dateierweiterung wird in die Liste der Standard-Dateierweiterungen kopiert.
+<Sort extensions a-z> bzw. <Sort defaults a-z>: Die Dateierweiterungen des Editors werden sortiert.
+<Add extension for>: Alle Dateierweiterungen eines definierten Dateityps werden hinzugefügt.  Dazu ist zuvor in der rechten Auswahlbox ein Dateityp auszuwählen.  Die Dateitypen sind in ChooseEditor.ini definiert und können angepaßt werden.
+
+<Use and return>: Die Änderungen werden gespeichert und der Dialog geschlossen.  Wenn eine Dateierweiterung zwar als Haupt-Dateierweiterung eingetragen ist, aber nicht als erweiterte Dateierweiterung, erscheint ein Dialog,
+mit dessen Hilfe diese Dateierweiterung noch in die Liste der erweiterten Dateierweiterungen eingetragen werden kann.
+<Cancel>: Der Dialog wird geschlossen, ohne daß Änderungen gespeichert werden.  Sollten Eintragungen geändert worden sein, erfolgt zuvor eine Sicherheitsabfrage.
+
+Beschreibung des Dialogs "Edit extensions/Edit default extensions":
+Der Dialog dient dazu, auf einfache Weise Haupt/erweiterte Dateierweiterungen und Standard-Dateierweiterungen eines Editors zu bearbeiten.
+Mehrzeiliges Textfeld: In diesem Textfeld sind alle Dateierweiterungen des Editors aufgeführt.  Jede Dateierweiterung steht in einer Zeile und ist mit der Eingabetaste abgeschlossen.  
+Das Textfeld kann beliebig bearbeitet werden.  Man ist jedoch selbst dafür verantwortlich, nur sinnvolle Eingaben gemäß der obigen Definition zu machen. 
+<Save and close>: Die Dateierweiterungen des Editors werden in den Dialog "Add new/Edit Editor" übertragen und der aktuelle Dialog geschlossen.
+<Cancel>: Die Änderungen werden verworfen und der Dialog beendet.  Sollten Änderungen vorgenommen worden sein, erfolgt zuvor eine Sicherheitsabfrage.
+
+Beschreibung des Dialogs "Add Editors from Registry":
+Hiermit werden die aus der Registry ausgelesenen Editoren bearbeitet und können als Editoren für das Programm hinzugefügt werden.
+<Available editors from registry>: Hier werden die aus der Registry ausgelesenen Editoren mit Dateipfad und jeweils einer Dateierweiterung aufgelistet.
+<Editors to save for program>: Hierher müssen die Editoren aus der Liste <Available editors from registry> kopiert werden, damit sie als Editor für das Programm gespeichert werden können.
+<Add all editors>: Fügt alle Editoren von der Liste <Available editors from registry> in die Liste <Editors to save for program> ein.
+<Add selected editor>: Fügt den aktuell angewählten Editor (Pfad und Dateierweiterung) aus der Liste <Available editors from registry> in die Liste <Editors to save for program> ein,
+sofern dieser Eintrag noch nicht vorhanden ist.  Dasselbe passiert bei einem Doppelklick auf einen Editor in der Liste <Available editors from registry>.
+<Remove selected editor>: Löscht den aktuell angewählten Editor aus der Liste <Editors to save for program>.  Dasselbe passiert bei einem Doppelklick auf einen Editor in der Liste <Editors to save for program>.
+<Cancel>: Beendet den Dialog, ohne Editoren hinzuzufügen (keine Sicherheitsabfrage).
+<Save and Close>: Beendet den Dialog und fügt die Editoren der Liste <Editors to save for program> zu den Editoren (Haupt-Dateierweiterungen und erweiterte Dateierweiterungen) des Programms hinzu.
+Dabei wird folgendermaßen verfahren:
+- Wenn bei verschiedenen Editoren der Editorpfad gleich ist, so werden diese zusammengefaßt.
+- Als Kurzbezeichnung des Editors wird der Programmname ohne Dateierweiterung verwendet.  
+- Ist die Kurzbezeichnung bereits vorhanden, so wird solange eine "1" an Kurzbezeichnung angehängt, bis eine neue Kurzbezeichnung entsteht.
+
+
+Bescheibung der Datei Editors.ini:
+Dies ist die Einstellungsdatei für das Programm Editors.exe.  Das Programm sucht diese Datei zuerst im Programmverzeichnis.  Wird diese dort nicht gefunden, so sucht es die Datei im Verzeichnis <%USERPROFILE%\Appdata\Roaming\ChooseEditor>.
+Die Datei sollte nicht manuell geändert werden.  Sie enthält Angaben für die Fensterposition von Editors.exe, das Einstellungsprogramm und alle Angaben über die einzelnen Editoren.
+
+
+Beschreibung der Datei ChooseEditor.ini:
+Dies ist die Einstellungsdatei für das Programm ChooseEditor.exe.  Das Programm sucht diese Datei zuerst im Programmverzeichnis.  Wird diese dort nicht gefunden, so sucht es die Datei im Verzeichnis <%USERPROFILE%\Appdata\Roaming\ChooseEditor>.
+Die Datei ChooseEditor.ini enthält unter anderem die Dateierweiterungen der definierten Dateitypen, welche im Dialog "Add new/Edit Editor" verwendet werden können.  Diese Einstellungen können nur manuell geändert werden.
+NumberofExtensions: Anzahl der Typen
+ExtensionXName: Name der einzelnen Dateitypen
+ExtensionXExt: Erweiterungen der einzelnen Dateitypen, getrennt durch <|>
+X steht für die Nummer der einzelnen Dateitypen und muß von 1 bis NumberofExtensions belegt werden.
+
+
+Versionsgeschichte:
+V1.00 erste Version
+Änderungen in V1.10:
+- Umgebungsvariablen für Pfad
+- Editor.exe kann als Topmost ausgewählt werden 
+- Befehlsbutton <Edit Defs> kann unsichtbar gemacht werden
+- kleinere Änderungen
+Änderungen in V1.20:
+- das Programm Editors.exe kann so eingestellt werden, daß es erst geschlossen wird, wenn der aufgerufene Editor beendet wurde
+- volle Funktion von * und ? bei Dateierweiterungen 
+- Taste Return im Programm Editors.exe = Call Editor
+Änderungen in V2.00:
+- Taste Escape im Programm Editors.exe = Abbrechen
+- es gibt jetzt im Programm Editors.exe für jede Dateierweiterung 3 Gruppen von Editoren
+  - Haupteditoren, die für die Dateierweiterung voll geeignet sind (Haupt-Dateierweiterungen)
+  - zusätzliche Editoren, die für die Dateierweiterung eingeschränkt geeignet sind, einschließlich der Haupteditoren (erweiterte Dateierweiterungen)
+  - alle Editoren
+  es liegt in der Verantwortung des Nutzers, die Editoren für jede Dateierweiterung entsprechend einzuteilen
+  ohne zusätzliche Einteilung ergibt sich keine merkliche Änderung zu V1.20, da beim Laden einer alten Einstellungsdatei
+  die Dateierweiterungen sowohl bei den Haupt-Dateierweiterungen als auch bei den erweiterten Dateierweiterungen aufgelistet werden
+- kleinere Änderungen
+Änderungen in V2.10:
+- Funktion von <Close program after calling Editor> erweitert
+- zusätzliche Einstellungen in ChooseEditor.exe
+- Kommandozeilenparameter für Editors.exe
+
+Wolfgang Morgeneier
+Email: W.Morgeneier@gmail.com

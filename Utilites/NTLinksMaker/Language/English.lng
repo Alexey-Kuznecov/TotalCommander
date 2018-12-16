@@ -1,0 +1,21 @@
+; NTLinksMaker 1.2.0.340, hardcoded messages
+
+[NTLinks Maker]
+; English messages (1252) - be careful with format parameters like "%s" and "%X"
+1=&Yes
+2=&No
+3=&OK
+4=Can&cel
+5=Yes to &All
+6=N&o to All
+7=Ignore &all
+8=Create &link(s) for %d object(s) as:
+9=Number of levels to duplicate as &folders:
+10=Error creating link:\n%s\n\nLink target:\n%s\n\nError description:\n
+11=Symbolic link creation requires elevation (administrator rights).
+12=It seems that your Windows doesn't support symlinks.\n\nDo you want to create junctions and hardlinks instead?
+13=Detect relative paths of items using following &base path:
+14=Link t&ypes to create:
+15=Hardlinks and junctions
+16=Symlinks if necessary
+17=Symbolic links only

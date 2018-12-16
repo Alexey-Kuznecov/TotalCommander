@@ -1,0 +1,5 @@
+[plugininstall]
+description=Environment variables manager
+type=wfx
+file=envvars.wfx
+defaultdir=EnvVars

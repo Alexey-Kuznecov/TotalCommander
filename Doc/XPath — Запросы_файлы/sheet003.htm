@@ -1,0 +1,207 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+p.Обычный
+{margin:0.0pt;
+margin-top:0.0pt;
+margin-bottom:0.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+}
+
+</style>
+</head>
+<body>
+<table width="933" cellspacing="0">
+ <tr height="1">
+  <td width="239">
+  </td>
+  <td width="694">
+  </td>
+ </tr>
+ <tr height="35">
+  <td colspan="2" style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#9ECECE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-size:11.0pt;font-weight:bold;'>Функции над множествами узлов</span>
+  </b></p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>*</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Обозначает любое имя или набор символов по указанной оси, например: * — любой дочерний узел;
+  @* — любой атрибут. $name — обращение к переменной, где name — имя переменной или параметра.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>[]</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Дополнительные условия выборки или, что то же самое, предикат шага адресации. Должен содержать
+  логическое значение. Если содержит числовое, считается что это порядковый номер узла, что эквивалентно приписыванию перед
+  этим числом выражения «position()=»</span></p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>{}</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Если применяется внутри тега другого языка (например HTML), то XSLT процессор рассматривает содержимое
+  фигурных скобок как XPath.</span></p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>/</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Определяет уровень дерева, то есть разделяет шаги адресации</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>|</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Объединяет результат. То есть, можно написать несколько путей разбора через знак | и в результат
+  такого выражения войдёт всё, что будет найдено любым из этих путей.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>node-set node()</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает все узлы. Вместо этой функции часто используют заменитель &#39;*&#39;, но, в отличие от
+  звездочки, функция node() возвращает и текстовые узлы.</span></p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>string text()</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает набор текстовых узлов;</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>node-set current()</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает множество из одного элемента, который является текущим. Если мы делаем обработку
+  множества с условиями, то единственным способом дотянуться из этого условия до текущего элемента будет данная функция.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>number position()</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает позицию элемента в множестве. Корректно работает только в цикле &lt;xsl:for-each/&gt;</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>number last()</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает номер последнего элемента в множестве. Корректно работает только в цикле &lt;xsl:for-each/&gt;</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>number count(node-set)</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает количество элементов в node-set.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>string name(node-set?)</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает полное имя первого тега в множестве.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>string namespace-uri(node-set?)</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает ссылку на url определяющий пространство имён.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>string local-name(node-set?)</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Возвращает имя первого тега в множестве, без пространства имён.</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#DEEEEE;' align=left valign=top>
+  <p class=Обычный><b><span style='color:#4D4D4D;font-weight:bold;'>node-set id(object)</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=top>
+  <p class=Обычный><span style='color:#4D4D4D;'>Находит элемент с уникальным идентификатором </span>
+  </p>
+  
+  </td>
+ </tr>
+</table>
+</body>
+</html>

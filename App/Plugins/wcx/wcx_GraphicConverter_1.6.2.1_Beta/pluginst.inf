@@ -1,0 +1,7 @@
+[plugininstall]
+description=Graphic Converter is TC plugin for convert images
+type=wcx
+file=GraphicConverter.wcx
+defaultdir=Plugins\wcx\GraphicConverter
+defaultextension=GraphConv
+version=1.6.2.1 Beta

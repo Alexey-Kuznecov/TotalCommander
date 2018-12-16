@@ -1,0 +1,657 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+p.Обычный
+{margin:0.0pt;
+margin-top:0.0pt;
+margin-bottom:0.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+}
+
+</style>
+</head>
+<body>
+<table width="991" cellspacing="0">
+ <tr height="1">
+  <td width="152">
+  </td>
+  <td width="343">
+  </td>
+  <td width="496">
+  </td>
+ </tr>
+ <tr height="39">
+  <td colspan="3" style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><span style='font-size:14.0pt;'>Параметры для панелей инструментов, пользовательских меню и команд</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="27">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Параметр</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Значение</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Комментарий</span></b></p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Общие параметры</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>?</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>В качестве первого параметра вызывает перед стартом программы диалог, показывающий реальные значения последующих
+  параметров</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вы можете подтвердить запуск программы с заданными значениями, изменить их перед стартом программы или вообще
+  отменить её запуск. Полезно также для отладки содержимого поля &quot;Параметры&quot;</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%P</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет в командную строку исходный путь, включая обратный слэш (\) в конце</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%P вставляет путь с длинными именами каталогов, а %p — с короткими</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%N</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет имя файла под курсором</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%N вставляет длинное имя, а %n — имя DOS (8.3)</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%T</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет текущий каталог назначения</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%T вставляет путь с длинными именами каталогов, а %t — с короткими. Особенно полезно для упаковщиков!</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%M</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет текущее имя файла в каталоге назначения</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%M вставляет длинное имя, а %m — DOS (8.3)</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%O</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет текущее имя файла без расширения</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%O вставляет длинное имя, а %o — в формате DOS (8 символов)</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%E</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет текущее расширение (без предшествующей точки)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%E вставляет длинное расширение, а %e — в формате DOS (3 символа)</p>
+  
+  </td>
+ </tr>
+ <tr height="134">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%S</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет имена всех файлов, выбранных на исходной панели</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%S вставляет длинное имя, а %s — имя DOS (8.3).<br><br>Длина командной строки не может превышать 32767 символов! Если приписать
+  %P, %p, %T или %t сразу перед %S или %s (либо, аналогично, перед %R, %r, %N, %n, %M или %m), то к имени каждого файла из списка будет добавлен
+  путь. При наличии пробелов имена/пути автоматически заключаются в кавычки</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%P%S</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет имена всех выбранных файлов с полными путями</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Это пример связки параметров, которая, в отличие от отдельных параметров, не должна браться в кавычки (TC сделает
+  это самостоятельно, см. выше)</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%S10</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что %S, но вставляет не более первых NN (в примере 10) имён выбранных файлов</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Задайте нужное вам число для ограничения количества файлов, передаваемых в программу</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%R</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет имена всех файлов, выбранных на панели назначения</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%R вставляет длинное имя, а %r — имя DOS (8.3). Условия работы те же, что для %S и %s</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%R10</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что %R, но вставляет не более первых NN имён выбранных файлов</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Задайте нужное вам число для ограничения количества файлов, передаваемых в программу</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%C1</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Первый выделенный файл или файл под курсором</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что и первый параметр при сравнении файлов по содержимому</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%C2</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Второй выделенный файл или первый выделенный/одноимённый файл в целевой панели</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что и второй параметр при сравнении файлов по содержимому. Если активна правая панель и в ней выделено
+  не менее 2 файлов, значения %C1 и %C2 будут обратными</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%C3..%C9</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>От 3 до 9 файлов, выделенных в панели-источнике</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>…или пустой параметр, если файлов выделено меньше трёх</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%c1..%c9</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что и %C1..%C9, но с именами и путями в формате 8.3</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>…или пустой параметр, если выделено меньше трёх файлов</p>
+  
+  </td>
+ </tr>
+ <tr height="80">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%%</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет знак процента (только один!)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Для передачи из поля &quot;Параметры&quot; самого знака процента удвойте его. Учтите, что переменные (%Commander_path% и
+  пр.) здесь не раскрываются, а передаются как текст, непонятный большинству программ. Раскрыть переменные можно только в поле
+  &quot;Команда&quot;!</p>
+  
+  </td>
+ </tr>
+ <tr height="116">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%X</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Параметры, следующие за этим, воспринимаются как левая/правая панель вместо источника/получателя</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Значения параметров: %P, %p — путь слева, %T, %t — путь справа, %N, %n — имя слева, %M, %m — имя справа, %S, %s — выбранные
+  слева, %R, %r — выбранные справа.<br><br>Пример: %X%P %T посылает пути слева и справа (например, внешнему инструменту синхронизации)</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%x</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Параметры, следующие за этим, снова воспринимаются как источник/получатель</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: %X%P %x%P посылает вызванной программе путь слева и (вместо пути справа) путь источника</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Параметры для архивов</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="80">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%Z</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>При открытом в панели TC архиве позволяет передавать программам архивы в качестве путей для %P или %T</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Указывается в произвольном месте относительно других параметров.<br>
+  <br>Пример: %Z%P передаёт имя в архиве внешнему инструменту при отображении в TC содержимого этого архива</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Параметры для плагинов файловой системы</span>
+  </b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%v</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Имя виртуального файла при использовании FS-плагинами временной панели</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%N в этом случае возвращает полный путь реального файла, а %P — пустую строку.<br>
+  При наличии пробелов имена/пути автоматически заключаются в кавычки</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%V</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>То же, что %v, но с полным путём (включая имя плагина)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Параметры для файлов списка</span></b>
+  </p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="98">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%L</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Длинные имена файлов, включая полный путь</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Здесь и далее — создаёт файл списка в одном из 10 форматов в каталоге, заданном переменной TEMP, с именами выбранных
+  файлов/каталогов и добавляет имя этого файла списка в командную строку. Список удаляется автоматически при завершении запущенной
+  программы.<br>Пример: c:\Program Files\Long name.exe</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%l</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Короткие имена файлов, включая полный путь</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: C:\PROGRA~1\LONGNA~1.EXE</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%F</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Длинные имена файлов без пути</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: Long name.exe</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%f</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Короткие имена файлов без пути</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: LONGNA~1.EXE</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%D</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Короткие имена файлов, включая полный путь, но с использованием набора символов DOS для диакритических знаков</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%d</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Короткие имена файлов без пути, но с использованием набора символов DOS для диакритических знаков</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%UL</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает подобно %L, но с файлом списка в UTF-8 Unicode (с BOM)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%UF</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает подобно %F, но с файлом списка в UTF-8 Unicode (с BOM)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%WL</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает подобно %L, но с файлом списка в UTF-16 Unicode (с BOM)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%WF</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает подобно %F, но с файлом списка в UTF-16 Unicode (с BOM)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный> </p>
+  
+  </td>
+ </tr>
+ <tr height="80">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Параметры только для пользовательских команд</span>
+  </b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%A или %A0</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет оставшуюся часть введённой командной строки</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: Команда em_tc запускает totalcmd.exe с параметрами /L=%A1 /R=%A2 –&gt; Командная строка em_tc c:\dir1 d:\dir2 будет преобразована
+  в команду: totalcmd.exe /L=c:\dir1 /R=d:\dir2</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>%A1..%A9</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Вставляет, соответственно, параметры от первого до девятого</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>
+  <p class=Обычный><b><span style='font-weight:bold;'>Параметры только для поля &quot;Команда&quot;</span>
+  </b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;background:#E5E5FF;' align=left valign=center>&nbsp;
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>*</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>При указании сразу перед именем программы та запускается с правами администратора</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>В Windows Vista и выше</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>**</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>При указании сразу перед именем программы та запускается от имени другого пользователя</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>В Windows Vista и выше</p>
+  
+  </td>
+ </tr>
+ <tr height="170">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>-2</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Принудительный перенос строки</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает только в главной (не вертикальной!) панели инструментов. В настройках кнопки не должен быть указан
+  значок.<br><br>Альтернатива вводу значения вручную — выбор пункта &quot;Вставить перенос строки&quot; в меню, открываемом кнопкой
+  &quot;Изменить &gt;&gt;&quot;.<br><br>Если указать -2 в одной или нескольких начальных кнопках вертикальной панели, кнопки со значками
+  сдвигаются вниз. В других местах этой панели параметр игнорируется</p>
+  
+  </td>
+ </tr>
+</table>
+</body>
+</html>

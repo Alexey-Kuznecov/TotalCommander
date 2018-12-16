@@ -1,0 +1,7 @@
+[plugininstall]
+description=Plugin for view CSV files
+descriptionrus=Плагин для просмотра файлов CSV
+type=wlx
+file=CSVView.wlx
+defaultdir=Plugins\wlx\CSVView
+version=0.9.3.2 Beta

@@ -1,0 +1,15 @@
+/*.dll
+*.sys
+*.br2
+Counter-Strike Global Offensive.url
+Discord.lnk
+ImageMagick Display.lnk
+Liquid XML Studio 2011.lnk
+MediaGet.lnk
+Microsoft Edge.lnk
+MiniTool Partition Wizard.lnk
+tc.exe.lnk
+The Witcher 3 Wild Hunt.lnk
+VerseQ.lnk
+Visual Studio 2015.lnk
+XnView.lnk

@@ -1,0 +1,454 @@
+
+
+button27=%COMMANDER_DRIVE%\Program Files\Aida64 Extreme\aida64.exe
+cmd27=em_openAida64
+iconic27=0
+menu27=Aida64 Extreme - диагностика, тестирования и мониторинг состояния компьютера
+
+
+button28=%COMMANDER_DRIVE%\Program Files\AKS Text Replacer\TextReplacerPortable.exe
+cmd28=em_usercmd2
+iconic28=0
+menu28=AKS Text Replacer - Утилита для поиска и замены текста в нескольких файлах
+
+
+button29=%COMMANDER_DRIVE%\Program Files\IcoFXPortable\IcoFXPortable.exe
+cmd29=em_usercmd3
+iconic29=0
+menu29=IcoFX - программа для создания и редактирования иконок и курсоров с поддержкой прозрачности
+
+
+button30=%COMMANDER_DRIVE%\Program Files\SafeInCloud\SafeInCloud.exe
+cmd30=em_usercmd4
+iconic30=0
+menu30=SafeInCloud - многофункциональнй менеджер паролей
+
+
+button31=%COMMANDER_DRIVE%\Program Files\Defraggler\Defraggler.exe
+cmd31=em_usercmd5
+iconic31=0
+menu31=Defraggler -  дефрагментация и анализ жеского диска
+
+
+button32=%COMMANDER_DRIVE%\Program Files\EcMenu_v1.6\EcMenu_x64.exe
+cmd32=em_usercmd6
+iconic32=0
+menu32=EcMenu v1.6 - программа для добавления дополнительных пунктов в контекстное меню.
+
+
+button33=%COMMANDER_DRIVE%\Program Files\CrystallDiskInfo\DiskInfoX64.exe
+cmd33=em_usercmd7
+iconic33=0
+menu33=CrystallDiskInfo - отслеживает состояние жестких дисков. Производит мониторинг и дает общую оценку вашего диска.
+
+
+button34=%COMMANDER_DRIVE%\Program Files\FastStone Image Viewer 4.5\FSViewer.exe
+cmd34=em_usercmd8
+iconic34=0
+menu34=FastStone Image Viewer - просмотр, редактирования, обрезка, наложение эффектов и многое д.
+
+
+button35=%COMMANDER_DRIVE%\Program Files\Google Picasa\Picasa3.exe
+cmd35=em_usercmd9
+iconic35=0
+menu35=Picasa - программа для работы с фотографиями
+
+
+button36=%COMMANDER_DRIVE%\Program Files\RapidEEx64\rapidee.exe
+cmd36=em_usercmd10
+iconic36=0
+menu36=Rapid Environment Editor - предназначен для редактирования переменных окружения Windows.
+
+
+button37=%COMMANDER_DRIVE%\Program Files\SystemExplorerPortable_7.1\SystemExplorer.exe
+cmd37=em_usercmd11
+iconic37=0
+menu37=SystemExplorerPortable - контроль, управление, мониторинг сети, ОЗУ, ЦП.
+
+
+button38=%COMMANDER_DRIVE%\Program Files\AnyVideoConverterUltimateP\AVCUltimatePortable.exe
+cmd38=em_usercmd12
+iconic38=0
+menu38=AnyVideoConverterUltimate - Конвертатор видео-файлов.
+
+
+button39=%COMMANDER_DRIVE%\Program Files\Auslogics File Recovery\FileRecovery.exe
+cmd39=em_usercmd14
+iconic39=0
+menu39=Auslogics File Recovery
+
+
+button40=%COMMANDER_DRIVE%\Program Files\Auslogics Disk Defrag\DiskDefrag.exe
+cmd40=em_usercmd13
+iconic40=0
+menu40=Auslogics Disk Defrag - Дефрагментация жеского диска.
+
+
+button41=%COMMANDER_DRIVE%\apps\AIMP3\AIMP Portable\AIMP.exe
+cmd41=em_usercmd16
+iconic41=0
+menu41=Aimp 3
+
+
+button42=%COMMANDER_DRIVE%\Program Files\FastStone Capture\FSCapture.exe
+cmd42=em_usercmd17
+iconic42=0
+menu42=FastStone Capture - Программа для захвата видео и скриншотов.
+
+
+button43=D:\Program Files\Mozilla Firefox\firefox.exe
+cmd43=em_usercmd18
+iconic43=0
+menu43=Mozilla Firefox
+
+
+button44=D:\Program Files\FireFox Mini\FirefoxPortable\FirefoxPortable.exe
+cmd44=em_usercmd18
+iconic44=0
+menu44=FireFox Mini
+
+
+button45=D:\Program Files\Foxit Software\Foxit Reader\Foxit Reader.exe
+cmd45=em_usercmd20
+iconic45=0
+menu45=Foxit Reader
+
+
+button46=D:\Program Files\HaoZip 2.6.1\HaoZipImgConvert.exe
+cmd46=em_usercmd21
+iconic46=0
+menu46=HaoZipImgConvert.exe
+
+
+button47=D:\Program Files\HaoZip 2.6.1\HaoZip.exe
+cmd47=em_usercmd22
+iconic47=0
+menu47=HaoZip.exe
+
+
+button48=D:\Program Files\HaoZip 2.6.1\HaoZipRename.exe
+cmd48=em_usercmd24
+iconic48=0
+menu48=HaoZipRename.exe
+
+
+button49=D:\Program Files\HaoZip 2.6.1\HaoZipMd5.exe
+cmd49=em_usercmd23
+iconic49=0
+menu49=HaoZipMd5.exe - Подсчет контрольнной суммы
+
+
+button50=D:\Program Files\HaoZip 2.6.1\HaoZipReplace.exe
+cmd50=em_usercmd25
+iconic50=0
+menu50=HaoZipReplace.exe
+
+
+button51=D:\Program Files\Hard Drive Inspector\HDInspector.exe
+cmd51=em_usercmd26
+iconic51=0
+menu51=Hard Drive Inspector - Анализ дисков
+
+
+button52=D:\Program Files\ImageBurner\AudioBurner.exe
+cmd52=em_usercmd27
+iconic52=0
+menu52=AudioBurner.exe - Запись музыки на CD
+
+
+button53=D:\Program Files\ImageBurner\Commander.exe
+cmd53=em_usercmd28
+iconic53=0
+menu53=Commander.exe
+
+
+button54=D:\Program Files\ImageBurner\ImageBurner.exe
+cmd54=em_usercmd30
+iconic54=0
+menu54=ImageBurner.exe
+
+
+button55=D:\Program Files\ImageBurner\DataBurner.exe
+cmd55=em_usercmd29
+iconic55=0
+menu55=DataBurner.exe
+
+
+button56=D:\Program Files\IrfanView 4.32\i_view32.exe
+cmd56=em_usercmd31
+iconic56=0
+menu56=IrfanView 4.32
+
+
+button57=D:\Program Files\MiniTool Partition Wizard Professional Edition 7.1\PartitionWizard.exe
+cmd57=em_usercmd32
+iconic57=0
+
+
+button58=D:\Program Files\Notepad++\notepad++.exe
+cmd58=em_usercmd33
+iconic58=0
+menu58=notepad++.exe
+
+
+button59=D:\Program Files\OperaPortable\OperaPortable.exe
+cmd59=em_usercmd34
+iconic59=0
+menu59=Opera.exe
+
+
+button60=D:\Program Files\PicPick\picpick.exe
+cmd60=em_usercmd35
+iconic60=0
+menu60=picpick.exe
+
+
+button61=D:\Program Files\PowerDataRecovery\PowerDataRecovery.exe
+cmd61=em_usercmd36
+iconic61=0
+
+
+button62=D:\Program Files\PowerISO\PowerISO.exe
+cmd62=em_usercmd37
+iconic62=0
+
+
+button63=D:\Program Files\PowerArchiver\POWERARC.EXE
+cmd63=em_usercmd40
+iconic63=0
+menu63=POWERARC.EXE
+
+
+button64=D:\Program Files\PowerArchiver\PABURNTOOLS.EXE
+cmd64=em_usercmd39
+iconic64=0
+menu64=PABURNTOOLS.EXE
+
+
+button65=D:\Program Files\PowerArchiver\PABackup.exe
+cmd65=em_usercmd38
+iconic65=0
+menu65=PABackup.exe
+
+
+button66=D:\Program Files\Recuva\Recuva.exe
+cmd66=em_usercmd41
+iconic66=0
+menu66=Recuva.exe
+
+
+button67=D:\Program Files\rstudio\r-studio.exe
+cmd67=em_usercmd42
+iconic67=0
+menu67=R-Studio.exe
+
+
+button68=D:\Program Files\SkypePortable\SkypePortable.exe
+cmd68=em_usercmd43
+iconic68=0
+menu68=Skype.exe
+
+
+button69=D:\Program Files\SoftMakerOffice2010\PlanMaker.exe
+cmd69=em_usercmd44
+iconic69=0
+menu69=PlanMaker.exe
+
+
+button70=D:\Program Files\SoftMakerOffice2010\TextMaker.exe
+cmd70=em_usercmd45
+iconic70=0
+menu70=TextMaker.exe
+
+
+button71=D:\Program Files\UFS Explorer\ufsexplorer_sr4.exe
+cmd71=em_usercmd46
+iconic71=0
+menu71=UFS Explorer
+
+
+button72=D:\Program Files\UltraISO\UltraISO.exe
+cmd72=em_usercmd47
+iconic72=0
+menu72=UltraISO.exe
+
+
+button73=D:\Program Files\uTorrentPortable\uTorrentPortable.exe
+cmd73=em_usercmd48
+iconic73=0
+menu73=uTorrent.exe
+
+
+button74=D:\Program Files\WinRAR\WinRAR.exe
+cmd74=""D:\Program Files\WinRAR\WinRAR.exe""
+path74=D:\Program Files\WinRAR\
+iconic74=0
+menu74=WinRAR.exe
+
+
+button75=D:\Program Files\WinTools Ultimate\wintoolsnet.exe
+cmd75=em_usercmd49
+iconic75=0
+menu75=wintoolsnet.exe
+
+
+button76=D:\Program Files\WirelessNetView\WirelessNetView.exe
+cmd76=em_usercmd50
+iconic76=0
+menu76=WirelessNetView.exe
+
+
+button77=D:\Program Files\XnView\xnview.exe
+cmd77=em_usercmd51
+iconic77=0
+menu77=XnView.exe
+
+
+button78=D:\Program Files\ZAR\zar.exe
+cmd78=em_usercmd52
+iconic78=0
+menu78=Zar.exe
+
+
+button79=D:\Program Files\PixBuilder\PixBuilder.exe
+cmd79=em_usercmd53
+iconic79=0
+menu79=PixBuilder.exe
+
+
+button80=D:\Program Files\ConEmu64.exe
+cmd80=em_usercmd54
+iconic80=0
+menu80=ConEmuStart.exe
+
+
+button81=D:\Program Files\AkelPad\AkelPad.exe
+cmd81=em_usercmd55
+iconic81=0
+menu81=Создать заметку - AkelPad.exe
+
+
+button82=D:\Program Files\Dmaster\dmaster.exe
+cmd82=em_usercmd56
+iconic82=0
+menu82=dmaster.exe - лучший файловый загрузчик
+
+
+button83=D:\Program Files\FileZillaPortable\FileZillaPortable.exe
+cmd83=em_usercmd57
+iconic83=0
+menu83=FileZillaPortable.exe
+
+
+button84=D:\Program Files\GoogleChromePortable\GoogleChromePortable.exe
+cmd84=em_usercmd58
+iconic84=0
+menu84=GoogleChromePortable.exe
+
+
+button85=D:\Program Files\Kitty\kitty.exe
+cmd85=em_usercmd59
+iconic85=0
+menu85=kitty.exe
+
+
+button86=D:\Program Files\TeamViewer\TeamViewer.exe
+cmd86=em_usercmd60
+iconic86=0
+menu86=TeamViewer.exe
+
+
+button87=D:\Program Files\WinMTRPortable\WinMTRPortable.exe
+cmd87=em_usercmd61
+iconic87=0
+menu87=WinMTRPortable
+
+
+button88=D:\Program Files\WinSCP\WinSCP.exe
+cmd88=em_usercmd62
+iconic88=0
+menu88=WinSCP.exe
+
+
+button89=D:\Program Files\CintaNotes\CintaNotes.exe
+cmd89=em_usercmd63
+iconic89=0
+menu89=CintaNotes.exe
+
+
+button90=D:\Program Files\BracketsPortable\BracketsPortable.exe
+cmd90=em_usercmd64
+iconic90=0
+menu90=BracketsPortable
+
+
+button91=D:\Program Files\Sublime_text\sublime_text.exe
+cmd91=em_usercmd74
+iconic91=0
+menu91=Sublime_text.exe
+
+
+button92=D:\Program Files\MyEventViewer\MyEventViewer.exe
+cmd92=em_usercmd66
+iconic92=0
+menu92=MyEventViewer.exe
+
+
+button93=D:\Program Files\Everything\Everything.exe
+cmd93=em_usercmd67
+iconic93=0
+menu93=Everything.exe
+
+
+button94=D:\Program Files\Peazip\peazip.exe
+cmd94=em_usercmd68
+iconic94=0
+menu94=Peazip.exe
+
+
+button95=D:\Program Files\WinMergePortable\WinMergePortable.exe
+cmd95=em_usercmd69
+iconic95=0
+menu95=WinMergePortable.exe
+
+
+button96=D:\Program Files\Punto Switcher\punto.exe
+cmd96=em_usercmd70
+iconic96=0
+menu96=punto.exe
+
+
+button97=D:\Program Files\ColorMania\ColorManiaPortable.exe
+cmd97=""D:\Program Files\ColorMania\ColorManiaPortable.exe""
+path97=D:\Program Files\ColorMania\
+iconic97=0
+menu97=ColorManiaPortable
+
+
+button98=C:\Program Files (x86)\Reg Organizer\RegOrganizer.exe
+cmd98=em_usercmd71
+iconic98=0
+menu98=Reg Organizer
+
+
+button99=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe
+cmd99=em_usercmd1
+iconic99=0
+menu99=Microsoft Visual Studio 14.0
+
+
+button100=C:\Users\Room№32\AppData\Local\MediaGet2\mediaget.exe
+cmd100=em_usercmd72
+iconic100=0
+menu100=MediaGet2
+
+
+button101=%COMMANDER_PATH%\..\..\..\SynWrite\wlx_syn2_6.18.2130\Syn.exe
+cmd101=em_usercmd73
+iconic101=0
+menu101=SynWrite
+
+
+button102=%COMMANDER_DRIVE%\Program Files\Double Driver\dd.exe
+cmd102=em_usercmd15
+menu102=Double Driver

@@ -1,0 +1,2 @@
+URL: http://flint.wincmd.ru/files/wlx_linkinfo_1.52.rar
+Описание: LinkInfo 1.52 This is a combined project consisting of 2 parts: 1. LinkEditor - Program for modifying LNK-files. 2. LinkInfo - Lister-plugin for viewing and editing them from TC Category: TC Lister Plugins Status: freeware Author: Konstantin Vlasov Added: 13.11.2003 Updated: 2.10.2011 Downloaded: 41331 times

@@ -1,0 +1,7 @@
+[plugininstall]
+description=eBookInfo, Lister plugin for viewing MOBI/AZW/AZW3/PRC/FB2/FB2.ZIP/FBD/EPUB info
+descriptionrus=eBookInfo, Lister-плагин для показа информации из файлов MOBI/AZW/AZW3/PRC/FB2/FB2.ZIP/FBD/EPUB
+type=wlx
+file=eBookInfo.wlx
+defaultdir=Plugins\eBookInfoWLX
+defaultextension=mobi,azw,azw3,prc,fb2,fbd,epub,zip

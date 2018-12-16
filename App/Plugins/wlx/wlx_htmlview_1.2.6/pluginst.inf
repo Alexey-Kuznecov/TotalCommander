@@ -1,0 +1,5 @@
+[plugininstall]
+description=IE-based file viewer plugin. The plugin uses MS WebBrowser control to view html documents.
+type=wlx
+file=htmlview.wlx
+defaultdir=plugins\wlx\HTMLView

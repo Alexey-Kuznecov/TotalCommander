@@ -1,0 +1,506 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+p.Обычный
+{margin:0.0pt;
+margin-top:0.0pt;
+margin-bottom:0.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+}
+
+</style>
+</head>
+<body>
+<table width="996" cellspacing="0">
+ <tr height="1">
+  <td width="370">
+  </td>
+  <td width="625">
+  </td>
+ </tr>
+ <tr height="35">
+  <td colspan="2" style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=center>
+  <p class=Обычный><span style='font-size:16.0pt;'>Встроенные команды с поддержкой параметров</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Просмотр</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_List имя_файла</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Внутренний просмотр указанного файла (при любых настройках просмотра). До версии 9.0 это была единственная из
+  встроенных команд TC, способная работать с параметрами. Формат записи команды в этом случае — только строковый</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Задержка исполнения</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_wait время_ожидания</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Ожидать в течение NN миллисекунд. В качестве параметра может быть указан также символ ? для открытия диалога
+  с запросом значения</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Выделение</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_Select число_файлов/каталогов</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Параметр указывает число объектов, начиная с текущего, которые будут выделены; курсор переместится на следующий
+  объект после этой выборки. С параметром ? или ?число здесь и далее выполнению команды предшествует вывод диалога с запросом
+  значения</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_UnSelect число_файлов/каталогов</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Параметр указывает число объектов, с которых будет снято выделение; курсор переместится на следующий объект
+  после этой выборки</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_Reverse число_файлов/каталогов</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Параметр указывает число объектов, у которых будет инвертировано выделение; курсор переместится на следующий
+  объект после этой выборки</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Навигация</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_GoToFirstEntry номер_строки</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Числовой параметр, прибавленный к 1, указывает, на строку какого по порядку объекта (файла/каталога) будет установлен
+  курсор</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_GoToFirstFile номер_строки</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Числовой параметр, прибавленный к 1, указывает, на строку какого по порядку файла (не каталога!) будет установлен
+  курсор</p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcOpenDrives имя_диска</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открытие диска в активной панели. Параметр — буква диска (A-Z), а также / (прямой слэш) для корня диска, . (точка)
+  для родительского каталога и [ (открывающая квадратная скобка) для панели сетевого окружения). Для скриптов используйте
+  код символа, например, A=65</p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftOpenDrives имя_диска</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открытие диска в левой панели. Параметр — буква диска (A-Z), а также / (прямой слэш) для корня диска, . (точка) для
+  родительского каталога и [ (открывающая квадратная скобка) для панели сетевого окружения). Для скриптов используйте код
+  символа, например, A=65</p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightOpenDrives имя_диска</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открытие диска в правой панели. Параметр — буква диска (A-Z), а также / (прямой слэш) для корня диска, . (точка) для
+  родительского каталога и [ (открывающая квадратная скобка) для панели сетевого окружения). Для скриптов используйте код
+  символа, например, A=65</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SearchForInCurdir имя_диска</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Поиск файлов на указанном диске. Параметр — буква диска (A-Z). Для скриптов используйте код символа, например,
+  A=65</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Файловые панели</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_VerticalPanels число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Расположить панели одну над другой. Параметр — 0 (как без параметра, с переключением режимов), 1/2 (только включение/выключение
+  режима)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_100percent число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Установить размеры панелей. Параметр — положительное число: ширина активной панели, отрицательное число: ширина
+  левой панели. Пример: cm_100percent 70</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Режимы представления</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_ScrThumbs число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Просмотр эскизов в активной панели. Параметр — 0 (как без параметра, с переключением режимов), 1/2 (только включение/выключение
+  эскизов)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftThumbs число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Просмотр эскизов в левой панели. Параметр — 0 (как без параметра, с переключением режимов), 1/2 (только включение/выключение
+  эскизов)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightThumbs число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Просмотр эскизов в правой панели. Параметр — 0 (как без параметра, с переключением режимов), 1/2 (только включение/выключение
+  эскизов)</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftSwitchToThisCustomView номер_набора</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Числовой параметр задаёт номер набора колонок, открываемого в левой панели</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightSwitchToThisCustomView номер_набора</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Числовой параметр задаёт номер набора колонок, открываемого в правой панели</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Сортировка</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcByName число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по имени в активной панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная).Также для этой и иных подобных команд есть параметр 4 (сортировка по дополнительной колонке), суммирующийся
+  с основным параметром</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftByName число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по имени в левой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightByName число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по имени в правой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcByExt число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по типу в активной панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftByExt число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по типу в левой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightByExt число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по типу в правой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcBySize число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по размеру в активной панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftBySize число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по размеру в левой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightBySize число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по размеру в правой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcByDateTime число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по дате/времени в активной панели. Параметр — 0 (как без параметра, с переключением направления),
+  1/2 (только прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftByDateTime число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по дате/времени в левой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2 (только
+  прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightByDateTime число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка по дате/времени в правой панели. Параметр — 0 (как без параметра, с переключением направления), 1/2
+  (только прямая/обратная)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcNegOrder число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка в обратном порядке в активной панели. Параметр — 0 (как без параметра, с переключением направления),
+  1/2 (только вкл/выкл)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftNegOrder число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка в обратном порядке в левой панели. Параметр — 0 (как без параметра, с переключением направления),
+  1/2 (только вкл/выкл)</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightNegOrder число</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сортировка в обратном порядке в правой панели. Параметр — 0 (как без параметра, с переключением направления),
+  1/2 (только вкл/выкл)</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Стили оформления</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_SrcViewModeList число/название</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Переключение в активной панели на указанный стиль оформления. Параметр — порядковый номер стиля в списке (положительное
+  число, работает везде) или его пользовательское название (не работает в командной строке)</p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_LeftViewModeList число/название</span></p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Переключение в левой панели на указанный стиль оформления. Параметр — порядковый номер стиля в списке (положительное
+  число, работает везде) или его пользовательское название (не работает в командной строке)</p>
+  
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный><span style='font-family:"Courier New";'>cm_RightViewModeList число/название</span>
+  </p>
+  
+  </td>
+  <td style='padding:5.5pt 5.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Переключение в правой панели на указанный стиль оформления. Параметр — порядковый номер стиля в списке (положительное
+  число, работает везде) или его пользовательское название (не работает в командной строке)</p>
+  
+  </td>
+ </tr>
+</table>
+</body>
+</html>

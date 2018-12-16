@@ -1,0 +1,569 @@
+ИНСТРУМЕНТЫ АДМИНИСТРАТОРА
+
+Оптимизация и ускорения
+
+[em_openRegOrganizer]
+button=C:\Program Files (x86)\Reg Organizer\RegOrganizer.exe
+cmd=""C:\Program Files (x86)\Reg Organizer\RegOrganizer.exe""
+path=C:\Program Files (x86)\Reg Organizer\
+menu=Чиска, сжатие, дефрагментация реестра...
+{service}
+
+[em_openDefraggler]
+button=%COMMANDER_DRIVE%\Program Files\Defraggler\Defraggler.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Defraggler\Defraggler.exe""
+path=%COMMANDER_DRIVE%\Program Files\Defraggler\
+menu= дефрагментация и анализ жеского диска
+{service} {hdd} {repair}
+
+Инструменты для диагностики и анализа системы
+
+[em_openAida64]
+button=%COMMANDER_DRIVE%\Program Files\Aida64 Extreme\aida64.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Aida64 Extreme\aida64.exe""
+path=%COMMANDER_DRIVE%\Program Files\Aida64 Extreme\
+menu=диагностика, тестирования и мониторинг состояния компьютера
+{info}
+
+[em_openSystemExplorer]
+button=%COMMANDER_DRIVE%\Program Files\SystemExplorerPortable_7.1\SystemExplorer.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\SystemExplorerPortable_7.1\SystemExplorer.exe""
+path=%COMMANDER_DRIVE%\Program Files\SystemExplorerPortable_7.1\
+menu=Контроль, управление, мониторинг сети, ОЗУ, ЦП и многое другое.
+{info}
+
+[em_openDD]
+button=%COMMANDER_DRIVE%\Program Files\Double Driver\dd.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Double Driver\dd.exe""
+path=%COMMANDER_DRIVE%\Program Files\Double Driver\
+menu=Просмотр и создания списка информации об драйверах, бекап драйверов и т.д
+{info}
+
+[em_openMyEventViewer]
+button=D:\Program Files\MyEventViewer\MyEventViewer.exe
+cmd=""D:\Program Files\MyEventViewer\MyEventViewer.exe""
+path=D:\Program Files\MyEventViewer\
+menu=Просмоторщик событий Windows
+{info}
+
+Программы для восстанавления данных
+
+[em_openRecuva]
+button=D:\Program Files\Recuva\Recuva.exe
+cmd=""D:\Program Files\Recuva\Recuva.exe""
+path=D:\Program Files\Recuva\
+menu=Восстановление данных.
+{recovery}
+
+[em_openRStudio]
+button=D:\Program Files\rstudio\r-studio.exe
+cmd=""D:\Program Files\rstudio\r-studio.exe""
+path=D:\Program Files\rstudio\
+menu=Набор утилит для восстановления данных и файлов с жестких дисков
+{recovery}
+
+[em_openUFS]
+button=D:\Program Files\UFS Explorer\ufsexplorer_sr4.exe
+cmd=""D:\Program Files\UFS Explorer\ufsexplorer_sr4.exe""
+path=D:\Program Files\UFS Explorer\
+menu=plorer - Восстановление данных.
+{recovery}
+
+[em_openZar]
+button=D:\Program Files\ZAR\zar.exe
+cmd=""D:\Program Files\ZAR\zar.exe""
+path=D:\Program Files\ZAR\
+menu=Программа восстановления данных
+{recovery}
+
+[em_openAuslogicsFR]
+button=%COMMANDER_DRIVE%\Program Files\Auslogics File Recovery\FileRecovery.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Auslogics File Recovery\FileRecovery.exe""
+path=%COMMANDER_DRIVE%\Program Files\Auslogics File Recovery\
+menu=Восстановление любых типов файлов, поддержка флеш-карт, безопасное удаления файлов
+{recovery}
+
+[em_openPowerDatRec]
+button=D:\Program Files\PowerDataRecovery\PowerDataRecovery.exe
+cmd=""D:\Program Files\PowerDataRecovery\PowerDataRecovery.exe""
+path=D:\Program Files\PowerDataRecovery\
+menu=Восстанновление данных
+{recovery}
+
+Инструменты для работы с HDD
+
+[em_openCrystallDI]
+button=%COMMANDER_DRIVE%\Program Files\CrystallDiskInfo\DiskInfoX64.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\CrystallDiskInfo\DiskInfoX64.exe""
+path=%COMMANDER_DRIVE%\Program Files\CrystallDiskInfo\
+menu=Отслеживает состояние жестких дисков. Производит мониторинг и дает общую оценку вашего диска.
+{hdd} {repair}
+
+[em_openAuslogicsDD]
+button=%COMMANDER_DRIVE%\Program Files\Auslogics Disk Defrag\DiskDefrag.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Auslogics Disk Defrag\DiskDefrag.exe""
+path=%COMMANDER_DRIVE%\Program Files\Auslogics Disk Defrag\
+menu=Дефрагментация жеского диска.
+{hdd} {repair}
+
+[em_openHard]
+button=D:\Program Files\Hard Drive Inspector\HDInspector.exe
+cmd=""D:\Program Files\Hard Drive Inspector\HDInspector.exe""
+path=D:\Program Files\Hard Drive Inspector\
+menu=ive Inspector - Анализ жеского диска, резервное копирование данных
+{hdd} {buckup}
+
+[em_openPartitionWizardPE]
+button=D:\Program Files\MiniTool Partition Wizard Professional Edition 7.1\PartitionWizard.exe
+cmd=""D:\Program Files\MiniTool Partition Wizard Professional Edition 7.1\PartitionWizard.exe""
+path=D:\Program Files\MiniTool Partition Wizard Professional Edition 7.1\
+menu=Отличная замена программе Acronis Disk Direct
+{hdd} {repair}
+
+Инструменты для работы с дисками
+
+[em_openIBAudioBurner]
+button=D:\Program Files\ImageBurner\AudioBurner.exe
+cmd=""D:\Program Files\ImageBurner\AudioBurner.exe""
+path=D:\Program Files\ImageBurner\
+menu=Запись музыки на CD
+{burn} {audio} {cd}
+
+[em_openIBCommander]
+button=D:\Program Files\ImageBurner\Commander.exe
+cmd=""D:\Program Files\ImageBurner\Commander.exe""
+path=D:\Program Files\ImageBurner\
+menu=Обзор сессии
+{burn}
+
+[em_openIBDataBurner]
+button=D:\Program Files\ImageBurner\DataBurner.exe
+cmd=""D:\Program Files\ImageBurner\DataBurner.exe""
+path=D:\Program Files\ImageBurner\
+menu=Программа для записи, создание ISO и многое другое
+{burn} {iso}
+
+[em_openPowerISO]
+button=D:\Program Files\PowerISO\PowerISO.exe
+cmd=""D:\Program Files\PowerISO\PowerISO.exe""
+path=D:\Program Files\PowerISO\
+menu=Инструмент для работы с ISO образами
+{burn} {iso}
+
+[em_openUltraISO]
+button=D:\Program Files\UltraISO\UltraISO.exe
+cmd=""D:\Program Files\UltraISO\UltraISO.exe""
+path=D:\Program Files\UltraISO\
+menu=Утилита для создания, редактирования, записи - ISO образов
+{burn} {iso}
+
+[em_openImageBurner]
+button=D:\Program Files\ImageBurner\ImageBurner.exe
+cmd=""D:\Program Files\ImageBurner\ImageBurner.exe""
+path=D:\Program Files\ImageBurner\
+menu=Записать образ CUE/BIN/ISO...
+{burn} {view}
+
+[em_openPABurnTools]
+button=D:\Program Files\PowerArchiver\PABURNTOOLS.EXE
+cmd=""D:\Program Files\PowerArchiver\PABURNTOOLS.EXE""
+path=D:\Program Files\PowerArchiver\
+menu=Утилиты CD/DVD/BD
+{burn}
+
+Сетевые утилиты
+
+[em_openWifiNetView]
+button=D:\Program Files\WirelessNetView\WirelessNetView.exe
+cmd=""D:\Program Files\WirelessNetView\WirelessNetView.exe""
+path=D:\Program Files\WirelessNetView\
+menu=Программа для обнаружения Wifi сетей.
+{network}
+
+[em_openWinMTR]
+button=D:\Program Files\WinMTRPortable\WinMTRPortable.exe
+cmd=""D:\Program Files\WinMTRPortable\WinMTRPortable.exe""
+path=D:\Program Files\WinMTRPortable\
+menu=Просмотр статистики по маршрутизаторам, экспорт отчета.
+{network}
+
+Инструменты для работы с файлами
+
+[em_openSTextReplacer]
+button=%COMMANDER_DRIVE%\Program Files\AKS Text Replacer\TextReplacerPortable.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\AKS Text Replacer\TextReplacerPortable.exe""
+path=%COMMANDER_DRIVE%\Program Files\AKS Text Replacer\
+menu=Утилита для поиска и замены текста в нескольких файлах
+{text}
+
+[em_openWinMerge]
+button=D:\Program Files\WinMergePortable\WinMergePortable.exe
+cmd=""D:\Program Files\WinMergePortable\WinMergePortable.exe""
+path=D:\Program Files\WinMergePortable\
+menu=Инструмент сравнения и слияния для Windows.
+{text}
+
+[em_openHZReplace]
+button=D:\Program Files\HaoZip 2.6.1\HaoZipReplace.exe
+cmd=""D:\Program Files\HaoZip 2.6.1\HaoZipReplace.exe""
+path=D:\Program Files\HaoZip 2.6.1\
+menu=Программа поиска и замены текста файлов
+{text} {file}
+
+[em_openHZRename]
+button=D:\Program Files\HaoZip 2.6.1\HaoZipRename.exe
+cmd=""D:\Program Files\HaoZip 2.6.1\HaoZipRename.exe""
+path=D:\Program Files\HaoZip 2.6.1\
+menu=e - Программа для пакетного переименавния файлов
+{file}
+
+Архиваторы
+
+[em_openPA]
+button=D:\Program Files\PowerArchiver\POWERARC.EXE
+cmd=""D:\Program Files\PowerArchiver\POWERARC.EXE""
+path=D:\Program Files\PowerArchiver\
+menu=Архиватор
+{arch}
+
+[em_openHZ]
+button=D:\Program Files\HaoZip 2.6.1\HaoZip.exe
+cmd=""D:\Program Files\HaoZip 2.6.1\HaoZip.exe""
+path=D:\Program Files\HaoZip 2.6.1\
+menu=Хороший архиватор от HaoZip
+{file} {arch}
+
+Прочие
+
+[em_openTeamViewer]
+button=D:\Program Files\TeamViewer\TeamViewer.exe
+cmd=""D:\Program Files\TeamViewer\TeamViewer.exe""
+path=D:\Program Files\TeamViewer\
+menu=Программа для удального управления компьюром
+{admin}
+
+[em_openWinToolsNet]
+button=D:\Program Files\WinTools Ultimate\wintoolsnet.exe
+cmd=""D:\Program Files\WinTools Ultimate\wintoolsnet.exe""
+path=D:\Program Files\WinTools Ultimate\
+menu=Программаная оболочка для инструментов Windows
+{admin}
+
+ИНСТРУМЕНТЫ РАЗРАБОТЧИКА
+
+[em_openNotepad]
+button=D:\Program Files\Notepad++\notepad++.exe
+cmd=""D:\Program Files\Notepad++\notepad++.exe""
+path=D:\Program Files\Notepad++\
+menu=Функционпльный текстовый редактор
+{editor} {developer}
+
+[em_openBrackets]
+button=D:\Program Files\BracketsPortable\BracketsPortable.exe
+cmd=""D:\Program Files\BracketsPortable\BracketsPortable.exe""
+path=D:\Program Files\BracketsPortable\
+menu=Интегрированная среда разработки IDE
+{editor} {developer}
+
+[em_openVStudio]
+button=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe
+cmd=""C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe""
+path=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\
+menu=Интегрированная среда разработки IDE
+{editor} {developer}
+
+[em_openSublime_text]
+button=D:\Program Files\Sublime_text\sublime_text.exe
+cmd=""D:\Program Files\Sublime_text\sublime_text.exe""
+path=D:\Program Files\Sublime_text\
+menu=Гибкий и удобный редактор кода
+{editor} {developer}
+
+[em_openSynWrite]
+button=%COMMANDER_PATH%\..\..\..\SynWrite\wlx_syn2_6.18.2130\Syn.exe
+cmd=""%COMMANDER_PATH%\..\..\..\SynWrite\wlx_syn2_6.18.2130\Syn.exe""
+path=%COMMANDER_PATH%\..\..\..\SynWrite\wlx_syn2_6.18.2130\Data\
+menu=Редактор текста
+{editor} {developer}
+
+Инструменты бэкенд разработчика
+
+[em_openFileZilla]
+button=D:\Program Files\FileZillaPortable\FileZillaPortable.exe
+cmd=""D:\Program Files\FileZillaPortable\FileZillaPortable.exe""
+path=D:\Program Files\FileZillaPortable\
+menu=FTP-клиент
+{developer} {backend}
+
+[em_openWinSCP]
+button=D:\Program Files\WinSCP\WinSCP.exe
+cmd=""D:\Program Files\WinSCP\WinSCP.exe""
+path=D:\Program Files\WinSCP\
+menu=Графический клиент SFTP для Windows, с поддержкой  протокола SCP.
+{developer} {backend}
+
+[em_openKitty]
+button=D:\Program Files\Kitty\kitty.exe
+cmd=""D:\Program Files\Kitty\kitty.exe""
+path=D:\Program Files\Kitty\
+menu=Telnet-SSH-клиент
+{develpoer}
+
+Инструменты фронтенд разработчика
+
+[em_openPicpick]
+button=D:\Program Files\PicPick\picpick.exe
+cmd=""D:\Program Files\PicPick\picpick.exe""
+path=D:\Program Files\PicPick\
+menu=Мощьный инструмент для разрабодчиков
+{developer} {frontend}
+
+[em_openIcoFX]
+button=%COMMANDER_DRIVE%\Program Files\IcoFXPortable\IcoFXPortable.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\IcoFXPortable\IcoFXPortable.exe""
+path=%COMMANDER_DRIVE%\Program Files\IcoFXPortable\
+menu=Программа для создания и редактирования иконок и курсоров с поддержкой прозрачности
+{image} {frontend}
+
+[em_openHZImgConvert]
+button=D:\Program Files\HaoZip 2.6.1\HaoZipImgConvert.exe
+cmd=""D:\Program Files\HaoZip 2.6.1\HaoZipImgConvert.exe""
+path=D:\Program Files\HaoZip 2.6.1\
+menu=Конвертатор изображений.
+{image} {frontend}
+
+ИНСТРУМЕНТЫ БЕЗОПАСНОСТИ
+
+[em_openSafeInCloud]
+button=%COMMANDER_DRIVE%\Program Files\SafeInCloud\SafeInCloud.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\SafeInCloud\SafeInCloud.exe""
+path=%COMMANDER_DRIVE%\Program Files\SafeInCloud\
+menu=многофункциональнй менеджер паролей
+{password} {secure}
+
+[em_openPABackup]
+button=D:\Program Files\PowerArchiver\PABackup.exe
+cmd=""D:\Program Files\PowerArchiver\PABackup.exe""
+path=D:\Program Files\PowerArchiver\
+menu=Резервное копирование
+{backup} {secure}
+
+ИНСТРУМЕНТЫ КОПИРАЙТЕРА
+
+[em_openpunto]
+button=D:\Program Files\Punto Switcher\punto.exe
+cmd=""D:\Program Files\Punto Switcher\punto.exe""
+path=D:\Program Files\Punto Switcher\
+menu=Инструмент автопереключение раскладки.
+{text}
+
+ИНСТРУМЕНТЫ ДЛЯ РАБОТЫ С ИЗОБРАЖЕНИЯМИ
+
+[em_openFSImageViewer]
+button=%COMMANDER_DRIVE%\Program Files\FastStone Image Viewer 4.5\FSViewer.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\FastStone Image Viewer 4.5\FSViewer.exe""
+path=%COMMANDER_DRIVE%\Program Files\FastStone Image Viewer 4.5\
+menu=Просмотр, редактирования, обрезка, наложение эффектов и многое д.
+{image}
+
+[em_openPicasa]
+button=%COMMANDER_DRIVE%\Program Files\Google Picasa\Picasa3.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\Google Picasa\Picasa3.exe""
+path=%COMMANDER_DRIVE%\Program Files\Google Picasa\
+menu=Программа для работы с фотографиями
+{image}
+
+[em_openIrfanView]
+button=D:\Program Files\IrfanView 4.32\i_view32.exe
+cmd=""D:\Program Files\IrfanView 4.32\i_view32.exe""
+path=D:\Program Files\IrfanView 4.32\
+menu=Программа просмотра и редактирования картинок
+{image} {editor}
+
+[em_openXnView]
+button=D:\Program Files\XnView\xnview.exe
+cmd=""D:\Program Files\XnView\xnview.exe""
+path=D:\Program Files\XnView\
+menu=Просмоторщик картинок.
+{image} {viewer}
+
+[em_openPixBuilder]
+button=D:\Program Files\PixBuilder\PixBuilder.exe
+cmd=""D:\Program Files\PixBuilder\PixBuilder.exe""
+path=D:\Program Files\PixBuilder\
+menu=Графический редактор.
+{image} {editor}
+
+ВИДЕОМОНТАЖ
+
+[em_openAVCU]
+button=%COMMANDER_DRIVE%\Program Files\AnyVideoConverterUltimateP\AVCUltimatePortable.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\AnyVideoConverterUltimateP\AVCUltimatePortable.exe""
+path=%COMMANDER_DRIVE%\Program Files\AnyVideoConverterUltimateP\
+menu=Конвертатор видео-файлов.
+{video}
+
+[em_openFSCapture]
+button=%COMMANDER_DRIVE%\Program Files\FastStone Capture\FSCapture.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\FastStone Capture\FSCapture.exe""
+path=%COMMANDER_DRIVE%\Program Files\FastStone Capture\
+menu=Программа для захвата видео и скриншотов.
+{video}
+
+ПРОГРАМММЫ ОРГАНАЙЗЕРЫ
+
+[em_AkelPad]
+button=D:\Program Files\AkelPad\AkelPad.exe
+cmd=""D:\Program Files\AkelPad\AkelPad.exe""
+path=D:\Program Files\AkelPad\
+menu=Создать заметку - AkelPad.exe
+{organize}
+
+[em_CintaNotes]
+button=D:\Program Files\CintaNotes\CintaNotes.exe
+cmd=""D:\Program Files\CintaNotes\CintaNotes.exe""
+path=D:\Program Files\CintaNotes\
+menu=Прога для заметок.
+{organize}
+
+РАБОТА В ИНТЕРНЕТЕ
+
+Программы для скачивания файловopenmenu
+
+[em_openTorrent]
+button=D:\Program Files\uTorrentPortable\uTorrentPortable.exe
+cmd=""D:\Program Files\uTorrentPortable\uTorrentPortable.exe""
+path=D:\Program Files\uTorrentPortable\
+menu=Файловый-обменик
+{loader}
+
+[em_openDMaster]
+button=D:\Program Files\Dmaster\dmaster.exe
+cmd=""D:\Program Files\Dmaster\dmaster.exe""
+path=D:\Program Files\Dmaster\
+menu=Лучший файловый загрузчик
+{loader}
+
+[em_openMediaGet2]
+button=C:\Users\Room№32\AppData\Local\MediaGet2\mediaget.exe
+cmd=C:\Users\Room№32\AppData\Local\MediaGet2\mediaget.exe
+path=C:\Users\Room№32\AppData\Local\MediaGet2\
+menu=Таррент-клиент
+{loader}
+
+Веб-обозреватели
+
+[em_openMozFFMini]
+button=D:\Program Files\FireFox Mini\FirefoxPortable\FirefoxPortable.exe
+cmd=""D:\Program Files\FireFox Mini\FirefoxPortable\FirefoxPortable.exe""
+path=D:\Program Files\FireFox Mini\FirefoxPortable\
+menu=Интернет браузер Mozilla Firefox мини версия
+{browser}
+
+[em_openMozFF]
+button=D:\Program Files\Mozilla Firefox\firefox.exe
+cmd=""D:\Program Files\Mozilla Firefox\firefox.exe""
+path=D:\Program Files\Mozilla Firefox\
+menu=Интернет браузер Mozilla Firefox
+{browser}
+
+[em_openOpera]
+button=D:\Program Files\OperaPortable\OperaPortable.exe
+cmd=""D:\Program Files\OperaPortable\OperaPortable.exe""
+path=D:\Program Files\OperaPortable\
+menu=Интернет браузер Opera
+{browser}
+
+[em_openChrome]
+button=D:\Program Files\GoogleChromePortable\GoogleChromePortable.exe
+cmd=""D:\Program Files\GoogleChromePortable\GoogleChromePortable.exe""
+path=D:\Program Files\GoogleChromePortable\
+menu=Интернет браузер Google Chrome
+{browser}
+
+Прочие инструменты
+
+[em_openSkype]
+button=D:\Program Files\SkypePortable\SkypePortable.exe
+cmd=""D:\Program Files\SkypePortable\SkypePortable.exe""
+path=D:\Program Files\SkypePortable\
+menu=Программа для голосового общения через интернет
+{internet}
+
+ОФФИС
+
+[em_openPlanMaker]
+button=D:\Program Files\SoftMakerOffice2010\PlanMaker.exe
+cmd=""D:\Program Files\SoftMakerOffice2010\PlanMaker.exe""
+path=D:\Program Files\SoftMakerOffice2010\
+menu=PlanMaker - Программа для редактирования и создания эл. таблиц
+{editor} {office}
+
+[em_openTextMaker]
+button=D:\Program Files\SoftMakerOffice2010\TextMaker.exe
+cmd=""D:\Program Files\SoftMakerOffice2010\TextMaker.exe""
+path=D:\Program Files\SoftMakerOffice2010\
+menu=TextMaker - Текстовый редатктор.
+{editor} {office}
+
+[em_openFoxitReader]
+button=D:\Program Files\Foxit Software\Foxit Reader\Foxit Reader.exe
+cmd=""D:\Program Files\Foxit Software\Foxit Reader\Foxit Reader.exe""
+path=D:\Program Files\Foxit Software\Foxit Reader\
+menu=FoxitReader - Просмоторщик PDF файлов
+{office} {viewer}
+
+ИНСТРУМЕНТЫ ДЛЯ ОФОРМЛЕНИЯ СИСТЕМЫ
+
+[em_openEcMenu]
+button=%COMMANDER_DRIVE%\Program Files\EcMenu_v1.6\EcMenu_x64.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\EcMenu_v1.6\EcMenu_x64.exe""
+path=%COMMANDER_DRIVE%\Program Files\EcMenu_v1.6\
+menu=Программа для добавления дополнительных пунктов в контекстное меню.
+{custom}
+
+ВОСПРОИЗВЕДЕНИЕ
+
+[em_openAimp3]
+button=%COMMANDER_DRIVE%\apps\AIMP3\AIMP Portable\AIMP.exe
+cmd=""%COMMANDER_DRIVE%\apps\AIMP3\AIMP Portable\AIMP.exe""
+path=%COMMANDER_DRIVE%\apps\AIMP3\AIMP Portable\
+menu=Мощьный аудио проигрователь.
+{player}
+
+РАЗНЫЕ ИСТУРУМЕНТЫ
+
+[em_openRepidEE]
+button=%COMMANDER_DRIVE%\Program Files\RapidEEx64\rapidee.exe
+cmd=""%COMMANDER_DRIVE%\Program Files\RapidEEx64\rapidee.exe""
+path=%COMMANDER_DRIVE%\Program Files\RapidEEx64\
+menu=Предназначен для редактирования переменных окружения Windows.
+{tool}
+
+[em_openHZMd5]
+button=D:\Program Files\HaoZip 2.6.1\HaoZipMd5.exe
+cmd=""D:\Program Files\HaoZip 2.6.1\HaoZipMd5.exe""
+path=D:\Program Files\HaoZip 2.6.1\
+menu=Подсчет контрольнной суммы
+{tool}
+
+[em_openConEmu]
+button=D:\Program Files\ConEmu64.exe
+cmd=""D:\Program Files\ConEmu64.exe""
+path=D:\Program Files\
+menu=Терминал
+{tool}
+
+[em_openEverything]
+button=D:\Program Files\Everything\Everything.exe
+cmd=""D:\Program Files\Everything\Everything.exe""
+path=D:\Program Files\Everything\
+menu=Мощьный поисковик.
+{tool}
+
+[em_openPeazip]
+button=D:\Program Files\Peazip\peazip.exe
+cmd=""D:\Program Files\Peazip\peazip.exe""
+path=D:\Program Files\Peazip\
+menu=Замана прводника windows.
+{tool}

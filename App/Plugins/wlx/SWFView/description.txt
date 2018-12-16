@@ -1,0 +1,2 @@
+URL: http://progman13.totalcmd.net/downloads/wlx_SWFView_1.3.9.2.zip
+Описание: SWFView 1.3.9.2 Plugin for view Flash SWF files. *** Features *** - real crop (window background) color setting for Show All, No Scale and Fit Big Only modes; - can start in Show All, No Border, Exact Fit, No Scale or Fit Big Only modes; - full screen view; - only one Flash FSCommand processed - "quit". If Flash not installed on your computer then install Adobe Flash Player. Category: TC Lister Plugins Status: Freeware Author: Progman13 Added: 25.10.2005 Updated: 2.01.2015 Downloaded: 96008 times

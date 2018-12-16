@@ -1,0 +1,15 @@
+[Buttonbar]
+Buttoncount=3
+button1=C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\VSLauncher.exe
+cmd1=""C:\Users\Алексей\Documents\Visual Studio 2015\Projects\WitcherModInstall\WitcherModInstall.sln""
+path1=C:\Users\Алексей\Documents\Visual Studio 2015\Projects\WitcherModInstall\
+iconic1=0
+menu1=WitcherModInstall
+button2=C:\WINDOWS\system32\imageres.dll,-102
+cmd2=""D:\Program Files\Total Commander 8.52a\Doc\link.txt""
+path2=D:\Program Files\Total Commander 8.52a\Doc\
+iconic2=0
+menu2=link
+button3=Wcmicons.dll,15
+cmd3=%Commander_Path%\default.bar
+menu3=Возврат в главную панель

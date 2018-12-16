@@ -1,0 +1,6 @@
+[plugininstall]
+description=DirSizeCalc Charts displays a list of all files and folders contained in a folder sorted descending by size. A bar chart is displayed next to the items to illustrate the size dimensions at first glance.
+type=wlx
+file=DirSizeCalcCharts.wlx
+defaultdir=DirSizeCalc Charts
+version=1.10

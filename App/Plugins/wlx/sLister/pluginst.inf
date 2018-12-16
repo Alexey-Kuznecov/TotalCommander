@@ -1,0 +1,5 @@
+[plugininstall]
+description=sLister is SumatraPDF wrapper plugin for TotalCommander.
+type=wlx
+file=slister.wlx64
+defaultdir=slister

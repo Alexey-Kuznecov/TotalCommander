@@ -1,0 +1,7 @@
+[plugininstall]
+description=Plugin for view SVG files
+descriptionrus=Плагин для просмотра файлов SVG
+type=wlx
+version=1.2.7
+file=SVGView.wlx
+defaultdir=Plugins\wlx\SVGView

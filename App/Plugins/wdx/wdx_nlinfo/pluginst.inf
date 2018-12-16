@@ -1,0 +1,9 @@
+[plugininstall]
+description=NL_Info: Plugin for showing information about hard links and reparse points on NTFS.
+descriptionrus=NL_Info: Плагин для отображения информации о жёстких и символических ссылках NTFS.
+descriptionpol=NL_Info: Wtyczka pokazuj№ca informacje o twardych і№czach i poі№czeniach na partycjach NTFS.
+descriptionukr=NL_Info: Плагiн для відображення iнформації про жорсткі та символічні лінки NTFS.
+descriptiondeu=NL_Info: Plugin zur Anzeige von Informationen zu Hardlinks und Verzweigungspunkten bzw. Softlinks auf NTFS.
+type=wdx
+file=NL_Info.wdx
+defaultdir=NL_Info

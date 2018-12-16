@@ -1,0 +1,44 @@
+{
+  "snippets": {
+    "html": {
+      "filters": "html, bem",
+      "snippets": {
+        "blq": "<blockquote>${1:}</blockquote>",
+      }
+    },
+    "pug": {
+      "filters": "bem, jade"
+    },
+    "css": {
+      "snippets": {
+        "poen": "pointer-events: none;",
+        "obj": "object-fit: cover;",
+        "bgra": "background-color: rgba(${1:0,0,0,.5});",
+        "var": "var(--${var_name})",
+        "_bn": "#{\\$block-name}",
+        "df": "display: flex;",
+        "dif": "display: inline-flex;",
+        "if": "display: inline-flex;",
+        "@mx": "@mixin ${name}()",
+        "@in": "@include ${name};",
+        "@m": "@media (min-width: \\$${screen-md}) {}",
+      }
+    }
+  },
+
+  // http://docs.emmet.io/customization/preferences/
+  "preferences": {
+    "bem.elementSeparator": "__",
+    "bem.modifierSeparator": "--",
+    "bem.shortElementPrefix": "_",
+    "css.autoInsertVendorPrefixes": "false",
+    "lorem.defaultLang": "ru",
+    "sass.propertyEnd": ";",
+  },
+
+  // Подмена синтаксиса
+  // http://docs.emmet.io/customization/syntax-profiles/
+  // "syntaxProfiles": {
+  //   "hbs": "html",
+  // }
+}

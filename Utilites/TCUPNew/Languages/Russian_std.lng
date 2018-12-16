@@ -1,0 +1,188 @@
+[About]
+Language=Русский
+Language_en=Russian
+Translator=Artem Izmaylov, Anton Isaev
+Email=aimp_support@mail.ru, antooninc@gmail.com
+
+[MainFrm]
+Btn_Directory=&Папка
+Btn_File=&Файл
+Btn_Settings=Настройки
+Btn_OK=Ок
+Btn_Cancel=Отмена
+MainFrm=Новый
+
+[Strings]
+DirNormal=Обычная
+DirHidden=Скрытая
+DirProject=Проект
+DirList=Текстовый файл
+NewFile=Новый файл
+NewDir=Новая папка
+ODFilter=Исполняемые файлы
+
+[Settings_Main]
+Settings=Настройки
+Btn_OK=Ок
+Btn_Cancel=Отмена
+
+[Settings_Language]
+Lang_Tab=Язык
+Lang_Settings=Выбор языкового пакета
+Lang_Text=Здесь вы можете выбрать подходящий языковой пакет (*.lng)
+Lang_About=О локализации
+Lang_Language=Язык:
+Lang_Language_EN=Язык (in English):
+Lang_Translator=Переводчик:
+Lang_Email=E-Mail:
+
+[Settings_About]
+About_Tab=О программе
+About_About=О программе TC UP New
+About_Version=Версия:
+About_Programming=Программирование:
+About_Idea=Идея:
+About_Help=Помощь и поддежка:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Разное
+Misc_Buttons=Кнопки меню
+Misc_Buttons_Text=Здесь вы можете задать поведения для кнопок "Редактировать", "Открыть папку" и "Закрыть".
+Misc_Buttons_PopUp1=Открыть контекстное меню
+Misc_Buttons_PopUp2=Переключить опцию
+Misc_Hints=Подсказки
+Misc_Hints_Text=Управление поведением и видом подсказок к приложениям
+Misc_Hints_RB_Show=Показывать подсказки
+Misc_Hints_RB_Hide=Не показывать подсказки
+Misc_Hints_Lbl_Color=Цвет подсказок:
+Misc_Hints_Lbl_DT=Время показа подсказок [в мсек]:
+Misc_Hints_Lbl_HT=Время скрытия подсказок [в мсек]:
+Misc_Hints_Btn_Color=Выбор
+Misc_GB_Alt_Path=Создание файлов/папок
+Misc_Lbl_Alt_Path_Desc=Выберите папку для создания папок/файлов (если Вы отдельно запускаете TC UP New)
+Misc_RB_Alt_Path_Ask=Каждый раз спрашивать при создании файлов/папок
+Misc_RB_Alt_Path_UseIt=Использовать папку ниже для создания файла/папки
+Misc_Lbl_Alt_Path=Папка:
+Misc_Btn_Alt_Path=Выбрать
+
+[Settings_Settings]
+Settings_Tab=Настройки
+Settings_GB=Сохранить
+Settings_Text=Все настройки, имена созданных папок и файлов, пользовательский режим будут сохранены при закрытии программы
+Settings_CB_Names=Сохранить имена
+Settings_CB_Mode=Сохранить пользовательский режим
+Settings_GB_History=Удалить историю
+Settings_FileName=Удалить имена созданных файлов
+Settings_Directories=Удалить имена созданных папок
+Settings_CB_Clear=Очистить
+Settings_CB_Clear1=Очистить
+Settings_GB_Edit=Редактирование файлов
+Settings_Text1=Создав файл вы можете сразу начать его редактирование. Задайте программу для этого действия и параметры ее запуска.
+Settings_Program=Программа:
+Settings_Param=Параметры (где %s = имя файла):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Расширения
+Extension_GB=Все используемые расширения
+Extension_Lbl_Ext=Добавить расширения:
+Extension_Btn_Add=Добавить
+Extension_Btn_Remove=Удалить
+Extension_Btn_Up=Вверх
+Extension_Btn_Down=Вниз
+
+[Settings_Name]
+Name_Tab=Переименование
+Name_GB=Изменение вводимого имени
+Name_Text=Если вы попробуете создать файл, который уже есть, программа автоматически сменит введенное вами имя на допустимое.
+Name_FirstNumber=Стартовый номер:
+Name_Digits=Кол-во цифр:
+Name_Text1=Шаблон переименования (где [N] - оригинальное имя файла, [C] - Счетчик, см. ниже.)
+Name_Counter=Настройки счетчика:
+
+[Settings_Appearance]
+Appearance_Tab=Вид
+Appearance_GB_StayOnTop=Показывать поверх  окон TC
+Appearance_Text=Когда Total Commander активен, TC UP New будет всегда показываться поверх окон TC.
+Appearance_CB_Stay=Отображать поверх Total Commander
+Appearance_GB_Pos=Позиция
+Appearance_Text1=TC UP New может запоминать последнюю установленную позицию окна TC или сбросить позицию окна в значение по умолчанию. В этом случае он будет отображаться, как часть Total Commander
+Appearance_CB_Pos=Сбрасывать позицию
+
+[ProjectSelectionFrm]
+ProjectSelection=Шаблоны
+Project_Lbl_Text=Выберите шаблон:
+Project_Btn_OK=Ок
+Project_Btn_Cancel=Отмена
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Режим файлов<0> активирован<b><u>
+Hint_DirModeActive=<3><b><u>Режим папок<0> активирован<b><u>
+Hint_FileMode=<b><u>Режим файлов<u><b>
+Hint_Btn_CloseFM1=При щелчке по кнопке Вы можете <1>создать файл<0> и:
+Hint_Btn_CloseFM2=- <1>Закрыть<0> окно TC UP New
+Hint_Btn_CloseFM3=- <1>Выйти<0> из окна TC UP New
+Hint_Btn_EditFM1=При щелчке по кнопке Вы можете <1>создать файл<0> и:
+Hint_Btn_EditFM2=- <1>Редактировать<0> файл в его редакторе
+Hint_Btn_EditFM3=- <1>Редактировать<0> файл
+Hint_Btn_EditFM4=- <1>Не редактировать<0> файл
+Hint_DirMode=<b><u>Режим папок<u><b>
+Hint_Btn_CloseDM1=При щелчке по кнопке Вы можете <1>создать папку<0> и:
+Hint_Btn_CloseDM2=- <1>Закрыть<0> окно TC UP New
+Hint_Btn_CloseDM3=- <1>Выйти<0> из окна TC UP New
+Hint_Btn_EditDM1=При щелчке по кнопке Вы можете <1>создать папку<0> и:
+Hint_Btn_EditDM2=- <1>Открыть<0> эту папку в TC UP
+Hint_Btn_EditDM3=- <1>Не открывать<0> папку
+Hint_Btn_Directory=Изменить режим создания файлов/папок.
+Hint_Btn_Directory1=Настроить <1>Режим создания папок<0>:
+Hint_Btn_Directory2=- <1>Создать папку<0> и <1>Открыть<0> её в TC UP (либо не открывать).
+Hint_Btn_Directory3=- <1>Закрыть<0> окно TC UP New или оставить его открытым для создания новой папки / новoго файла
+Hint_Btn_File=Изменить режим создания файлов/папок
+Hint_Btn_File1=Настроить <1>режим создания файлов<0>:
+Hint_Btn_File2=- <1>Создать<0> файл и <1>отредактировать<0> его (или не редактировать) в связанном с ним редакторе TC UP.
+Hint_Btn_File3=- <1>Закрыть<0> окно TC UP New или оставтиь его открытым для создания новых папок/файлов
+Hint_Btn_Settings=Открыть окно настроек
+Hint_Btn_Settings1=для изменения опций TC UP New
+Hint_CB_DirFileName=Впишите имя файла/папки для создания
+Hint_CB_Ext=Выберите необходимый для Вас режим.
+Hint_CB_Ext1=В <b>режиме папок<b> можно выбрать:
+Hint_CB_Ext2=- Обычная: Создать папку без дополнительных свойств
+Hint_CB_Ext3=- Скрытая: Создать скрытую папку
+Hint_CB_Ext4=- Проект: Создать файлы для проекта, определённого в Заготовках (см. Настройки)
+Hint_CB_Ext5=- Список: Создать набор папок
+Hint_CB_Ext6=В <b>файловом режиме<b> можно выбрать:
+Hint_CB_Ext7=- txt: Будет создан файл с таким расширением
+Hint_CB_Ext8=- php: Будет создан файл с другим расширением
+Hint_CB_Ext9=- etc.. (Добавьте Ваше расширение в данный список)
+Hint_Btn_OK=Выполнить какое-то действие и закрыть TC UP New
+Hint_Btn_OK1=(пример: Создание новой папки)
+Hint_Btn_Cancel=Закрыть TC UP New без каких-либо действий
+
+[Menu]
+EditMenu1=Не редактировать
+EditMenu2=Редактировать файл в связанном приложении
+EditMenu3=Редактировать файл
+OpenDirMenu1=Не открывать
+OpenDirMenu2=Открыть папку в TC UP
+OpenDirMenu2_=Открыть папку
+CloseMenu1=Создать файл/папку и закрыть
+CloseMenu2=Не закрывать
+
+[Messages]
+MsgDir1=Папка
+MsgDir2=не существует!
+MsgDir3=Папки не существует!
+MsgExtAdd1=Укажите расширение до нажатия на кнопку Добавить расширение!
+MsgExtAdd2=Укажите в данном поле расширение, пример: txt
+MsgExtAdd3=Добавление расширения...
+MsgExtRemove1=Выберите расширение для удаления!
+MsgExtRemove2=Удаление расширения...        
+MsgCF1=Файл настроек:
+MsgCF2=отсутствует!
+MsgCF3=Файл настроек отсутствует!
+MsgCFile=Выберите папку, в которой будет сохранён новый файл
+MsgCDir=Выберите папку, в которой будет сохранена новая папка
+MsgCFDC=Выбор
+MsgCFDC1=Выберите папку, в которой будут созданы папки/файлы
+MsgDirError=Не могу создать папку:

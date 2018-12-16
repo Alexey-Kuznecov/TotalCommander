@@ -1,0 +1,6 @@
+[plugininstall]
+description=GSALister: source code viewer with syntax highlighting and some minimal editing features
+descriptiondeu=GSALister: Quellcode-Betrachter mit Syntax-Hervorhebung und einigen minimalen Bearbeitungsfunktionen
+type=wlx
+file=GSALister.wlx
+defaultdir=GSALister

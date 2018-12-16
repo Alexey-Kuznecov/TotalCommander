@@ -1,0 +1,6 @@
+[plugininstall]
+description=ImgSize WDX Content Plugin
+type=wdx
+file=ImgSize.wdx
+defaultdir=wdx_ImgSize
+Readme=Readme.txt

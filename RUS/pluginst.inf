@@ -1,0 +1,6 @@
+[plugininstall]
+description=Full Russification Package for Total Commander.
+descriptionrus=Полный набор русификации для Total Commander.
+type=prg
+file=!ReadMe_Rus.txt
+version=8.52a

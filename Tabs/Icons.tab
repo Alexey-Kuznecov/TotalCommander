@@ -1,0 +1,27 @@
+[activetabs]
+0_path=::
+0_caption=Рабочий стол
+0_options=5|1|0|0|0|1|0
+1_path=%COMMANDER_PATH%\..\..\Icons\iconfile\
+1_caption=Готовые иконки
+1_options=5|1|0|0|0|1|0
+2_path=%COMMANDER_PATH%\..\..\..\..\iWork\%projs%\Iconpack\Totalcmd_Icons\FILEICON\fileicon\
+2_caption=Иконки файлов
+2_options=5|0|0|0|0|1|0
+3_path=%COMMANDER_PATH%\..\..\..\..\iWork\%projs%\Iconpack\Totalcmd_Icons\FILEICON\filestate\
+3_caption=Состояния файлов
+3_options=5|0|0|0|0|1|0
+4_path=%COMMANDER_PATH%\..\..\..\..\iWork\%projs%\Iconpack\Totalcmd_Icons\FILEICON\foldericon\
+4_caption=Иконки папок
+4_options=5|0|0|0|0|1|0
+activetab=2
+[inactivetabs]
+0_path=%COMMANDER_PATH%\..\..\
+0_options=6|1|0|0|0|1|0
+1_path=%COMMANDER_PATH%\..\..\Icons\iconfile\
+1_options=6|1|0|0|0|0|0
+2_path=%COMMANDER_PATH%\..\..\Icons\
+2_options=6|1|0|0|0|0|0
+3_path=%COMMANDER_PATH%\..\..\..\..\iWork\%projs%\Iconpack\Totalcmd_Icons\FILEICON\
+3_options=6|0|0|0|0|0|0
+activetab=1

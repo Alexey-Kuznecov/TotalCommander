@@ -1,0 +1,7 @@
+[plugininstall]
+description=Plugin for TC for view images
+descriptionrus=Плагин для TC для просмотра изображений
+type=wlx
+file=PhotoViewer.wlx
+defaultdir=Plugins\wlx\PhotoViewer
+version=0.9.4.6 Beta

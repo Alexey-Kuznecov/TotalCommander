@@ -1,0 +1,188 @@
+[About]
+Language=中文
+Language_en=Chinese
+Translator=efree
+Email=
+
+[MainFrm]
+Btn_Directory=目录(&D)
+Btn_File=文件(&F)
+Btn_Settings=设置
+Btn_OK=确定
+Btn_Cancel=取消
+MainFrm=新建...
+
+[Strings]
+DirNormal=正常
+DirHidden=隐藏
+DirProject=工程
+DirList=列表
+NewFile=新建文件
+NewDir=新建目录
+ODFilter=可执行文件
+
+[Settings_Main]
+Settings=设置
+Btn_OK=确定
+Btn_Cancel=取消
+
+[Settings_Language]
+Lang_Tab=语言
+Lang_Settings=设置语言文件
+Lang_Text=在这里,你可以设置要使用的语言文件 (*.lng).
+Lang_About=关于翻译
+Lang_Language=语言:
+Lang_Language_EN=Language (英文):
+Lang_Translator=翻译者:
+Lang_Email=翻译者 e-mail:
+
+[Settings_About]
+About_Tab=关于
+About_About=关于 TC UP New
+About_Version=版本:
+About_Programming=编程:
+About_Idea=概念:
+About_Help=帮助和支持:
+About_Build=构建
+
+[Settings_Misc]
+Misc_Tab=其它
+Misc_Buttons=菜单按钮
+Misc_Buttons_Text=在这里,你可以设置"编辑","打开目录"和"关闭"按钮的行为.
+Misc_Buttons_PopUp1=一个菜单弹出
+Misc_Buttons_PopUp2=仅设置到下一个选项
+Misc_Hints=帮助提示
+Misc_Hints_Text=在这里,你可以设置应用程序提示的行为
+Misc_Hints_RB_Show=显示提示
+Misc_Hints_RB_Hide=不显示提示
+Misc_Hints_Lbl_Color=提示颜色:
+Misc_Hints_Lbl_DT=提示显示时间 [ms]:
+Misc_Hints_Lbl_HT=提示隐藏时间 [ms]:
+Misc_Hints_Btn_Color=选择
+Misc_GB_Alt_Path=文件/目录正在创建
+Misc_Lbl_Alt_Path_Desc=选择文件/目录要创建的位置 (如果你单独运行 TC UP New 的话)
+Misc_RB_Alt_Path_Ask=每次你创建文件/目录时总是询问
+Misc_RB_Alt_Path_UseIt=使用下列目录创建文件/目录
+Misc_Lbl_Alt_Path=目录:
+Misc_Btn_Alt_Path=选择
+
+[Settings_Settings]
+Settings_Tab=设置
+Settings_GB=保存
+Settings_Text=当你关闭程序时,它会保存你的设置,创建文件和目录的名称,最后使用的模式.
+Settings_CB_Names=保存名称
+Settings_CB_Mode=保存使用的模式
+Settings_GB_History=删除历史记录
+Settings_FileName=删除创建文件的名称
+Settings_Directories=删除创建目录的名称
+Settings_CB_Clear=清除
+Settings_CB_Clear1=清除
+Settings_GB_Edit=编辑文件
+Settings_Text1=一旦你创建了一个目录,你可能想编辑它. 在这里,你可以设置使用什么软件打开它,以及使用什么参数.
+Settings_Program=程序:
+Settings_Param=参数 (其中 %s 是文件名):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=扩展
+Extension_GB=所有可使用扩展
+Extension_Lbl_Ext=要添加的扩展:
+Extension_Btn_Add=添加
+Extension_Btn_Remove=删除
+Extension_Btn_Up=上移
+Extension_Btn_Down=下移
+
+[Settings_Name]
+Name_Tab=命名
+Name_GB=更改你输入的名称
+Name_Text=如果你尝试建立一个已经存在的文件,那么程序就会更改你输入的名称,在这里,你可以设置如何更改它.
+Name_FirstNumber=第一个数:
+Name_Digits=数位:
+Name_Text1=命名模板 (其中 [N] 是原始名称,而 [C] 是计数器 (查看下面).
+Name_Counter=计数器设置:
+
+[Settings_Appearance]
+Appearance_Tab=外观
+Appearance_GB_StayOnTop=总在 TC 前
+Appearance_Text=当 Total Commander 被激活时, TC UP New 会重新激活它自己,通过这样它可以总是显示在 TC 的上面.
+Appearance_CB_Stay=总在 Total Commander 上
+Appearance_GB_Pos=定位
+Appearance_Text1=TC UP New 可以检测到最后使用的 Total Commander 窗口的准确位置. 它也可以设置它的位置让它看起来如同 Total Commander 的一部分.
+Appearance_CB_Pos=接受定位
+
+[ProjectSelectionFrm]
+ProjectSelection=模板
+Project_Lbl_Text=选择一个工程模板:
+Project_Btn_OK=确定
+Project_Btn_Cancel=取消
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>文件模式<0> 被激活<b><u>
+Hint_DirModeActive=<3><b><u>目录模式<0> 被激活<b><u>
+Hint_FileMode=<b><u>文件模式<u><b>
+Hint_Btn_CloseFM1=通过点击这个按钮,你可以<1>创建文件<0> 并:
+Hint_Btn_CloseFM2=- <1>关闭<0> TC UP New 窗口
+Hint_Btn_CloseFM3=- <1>保持<0> TC UP New 窗口不变
+Hint_Btn_EditFM1=通过点击这个按钮,你可以<1>创建文件<0>并:
+Hint_Btn_EditFM2=- 使用关联的程序<1>编辑<0>文件
+Hint_Btn_EditFM3=- <1>编辑<0>文件
+Hint_Btn_EditFM4=- <1>不编辑<0>文件
+Hint_DirMode=<b><u>目录模式<u><b>
+Hint_Btn_CloseDM1=通过点击这个按钮,你可以 <1>创建目录<0>并:
+Hint_Btn_CloseDM2=- <1>关闭<0> TC UP New 窗口
+Hint_Btn_CloseDM3=- <1>保持<0> TC UP New 窗口不变
+Hint_Btn_EditDM1=通过点击这个按钮,你可以 <1>创建目录<0>并:
+Hint_Btn_EditDM2=- 在 TC UP 中<1>打开<0>目录
+Hint_Btn_EditDM3=- <1>不打开<0>它
+Hint_Btn_Directory=这个按钮让你更改文件/目录创建模式.
+Hint_Btn_Directory1=点击这个按钮设置<1>目录模式<0>, 这表示你可以:
+Hint_Btn_Directory2=- <1>创建目录<0>并在 TC UP 中<1>打开<0>这个(或否).
+Hint_Btn_Directory3=- 你也可以<1>关闭<0> TC UP New 窗口或保持它打开以创建另一个文件/目录
+Hint_Btn_File=这个按钮让你可以更改文件/目录创建模式.
+Hint_Btn_File1=点击这个按钮设置<1>文件模式<0>,这表示你可以:
+Hint_Btn_File2=- <1>创建文件<0>并在关联的应用程序或在 TC UP 中<1>编辑<0>这个文件(或否).
+Hint_Btn_File3=- 你也可以<1>关闭<0> TC UP New 窗口或保持它打开以创建另一个文件/目录
+Hint_Btn_Settings=这个按钮让你打开设置页面,
+Hint_Btn_Settings1=在其中,你可以更改 TC UP New 的选项
+Hint_CB_DirFileName=这个复选框控件让你编写要创建的目录/文件的名称.
+Hint_CB_Ext=这个复选框控件让你根据选择的模式选择选项.
+Hint_CB_Ext1=如果你在<b>目录模式<b>,你可以选择:
+Hint_CB_Ext2=- 正常: 创建正常的目录
+Hint_CB_Ext3=- 隐藏: 创建隐藏的目录
+Hint_CB_Ext4=- 工程: 创建工程文件,在模板中定义(查看设置)
+Hint_CB_Ext5=- 列表: 创建一组目录,它们在用户列表上
+Hint_CB_Ext6=如果你在<b>文件模式<b>, 你可以选择:
+Hint_CB_Ext7=- txt: 要创建的文件扩展名
+Hint_CB_Ext8=- php: 要创建的其它文件扩展名
+Hint_CB_Ext9=- 等 (你可以添加自己的扩展名到这个列表)
+Hint_Btn_OK=这个按钮让你关闭 TC UP New 和执行某些操作
+Hint_Btn_OK1=(譬如: 创建新目录)
+Hint_Btn_Cancel=这个按钮让你关闭 TC UP New 而不执行操作
+
+[Menu]
+EditMenu1=不编辑
+EditMenu2=使用关联的程序编辑文件
+EditMenu3=编辑文件
+OpenDirMenu1=不打开
+OpenDirMenu2=在 TC UP 中打开目录
+OpenDirMenu2_=打开目录
+CloseMenu1=创建文件/目录并关闭
+CloseMenu2=不关闭
+
+[Messages]
+MsgDir1=目录
+MsgDir2=不存在
+MsgDir3=目录不存在...
+MsgExtAdd1=在你点击添加扩展名按钮前,你必须制定扩展名.
+MsgExtAdd2=使用下列 的编辑文本框输入扩展名,例如: txt
+MsgExtAdd3=添加扩展名...
+MsgExtRemove1=选择你想删除的扩展名!
+MsgExtRemove2=删除扩展名...        
+MsgCF1=配置文件:
+MsgCF2=不存在!
+MsgCF3=文件不存在...
+MsgCFile=选择保存新文件的目录
+MsgCDir=选择保存新目录的目录
+MsgCFDC=选择
+MsgCFDC1=选择就会创建文件/目录的目录
+MsgDirError=不创建目录:

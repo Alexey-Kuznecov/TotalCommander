@@ -1,0 +1,3312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl" ?>
+<!--  This file contain all Total Commander 7.55a (Wincmd.ini and Wcx_ftp.ini) configuration keys.-->
+<!--  for more information about this file please read the Help Topics.-->
+<!--  to view the contents of this file as a web page, open it with IE6+, Firefox or Opera.-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander 配置">
+		<category title="显示">
+			<category title="主窗口">
+				<category title="外观">
+					<key name="ButtonBar" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示工具栏.
+0= 隐藏工具栏.</description>
+					</key>
+					<key name="DriveBar1" file="Wincmd.ini" section="Layout" default="0" version="3.00">
+						<description>1= 显示驱动器按钮.
+0= 隐藏驱动器按钮.</description>
+					</key>
+					<key name="DriveBar2" file="Wincmd.ini" section="Layout" default="0" version="4.00">
+						<description>1= 显示两个驱动器按钮栏. (固定宽度, 位于文件窗口上方).
+0= 隐藏两个驱动器按钮栏.
+
+如果DriveBar1=0，本选项无效.</description>
+					</key>
+					<key name="DriveBarHide" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="7.03">
+						<description>允许隐藏驱动器栏的某部分：
+	A-Z=驱动器
+	0-9=ftp
+	\ =网络邻居
+	. =上级文件夹+根文件夹
+	- =卷标和剩余空间/总空间
+与Allowed= 选项不同，仍然可以通过选择列表（Alt+F1/F2）或"cd"命令等访问隐藏的驱动器。 
+为了隐藏终端服务器的驱动器，这些驱动器符应放在$后面: 
+DriveBarHide=A$CDE 隐藏本地驱动器A和其他主机的CDE</description>
+					</key>
+					<key name="DriveBarFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= 驱动器按钮栏显示平坦图标.
+0= 驱动器按钮栏显示3D图标.</description>
+					</key>
+					<key name="DriveCombo" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示驱动器列表.
+0= 隐藏驱动器列表.</description>
+					</key>
+					<key name="DirectoryTabs" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= 显示文件夹标签.
+0= 隐藏文件夹标签.</description>
+					</key>
+					<key name="CurDir" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示当前文件夹.
+0= 隐藏当前文件夹.</description>
+					</key>
+					<key name="BreadCrumbBar" file="Wincmd.ini" section="Layout" default="1" version="7.50">
+						<description>1= 显示路径中可点击的部分 ("路径导航栏").</description>
+					</key>
+					<key name="HistoryHotlistButtons" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= 显示文件夹历史和常用文件夹按钮.
+0= 隐藏文件夹历史和常用文件夹按钮.</description>
+					</key>
+					<key name="TabHeader" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示排序制表符.
+0= 隐藏排序制表符.</description>
+					</key>
+					<key name="StatusBar" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= 显示状态栏.
+0= 隐藏状态栏.</description>
+					</key>
+					<key name="CmdLine" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示命令行.
+0= 隐藏命令行.</description>
+					</key>
+					<key name="KeyButtons" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= 显示功能键按钮.
+0= 隐藏功能键按钮.</description>
+					</key>
+					<key name="InterfaceFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= 平坦式用户界面.
+0= 3D用户界面.</description>
+					</key>
+					<key name="XPthemeBg" file="Wincmd.ini" section="Layout" default="1" version="7.00">
+						<description>Windows XP 主题背景 (菜单+工具栏+驱动器栏).</description>
+					</key>
+				</category>
+				<category title="显示风格">
+					<key name="PanelsVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+						<description>左右摆放两个文件列表窗 (0) 或上下摆放 (1)</description>
+					</key>
+					<key name="NewStyleProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+						<description>1: 使用操作系统的进度条（XP以后的Windows中的默认值）
+0: 使用TC自己的进度条（其他低版本Windows的默认值）
+2: 与1类似，但进度条不是小段分割的（仅用于经典主题）</description>
+					</key>
+					<key name="WantXPLook" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+						<description>仅用于XP以后版本的Windows：显示主窗口的按钮（除工具栏以外）：
+	0 = 经典风格；
+	1 = XP风格。</description>
+					</key>
+					<key name="OverrideDPI" file="Wincmd.ini" section="Configuration" default="96" advanced="Yes" version="7.00">
+						<description>将所有对话框(主窗口除外!)大小设定为指定DPI（像素/英寸）。通常是96 dpi。</description>
+					</key>
+					<key name="ShowInstanceNr" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.00">
+						<description>多个TC实例运行时，在标题栏显示编号(1/0)</description>
+					</key>
+					<key name="TabHeaderThemed" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: 关闭标题栏主题</description>
+					</key>
+					<key name="TabHeaderBoldArrow" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: 标题栏的箭头不加粗显示（默认值：与TabHeaderThemed相同）</description>
+					</key>
+				</category>
+			</category>
+			<category title="文件列表">
+				<key name="ShowHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="1.10">
+					<description>1=显示隐藏/系统文件</description>
+				</key>
+				<key name="UseLongNames" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>使用长文件名 (1/0)</description>
+				</key>
+				<key name="Small83Names" file="Wincmd.ini" section="Configuration" default="0" version="3.00">
+					<description>显示8.3文件名：
+0=像Win9x的Explorer一样显示为小写字母（Win9X的默认值）
+1=像WinXP的Explorer一样显示（WinNT类系统的默认值）</description>
+				</key>
+				<key name="ShowParentDirInRoot" file="Wincmd.ini" section="Configuration" default="0" version="6.00">
+					<description>在根文件夹（c:\ 等）也显示上层文件夹 [..]</description>
+				</key>
+				<key name="DirBrackets" file="Wincmd.ini" section="Configuration" default="1" version="3.52">
+					<description>文件夹名显示在方括号中 (1/0，默认=1)</description>
+				</key>
+				<key name="BriefViewWidthLimit" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>设置列表显示方式下列的最大宽度限值（像素）</description>
+				</key>
+				<key name="SortUpper" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>0：默认排序方法
+1：文件排序时，以下划线开头的文件排后面
+2：文字、数字混合排序，例如，file10.txt排在file1.txt后
+3：类似于2，比较时使用StrCmpLogicalW函数（需要IE6！）</description>
+				</key>
+				<key name="SortDirsByName" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>文件夹始终按名字排序(1/0)</description>
+				</key>
+				<key name="SortDirExt" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>允许文件夹按扩展名排序(仅当SortDirsByName=0)</description>
+				</key>
+				<key name="Tips" file="Wincmd.ini" section="Configuration" default="3" version="2.00">
+					<description>提示信息 1=关于按钮的，2=关于驱动器的，3=两者都有</description>
+				</key>
+				<key name="FileTipWindows" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>详细资料视图下，如果过长的文件名无法完全显示，鼠标移至该文件时，以提示窗显示完整文件名。(1/0)</description>
+				</key>
+				<key name="OleComments" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>加载备注：
+	0: 仅descript.ion 和 files.bbs备注文件
+	1: 从资源管理器（NTFS数据流和Word文档）和备注文件
+	2: 仅从资源管理器
+	3: 以上皆非（如果定义了，只从插件读取）</description>
+				</key>
+				<key name="Win32TipWindows" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>显示Win32风格的文件备注(位于鼠标右下方)（1/0）
+还控制是否按文件类型显示备注，其数据从文件内容插件获取，例如*.jpg文件的特殊信息，*.mp3文件则显示其他信息</description>
+				</key>
+				<key name="MinLineHeight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.03">
+					<description>如果给定数值大于0，设置文件列表的最小行高（像素）。如果给定负数，它的绝对值加到正常行高上，例如，MinLineHeight=-2，行高=16 -&gt; 18</description>
+				</key>
+			</category>
+			<category title="制表符和状态栏">
+				<key name="Aligned extension" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>文件扩展名左对齐显示。</description>
+				</key>
+				<key name="0" file="Wincmd.ini" section="Tabstops" default="90" version="1.30">
+					<description>制表符栏“大小”的X坐标
+（仅在当前分辨率下的位置数据未保存时才使用）</description>
+				</key>
+				<key name="1" file="Wincmd.ini" section="Tabstops" default="93" version="1.30">
+					<description>制表符栏“日期/时间”的X坐标
+（仅在当前分辨率下的位置数据未保存时才使用）</description>
+				</key>
+				<key name="3" file="Wincmd.ini" section="Tabstops" default="152" version="1.30">
+					<description>制表符栏“属性”的X坐标
+（仅在当前分辨率下的位置数据未保存时才使用）</description>
+				</key>
+				<key name="4" file="Wincmd.ini" section="Tabstops" default="42" version="1.30">
+					<description>制表符栏“扩展名”的X坐标
+（仅在当前分辨率下的位置数据未保存时才使用）</description>
+				</key>
+				<key name="5" file="Wincmd.ini" section="Tabstops" default="93" version="6.50">
+					<description>制表符栏“注释”的X坐标
+（仅在当前分辨率下的位置数据未保存时才使用）</description>
+				</key>
+				<key name="6" file="Wincmd.ini" section="Tabstops" default="457" advanced="Yes" version="6.50">
+					<description>参考宽度 (用于AdjustWidth=1时)</description>
+				</key>
+				<key name="AdjustWidth" file="Wincmd.ini" section="Tabstops" default="0" version="4.00">
+					<description>1=窗口大小变化时自动调整文件名的列宽</description>
+				</key>
+				<key name="ShowCentury" file="Wincmd.ini" section="Configuration" default="1" version="3.00">
+					<description>文件列表中，日期显示世纪(1/0)</description>
+				</key>
+				<key name="ShowAMPM" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>显示12小时AM/PM 格式的时间 (美国风格)</description>
+				</key>
+				<key name="DirsInFooter" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>在状态栏显示选中文件总数和文件夹总数</description>
+				</key>
+				<key name="SizeStyle" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>文件列表中如何显示字节数：
+0=字节
+1=KB
+2=动态
+3=动态，带小数
+4=与2类似，但不显示GB（大于1GB的文件按MB显示）
+5=与3类似，但不显示GB（大于1GB的文件按MB显示）</description>
+				</key>
+				<key name="SizeFooter" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>文件列表窗口的标题栏和状态栏如何显示文件字节数：
+0=字节
+1=KB
+2=动态
+3=动态，带小数
+4=与2类似，但不显示GB（大于1GB的文件按MB显示）
+5=与3类似，但不显示GB（大于1GB的文件按MB显示）</description>
+				</key>
+				<key name="LongInStatus" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>详细资料显示方式下，在状态栏显示长文件名。(1/0)</description>
+				</key>
+				<key name="AccessTime" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1：允许Total Commander按'上次访问'时间标签处理文件，而不是'上次修改'时间，例如，用于复制过去n天以内访问过的文件。 </description>
+				</key>
+			</category>
+			<category title="文件夹树">
+				<key name="SeparateTree" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>不显示（0）单独文件夹树，一个（1）或两个（2）</description>
+				</key>
+				<key name="SeparateTreeWidth" file="Wincmd.ini" section="Configuration" default="160" version="7.00">
+					<description>单独文件夹树窗口的宽度</description>
+				</key>
+				<key name="Tree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>显示文件夹树 1=不排序的，0=按名字排序的</description>
+				</key>
+			</category>
+			<category title="工具栏">
+				<key name="Buttonbar" file="Wincmd.ini" section="Buttonbar" default="%COMMANDER_PATH%\default.bar" dialog="Open File" version="1.30">
+					<description>默认工具栏</description>
+				</key>
+				<key name="Buttonheight" file="Wincmd.ini" section="Buttonbar" default="29" version="1.30">
+					<description>图标大小</description>
+				</key>
+				<key name="FlatIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1：图标不带3d效果 
+0：带3d效果</description>
+				</key>
+				<key name="SmallIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1：使用小的16x16图标 0：图标大小用户自定义</description>
+				</key>
+				<key name="SmallIconSize" file="Wincmd.ini" section="Buttonbar" default="16" version="7.00">
+					<description>用户自定义小图标的大小.
+仅当SmallIcons=1有效.</description>
+				</key>
+				<key name="PopupIconSize" file="Wincmd.ini" section="Buttonbar" default="16" advanced="Yes" version="7.50">
+					<description>将.bar文件显示为菜单时，下拉菜单中图标的大小。默认值：与当前显示的工具栏上图标大小相同。</description>
+				</key>
+				<key name="XPstyle" file="Wincmd.ini" section="Buttonbar" default="1" version="7.00">
+					<description>显示工具栏按钮为:
+	0= 经典风格;
+	1= XP风格 (如果可用).</description>
+				</key>
+				<key name="ToolTipDelay" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="2.11">
+					<description>鼠标放到工具栏按钮上，延时多少毫秒才显示提示信息，默认500。</description>
+				</key>
+				<key name="PopupOverlay" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" version="7.50">
+					<description>1：打开子菜单的按钮的图标上叠加显示一个小箭头图标</description>
+				</key>
+				<key name="BarLimitLines" file="Wincmd.ini" section="Buttonbar" default="0" advanced="Yes" version="7.50">
+					<description>限定工具栏行数。0代表不限制。</description>
+				</key>
+			</category>
+			<category title="文件夹标签">
+				<key name="DirTabOptions" file="Wincmd.ini" section="Configuration" default="824" dialog="Bits Sum" version="6.00">
+					<description>以下标志之和：
+	1：总显示标签
+	2：多行标签
+	4：所有标签同样宽度
+	8：限制标签标题的长度（见DirTabLimit）
+	16：“关闭所有标签”时确认
+	32：双击关闭标签
+	64：打开新标签后激活
+	128：在当前标签旁打开新标签
+	256：用星号 * 标识锁定的标签
+	512：单击标签时激活目标窗口
+	1024：在标签标题中显示盘符</description>
+				</key>
+				<key name="DirTabLimit" file="Wincmd.ini" section="Configuration" default="32" version="6.00">
+					<description>显示在文件夹标签的最大字符数</description>
+				</key>
+				<key name="TabSeparator" file="Wincmd.ini" section="Configuration" default=":" advanced="Yes" version="7.00">
+					<description>设置文件夹标签中显示的驱动器符和当前文件夹之间的分隔符。</description>
+				</key>
+			</category>
+			<category title="文件夹历史列表">
+				<key name="HistoryAppend" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.51">
+					<description>1= ALT+↓调出文件夹访问历史列表后选择的文件夹移至列表尾部 (默认)
+0=选择历史列表的某项后，仅在它前面做√标识，不改变它的位置。</description>
+				</key>
+				<key name="ReverseHistory" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1：最近访问文件夹的历史列表倒序排列（最新的在列表上方）</description>
+				</key>
+			</category>
+			<category title="驱动器描述">
+				<key name="CDlabel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.01">
+					<description>按Alt+F1/F2时显示光盘（和其它可移动介质）的卷标 (1/0)</description>
+				</key>
+				<key name="tsclient" file="Wincmd.ini" section="Configuration" default="\\tsclient" advanced="Yes" version="7.55">
+					<description>指定远端主机的名称，它的驱动器符将显示在驱动器下拉列表和驱动器栏上。仅显示一个字符。如果禁用，可设置空字符串（tsclient=）。通常仅用于Windows 7的XP模式或终端服务器。</description>
+				</key>
+				<key name="A" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>用于驱动器选择框的用户自定义驱动器描述
+
+E=ZIP drive		每个驱动器一行，包含驱动器符和说明</description>
+				</key>
+				<key name="B" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器B的描述</description>
+				</key>
+				<key name="C" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器C的描述</description>
+				</key>
+				<key name="D" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器D的描述</description>
+				</key>
+				<key name="E" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器E的描述</description>
+				</key>
+				<key name="F" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器F的描述</description>
+				</key>
+				<key name="G" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器G的描述</description>
+				</key>
+				<key name="H" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器H的描述</description>
+				</key>
+				<key name="I" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器I的描述</description>
+				</key>
+				<key name="J" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器J的描述</description>
+				</key>
+				<key name="K" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器K的描述</description>
+				</key>
+				<key name="L" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器L的描述</description>
+				</key>
+				<key name="M" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器M的描述</description>
+				</key>
+				<key name="N" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器N的描述</description>
+				</key>
+				<key name="O" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器O的描述</description>
+				</key>
+				<key name="P" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器P的描述P</description>
+				</key>
+				<key name="Q" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器Q的描述</description>
+				</key>
+				<key name="R" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器R的描述</description>
+				</key>
+				<key name="S" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器S的描述</description>
+				</key>
+				<key name="T" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器T的描述</description>
+				</key>
+				<key name="U" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器U的描述</description>
+				</key>
+				<key name="V" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器V的描述</description>
+				</key>
+				<key name="W" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器W的描述</description>
+				</key>
+				<key name="X" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器X的描述</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器Y的描述</description>
+				</key>
+				<key name="Z" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>驱动器Z的描述</description>
+				</key>
+				<key name="\" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>网络邻居/文件系统插件的描述
+注意: 该描述仅用于驱动器栏，不用于驱动器列表.</description>
+				</key>
+			</category>
+			<category title="图标">
+				<category title="文件列表">
+					<key name="Showicons" file="Wincmd.ini" section="Configuration" default="2" version="1.10">
+						<description>文件列表窗口内的图标：
+0=不显示任何图标
+1=默认
+2=所有类型</description>
+					</key>
+					<key name="ShowEXEandLNKicons" file="Wincmd.ini" section="Configuration" default="2" version="3.00">
+						<description>显示EXE 和 LNK 文件的图标
+	0：仅标准图标
+	1：显示EXE/LNK的图标
+	2：与1相同，但不显示软盘上的图标
+
+仅当ShowIcons=2时有效。</description>
+					</key>
+					<key name="ShellExtIcons" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+						<description>1=显示shell扩展图标 (每个文件图标不同)
+0=不显示</description>
+					</key>
+					<key name="IconsOnNet" file="Wincmd.ini" section="Configuration" default="1" version="4.53">
+						<description>加载网络驱动器上的EXE 和 LNK文件的图标(1/0)</description>
+					</key>
+					<key name="IconsSpecialFolders" file="Wincmd.ini" section="Configuration" default="3" version="5.50">
+						<description>启用/禁用显示特殊文件夹图标
+0=无
+1=本地文件系统
+2=虚拟文件夹和网络
+3=全部</description>
+					</key>
+					<key name="IconOverlays" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+						<description>启用/禁用附加图标（如快捷方式图标上的小箭头）(1/0)
+该功能仅适用于Windows ME/2000/XP及以后系统！如果禁用，TestIfSharedDir=1时共享文件夹的图标也显示。</description>
+					</key>
+					<key name="Iconsize32" file="Wincmd.ini" section="[%Screen_Resolution%]" default="16" version="3.00">
+						<description>32位版本的图标大小(像素)</description>
+					</key>
+					<key name="IconLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Icon Library Preview" version="4.00">
+						<description>从指定DLL加载文件窗口显示的默认图标。见www.ghisler.com上的示例ICL。</description>
+					</key>
+					<key name="IconsInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.00">
+						<description>在单独线程中加载EXE 和 LNK文件的图标(1/0)</description>
+					</key>
+					<key name="IconWin95" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" advanced="Yes" version="1.52">
+						<description>如果设置为1, 文件列表的图标是16个像素大小，不受Iconsize32的限制.</description>
+					</key>
+				</category>
+				<category title="驱动器栏">
+					<key name="DriveLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.50">
+						<description>从指定DLL文件加载驱动器按钮的图标。</description>
+					</key>
+					<key name="OldDriveIcons" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+						<description>1: 为驱动器工具栏使用TC 6.5x中的旧图标
+0: 使用新的驱动器图标</description>
+					</key>
+					<key name="IconsInDriveList" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+						<description>在驱动器下拉框（Alt+F1/F2）和“找不到驱动器”提示框中显示驱动器图标</description>
+					</key>
+				</category>
+				<category title="主菜单">
+					<key name="IconsInMenus" file="Wincmd.ini" section="Configuration" default="17" dialog="Bits Sum" version="7.00">
+						<description>允许在主菜单上显示wcmicons.dll或wciconex.dll中的图标。
+以下标志之和：
+	1：允许在菜单中显示图标
+	2：图标周围加边框
+	4：显示24x24图标，而不是16x16
+	8：显示32x32图标
+	12：显示48x48图标
+	16：选中项显示为按下的按钮，而不是在前面显示√</description>
+					</key>
+				</category>
+			</category>
+			<category title="字体">
+				<category title="文件列表">
+					<key name="FontName" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="1.10">
+						<description>字体
+提示: 按 &lt;Ctrl+B&gt; 同时设置字体，大小，加粗和字符集.</description>
+					</key>
+					<key name="FontSize" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>字体大小</description>
+					</key>
+					<key name="FontWeight" file="Wincmd.ini" section="[%Screen_Resolution%]" default="700" version="1.30">
+						<description>字体加粗 (400=正常, 700=黑体)</description>
+					</key>
+					<key name="FontCharset" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>列表窗口的字体字符集(Western, Cyrillic 等)
+一些字符集代码:
+	Western= 1
+	Greek= 161
+	Turkish= 162
+	Vietnamese= 163
+	Hebrew= 177
+	Arabic= 178
+	Baltic= 186
+	Cyrillic= 204
+	Thai= 222
+	Central European= 238</description>
+					</key>
+				</category>
+				<category title="主窗口">
+					<key name="FontNameWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="3.00">
+						<description>主窗口字体
+提示: 按 &lt;Ctrl+B&gt; 同时设置字体，大小，加粗和字符集.</description>
+					</key>
+					<key name="FontSizewindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="3.00">
+						<description>主窗口字体大小</description>
+					</key>
+					<key name="FontWeightWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="3.00">
+						<description>主窗口字体加粗(400=正常, 700=黑体)</description>
+					</key>
+					<key name="FontCharsetWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>主窗口字体字符集</description>
+					</key>
+				</category>
+				<category title="对话框">
+					<key name="FontNameDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="4.00">
+						<description>字体
+提示: 按 &lt;Ctrl+B&gt; 同时设置字体，大小，加粗和字符集.</description>
+					</key>
+					<key name="FontSizeDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>字体大小</description>
+					</key>
+					<key name="FontWeightDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="4.00">
+						<description>字体加粗 (400=正常, 700=黑体)</description>
+					</key>
+					<key name="FontCharsetDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="4.00">
+						<description>列表窗口的字体字符集(Western, Cyrillic 等)</description>
+					</key>
+				</category>
+			</category>
+			<category title="颜色">
+				<category title="文件列表">
+					<key name="ForeColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>前景颜色 (-1=默认)
+RGB：red+256*green+65536*blue
+red，green和blue的数值范围是0～255
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="BackColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>背景颜色(-1=默认)
+RGB：red+256*green+65536*blue
+red，green和blue的数值范围是0～255
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="BackColor2" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="7.00">
+						<description>所有偶数行的背景色。
+建议定义仅与正常背景色稍有差异的颜色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="MarkColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>标记颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="CursorColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>光标颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="CursorText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="2.11">
+						<description>光标文字颜色 (仅适用于反色光标)
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="ActiveTitle" file="Wincmd.ini" section="Colors" default="14898176" advanced="Yes" dialog="Color" version="7.55">
+						<description>活动窗口地址栏的颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="ActiveTitleText" file="Wincmd.ini" section="Colors" default="16777215" advanced="Yes" dialog="Color" version="7.55">
+						<description>活动窗口地址栏上的文字颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="InactiveTitle" file="Wincmd.ini" section="Colors" default="14653050" advanced="Yes" dialog="Color" version="7.55">
+						<description>非活动窗口地址栏颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="InactiveTitleText" file="Wincmd.ini" section="Colors" default="16311512" advanced="Yes" dialog="Color" version="7.55">
+						<description>非活动窗口地址栏上的文字颜色</description>
+					</key>
+					<key name="ThumbnailFrame" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="6.50">
+						<description>设置缩略图周围边框的颜色：RGB值，或-1=默认，-2=隐藏
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="TreeLineColor" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.00">
+						<description>设置文件窗口中的文件夹树，单独的文件夹树，Alt+F10调出的文件夹树，FTP连接对话框中的树型列表的连接线的颜色。数值: rgb值，或-1=默认，-2=隐藏
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+					</key>
+					<key name="InverseCursor" file="Wincmd.ini" section="Colors" default="0" version="3.00">
+						<description>光标显示为实心矩形 (1)</description>
+					</key>
+					<key name="InverseSelection" file="Wincmd.ini" section="Colors" default="0" version="5.00">
+						<description>选中文件显示为实心矩形(1)</description>
+					</key>
+				</category>
+				<category title="文件类型">
+					<key name="ColorFilters" file="Wincmd.ini" section="Configuration" default="1" version="4.50">
+						<description>允许/禁止按文件类型定义显示颜色</description>
+					</key>
+					<key name="ColorFilter1" file="Wincmd.ini" section="Colors" default="*.exe" version="4.50">
+						<description>定义文件类型，例如，*.exe
+你也可以在一个规则中定义多个文件类型，例如，*.exe; *.com; *.bat; *.cmd
+
+					重要:
+				===========
+这些键值必须保证顺序，不要在设置(ColorFilter1 &amp; ColorFilter1Color), (ColorFilter2 &amp; ColorFilter2Color) 和 (ColorFilter3 &amp; ColorFilter3Color)之前设置(ColorFilter4 &amp; ColorFilter4Color).
+另外, 为了应用颜色设置，'ColorFilters' 必须设置为1。
+
+本组仅预定义了25个键, 如果需要更多，可使用记事本打开ini文件，在[File types]中增加至ColorFilter250 &amp; ColorFilter250Color。</description>
+					</key>
+					<key name="ColorFilter1Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter2" file="Wincmd.ini" section="Colors" default="*.dll" version="4.50">
+						<description>定义文件类型，例如，*.dll.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter2Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter3" file="Wincmd.ini" section="Colors" default="*.zip" version="4.50">
+						<description>定义文件类型，例如，*.zip
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter3Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter4" file="Wincmd.ini" section="Colors" default="*.rar" version="4.50">
+						<description>D定义文件类型，例如，*.rar
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter4Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter5" file="Wincmd.ini" section="Colors" default="*.txt" version="4.50">
+						<description>定义文件类型，例如，*.txt.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter5Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter6" file="Wincmd.ini" section="Colors" default="*.ini" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter6Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter7" file="Wincmd.ini" section="Colors" default="*.bmp" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter7Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter8" file="Wincmd.ini" section="Colors" default="*.jpg" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter8Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter9" file="Wincmd.ini" section="Colors" default="*.gif" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter9Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter10" file="Wincmd.ini" section="Colors" default="*.tif" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter10Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter11" file="Wincmd.ini" section="Colors" default="*.ico" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter11Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter12" file="Wincmd.ini" section="Colors" default="*.icl" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter12Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter13" file="Wincmd.ini" section="Colors" default="*.avi" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter13Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter14" file="Wincmd.ini" section="Colors" default="*.mpg" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter14Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter15" file="Wincmd.ini" section="Colors" default="*.mpeg" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter15Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter16" file="Wincmd.ini" section="Colors" default="*.wmv" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter16Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter17" file="Wincmd.ini" section="Colors" default="*.asf" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter17Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter18" file="Wincmd.ini" section="Colors" default="*.mp3" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter18Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter19" file="Wincmd.ini" section="Colors" default="*.wav" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter19Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter20" file="Wincmd.ini" section="Colors" default="*.mid" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter20Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter21" file="Wincmd.ini" section="Colors" default="*.htm" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter21Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter22" file="Wincmd.ini" section="Colors" default="*.html" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter22Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter23" file="Wincmd.ini" section="Colors" default="*.mht" version="4.50">
+						<description>定义文件类型
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter23Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter24" file="Wincmd.ini" section="Colors" default="*.doc" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter24Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter25" file="Wincmd.ini" section="Colors" default="*.*" version="4.50">
+						<description>定义文件类型.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+					<key name="ColorFilter25Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>按 &lt;Ctrl+B&gt; 选择颜色.
+
+参考ColorFilter1描述中的重要提示。</description>
+					</key>
+				</category>
+			</category>
+			<category title="语言">
+				<key name="LanguageIni" file="Wincmd.ini" section="Configuration" default="lng_file" dialog="Open File" version="3.00">
+					<description>使用的语言文件 (WCMD_DEU.LNG 等)</description>
+				</key>
+				<key name="Mainmenu" file="Wincmd.ini" section="Configuration" default="path\mnu_file" dialog="Open File" version="1.30">
+					<description>自定义的主菜单文件路径和名字</description>
+				</key>
+			</category>
+		</category>
+		<category title="操作">
+			<category title="主程序">
+				<key name="OnlyOnce" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>0：不限制Total Commander实例个数
+1：每个用户仅允许运行一个Total Commander实例（比如通过RunAs启动） 
+-1：这台机器上仅允许运行一个Total Commander实例（对所有用户） 
+x&gt;0：与1相同，但每个用户允许x个实例 
+x&lt;0：与-1相同，但全机器允许x个实例（所有用户加起来）</description>
+				</key>
+				<key name="ActiveRight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.50">
+					<description>1：Total Commander启动后右侧窗口是活动的(1/0)</description>
+				</key>
+				<key name="TrayIcon" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>最小化TC后缩至托盘区(1/0)</description>
+				</key>
+				<key name="UseIniInProgramDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.50">
+					<description>只有wincmd.ini位于TC安装目录时才读这个变量。它必须直接写在wincmd.ini中，RedirectSection对它没有影响。
+它是以下数值之和：
+	1：使用TC安装目录下的wincmd.ini，如果未在注册表或命令行参数指定INI
+	2：使用TC安装目录下的wcx_ftp.ini，如果未在注册表或命令行参数指定INI 
+	4：忽略注册表的设置（但命令行参数指定的INI仍然优先）</description>
+				</key>
+				<key name="ResolutionSpecific" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0：与屏幕分辨率相关的数据，如字体的字形+大小，保存在单独的[AllResolutions]节内
+1：与屏幕分辨率相关的数据保存在诸如[1024x768 (10x20)]这样的节内</description>
+				</key>
+				<key name="KeyPath" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%" advanced="Yes" dialog="Open Folder" version="3.02">
+					<description>注册文件所在文件夹 (不写文件名！)。Total Commander默认在自己的文件夹中查找注册文件。如果通过局域网无法读注册文件，这项设置有用。如果KeyPath=$，TC在注册表中查找注册信息（“Software/Ghisler/Total Commander”下的二进制数据键值“key”）。</description>
+				</key>
+				<key name="InstallDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="4.00">
+					<description>Total Commander的上次安装文件夹（与注册表相同）</description>
+				</key>
+				<key name="Version" file="Wincmd.ini" section="Configuration" default="7.01" advanced="Yes" version="1.30">
+					<description>Total Commander的版本(不经常变)</description>
+				</key>
+				<key name="StartupScreen" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>启动TC时显示/不显示标志画面(1/0)</description>
+				</key>
+				<key name="MinimizeOnClose" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.56"><description>MinimizeOnClose=0何时最小化主窗口，而不是关闭程序。以下数值之和：
+1：点击[X]按钮时
+2：按Alt+F4时
+4：点击“Alt+F4 退出”按钮时
+注意：附加Shift键可强制退出。</description>
+				</key>
+			</category>
+			<category title="编辑/查看">
+				<category title="常规">
+					<key name="Viewer" file="Wincmd.ini" section="Configuration" default="none" dialog="Open File" version="1.10">
+						<description>ALT+F3/F3调用的默认外部查看器（或如果不指定，写为'none'）</description>
+					</key>
+					<key name="Editor" file="Wincmd.ini" section="Configuration" default="notepad.exe" dialog="Open File" version="1.10">
+						<description>F4调用的默认编辑器</description>
+					</key>
+					<key name="Viewertype" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+						<description>F3调用的查看器：
+0=内置查看程序/当前文件
+1=内置查看程序/选定的文件
+2=外部查看程序</description>
+					</key>
+					<key name="EditWaitTime" file="Wincmd.ini" section="Configuration" default="2" advanced="Yes" version="7.00">
+						<description>编辑压缩包内或ftp服务器上的文件的超时时间。如果在给定秒数内编辑器关闭，则假定这是一个多文档编辑器，显示一个对话框，用于编辑完成后用户确认。设为0关闭该功能，设为-1不显示对话框（例如文件是通过DDE传递给关联程序的）。</description>
+					</key>
+					<key name="WmfAllowed" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="6.50">
+						<description>0：禁止显示WMF文件。同时禁止显示所有文件夹缩略图。 
+1：Lister和缩略图允许显示WMF (Windows Metafile) 图片。
+2：允许显示文件夹缩略图（其中可能包含wmf文件）
+3：显示WMF文件和文件夹缩略图 
+-1：如果打过Windows补丁，允许显示文件夹缩略图。不显示WMF文件，必须手工修改选项以显示WMF。由于一个严重的Windows安全漏洞，默认禁用WMF文件。</description>
+					</key>
+				</category>
+				<section title="扩展名" name="Extensions" file="Wincmd.ini" version="1.30">
+					<description>ALT+F3的关联
+
+pif=c:\windows\pifedit.exe ^.pif	例如：Pif编辑器关联到*.pif</description>
+				</section>
+				<section title="内部关联" name="Associations" file="Wincmd.ini" version="7.50">
+					<description>可以设置Total Commander内部专用的文件关联，优先于操作系统的设置。主要用于U盘上运行程序。
+
+每项包含以下键值：
+-----------------------------------------------------------
+Filterxx= 			用户定义的第xx个文件关联过滤规则。
+Filterxx_open= 		本类文件的默认动作（open），用户按回车键后调用。动作和规则名之间以下划线“_”分隔。
+Filterxx_View= 		显示在右键关联菜单的其它动作（本例是View）
+Filterxx.icon= 		定义第xx组文件的图标，负数表示图标索引，正数表示图标的资源编号。
+
+规则按数字顺序依次匹配，直至找到匹配项。
+
+例子：
+----------------
+Filter1=*.txt
+Filter1_open=" "%windir%\notepad.exe" "%1" "
+Filter1_View=""%commander_path%\totalcmd.exe" /S=L "%1""
+Filter1.icon=notepad.exe,-1
+
+Filter2=*.bmp
+Filter2_open=" "%windir%\system32\mspaint.exe" "%1" "
+Filter2_View=""%commander_path%\totalcmd.exe" /S=L "%1""
+Filter2.icon=%windir%\system32\mspaint.exe,-1
+</description>
+				</section>
+			</category>
+			<category title="复制">
+				<key name="AlwaysCopyInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.00">
+					<description>1：Total Commander总在后台复制文件
+2: 总使用后台传输管理器</description>
+				</key>
+				<key name="CopyDefaultMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>在NT类系统上总使用默认复制方式（当前是兼容模式）</description>
+				</key>
+				<key name="CopyBlockSize" file="Wincmd.ini" section="Configuration" default="32" version="4.52">
+					<description>设置复制文件时的缓存大小（单位KB）。默认和最小值是32（=32768 字节）。
+
+建议值（自己试试其他值）：
+	CopyBlockSize=1024
+</description>
+				</key>
+				<key name="CopyBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>设置不同物理磁盘之间复制文件时的缓存大小。最好用小一点的缓存，因为两个磁盘可以同时读写。同一磁盘内复制时磁头必须在源文件和目标文件之间来回跳，因此缓存大些好。
+
+建议值（自己试试其他值）：
+	CopyBlockSizeOther=128
+</description>
+				</key>
+				<key name="CopyHugeBlockSize" file="Wincmd.ini" section="Configuration" default="10240" version="5.00">
+					<description>设置复制大文件时的缓存大小。
+文件将直接读写，越过磁盘缓冲。最小值是10MB。仅复制大于此数值的文件时才使用这种方法。
+对于小文件CopyBlockSize有效。默认INI文件中没有这一项，此特性是禁用的。
+
+建议值（自己试试其他值）：
+	CopyHugeBlockSize=10240
+</description>
+				</key>
+				<key name="CopyHugeBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>设置不同物理磁盘之间复制大文件时的缓存大小。最小：256 kB。
+
+默认值（该功能是禁用的）：
+	CopyHugeBlockSizeOther=32</description>
+				</key>
+				<key name="UsbBufSize" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.55">
+					<description>使用USB连接时缓冲区的大小（kB）（-1代表可使用的最大字节数，目前是64kB）。</description>
+				</key>
+				<key name="SamePartitions" file="Wincmd.ini" section="Configuration" default="drives,drives" version="5.00">
+					<description>能够设置哪些逻辑驱动器(分区) 属于同一硬盘。例如: 你有两个硬盘，一个分区C，E和F，另一个分区D，G和H。此项写为SamePartitions=CEF,DGH
+在分区E 和 F (同一物理硬盘) 之间复制文件时，使用前两项设置，C 和 D (不同硬盘) 之间复制文件时使用名字带 'Other'的选项的数值。</description>
+				</key>
+				<key name="CopyCompatDrives" file="Wincmd.ini" section="Configuration" default="drives" version="6.00">
+					<description>驱动器，TC复制文件涉及这些驱动器时将使用兼容模式。建议用于USB闪存盘和正常复制模式产生问题的驱动器。\ =网络邻居，*=所有驱动器。该模式对Windows 9X/ME无效。</description>
+				</key>
+				<key name="CopyCompatUsbSticks" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>对USB闪存盘使用兼容模式</description>
+				</key>
+				<key name="ExplorerForCopy" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>按F5 和 F6后使用内置复制功能（更灵活）或 资源管理器 (复制+粘贴) 方法(0/1)</description>
+				</key>
+				<key name="UseFastCtrlC" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55a">
+					<description>当用户按Ctrl+C或Ctrl+X时，加载右键菜单，执行“复制”或“剪切”功能（并不真正显示右键菜单）。
+1：加载右键菜单，但不加载任何扩展项（很快，但不能使用任何资源管理器的复制扩展项）
+0：加载完整的右键菜单，与点击右键时出现的菜单相同。（稍慢，但可以使用复制扩展项）</description>
+				</key>
+				<key name="CopyDirTimeStamp" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>复制文件夹的时间标签</description>
+				</key>
+				<key name="SizeCheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.00">
+					<description>复制前检查目标驱动器是否有足够空间</description>
+				</key>
+				<key name="UseFindForTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>复制文件时，用FindFirstFile获取文件时间，不用GetFileTime (1/0)</description>
+				</key>
+				<key name="XPMoveMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.50">
+					<description>1：同一驱动器内移动文件时，使用目标文件夹的权限 
+2：与1类似，但在移动文件夹时，里面所有文件和子文件夹的权限也变为目标文件夹的权限 
+0：保留文件本身权限 
+默认值：XP及以后系统：1，其他系统：0</description>
+				</key>
+				<key name="XPMoveMethodAdmin" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.04">
+					<description>与XPMoveMethod相同，但用于通过tcmadmin.exe“以管理员身份”移动文件。
+默认值总是1。</description>
+				</key>
+				<key name="CountMarked" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>1：复制/删除文件前计算子文件夹中所有文件占用的磁盘空间，这样会出现第2个进度条
+0：不计算文件空间 (更快)</description>
+				</key>
+				<key name="CopyStreams" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.51">
+					<description>1：复制NTFS数据流
+0：忽略NTFS数据流</description>
+				</key>
+				<key name="VersionInOverwrite" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>替换对话框中显示文件版本信息。对于慢速网络，设为0。</description>
+				</key>
+				<key name="CustomFieldsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>在替换对话框中显示自定义属性（例如[tc.comment]）</description>
+				</key>
+				<key name="CopyToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1：F5 复制: 如果用户输入的目标文件名是一个已存在的文件夹的名字，提示用户</description>
+				</key>
+				<key name="MoveToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: F6 移动，Shift+F6 就地重命名：如果用户输入一个已存在文件夹的名字作为目标文件名时，警告用户</description>
+				</key>
+				<key name="LongNameCopy" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>文件操作中，如果目标名称超过259个字符，是否警告： 
+0=总是 
+1=从不 
+2=仅当源文件名称未超过259个字符时 
+3=不允许长文件名</description>
+				</key>
+				<key name="ESCcheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>开始复制前，检查是否按了ESC键（如果是就放弃复制操作）。</description>
+				</key>
+				<key name="ShowCopyOptions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>1=F5复制文件对话框的额外选项始终显示</description>
+				</key>
+				<key name="CopyOverwriteDefault" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.56">
+					<description>1..8：设置F5复制对话框中点击“选项”按钮后的默认选项（仅用于打开扩展的复制对话框时）。数字对应对话框的选项。</description>
+				</key>
+			</category>
+			<category title="重命名">
+				<key name="RenameSelOnlyName" file="Wincmd.ini" section="Configuration" default="0" version="6.02">
+					<description>就地重命名时，仅选择文件名，不包含扩展名(1)，或 名字+扩展名 (0)</description>
+				</key>
+				<key name="InplaceRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>允许/禁止点击文件名两次后就地重命名 (1/0)</description>
+				</key>
+				<key name="InplaceRenamePath" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>允许(1) / 禁止(0) 就地编辑当前路径。默认值等于InplaceRename（如果指定），否则1。
+2：禁止就地编辑当前路径，但允许单击路径后快速切换文件夹（不必按住Shift）</description>
+				</key>
+				<key name="SetArchiveBitOnRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>重命名文件时，默认设置存档属性。改为0不设置。</description>
+				</key>
+				<key name="MultiRenameEdit" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>批量重命名工具中手工编辑文件名时使用的编辑器</description>
+				</key>
+				<key name="RenameEditUnicode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>批量重命名工具:编辑文件名 的设置：
+0：将文本文件存为ANSI（纯文本），但选定文件名中包含来自其它代码页的Unicode字符时例外（例如默认英文代码页时出现西里尔字母）
+1：总是将文本文件存为Unicode，例如将英文文件名改为俄文时有用</description>
+				</key>
+				<key name="MultiRenameLoadSettings" file="Wincmd.ini" section="Configuration" default="saved_name" advanced="Yes" version="7.55">
+					<description> 定义批量重命名工具启动后加载哪个设置： 
+(空)：启用前次使用的设置（关闭后不记录到ini） 
+设置名字：加载指定名字的设置 
+未知名字：加载默认设置</description>
+				</key>
+			</category>
+			<category title="删除">
+				<key name="Win95Delete" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="3.02">
+					<description>指定Total Commander删除文件的方法：
+	0：用Total Commander自己的删除文件方法(多数设置选项)
+	1：用资源管理器的方法
+	-1（默认）：如果Cleansweep在运行，用资源管理器的方法以避免崩溃(因Cleansweep和Total Commander的删除方法不兼容造成的)。如果Cleansweep未运行，Total Commander用自己的方法。</description>
+				</key>
+				<key name="VistaDelete" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>如果等于1，在Windows Vista（或以后版本）中使用新的删除方法将文件删除到回收站：删除文件夹时移动整个文件夹到回收站，而不是单个处理每个文件。
+警告：
+--------------
+这种方法不会在处理只读，隐藏或系统文件，以及非空文件夹时发出警告！如果已在某些驱动器上手工禁用回收站，不要用这种方法！</description>
+				</key>
+				<key name="UseTrash" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>如果回收站可用且启用，删除文件到回收站</description>
+				</key>
+				<key name="DeleteDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+					<description>Total Commander将文件删除到回收站后等待指定时间（毫秒）。如果你在cleansweep运行时删除文件出现问题，试试增加这个数值(默认0)。</description>
+				</key>
+			</category>
+			<category title="刷新">
+				<key name="NoReread" file="Wincmd.ini" section="Configuration" default="AB\" version="2.00">
+					<description>不自动重读这些驱动器；\ 代表网络邻居，/ 代表文件系统插件，冒号：代表虚拟文件夹（如桌面）。</description>
+				</key>
+				<key name="NoReread2" file="Wincmd.ini" section="Configuration" default="AB\" version="6.52">
+					<description>关闭、重启Total Commander后不自动重读这些驱动器。如果没有noreread2，使用noreread= 的设置，其动作与6.52版之前的TC相同。
+例如：
+Noreread=ABC\ 且 Noreread2=AB\ ：不自动重读软驱，C盘和网络，但关闭重启Total Commander时记住C盘的文件夹。</description>
+				</key>
+				<key name="WatchDirs" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.52">
+					<description>控制文件夹列表自动更新的功能。它侦测Total Commander之外的程序新建，修改，或删除显示在活动窗口中的文件。
+以下标志求和：
+	1：启用（默认：关闭）
+	2：还侦测文件大小，日期和属性的变化
+	4：将新增文件添加到列表末尾（默认：排序）
+	8：当TC未运行在前台时不响应文件夹变化
+	16：更新状态栏 (文件总数)。警告：大文件夹中可能速度慢！ 
+	32：更新标题栏 (剩余磁盘空间)。警告：大硬盘上可能速度慢！
+	256：每次自动更新时鸣叫 (调试时有用)
+
+注意：仅适用于WinNT类系统。</description>
+				</key>
+				<key name="WatchDirsExclude" file="Wincmd.ini" section="Configuration" default="Drives" version="6.52">
+					<description>选项WatchDirs=打开的情况下不监视这些驱动器的文件夹变化。对于速度慢的驱动器有用，可关闭自动刷新。
+
+注意：仅适用于WinNT类系统。</description>
+				</key>
+				<key name="UpdateEnv" file="Wincmd.ini" section="Configuration" default="3" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>系统环境变量变化时是否立即在TC中生效。以下数值之和：
+	0：完全不生效
+	1：仅更新已存在的变量，例如用户修改了TEMP
+	2：还增加新环境变量 (不仅更新已修改的环境变量)</description>
+				</key>
+			</category>
+			<category title="快速搜索">
+				<key name="AltSearch" file="Wincmd.ini" section="Configuration" default="0" version="1.61">
+					<description>快速搜索方法：
+0=CTRL+ALT
+1=ALT
+2=仅字母
+3=字母（使用快速搜索窗口）
+4=禁用</description>
+				</key>
+				<key name="QuickSearchMatchBeginning" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: 搜索win等同于*win
+1: 精确匹配：win只匹配win.ini，不会匹配otherwin.ini</description>
+				</key>
+				<key name="QuickSearchExactMatch" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>0：句号相当于*. ，win.i 也匹配wincmd.ini
+1：精确匹配：输入 win.i 仅匹配 win.ini，但不匹配 wincmd.ini</description>
+				</key>
+				<key name="QuickSearchAutoFilter" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>0：禁止快速搜索时自动过滤（Ctrl+S）
+1：允许快速搜索时自动过滤（Ctrl+S）
+-1：与0类似，但关闭TC时不保存过滤状态（启动TC时总禁止过滤）
+2：与1类似，但也不保存过滤状态（启动TC时总打开过滤）</description>
+				</key>
+				<key name="tcmatch" file="Wincmd.ini" section="Configuration" default="%Commander_Path%\tcmatch.dll" advanced="Yes" dialog="Open File" version="7.50">
+					<description>自行设定tcmatch.dll的位置。必须包含全路径和文件名，支持环境变量。tcmatch.dll用于扩展快速搜索功能，如搜索中文字符。</description>
+				</key>
+			</category>
+			<category title="自动完成">
+				<key name="AutoComplete" file="Wincmd.ini" section="Configuration" default="3" dialog="Bits Sum" version="7.00">
+					<description>以下选项的组合（求和）：
+	1：显示自动完成下拉列表
+	2: 自动附加当前候选名字</description>
+				</key>
+				<key name="AutoCompleteTab" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0：Tab键切换到活动窗口
+1：从自动完成列表中选择下一个文件，如果没有候选文件，同'0'
+2: 从自动完成列表中选择下一个文件，如果没有候选文件，忽略tab键</description>
+				</key>
+			</category>
+			<category title="备注">
+				<key name="CopyComments" file="Wincmd.ini" section="Configuration" default="6" dialog="Bits Sum" version="5.50">
+					<description>以下标志的组合（求和）：
+	1：默认备注文件类型是files.bbs
+	2：默认备注文件类型是descript.ion
+	4：从两种备注文件读取备注
+	8：复制文件的备注。不复制备注文件自身。
+	16：为descript.ion使用DOS字符集 (files.bbs总使用DOS字符集)
+注意: 如果1 和 2 都设置了，2优先。</description>
+				</key>
+				<key name="CmtOemFont" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>descript.ion中使用OEM (DOS) 字符集（仅在你使用4dos 或 4nt时才建议选择改项）。</description>
+				</key>
+			</category>
+			<category title="缩略图">
+				<key name="ThumbsLocation" file="Wincmd.ini" section="Configuration" default="%$LOCAL_APPDATA%\GHISLER" dialog="Open Folder" version="6.50">
+					<description>缩略图缓冲所在文件夹（指定为空字符串可禁用缓冲）。
+默认位置：
+Windows 9x/ME: Totalcmd目录
+WinNT系统: %$LOCAL_APPDATA%\GHISLER（或者%$LOCAL_APPDATA%不存在时使用%APPDATA%\GHISLER）</description>
+				</key>
+				<key name="ThumbsCopyDel" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>复制/删除文件时同时复制/删除文件的缩略图</description>
+				</key>
+				<key name="ThumbsCustomField" file="Wincmd.ini" section="Configuration" default="[field_contents]" version="7.00">
+					<description>缩略图下方显示的自定义属性</description>
+				</key>
+				<key name="ThumbsCustomFieldsEnabled" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>是否在缩略图下方显示自定义属性</description>
+				</key>
+				<key name="ThumbWidthNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>不使用缩略图缓冲时缩略图的宽度</description>
+				</key>
+				<key name="ThumbHeightNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>不使用缩略图缓冲时缩略图的高度</description>
+				</key>
+				<key name="ThumbExplTypes" file="Wincmd.ini" section="Configuration" default="*.* | *.htm *.html" version="6.50">
+					<description>通过资源管理器方式获取缩略图的文件类型。为安全起见，HTML文件排除在外（它们的缩略图通过Internet Explorer得到）</description>
+				</key>
+				<key name="ThumbPlgTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>通过查看程序插件获取缩略图的文件类型</description>
+				</key>
+				<key name="ThumbIrfXnTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>通过Irfanview或Xnview获取缩略图的文件类型</description>
+				</key>
+				<key name="ThumbTxtTypes" file="Wincmd.ini" section="Configuration" default="*.txt *.ini" version="6.50">
+					<description>按纯文本方式获取缩略图的文件类型</description>
+				</key>
+				<key name="ThumbOptions" file="Wincmd.ini" section="Configuration" default="15" dialog="Bits Sum" version="6.50">
+					<description>以下选项之和：
+	1: 使用资源管理器方式获取缩略图
+	2: 使用查看程序插件获取缩略图
+	4: 使用Irfanview或Xnview获取缩略图（程序路径在Lister中配置）
+	8: 按纯文本方式获取缩略图</description>
+				</key>
+				<key name="ThumbnailMemoryLimit" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="6.50">
+					<description>指定每侧文件窗口在内存中缓冲的缩略图个数（默认：Win9x下200，NT/2000/XP下500，最小100）。</description>
+				</key>
+				<key name="ThumbnailPrealloc" file="Wincmd.ini" section="Configuration" default="100000" advanced="Yes" version="6.50">
+					<description>设置创建缩略图数据库时预分配的字节数，以避免文件碎片。缩略图数据库是一个OLE复合文档，类似于Word的.doc文件。如果创建时不预分配内存，这样的文件将变得非常碎，尤其在NTFS分区上。</description>
+				</key>
+				<key name="PreloadThumbnails" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>1：进入文件夹后预先加载缩略图，而不仅在滚动到那一行时。
+2：与1相同，但在“展开所有文件夹”显示方式下也生效
+3：仅预先加载当前可见缩略图下方两行的缩略图。
+0: 不预先加载，仅当进入可视范围才加载缩略图</description>
+				</key>
+				<key name="ThumbsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>是否在替换对话框显示缩略图</description>
+				</key>
+			</category>
+			<category title="记录文件">
+				<key name="LogFile" file="Wincmd.ini" section="Configuration" default="%TEMP%\totalcmd.log" dialog="Open File" version="7.00">
+					<description>记录文件操作（非ftp）的日志文件名</description>
+				</key>
+				<key name="LogOptions" file="Wincmd.ini" section="Configuration" default="7198" dialog="Bits Sum" version="7.00">
+					<description>决定记录哪些操作，以下标志之和：
+	1 启用日志功能
+	2 复制，移动，创建快捷方式
+	4 删除文件
+	8 创建/删除文件夹
+	16 压缩相关功能
+	32 当前未用
+	64 文件系统插件操作
+	1024 操作成功
+	2048 操作失败
+	4096 操作启动了，但文件被跳过</description>
+				</key>
+				<key name="LogRotateLimit" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>如果设置为-1，每天0点以后启用新日志文件
+如果设置为v&gt;0，日志文件大于v kB后启用新日志
+如果设置为0，禁用日志文件轮换功能</description>
+				</key>
+				<key name="LogKeepCount" file="Wincmd.ini" section="Configuration" default="30" version="7.00">
+					<description>使用日志文件轮换功能时，最多保存的日志文件个数</description>
+				</key>
+			</category>
+			<category title="隐藏文件">
+				<key name="IgnoreListFileEnabled" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>决定是否启用IgnoreListFile= 指向的文件。可以暂时禁用忽略功能，无需修改IgnoreListFile。内部命令 cm_SwitchIgnoreList打开/关闭本选项。</description>
+				</key>
+				<key name="IgnoreListFile" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>指向一个纯文本文件（路径+名字），它包含将被Total Commander忽略（不显示，复制，删除等）的名字列表。支持通配符，文件名可以包含或不包含路径（驱动器）。每行可以是以下形式之一：
+
+filename.ext					隐藏所有子文件夹中的filename.ext
+
+c:\test\filename.ext			仅隐藏c:\test中的filename.ext
+
+\System volume information		隐藏所有驱动器上的这个文件夹
+
+*.bak *.~*						隐藏所有文件夹中的此类文件
+
+c:\test\*.bak *.~*				仅隐藏c:\test中的此类文件
+
+\test\*.bak *.~*				隐藏所有驱动器上子文件夹test中的此类文件
+
+c:\test\"abc def.*" *.~*		名字包含空格和通配符（* 或?）时必须有双引号</description>
+				</key>
+			</category>
+			<category title="驱动器">
+				<key name="CdCloseDoor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>如果切换到CD-rom失败，试图关闭CD托盘。CdCloseDoor=0禁用。</description>
+				</key>
+				<key name="DeviceChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.52">
+					<description>1= 响应wm_devicechange消息 (以检测驱动器变化)
+0= 忽略</description>
+				</key>
+				<key name="DriveisCD" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="4.54">
+					<description>指定驱动器F，G和H是CD-ROM驱动器。从这些驱动器复制文件时，Total Commander不会复制只读属性。对于网络映射的CD驱动器有用，它不能自动识别。</description>
+				</key>
+				<key name="DriveTipDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.11">
+					<description>驱动器下拉框等待驱动器的描述完全显示的延时时间，单位毫秒，默认0。</description>
+				</key>
+				<key name="AlwaysToRoot" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>如果为1，Total Commander改变驱动器后总是切换到根目录（如同Win95/98的Explorer）。</description>
+				</key>
+				<key name="DrivesShowUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1：在诸如驱动器栏，驱动器下拉框，当前文件夹栏等处显示大写盘符</description>
+				</key>
+				<key name="DrivesExportUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1：在使用cm_CopyFullNamesToClip等内部命令或运行程序时，使用大写盘符（出现在文件名或当前文件夹名中） 
+注意：如果设置了DrivesShowUpcase，未给定DrivesExportUpcase的值，使用前者的数值</description>
+				</key>
+				<key name="HideRemovableNoMedia" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>如果设为非零值，除非插入介质，否则不显示USB读卡器等移动驱动器。注意CD-ROM和软驱总是显示。该功能用于：
+1：驱动器栏
+2：驱动器下拉列表
+3：两者都适用
+该功能对于某些驱动器可能很慢，如果发现变慢，请禁用。</description>
+				</key>
+			</category>
+			<category title="文件夹标签">
+				<key name="LockedGoToDriveRoot" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>0：点击 [ \ ] 按钮后切换到锁定标签的基础目录
+1：点击 [ \ ] 按钮后切换到驱动器根目录</description>
+				</key>
+				<key name="LockedTabChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>改变锁定标签的文件夹时：
+	0：总打开新标签
+	1：重用含有相同文件夹的标签
+	2：重用第一个非锁定标签 
+	3：重用最后一个非锁定标签</description>
+				</key>
+				<key name="TabDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="7.00">
+					<description>记住上次文件夹标签保存/加载的默认文件夹</description>
+				</key>
+				<key name="TabEnterDirChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>锁定标签内在文件夹上回车时如何做?
+	0：什么也不做
+	1：在新的标签中打开目录
+	2：询问用户</description>
+				</key>
+				<key name="TabSwitchMode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Ctrl+Tab切换文件夹标签时，释放CTRL键后才真正切换
+1: Ctrl+Tab切换文件夹标签时，按TAB键立即切换标签。</description>
+				</key>
+			</category>
+			<category title="文件夹树">
+				<key name="OldStyleTree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>本选项仅用于文件窗口中的文件夹树:
+	0: 显示资源管理器风格的文件夹树，包含所有驱动器
+	1: 总加载一个驱动器的完整文件夹树
+	2: 仅显示当前驱动器的未展开的文件夹树</description>
+				</key>
+				<key name="AutoTreeChange" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>如果为1，文件夹树显示方式下单击文件夹后，另一侧窗口切换到这个文件夹。</description>
+				</key>
+				<key name="UpdateTreeAtStartup" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>决定在启动时单独文件夹树展开至当前文件夹(1) 或仅当用户第一次切换文件夹时(0)。</description>
+				</key>
+				<key name="AllowSetCursorPos" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>文件夹树视图中用鼠标展开大文件夹，如点击[+]时，光标的动作： 
+	1: 光标移动以保留在展开的文件夹上
+	0: 光标不移动</description>
+				</key>
+				<key name="TreeUpdateLimit" file="Wincmd.ini" section="Configuration" default="2048" advanced="Yes" version="7.00">
+					<description>文件大小限值(kBytes)，小于该限值的文件夹树文件treeinfo.wc才会在复制，删除等文件操作中自动更新。对于庞大的文件夹树，这次更新可能会花费很长时间。</description>
+				</key>
+				<key name="TreeFileLocation" file="Wincmd.ini" section="Configuration" default="Tree_File_Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>定义文件treeinfo.wc的不同位置，例如： treefilelocation=c:\somedir\treeinfo%D%.wc
+%D% 代表驱动器符 (或共享文件夹的根，\ 被 _ 代替)
+%R% 代表根路径
+%L% 代表卷标
+请注意这些变量必须大写, 否则TC会在环境变量中查找这些名字！</description>
+				</key>
+				<key name="TreeFileLocationE" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>仅设置驱动器E的treeinfo文件位置，只有treefilelocation=也定义才有效！</description>
+				</key>
+				<key name="TreeFileLocation__server_share" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>共享目录\\server\share的treeinfo文件位置 (treefilelocation= 也必须定义)。</description>
+				</key>
+			</category>
+			<category title="路径导航栏">
+				<key name="BreadcrumbSeparator" file="Wincmd.ini" section="Configuration" default="-3" advanced="Yes" version="7.50">
+					<description>设置路径导航菜单中鼠标响应区域的开始位置（鼠标移入该区域才打开子菜单）：
+0..100：区域开始位置的百分比数值。
+0=整个菜单
+-1，-2等：从菜单右侧计算的分界线的绝对位置（行高的倍数）</description>
+				</key>
+				<key name="BreadcrumbDelayButton" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>为在路径下方显示按钮（用于打开子文件夹列表），鼠标在路径栏上停留的时间，毫秒。当使用负数时，文件夹列表立即显示（无需按钮）</description>
+				</key>
+				<key name="BreadcrumbDelayDir" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>为展开普通文件夹，鼠标在展开文件夹区域必须停留的时间，毫秒。</description>
+				</key>
+				<key name="BreadcrumbDelayFtp" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>同上，用于FTP连接</description>
+				</key>
+				<key name="BreadcrumbDelayPlugin" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>同上，用于文件系统插件</description>
+				</key>
+				<key name="BreadcrumbDelayVirtual" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>同上，用于虚拟文件夹，例如桌面</description>
+				</key>
+				<key name="BreadCrumbMaxWidth" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>将路径导航栏文件夹列表的最大宽度限定到给定的像素值。
+-1 代表屏幕宽度的一半。
+宽度值最小100个像素，最大当前屏幕宽度。</description>
+				</key>
+			</category>
+			<category title="网络">
+				<key name="AllHiddenNetNames" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: 选择“显示系统共享文件夹”时仅显示C$这种隐藏驱动器
+1: 显示所有隐藏共享文件夹 </description>
+				</key>
+				<key name="Netwarebugfix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1：远程驱动器上的文件不重命名</description>
+				</key>
+				<key name="PortInDriver" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+					<description>1：所有传输在驱动程序内部进行(默认) -&gt; 更快, 但传输中PC不可用 
+0：传输在用户态进行-&gt; 较慢，但多线程响应好 
+仅影响Win95/98/ME，WinNT/2000中所有传输必须在驱动内完成。</description>
+				</key>
+				<key name="TestIfSharedDir" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>测试文件夹是否共享 -&gt; 在图标下部显示手形标志 (1/0)</description>
+				</key>
+				<key name="UseShellConnect" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>如果 =1，使用旧方法连接网络共享 (解决VINES的问题)</description>
+				</key>
+				<key name="NetHoodInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>在后台线程读取网络邻居</description>
+				</key>
+				<key name="ThreadFindFirst" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>如果是1，在单独的线程调用FindFirstFile，这样当网络连接挂起时，用户可以中断网络访问</description>
+				</key>
+				<key name="AdminShares" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>1：总显示管理共享（如C$）。仅适用于基于WinNT的系统。</description>
+				</key>
+				<key name="PromptForUser" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>0：连接网络驱动器时，仅设置参数CONNECT_INTERACTIVE。
+1：还设置参数CONNECT_PROMPT，因此总询问用户名。</description>
+				</key>
+			</category>
+			<category title="隐私">
+				<key name="Savepath" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>退出TC时保存当前路径 (1/0)</description>
+				</key>
+				<key name="Savepanels" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>退出TC时保存左右面板的视图设置 (1/0)</description>
+				</key>
+				<key name="SaveCommands" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>退出TC时保存命令历史 (1/0)</description>
+				</key>
+				<key name="SaveHistory" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>将曾访问过的文件夹（Alt+下方向键调用）保存在[LeftHistory] 和 [RightHistory]</description>
+				</key>
+			</category>
+			<category title="安全">
+				<key name="RestrictInterface" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="3.50">
+					<description>禁用部分用户界面。以下选项数值相加：
+	1=开始菜单 
+	2=命令行
+	4=工具栏和工具按钮的右键菜单
+	8=驱动器按钮的右键菜单
+	16=文件的右键菜单
+	32=常用目录列表的设置
+	64=FTP (CTRL+N, CTRL+F)
+	128=回车键（运行程序，打开文件）
+	256=文件系统插件
+	512=端口连接（USB或并口）</description>
+				</key>
+				<key name="Allowed" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="2.00">
+					<description>允许使用的驱动器 -&gt; 限制驱动器访问！示例：Allowed=cde
+\ 代表 '网络邻居'</description>
+				</key>
+				<key name="AdminTimeout" file="Wincmd.ini" section="Configuration" default="180" advanced="Yes" version="7.00">
+					<description>决定tcmadmin.exe在多少秒没有活动（以管理员身份复制/删除等）后退出。特殊值： 
+0：不超时 
+-1：禁止以管理员身份复制。</description>
+				</key>
+				<key name="x64DisableRedirection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>1：禁止在64位windows中将windows\system32重定向到windows\syswow64。可能有不好的副作用，如插件不能工作。</description>
+				</key>
+			</category>
+			<category title="确认">
+				<key name="deleteDirs" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>删除非空文件夹前询问 (1/0)</description>
+				</key>
+				<key name="OverwriteFiles" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>替换文件前询问 (1/0)</description>
+				</key>
+				<key name="OverwriteReadonly" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>替换/删除 只读文件前询问 (1/0)</description>
+				</key>
+				<key name="OverwriteHidSys" file="Wincmd.ini" section="Confirmation" default="1" version="2.11">
+					<description>替换/删除 隐藏/系统文件前询问 (1/0)</description>
+				</key>
+				<key name="MouseActions" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>拖放时询问 (1/0)</description>
+				</key>
+				<key name="AppendWarning" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.00">
+					<description>如果为0，Total Commander在附加到文件时不显示警告。</description>
+				</key>
+			</category>
+			<category title="鼠标">
+				<key name="SingleClickStart" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.51">
+					<description>0：双击启动程序（默认）
+1：鼠标单击启动程序和打开文件 (Win98 WEB 风格)
+2：鼠标单击仅打开文件夹，双击鼠标才能打开文件/程序/压缩包
+5：与1类似，但文本光标不跟随鼠标
+6：与2类似，但文本光标不跟随鼠标
+
+通过TC的配置对话框不能设置为2，5和6！</description>
+				</key>
+				<key name="UseRightButton" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>使用鼠标 1=右键/0=左键 选择文件</description>
+				</key>
+				<key name="IgnoreWheel" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>忽略智能鼠标的滚轮。</description>
+				</key>
+				<key name="DropExtensions" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>允许右键拖放外壳扩展组件(1/0)</description>
+				</key>
+				<key name="ContextProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>按下鼠标右键出现右键菜单前显示进度条(1/0)</description>
+				</key>
+			</category>
+			<category title="键盘">
+				<category title="常规">
+					<key name="CmdUpDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+						<description>如果光标在命令行上，按上/下方向键后光标跳到文件列表（1）或滚动到前一/后一命令行（0）</description>
+					</key>
+					<key name="CtrlArrow" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.03">
+						<description>1：编辑框（如命令行）中使用内部的Ctrl+方向键移动方式（Ctrl+左右键将光标停在斜杠"/" 反斜杠 "\" 下划线 "_" 圆点 "." 短横线 "-" 和空格处）
+0：使用Windows默认方式（Ctrl+左右键只会将光标停在空格处）</description>
+					</key>
+					<key name="MarkDirectories" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+						<description>用小键盘的＋选择文件时同时选中文件夹</description>
+					</key>
+					<key name="CountSpace" file="Wincmd.ini" section="Configuration" default="1" version="5.00">
+						<description>1：用空格键选择文件后计算空间
+0：不计算文件空间 (更快)</description>
+					</key>
+					<key name="SpaceMovesDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+						<description>1=空格键选择文件时，光标自动下移（类似于insert键）</description>
+					</key>
+					<key name="SpecialCursorMovement" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.00">
+						<description>新的光标移动模式。以下标志之和：
+	1：左键跳至第1个文件，右键到最后一个
+	2：左键退至上级文件夹，右键打开光标处文件夹/压缩包。
+	4：自定义列模式下优先于水平滚动条。如果不设置本选项，仅在水平滚动条已处于最左侧时按左键才能跳至第1个文件。
+	8：上/下翻页，而不是跳到第一个/最后一个文件</description>
+					</key>
+					<key name="KeyboardID" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+						<description>TC激活或就地重命名结束后，将键盘布局改为指定数字。 
+0：禁用，不改变键盘布局 
+1：设置为默认区域代码，例如，德国地区就设置为德国键盘 
+其他数值（例子）： 
+	$0409：英国键盘（QWERTY） 
+	$0407：德国键盘（QWERTY） 
+	$0807：瑞士德语键盘 
+	$040C：法国键盘（AZERTY） 
+	$0408：希腊键盘 
+	$0419：俄国键盘 
+	$e00e0804：中文（带微软拼音输入法） 
+	$e0010411：日文（带默认输入法） 
+$代表16进制数字。语言代码可在这里找到（第一列）： 
+http://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx</description>
+					</key>
+					<key name="SkipCharOnCursor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.56"><description>编辑框中的文本被选中一部分时，左右方向键将如何移动光标：
+0：直接将光标置于选中文本的前面/后面
+3：如同没有选中文本一样移动光标（Windows标准）
+1/2：与3类似，但仅适用于左方向键或右方向键</description>
+					</key>
+				</category>
+				<section title="快捷键" name="Shortcuts" file="Wincmd.ini" version="4.50">
+					<description>定义新的快捷键或替换默认快捷键
+例如：
+F2=cm_renameonly			本例中，F2调用内部功能cm_renameonly。
+
+CAS+F2=cm_renameonly		本例中，Ctrl+Alt+Shift+F2 调用内部功能cm_renameonly。
+							(C=Ctrl，A=Alt，S=Shift)</description>
+				</section>
+				<section title="快捷键(带Win键)" name="ShortcutsWin" file="Wincmd.ini" version="7.50">
+					<description>定义新的快捷键（带Win键）或替换默认快捷键
+例如：
+F2=cm_renameonly			本例中，Win+F2调用内部功能cm_renameonly。
+
+CAS+F2=cm_renameonly		本例中，Win+Ctrl+Alt+Shift+F2 调用内部功能cm_renameonly。
+							(C=Ctrl，A=Alt，S=Shift)
+没有代表Win键的标志，指定其他键时与[shortcuts]规则相同。
+</description>
+				</section>
+				<section title="别名" name="Alias" file="Wincmd.ini" version="7.00">
+					<description>配置 - 其他 定义的命令别名</description>
+				</section>
+			</category>
+			<category title="首次运行">
+				<key name="FirstTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.10">
+					<description>如果等于1，Total Commander第一次运行时显示“外观”配置对话框。然后该键值被改为0。仅用于未注册版本！
+
+旧版本TC中本选项主要用于显示发行说明。新版本已经没有这个功能了。</description>
+				</key>
+				<key name="FirstTimeUnpack" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="2.00">
+					<description>如果等于1，第一次ALT+F9解压文件时将显示如何从压缩包中解压部分文件的提示。然后该键值被改为0。</description>
+				</key>
+				<key name="FirstTimeZIP" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.30">
+					<description>如果等于1，第一次ALT+F9解压文件时将显示压缩程序配置对话框。然后该键值被改为0。</description>
+				</key>
+				<key name="FirstFTPSync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>如果等于1，第一次与FTP同步时将显示关于上传文件时文件日期问题的警告信息。然后该键值被改为0。</description>
+				</key>
+				<key name="FirstMLSDsync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>第一次使用MLSD命令（而不是LIST）与FTP同步时 -&gt; 显示警告信息</description>
+				</key>
+				<key name="UnicodeListWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>本选项在TC 7.50及后续版本不再使用</description>
+				</key>
+			</category>
+			<category title="程序运行">
+				<key name="LongNamesToDos" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+					<description>按Shift+Enter时传递短/长文件名到DOS窗口。(0/1).</description>
+				</key>
+				<key name="LastRunAs" file="Wincmd.ini" section="Configuration" default="Administrator" advanced="Yes" version="7.00">
+					<description>cm_OpenAsUser上次使用的用户名</description>
+				</key>
+			</category>
+			<category title="其他">
+				<key name="AppendLnk" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>快捷方式文件（*.lnk）按如下方式创建：
+	1：file.ext -&gt; file.lnk 后台解压zip
+	2: file.ext -&gt; file.ext.lnk</description>
+				</key>
+				<key name="SearchInFiles" file="Wincmd.ini" section="Configuration" default="*.ext" advanced="Yes" version="5.50">
+					<description>通过 查找功能 可搜索压缩包，此处可添加更多压缩包类型，例如：SearchInFiles=*.EXE *.JAR</description>
+				</key>
+				<key name="SearchKeepLast" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.56"><description>关闭“搜索文件”对话框后记住前次搜索结果（但“输出到列表”后不再保留）</description>
+				</key>
+				<key name="SoundDelay" file="Wincmd.ini" section="Configuration" default="10" version="5.00">
+					<description>文件操作耗时超过此值后播放“操作完成”的声音文件。单位：秒。</description>
+				</key>
+				<key name="OldStyleDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>1=用SetCurDir函数检验文件夹是否存在
+0=直接用FindFirstFile函数</description>
+				</key>
+				<key name="FlushFile" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>允许用户设置在关闭文件前是否强制刷新数据到磁盘.
+	0= 禁用;
+	1= 复制文件时;
+	2= 解压缩时;
+	3= 复制和解压缩时.
+强烈建议禁用这种模式, 否则TC会非常慢.</description>
+				</key>
+				<key name="WipeDir" file="Wincmd.ini" section="Configuration" default="%temp%\_tc0\" advanced="Yes" dialog="Open Folder" version="7.00">
+					<description>TC使用的临时文件夹（重新运行TC时会清空），如果不包含$wc或（TC7中）\_tc，忽略。</description>
+				</key>
+				<key name="BrushForCursor" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>如果Total Commander移动光标时在未选中文件上留下外框痕迹（显卡的bug），将此项置1。</description>
+				</key>
+				<key name="ClearListBackground" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>0：切换文件夹时抑制闪烁（不首先清除背景）
+1: 清除背景（默认）</description>
+				</key>
+				<key name="X64WaitTime" file="Wincmd.ini" section="Configuration" default="15" advanced="Yes" version="7.50">
+					<description>64位Windows中，等待tcmdx64生成X64子菜单的最长时间，超过则TC提示出错信息。注意这个数值不包括启动tcmdx64.exe的时间。</description>
+				</key>
+				<key name="Firstmnu" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>内部计数器. 该键值主要用于测试wincmd.ini是否可写. 目前它不包含任何有意义的信息，也不影响任何配置. 将来可用于计算你已使用了Total Commander多少天.</description>
+				</key>
+				<key name="Test" file="Wincmd.ini" section="Configuration" default="128" advanced="Yes" version="5.50">
+					<description>该键值内部用于检测是否ini文件可写。如果不能，显示出错信息。</description>
+				</key>
+				<key name="SelectionMarker" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.56"><description>对于选中文件，响应WM_GETTEXT消息时返回这些字符（用于屏幕阅读器）</description>
+				</key>
+			</category>
+		</category>
+		<category title="压缩程序">
+			<category title="常规">
+				<key name="AlwaysPackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1：后台压缩zip文件
+2：后台调用zip+外部压缩程序
+3：类似2，但启动外部压缩程序后最小化</description>
+				</key>
+				<key name="AlwaysUnpackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1：后台解压zip
+2：后台调用unzip+外部解压程序
+3：类似2，但启动外部解压程序后最小化</description>
+				</key>
+				<key name="ZIPlikeDirectory" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>将压缩包按文件夹操作</description>
+				</key>
+				<key name="ExpertMode" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="3.51">
+					<description>1：回车后直接运行压缩包中的文件；0：先显示属性页</description>
+				</key>
+				<key name="LastUsedPacker" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>上次使用的压缩程序</description>
+				</key>
+				<key name="DefPlugin" file="Wincmd.ini" section="Packer" default="cab" version="6.00">
+					<description>上次使用的压缩程序插件</description>
+				</key>
+				<key name="UnZIPSeparateSubdirs" file="Wincmd.ini" section="Packer" default="-1" advanced="Yes" version="7.55">
+					<description>保存选项“将各压缩包分别解压到同名的子文件夹中”的状态。 
+0：禁用，但保存选项的改变 
+1：启用，保存选项的改变 
+-1：禁用，不保存选项的改变（默认） 
+-2：启用，不保存选项的改变 
+-3：类似于-2，但仅适用于选中一个以上压缩包时</description>
+				</key>
+				<key name="ZIPDirectoryOfFile" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>压缩时连同子文件夹名称</description>
+				</key>
+				<key name="ZIPRecurseSubdirs" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>循环压缩子文件夹</description>
+				</key>
+				<key name="ExtractPathInZIP" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>解压文件时同时包含它的路径</description>
+				</key>
+				<key name="UnZIPOverwrite" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>解压文件时总替换同名文件</description>
+				</key>
+				<key name="WipeEncrypted" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>如果一个加密压缩包内的文件被查看/编辑/启动/比较，TEMP文件夹内临时存放未加密的文件。为安全起见，这些临时文件默认在删除前用零覆盖。如果WipeEncrypted=0，可关闭该功能以节省时间。</description>
+				</key>
+			</category>
+			<category title="ZIP 压缩程序">
+				<key name="InternalZip" file="Wincmd.ini" section="Packer" default="1" version="2.11">
+					<description>使用内置ZIP压缩程序</description>
+				</key>
+				<key name="InternalUnzip" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>使用内置unzip</description>
+				</key>
+				<key name="ZIP" file="Wincmd.ini" section="Packer" default="pkzip.exe" dialog="Open File" version="1.10">
+					<description>pkzip的路径/文件名</description>
+				</key>
+				<key name="UnZIP" file="Wincmd.ini" section="Packer" default="pkunzip.exe" dialog="Open File" version="1.10">
+					<description>pkunzip的路径/文件名</description>
+				</key>
+				<key name="InternalZipRate" file="Wincmd.ini" section="Packer" default="6" version="2.11">
+					<description>内置ZIP压缩程序的压缩比例(0=不压缩，1=最快，9=最高)</description>
+				</key>
+				<key name="InternalzipTemp" file="Wincmd.ini" section="Packer" default="%temp%" version="2.11">
+					<description>内置ZIP压缩程序的临时路径</description>
+				</key>
+				<key name="OpenPartial" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1：打开不完整的ZIP文件，如部分下载的ZIP文件</description>
+				</key>
+				<key name="nodelete" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1：不删除解压后CRC有错的文件</description>
+				</key>
+				<key name="PluginOverrideZip" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1：允许压缩程序插件关联到ZIP格式
+0：内部zip解压程序始终优先</description>
+				</key>
+				<key name="RemovableInTemp" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="4.00">
+					<description>1：Total Commander按如下方法修改可移动驱动器上的ZIP文件：
+在TEMP文件夹创建新压缩包，删除旧文件，复制新文件到可移动驱动器 
+0：对于软盘与1相同，对于容量更大的介质(ZIP，JAZ)，直接在驱动器上工作，不使用TEMP文件夹</description>
+				</key>
+				<key name="VerifyZIP" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="2.11">
+					<description>1=压缩后测试ZIP文件，0=不测试</description>
+				</key>
+				<key name="WarnTooBig" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>1=如果压缩后文件大于2GB，提示某些压缩程序可能无法解压这样的文件</description>
+				</key>
+				<key name="ZipUnicode" file="Wincmd.ini" section="Packer" default="0" version="7.50">
+					<description>决定如何在ZIP包内压缩Unicode文件名：
+	0: 每次遇到Unicode文件名时都询问
+	1: 将Unicode文件名保存为UTF-8(Pkzip 4.5/Winzip 11.2 方式)
+	2: 如有Unicode字符则全部保存为UTF-8 
+	3: 如有非英语字符则全部保存为UTF-8
+	4: 将Unicode文件名另存到扩展区域(Info-Zip 方式) 
+	5: 将非英语字符文件名另存到扩展区域
+	6: 将Unicode字符保存为问号</description>
+				</key>
+				<key name="Zip83Name" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>压缩文件时使用8.3文件名，不使用长文件名。(1/0)</description>
+				</key>
+				<key name="ZipAES" file="Wincmd.ini" section="Packer" default="0" version="7.00">
+					<description>设置加密方法：
+	0: ZIP2.0加密
+	1: AES（128位密钥）
+	2: AES（192位密钥）
+	3: AES（256位密钥）</description>
+				</key>
+				<key name="ZipAnsiNames" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1：zip中以ANSI (Windows) 字符集保存文件名，不用OEM (DOS)字符集。注意在这种情况下有些解压程序无法处理带重音符的压缩包。</description>
+				</key>
+				<key name="ZipSetDateToNewest" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>使用内置ZIP压缩程序压缩时，把压缩包日期设为zip中最新文件的日期。(1/0)</description>
+				</key>
+				<key name="ZipMagic" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>打开zip时忽略zipmagic检测(1/0)</description>
+				</key>
+				<key name="zipnt" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>使用Info-zip for NT (0 = 不使用，1 = Zip-NT 2.0.1 (Total Commander打过补丁)，2 = 未识别版本)</description>
+				</key>
+				<key name="LzmaAllowed" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.50">
+					<description>1：ZIP压缩程序：允许LZMA压缩方式（不推荐，需要WinZip &gt;=12 才能解压）。如果启用，你可以为LZMA选择压缩率10。</description>
+				</key>
+			</category>
+			<category title="其他压缩程序">
+				<key name="ARJ" file="Wincmd.ini" section="Packer" default="arj.exe" dialog="Open File" version="1.10">
+					<description>ARJ的路径/文件名</description>
+				</key>
+				<key name="ARJlongnames" file="Wincmd.ini" section="Packer" default="0" version="3.50">
+					<description>压缩时传递给ARJ长文件名</description>
+				</key>
+				<key name="ACE" file="Wincmd.ini" section="Packer" default="ace.exe" dialog="Open File" version="3.50">
+					<description>ACE的路径/文件名</description>
+				</key>
+				<key name="LHA" file="Wincmd.ini" section="Packer" default="lha.exe" dialog="Open File" version="1.10">
+					<description>LHA的路径/文件名</description>
+				</key>
+				<key name="RAR" file="Wincmd.ini" section="Packer" default="rar.exe" dialog="Open File" version="2.00">
+					<description>RAR的路径/文件名</description>
+				</key>
+				<key name="UC2" file="Wincmd.ini" section="Packer" default="uc2.exe" dialog="Open File" version="2.00">
+					<description>UC2的路径/文件名</description>
+				</key>
+				<key name="InternalUnarj" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>使用内置unARJ</description>
+				</key>
+				<key name="InternalUnace" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>使用内置unACE</description>
+				</key>
+				<key name="InternalUnlzh" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>使用内置unLHA</description>
+				</key>
+				<key name="InternalUnrar" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>使用内置unRAR</description>
+				</key>
+				<key name="LinuxCompatible" file="Wincmd.ini" section="Packer" default="1" version="5.00">
+					<description>1：创建Linux兼容的TAR文件
+0：创建SunOS兼容的TAR文件</description>
+				</key>
+			</category>
+		</category>
+		<category title="插件">
+			<category title="常规">
+				<key name="AutoInstallPlugins" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>如果为0，进入插件压缩包时自动安装插件的功能被禁用。</description>
+				</key>
+				<key name="PluginBaseDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="6.50">
+					<description>插件自动安装的标准路径。TC安装新插件时在此路径后添加插件类型和默认插件文件夹。
+例如：pluginbasedir=%COMMANDER_PATH%\plugins
+名为sample_packer的压缩程序插件的路径将是：
+%COMMANDER_PATH%\plugins\wcx\sample_packer\</description>
+				</key>
+				<key name="MrtReplacePluginChars" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: 使用批量重命名工具时，不自动替换从插件得到的无效字符（例如，':' -&gt; '.'）-&gt; 用户必须自己处理</description>
+				</key>
+			</category>
+			<section title="压缩程序插件" name="PackerPlugins" file="Wincmd.ini" dialog="Dialogs List" version="4.00">
+				<description>列出所有已配置的压缩程序插件 (见 配置 - 压缩程序)
+每个键值包含两个参数，第一个数字表明插件功能，第二个参数指定插件文件路径。
+插件功能数字是以下标志之和： 
+	1：能创建新压缩包
+	2：能修改已有压缩包
+	4：能在单个压缩包中处理多个文件 
+	8：能删除压缩包中的文件
+	16：支持选项对话框
+	32：支持内存中压缩 
+	64：按文件内容检测压缩包类型
+	128：允许在压缩包中搜索文本 
+	256：回车不打开压缩包，必须按Ctrl+PgDn
+	512：支持加密 
+
+不要自己加这些数字，Total Commander将在第一次加载插件时添加数字。</description>
+			</section>
+			<section title="文件系统插件" name="FileSystemPlugins" file="Wincmd.ini" dialog="Open File" version="5.50">
+				<description>已安装的文件系统插件
+
+&lt;pluginname&gt;=&lt;pluginpath&gt;		文件系统插件的路径（按插件名字保存）</description>
+			</section>
+			<section title="查看程序插件" name="ListerPlugins" file="Wincmd.ini" dialog="Open File" version="5.51">
+				<description>已安装的查看程序插件
+
+0=&lt;pluginname&gt;			第一个插件的路径
+0=&lt;detect string&gt;		第一个插件的检测字符串（可选）。TC用它检测插件是否支持一个文件，而无需加载插件。</description>
+			</section>
+			<section title="内容插件" name="ContentPlugins" file="Wincmd.ini" dialog="Open File" version="6.50">
+				<description>已安装的内容插件
+
+0=&lt;pluginpath&gt;					第一个插件的路径
+0_detect=&lt;detect string&gt;		第一个插件的检测字符串（可选）。TC用它检测插件是否支持一个文件，而无需加载插件。</description>
+			</section>
+		</category>
+		<category title="FTP">
+			<category title="常规">
+				<key name="ConnectRetries" file="Wcx_ftp.ini" section="General" default="10" version="4.00">
+					<description>连接重试次数</description>
+				</key>
+				<key name="WaitDelay" file="Wcx_ftp.ini" section="General" default="5" version="4.00">
+					<description>两次连接之间的重试间隔，秒。</description>
+				</key>
+				<key name="transfermode" file="Wcx_ftp.ini" section="General" default="I" version="3.52">
+					<description>Total Commander启动后的默认传输模式：
+	A=文本
+	I=二进制
+	X=自动</description>
+				</key>
+				<key name="Ascii" file="Wcx_ftp.ini" section="General" default="*.txt *.htm* *.pas *.c *.cpp *.h *.bas *.tex" version="4.00">
+					<description>按文本文件处理的文件类型。
+默认：txt *.htm *.html *.pas *.c *.cpp *.h *.bas *.tex</description>
+				</key>
+				<key name="FtpOpenIn" file="Wcx_ftp.ini" section="General" default="0" version="7.00">
+					<description>FtpOpenIn=0默认在哪里打开ftp连接:
+	0：活动窗口
+	1：左侧窗口
+	2：右侧窗口</description>
+				</key>
+				<key name="LogFile" file="Wcx_ftp.ini" section="General" default="%TEMP%\totalcmd.log" dialog="Open File" version="4.00">
+					<description>将log写到指定文件</description>
+				</key>
+				<key name="LogFile2" file="Wcx_ftp.ini" section="General" default="path\filename" advanced="Yes" dialog="Open File" version="5.00">
+					<description>只将重要log(成功传送文件)写到指定文件</description>
+				</key>
+				<key name="FtpInBackground" file="Wcx_ftp.ini" section="General" default="0" version="4.52">
+					<description>如果=1，FTP传输总在后台进行(单独连接)</description>
+				</key>
+				<key name="pasvmode" file="Wcx_ftp.ini" section="default" default="0" version="3.50">
+					<description>1：所有新连接都使用被动模式
+0：总使用主动模式</description>
+				</key>
+				<key name="PortFrom" file="Wcx_ftp.ini" section="General" default="10000" version="7.00">
+					<description>PORT模式（主动模式，穿透某些防火墙时有用）的最小端口。
+仅当限值（PortFrom和PortTo）都定义时端口范围限定才生效。默认不限定端口。</description>
+				</key>
+				<key name="PortTo" file="Wcx_ftp.ini" section="General" default="11000" version="7.00">
+					<description>PORT模式的最大端口。
+仅当限值（PortFrom和PortTo）都定义时端口范围限定才生效。默认不限定端口。</description>
+				</key>
+				<key name="ModeZ" file="Wcx_ftp.ini" section="General" default="1" version="7.00">
+					<description>启用/禁用压缩传输:
+	0 禁用
+	1 用于Internet（非局域网）
+	2 也用于局域网</description>
+				</key>
+				<key name="AutoResume" file="Wcx_ftp.ini" section="General" default="30" version="7.00">
+					<description>超时秒数，此后Total Commander尝试恢复挂起的连接，续传文件。-1禁用自动续传。</description>
+				</key>
+				<key name="E-Mail" file="Wcx_ftp.ini" section="General" default="xyz@server.com" version="3.50">
+					<description>匿名登录时做为口令的email地址</description>
+				</key>
+				<key name="FtpShowHidden" file="Wcx_ftp.ini" section="General" default="0" version="4.54">
+					<description>1：连接后自动选中“FTP 显示隐藏文件” (1/0)</description>
+				</key>
+				<key name="Lastmd5" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>前次创建 CRC 校验文件的格式：
+0: SFV格式
+1: MD5格式
+2: SHA1格式</description>
+				</key>
+				<key name="ListName" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%\ftplist.txt" version="7.00">
+					<description>“以后下载” 和 “ftp按列表下载”上次使用的下载列表文件</description>
+				</key>
+				<key name="LowercaseUpload" file="Wcx_ftp.ini" section="default" default="0" version="4.00">
+					<description>1：上传时将文件名转换为小写
+0：上传时保持文件名原大小写</description>
+				</key>
+				<key name="MDTM" file="Wcx_ftp.ini" section="General" default="3" dialog="Bits Sum" version="7.00">
+					<description>使用MDTM命令设置上传文件的时间标签（目前仅同步功能支持）。以下标志之和:
+	1：启用/禁用本功能
+	2：发送格林威治时间。多数服务器要求这种时间，而非本地时间</description>
+				</key>
+				<key name="MLSD" file="Wcx_ftp.ini" section="General" default="-1" version="7.00">
+					<description>-1：如果服务器声明支持MLSD，就使用该命令，否则使用LIST
+0：使用LIST命令获取文件夹列表
+1：使用MLSD命令获取文件夹列表
+注意：本选项可为每个服务器单独设置。</description>
+				</key>
+				<key name="AutoDisconnect" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="4.01">
+					<description>如果当前窗口已连接到FTP，再连接另一台FTP时：
+	0：询问用户如何做 (默认)
+	1：先断开连接
+	2：保持已有连接</description>
+				</key>
+				<key name="GetModeFromLocalFile" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.52">
+					<description>1：自动传输模式中，本地文件的扩展名决定文件将按文本或二进制传送 (默认：远程文件扩展名)。</description>
+				</key>
+				<key name="Httptimeout" file="Wcx_ftp.ini" section="General" default="30" advanced="Yes" version="4.53">
+					<description>HTTP下载时最多等待WEB服务器的回应xx秒</description>
+				</key>
+				<key name="KeepAliveTransfer" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1：传输中也发送命令以保持连接。仅向控制连接发送换行符以免防火墙/网关断开连接。也可以每个服务器单独设置（对后台传输管理器无效）。注意这可能扰乱某些FTP服务器，但它可能是解决连接经常丢失问题的救命稻草。</description>
+				</key>
+				<key name="KeepMasterPassword" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>允许在以下情况下在内存中保留主密码：
+	1：程序最小化
+	2：启动屏保后
+	3：以上两种情况</description>
+				</key>
+				<key name="PreferIPv6" file="Wcx_ftp.ini" section="General" default="-1" advanced="Yes" version="6.52">
+					<description>-1 禁用IPv6 (默认)
+1 对于同时支持IPv4 和 IPv6的服务器，IPv6优先
+0 IPv4优先 (正常Internet地址)
+
+仅适用于XP以后版本的Windows。</description>
+				</key>
+				<key name="PreventFEAT" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1：不向服务器发送FEAT (supported features) 命令。发送这个命令时似乎某些代理服务器会挂起。</description>
+				</key>
+				<key name="SpecialFlags" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>以下选项之和:
+	1：强制隐式ssl (没有明文连接)
+	2：强制显式ssl
+	4：强制TLS验证
+	8：强制SSL23验证
+	16：详细记录后台ftp连接
+	32：不检查文件是否已完整传输完毕(使用SIZE命令)
+	64：如果下载文件大小与文件列表报告的大小不一致，不校验下载文件的大小（用SIZE命令）
+	128：不重复使用SSL数据连接的会话（通过SSL_copy_session_id）
+	256：后台线程不发送“发送命令”选项中的命令
+	512: 发送MLSD -la命令获取隐藏文件列表（多数服务器不支持）
+	1024: 不把PASV命令返回的本地地址转换为服务器地址
+
+注意：每个站点的SpecialFlags设置优先于本选项。</description>
+				</key>
+				<key name="sslwarn" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="7.00">
+					<description>0：关闭无效ssl认证的警告。TC仍会显示一个红色的打开的锁图标</description>
+				</key>
+				<key name="TcpKeepAlive" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.02">
+					<description>1：建立连接时设置TCP keep alive，如果防火墙/路由器断开连接的间隔很短，这个选项有用。</description>
+				</key>
+				<key name="UploadBlockSize" file="Wcx_ftp.ini" section="General" default="512" advanced="Yes" version="6.03">
+					<description>上传文件时的缓存，kB。对于快速网络可以试试较大的缓存，如1492 甚至 8192。</description>
+				</key>
+				<key name="WarnWrongMode" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="4.00">
+					<description>1：以文本模式下载/上传二进制文件时发出警告
+0：无警告</description>
+				</key>
+				<key name="Zlibratiobin" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9：上传二进制文件时的压缩比率。0=不压缩，1=最快，9=最高压缩率</description>
+				</key>
+				<key name="Zlibratiotxt" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9：与zlibratiobin相同，但用于文本文件。你也许想把它设置为一个较高的数值，因为通常文本文件压缩效果更好。注意：压缩率等于1时文件通过Cisco PIX防火墙有问题，会中断上传！</description>
+				</key>
+				<key name="PreserveDates" file="Wcx_ftp.ini" section="default" default="0" version="7.00">
+					<description>下载时保留文件日期/时间</description>
+				</key>
+				<key name="PreserveDatesUpload" file="Wcx_ftp.ini" section="default" default="0" version="7.56">
+					<description>上传时保留文件日期/时间（如果服务器支持）</description>
+				</key>
+				<key name="SpeedLimit" file="Wincmd.ini" section="Configuration" default="5.0" version="7.00">
+					<description>后台传输管理器上次使用的速度限值（kBytes/s）</description>
+				</key>
+				<key name="SpeedLimitEnabled" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1: 允许打开后台传输管理器后立即限速</description>
+				</key>
+				<key name="Wsock32" file="Wincmd.ini" section="Configuration" default="%windir%\wsock32.dll" advanced="Yes" dialog="Open File" version="3.50">
+					<description>定义ftp需要的Socket库的位置(32位版本)</description>
+				</key>
+				<key name="AESVerify" file="Wcx_ftp.ini" section="General" default="??" advanced="Yes" version="7.50">
+					<description>用于验证用户是否已为密码管理器输入正确的AES主密码。</description>
+				</key>
+				<key name="Allowhook" file="Wcx_ftp.ini" section="General" default="2" advanced="Yes" version="7.50">
+					<description>本选项控制主密码对话框中的键盘输入： 
+	0：不允许设置键盘钩子，显示警告图标 
+	1：允许设置键盘钩子，显示提醒的图标 
+	2：允许设置键盘钩子，不显示提醒的图标（默认） 
+说明：Total Commander通过一个全局键盘钩子读取按键后清空，因此简单的键盘记录程序无法通过同样方法读取按键。但因为一些杀毒软件总是报告这种钩子，可禁用该特性。</description>
+				</key>
+				<key name="ForceHTTP11" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>0：除续传，总使用HTTP 1.0传输 
+1：HTTP 1.1用于所有传输 
+HTTP 1.1的副作用：许多服务器以“分块”模式发送动态页面（如PHP），不报告总字节数。因此无法显示进度条。 
+好处：服务器在创建页面时就已经可以发送数据了。 </description>
+				</key>
+				<key name="UserAgent" file="Wcx_ftp.ini" section="General" default="&quot;Mozilla/4.0 (compatible; Totalcmd; Windows x)&quot;" advanced="Yes" version="7.55">
+					<description>设置HTTP连接的用户代理。 
+默认是“Mozilla/4.0 (compatible; Totalcmd; Windows x)”，其中x是Windows版本。</description>
+				</key>
+				<key name="PortIP" file="Wcx_ftp.ini" section="General" default="IP" advanced="Yes" version="7.50">
+					<description>本计算机的外部IPv4地址。可输入固定IP地址，一个DNS名字（如DynDNS）或以http://开头的URL，如果是最后一种，网页必须返回文本形式的IP地址。</description>
+				</key>
+				<key name="PortIPEnabled" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>是否使用上述IP地址</description>
+				</key>
+				<key name="DisconnectOnSuspend" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.50">
+					<description>以下标志之和：
+	1: 挂起PC时断开所有FTP连接
+	2: 断开所有文件系统插件（具有断开功能的）</description>
+				</key>
+			</category>
+			<category title="连接">
+				<section title="URL" name="OldConnections" file="Wcx_ftp.ini" version="3.50">
+					<description>新建FTP连接中曾输入过的连接</description>
+				</section>
+				<category title="预定义的连接">
+					<section title="Connections list" name="Connections" file="Wcx_ftp.ini" version="3.50">
+						<description>出现在FTP 连接 对话框的连接名字列表</description>
+					</section>
+					<section title="[%Connection_Name%]" name="[%Connection_Name%]" file="Wcx_ftp.ini" version="3.50">
+						<description>列表中某个站点的详细设置
+
+anonymous=1				1：匿名连接，0：有密码
+
+directory=/pub/subdir	服务器的文件夹，连接后自动转到该文件夹
+
+localdir=c:\local		本地文件夹，连接后自动转到该文件夹
+
+firewall=1				使用配置在[Firewall]中的指定编号的服务器作为防火墙。
+
+host=ftp.site1.com:2121	服务器名，如果需要，冒号后输入端口号
+
+password=00000000000000	密码，非明文(编码，但未加密，从原理上说这是不可能的！)
+
+acct=00000000000000		账号密码，必须从password手工复制
+
+pasvmode=0				0：主动模式 (PORT 命令)
+						1：被动模式 (PASV 命令) - 对某些防火墙有用
+
+username=test			用户名
+
+hosttype=				用户定义的服务器类型(名字)
+
+InitCommands=			刚登录到服务器后发送的命令
+
+keepalive=				保持连接的命令重复时间（秒），后面是keepalive命令，例如 90,NOOP
+
+MLSD=-1
+						-1：如果服务器声明支持MLSD，就使用该命令，否则使用LIST
+						0：使用LIST命令获取文件夹列表
+						1：使用MLSD命令获取文件夹列表
+
+CacheDirs=1				0：每次访问时重读文件夹
+						1：在缓存中保留访问过的文件夹内容
+
+SpecialFlags=0			见[General]。每个站点的选项优先于[General]的SpecialFlags
+
+KeepAliveTransfer		1：传输中也发送命令以保持连接。详见[General]。如果每个服务器单独设置，对后台传输管理器无效。
+
+Encoding				指定服务器文件名的编码，默认是“自动检测”，也可以是以下数值：
+						0= ANSI (本地代码页)
+						1= ASCII/DOS (本地代码页)
+						65001= UTF-8
+						1250= 东欧
+						1251= Windows西里尔字母
+						1252= 西欧拉丁字母1
+						1253= 希腊语
+						1254= 土耳其语
+						1255= 希伯来语
+						1256= 阿拉伯语
+						1257= 波罗地语言
+						1258= 越南语
+						936= 简体中文
+						950= 繁体中文
+						932= 日语
+						949= 韩语
+						874= 泰语
+						437= DOS-USA
+						850= DOS-LATIN1
+						20866= 西里尔字 KOI8-R
+
+MLSD					默认值是“自动检测”，将通过FEAT命令测试服务器是否支持MLSD，也可以是以下数值：
+						1=即使服务器威表明支持MLSD或FEAT命令被禁用，也试图使用MLSD
+						0=使用LIST命令代替MLSD获取目录列表(延续老版本TC的做法)
+
+</description>
+					</section>
+				</category>
+			</category>
+			<category title="服务器类型">
+				<section title="[%Server_Type%]" name="[%Server_Type%]" file="Wcx_ftp.ini" version="7.00">
+					<description>用户定义的服务器类型
+
+Template1=服务器定义，见 定义服务器类型
+Template2=</description>
+				</section>
+			</category>
+			<section title="服务器别名" name="CertAlias" file="Wcx_ftp.ini" version="7.00">
+				<description>当用户点击开锁按钮信任一个ftps（ftp over ssl）服务器时保存服务器别名
+
+例如：server.com=hostcompany.com
+用户连接server.com，但服务器认证属于hostcompany.com</description>
+			</section>
+			<section title="防火墙" name="Firewall" file="Wcx_ftp.ini" version="3.50">
+				<description>防火墙或代理服务器设置
+每个防火墙包含以下部分或全部设置：
+
+host=localhost:80	防火墙的名字和端口
+
+password=			密码 (不是所有防火墙都需要)
+
+username=			用户名 (不是所有防火墙都需要)
+
+Method=1			防火墙连接方法 (顺序与防火墙设置对话框的相同)
+
+default=1			1：新建连接时默认使用防火墙
+					0：新建连接时默认不使用防火墙
+					每次新建连接时改变了使用/不使用防火墙，该选项随之改变。
+
+Method=
+	0= S发送命令 USER 用户@主机名
+	1= 发送命令 SITE (包括登录信息)
+	2= S发送命令 OPEN
+	3= USER 用户@防火墙用户@主机名 / PASS 密码@防火墙密码
+	4= 透明
+	5= 带FTP支持的HTTP代理
+	6= SOCKS4
+	7= SOCKS5 (basic authentication)
+	8= USER user@hostname firewalluser PASS pass ACCT firewallpass
+	9= HTTP CONNECT
+
+以下3个选项用于http传输
+httphost=			防火墙的主机名和端口
+
+httpuser=			用户名 (http)
+
+httppass=			密码 (http)</description>
+			</section>
+			<section title="时区" name="TimeZone" file="Wcx_ftp.ini" version="7.00">
+				<description>分别保存与每个站点的时差 (用于同步文件夹)</description>
+			</section>
+			<section title="空文件夹" name="|empty_folders|" file="Wcx_ftp.ini" version="7.50">
+				<description>"ftp连接"对话框中所有层级的空文件夹（非连接）名的列表. 至少包含一个连接的文件夹不出现在这里.</description>
+			</section>
+		</category>
+		<separator title="--------"/>
+		<category title="查看程序">
+			<category title="常规">
+				<key name="TabWidth" file="Wincmd.ini" section="Lister" default="8" advanced="Yes" version="2.00">
+					<description>制表符宽度(默认：8字符)</description>
+				</key>
+				<key name="textwidth" file="Wincmd.ini" section="Lister" default="81" version="1.61">
+					<description>Text width (in characters).</description>
+				</key>
+				<key name="binwidth" file="Wincmd.ini" section="Lister" default="75" version="1.61">
+					<description>二进制显示的宽度</description>
+				</key>
+				<key name="Wrap" file="Wincmd.ini" section="Lister" default="1" version="3.50">
+					<description>打开自动换行(1) 或关闭 (0)</description>
+				</key>
+				<key name="IView" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>使用Irfanview/Xnview加载其他图形文件，如JPG等。</description>
+				</key>
+				<key name="IViewPath" file="Wincmd.ini" section="Lister" default="Path" dialog="Open File" version="4.00">
+					<description>Irfanview/Xnview EXE 文件的路径。</description>
+				</key>
+				<key name="IviewAdditionalTypes" file="Wincmd.ini" section="Lister" default="*.xyz" advanced="Yes" version="6.50">
+					<description>将传给Irfanview/Xnview转换的其他文件类型如: 
+*.xyz *.abc
+如果此处列出了某种已支持的文件类型，例如 *.jpg，则该类文件不再按内容检测其类型。即使没有本选项，以下文件类型也会送到Irfanview/Xnview： 
+gif, jpg, jpeg, jfif, tga, tif, tiff, pcx, png, ani, acr, cam, clp, cpt, cur, dcx, dib, eps, g3, iff, img, lbm, lwf, pbm, pgm, pcd, ppm, psd, psp, ps, ras, rle, sfw, iw44, djvu, rgb, dcm, acr, wbmp, mos, kdc, xbm, xpm, swf, fpx, sgi, jp2, j2k </description>
+				</key>
+				<key name="SearchGoBack" file="Wincmd.ini" section="Lister" default="3" version="4.00">
+					<description>查找时Lister在搜索到的文本上方显示几行</description>
+				</key>
+				<key name="CenterBitmap" file="Wincmd.ini" section="Lister" default="0" version="7.00">
+					<description>在Lister中居中显示位图 (1/0)</description>
+				</key>
+				<key name="ShrinkBitmap" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>1：缩小/放大图形以适应窗口大小
+2: 仅缩小大图，但不放大小图</description>
+				</key>
+				<key name="Startup" file="Wincmd.ini" section="Lister" default="0" dialog="Bits Sum" version="1.61">
+					<description>保存lister打开后使用的显示方式和字体：
+显示方式:
+	0=自动
+	1=文本
+	2=二进制
+	3=十六进制 
+字体：
+	0=自动
+	16=ansi
+	32=ascii
+	48=不等宽</description>
+				</key>
+				<key name="BmpStartup" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1：始终尝试加载和显示图形 0：加载为二进制文件，如果用户选择‘图像’方式，显示为图形</description>
+				</key>
+				<key name="Multimedia" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1：始终尝试加载和播放声音和视频文件
+0：加载为二进制文件，用户选择‘图像/多媒体’方式后播放</description>
+				</key>
+				<key name="RTF" file="Wincmd.ini" section="Lister" default="1" version="5.50">
+					<description>自动检测RTF文件</description>
+				</key>
+				<key name="HTMLasText" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>将HTML自动转换为带链接的文本</description>
+				</key>
+				<key name="LinkBraces" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>HTML文本：在花括号{}中显示链接</description>
+				</key>
+				<key name="Caret" file="Wincmd.ini" section="Lister" default="1" version="7.00">
+					<description>显示插入标记（文本光标），例如，为了用键盘选择文本</description>
+				</key>
+				<key name="HebrewListerFix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>如果=1，希伯来版windows下Lister中选择英文文本时使用坐标修正（仅当未使用Uniscribe时）。</description>
+				</key>
+				<key name="Uniscribe" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" version="7.50">
+					<description>使用Uniscribe在查看器中绘制Unicode和非本国代码页文字。Uniscribe是一种可正确处理从右到左文字（阿拉伯语，希伯来语）的组件。</description>
+				</key>
+				<key name="Codepage" file="Wincmd.ini" section="Lister" default="-1" version="7.50">
+					<description>用户从“编码”菜单自选的代码页。-1：当前字体确定的代码页</description>
+				</key>
+				<key name="UserEncodings" file="Wincmd.ini" section="Lister" default="codepage" version="7.55">
+					<description>用户定义的编码，格式为：编码名称 (编码数字)。多个编码以竖线|分隔。</description>
+				</key>
+			</category>
+			<category title="字体">
+				<key name="Font1" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>字体 (如果不使用默认字体)</description>
+				</key>
+				<key name="Font2" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>ASCII 字体 (固定宽度).</description>
+				</key>
+				<key name="Font3" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>自定义字体 (包括不等宽字体).</description>
+				</key>
+			</category>
+			<category title="颜色">
+				<key name="FgColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+					<description>文本颜色。默认是windows的默认文本颜色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="BgColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+					<description>背景颜色。默认是windows的默认背景颜色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="FgSelColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+					<description>选定文本的前景色。默认是背景色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="BgSelColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+					<description>选定文本的背景色。默认是文本颜色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="LinkColor" file="Wincmd.ini" section="Lister" default="8388608" dialog="Color" version="6.00">
+					<description>链接颜色。默认深蓝色(128*65536)
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+			</category>
+			<category title="位置">
+				<key name="X" file="Wincmd.ini" section="Lister" default="24" version="1.61">
+					<description>位置 (x坐标).</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="Lister" default="8" version="1.61">
+					<description>位置 (y坐标).</description>
+				</key>
+				<key name="DX" file="Wincmd.ini" section="Lister" default="750" version="1.61">
+					<description>宽度.</description>
+				</key>
+				<key name="DY" file="Wincmd.ini" section="Lister" default="550" version="1.61">
+					<description>高度.</description>
+				</key>
+				<key name="Maximized" file="Wincmd.ini" section="Lister" default="0" version="1.61">
+					<description>全屏</description>
+				</key>
+			</category>
+			<category title="打印机">
+				<key name="Font4" file="Wincmd.ini" section="Lister" default="Courier New,18,b" version="4.00">
+					<description>打印机字体 (等宽)</description>
+				</key>
+				<key name="Font5" file="Wincmd.ini" section="Lister" default="Arial,20" version="4.00">
+					<description>打印机字体 (不等宽)</description>
+				</key>
+				<key name="LeftMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>打印的左页边距 (1/10 毫米)</description>
+				</key>
+				<key name="RightMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>打印的右页边距 (1/10 毫米) .</description>
+				</key>
+				<key name="TopMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>打印的顶部页边距 (1/10 毫米).</description>
+				</key>
+				<key name="BottomMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>打印的底部页边距 (1/10 毫米).</description>
+				</key>
+			</category>
+		</category>
+		<category title="比较文件内容">
+			<category title="常规">
+				<key name="CompareCaseSensitive" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>1：比较文件内容时区分大小写字母
+0：忽略 (a 和 A 视为相同)</description>
+				</key>
+				<key name="CompareIgnoreRepeatedLines" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0：比较文件内容时忽略重复多次的文本行（例如，begin/end）。对于比较源代码和其他包含无需比较的重复文本的文件有用。
+1：禁用。例如比较那些相关行经常重复的列表文件。</description>
+				</key>
+				<key name="CompareIgnoreRepSpace" file="Wincmd.ini" section="Configuration" default="1" version="6.00">
+					<description>1：忽略重复的空格，例如，"a b" 与 "a b"相同。
+0：不同个数的空格视为差异</description>
+				</key>
+				<key name="CompareVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>1：按内容比较文件的窗口上下显示
+0：并排显示</description>
+				</key>
+				<key name="CompareSaveOriginal" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>1：保存文件时，原始文件复制到filename.bak，之后数据写到原始文件。优点：额外的数据流，特殊属性等得以保留。
+0：保存文件时，数据写到filename.tmp，之后原始文件被重命名为filename.bak，最后filename.tmp再重命名为filename。优点：文件只写一次，出现写错误时原始文件不变。</description>
+				</key>
+				<key name="CompareAlwaysSaveWithBom" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1：比较文件内容时，如果保存UTF-8/16文件，总是添加一个字节序标志符(BOM)
+0：仅当文件原本就包含BOM时才保存BOM</description>
+				</key>
+				<key name="Comparetool" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.54">
+					<description>为“比较文件内容”功能设置外部比较工具，例如，WinMerge</description>
+				</key>
+				<key name="CompareSkipFirstL" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>比较文件内容时忽略左侧文件每行的前x个字符(例如，log文件内的日期/时间).</description>
+				</key>
+				<key name="CompareSkipFirstR" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>比较文件内容时忽略右侧文件每行的前x个字符(例如，log文件内的日期/时间).</description>
+				</key>
+			</category>
+			<category title="颜色">
+				<key name="CompareText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>比较文件，文本方式：差异的颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareTextSel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>比较文件，文本方式：选中文本的颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareBinary" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>比较文件，二进制方式：差异的颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareBinarySel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>比较文件，二进制方式：选中文本的颜色
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareDifferenceBack" file="Wincmd.ini" section="Colors" default="-2" advanced="Yes" dialog="Color" version="7.55">
+					<description>有差异行的背景颜色： 
+	-1=与无差异行的背景色相同 
+	-2=略微暗些/亮些（取决于背景色） 
+	其他=RGB值
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareNormalBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>无差异行的背景颜色。-1=默认：COLOR_WINDOW
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareNormalText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>无差异行的文字颜色。-1=默认：COLOR_WINDOWTEXT
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>选中文字的背景颜色。-1=默认：COLOR_HIGHLIGHT
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+				<key name="CompareSelText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>选中文字的文字颜色。-1=默认：COLOR_HIGHLIGHTTEXT
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+			</category>
+		</category>
+		<category title="同步文件夹">
+			<category title="常规">
+				<key name="SyncButtons" file="Wincmd.ini" section="Configuration" default="63" dialog="Bits Sum" version="5.00">
+					<description>同步文件夹窗口中各按钮的状态，是以下标志的和：
+	1：从左至右
+	2：相同文件
+	4：不同文件
+	8：从右至左
+	16：重复文件 (两侧都存在的文件)
+	32：独有文件 (仅一侧有的文件)</description>
+				</key>
+				<key name="SyncFlags" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="4.00">
+					<description>同步文件夹窗口上次的选项，是以下常数的和：
+	1：包含子文件夹
+	2：按文件内容比较
+	4：忽略文件日期
+	8：备份左边文件</description>
+				</key>
+				<key name="SyncHideHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>允许同步时排除隐藏/系统文件：
+	0：不隐藏带隐藏/系统属性的文件
+	1：两侧文件都具备隐藏/系统属性时隐藏
+	2：任意一侧文件具备隐藏/系统属性时隐藏
+	加4：还考虑主程序的显示 隐藏/系统文件的选项</description>
+				</key>
+				<key name="SyncIgnoreJunctions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>0：同步时处理挂接的文件夹
+1：同步时排除挂接的文件夹
+警告：如果另一侧有同名文件夹存在，其中的文件看起来仅存在于另一侧文件夹，因为这一侧的挂接点被排除了！</description>
+				</key>
+				<key name="SyncWarnErrors" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>同步文件夹：控制在读取文件夹出错时何时警告用户：
+	0：从不
+	1：无法读取时（例如网络连接丢失）
+	2：访问被拒绝时（出错代码5，用户无权限）
+	3：两种情况都警告</description>
+				</key>
+				<key name="1hourdif" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>1：比较文件时忽略1小时的时差。在比较NTFS 和 FAT 分区（夏令时！）的文件时有用。</description>
+				</key>
+			</category>
+			<category title="颜色">
+				<key name="SyncSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.56"><description>同步文件夹对话框中选中行的背景颜色。
+
+提示: 按 &lt;Ctrl+B&gt; 选择颜色.</description>
+				</key>
+			</category>
+		</category>
+		<category title="打印文件夹">
+			<key name="FontName" file="Wincmd.ini" section="PrintDir" default="Arial" dialog="Font" version="5.00">
+				<description>字体名称.
+提示: 按 &lt;Ctrl+B&gt; 同时设置字体名称和大小.</description>
+			</key>
+			<key name="FontSize" file="Wincmd.ini" section="PrintDir" default="12" version="5.00">
+				<description>字体大小.</description>
+			</key>
+			<key name="FontFlags" file="Wincmd.ini" section="PrintDir" default="BI" version="5.00">
+				<description>字体特性:
+	B= 黑体;
+	I= 斜体.</description>
+			</key>
+			<key name="HeaderText" file="Wincmd.ini" section="PrintDir" default="%d - Page %p/%t" version="5.00">
+				<description>打印页眉的格式:
+	%d= 插入文件夹路径.
+	%D= 插入系统日期.
+	%p= 插入当前页号.
+	%t= 插入总页数.</description>
+			</key>
+			<key name="HeaderMargin" file="Wincmd.ini" section="PrintDir" default="50" version="5.00">
+				<description>打印的顶部页边距 (1/10 毫米).</description>
+			</key>
+			<key name="LeftMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>打印的左页边距 (1/10 毫米).</description>
+			</key>
+			<key name="RightMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>打印的右页边距 (1/10 毫米).</description>
+			</key>
+			<key name="BottomMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>打印的底部页边距 (1/10 毫米).</description>
+			</key>
+		</category>
+		<separator title="--------"/>
+		<category title="重定向设置">
+			<key name="AlternateUserIni" file="Wincmd.ini" section="Configuration" default="&lt;somename&gt;" advanced="Yes" version="7.00">
+				<description>如果本项存在，将用户可修改的配置保存到另一个文件（本例中是somename.ini），以下各节不转存：
+	[Configuration]
+	[Layout]
+	[Packer]
+	[Confirmation]
+	[Extensions]
+	[Associations]
+	[Shortcuts]
+	[ShortcutsWin]
+	[PackerPlugins]
+	[FileSystemPlugins]
+	[ListerPlugins]
+	[ContentPlugins]
+但是这些配置可单独转存：在每一节可添加RedirectSection=以改变默认行为。它决定是否将本节转存到其他ini：值：
+	0=不转存
+	1=存到AlternateUserIni=指定的文件
+	&lt;ininame&gt;=存到这个特定文件</description>
+			</key>
+			<category title="默认不重定向的节段">
+				<key name="RedirectSection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+
+	Configuration
+	************
+数值:
+---------
+	RedirectSection=0  -&gt; 不重定向;
+	RedirectSection=1  -&gt; 重定向到AlternateUserIni;
+	RedirectSection="ininame" -&gt; 重定向到那个指定的ini.
+
+这些数值适用于所有其他节段内的RedirectSection.
+
+注意：当本选项写在[Configuration]节，该节的所有设置都被转存，但AlternateUserIni和UseIniInProgramDir总是从主INI文件读取。</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Layout" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Layout
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Packer
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Confirmation" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Confirmation
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Extensions" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Extensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Associations" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	Associations
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Shortcuts" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Shortcuts
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ShortcutsWin" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	ShortcutsWin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PackerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PackerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="FileSystemPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	FileSystemPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ListerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ListerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ContentPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ContentPlugins
+	************</description>
+				</key>
+			</category>
+			<category title="默认重定向的节段">
+				<key name="RedirectSection" file="Wincmd.ini" section="Left" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Left
+	************
+数值:
+---------
+	RedirectSection=0  -&gt; 不重定向;
+	RedirectSection=1  -&gt; 重定向到AlternateUserIni;
+	RedirectSection="ininame" -&gt; 重定向到那个指定的ini.
+
+这些数值适用于所有其他节段内的RedirectSection.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Right" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Right
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lefttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lefttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Righttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Righttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Colors" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Colors
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Buttonbar
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Command line history" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Command line history
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DriveHints" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DriveHints
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lister
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CustomFields
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="HintsCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	HintsCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="OverwriteCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	OverwriteCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CompareCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CompareCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="LeftHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	LeftHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RightHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RightHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="MkDirHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	MkDirHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SyncOptions" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SyncOptions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Tabstops" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Tabstops
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="attrplugin" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	attrplugin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Alias" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Alias
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="User" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	User
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DirMenu" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DirMenu
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Searches" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Searches
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchName" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchIn" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchIn
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchText" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchText
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Selection" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Selection
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Rename" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Rename
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameTemplates" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameTemplates
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchFind" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchFind
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchReplace" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchReplace
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PrintDir" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PrintDir
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SplitPerFile" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SplitPerFile
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="IgnoreMenuExtensions" default="1" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	IgnoreMenuExtensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	屏幕分辨率相关的数据
+	************
+
+"Configuration Editor" 自动检测实际的节段名字.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="AllResolutions" default="1" advanced="Yes" version="7.00">
+					<description>
+	AllResolutions
+	************
+
+注意: 仅用于ResolutionSpecific=0时.</description>
+				</key>
+			</category>
+		</category>
+		<separator title="--------"/>
+		<category title="其他设置">
+			<category title="开始菜单和文件夹菜单">
+				<section title="开始菜单" name="User" file="Wincmd.ini" dialog="Open File" version="1.10">
+					<description>本节包含Total Commander开始菜单的项目，每项包括以下配置：
+
+menu1=Verz: Root of C	标题
+cmd1=cd c:\				命令
+param1=					参数
+path1=					启动路径
+iconic1=				1=启动后最小化，-1=启动后最大化，0=正常窗口
+key1=					快捷键</description>
+				</section>
+				<section title="文件夹菜单" name="DirMenu" file="Wincmd.ini" dialog="Open Folder" version="3.50">
+					<description>用户定义的常用文件夹列表(CTRL+D)
+
+子项与[user]相同</description>
+				</section>
+			</category>
+			<category title="历史 节段">
+				<section title="命令行历史" name="Command line history" file="Wincmd.ini" dialog="Open File" version="1.20">
+					<description>曾用命令列表
+
+0=regedit			0 上一次的命令
+1=calc</description>
+				</section>
+				<section title="选择" name="Selection" file="Wincmd.ini" version="3.00">
+					<description>保存以前使用过的文件选择条件(按数字小键盘的+选择)</description>
+				</section>
+				<section title="搜索" name="SearchName" file="Wincmd.ini" version="3.00">
+					<description>这三节包含以前的搜索信息。</description>
+				</section>
+				<section title="搜索的文件夹" name="SearchIn" file="Wincmd.ini" dialog="Open Folder" version="3.00">
+					<description>曾搜索过的路径.</description>
+				</section>
+				<section title="查找文本" name="SearchText" file="Wincmd.ini" version="3.00">
+					<description>"搜索文件" 对话框和查看程序 "查找" 对话框曾搜索过的文本.</description>
+				</section>
+				<section title="搜索选项" name="Searches" file="Wincmd.ini" version="3.00">
+					<description>保存的搜索对话框的选项</description>
+				</section>
+				<section title="重命名规则" name="RenameTemplates" file="Wincmd.ini" version="4.50">
+					<description>批量重命名窗口的重命名规则历史记录</description>
+				</section>
+				<section title="批量重命名的搜索字符串" name="RenameSearchFind" file="Wincmd.ini" version="6.50">
+					<description>批量重命名工具中使用过的搜索字符串（用于搜索+替换）</description>
+				</section>
+				<section title="批量重命名的替换字符串" name="RenameSearchReplace" file="Wincmd.ini" version="6.50">
+					<description>批量重命名工具中使用过的替换字符串（用于搜索+替换）</description>
+				</section>
+				<section title="批量重命名选项" name="Rename" file="Wincmd.ini" version="5.50">
+					<description>保存的批量重命名的选项</description>
+				</section>
+				<section title="左侧窗口文件夹历史" name="LeftHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>左右窗口曾访问过的文件夹列表。如果SaveHistory=0，不保存列表。</description>
+				</section>
+				<section title="右侧窗口文件夹历史" name="RightHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>左右窗口曾访问过的文件夹列表。如果SaveHistory=0，不保存列表。</description>
+				</section>
+				<section title="新建文件夹" name="MkDirHistory" file="Wincmd.ini" version="7.00">
+					<description>曾创建过的文件夹（F7）的列表</description>
+				</section>
+				<section title="同步文件夹选项" name="SyncOptions" file="Wincmd.ini" version="7.00">
+					<description>为“同步文件夹”保存的选项
+
+&lt;name&gt;_L=D:\				左侧路径
+&lt;name&gt;_R=E:\				右侧路径
+&lt;name&gt;_Wcs=*.*				通配符
+&lt;name&gt;_Flags=11|63|-8		选项。3段的含义：
+
+		第1段: 比较的选项。以下之和：
+			1: 子文件夹
+			2: 比较文件内容
+			4: 忽略日期
+			8: 备份左边文件
+		第2段: 显示选项。以下之和：
+			1: 要从左边复制到右边的文件
+			2: 相同的文件
+			4: 不同的文件
+			8: 要从右边复制到左边的文件
+			16: 左右同名
+			32: 左右不同
+		第3段: 排序（负数代表反序）</description>
+				</section>
+				<section title="插件属性" name="AttrPlugin" file="Wincmd.ini" version="7.00">
+					<description>属性对话框: 保存的插件选项</description>
+				</section>
+				<section title="分割文件大小" name="SplitPerFile" file="Wincmd.ini" version="7.00">
+					<description>保存文件 - 分割，以及创建多卷压缩包时用户自定义的大小</description>
+				</section>
+			</category>
+			<category title="文件夹标签">
+				<section title="左侧窗口文件夹" name="LeftTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>左侧窗口的文件夹标签配置。活动文件夹标签的配置不保存在这里，而是在[left]。</description>
+				</section>
+				<section title="右侧窗口文件夹" name="RightTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>右侧窗口的文件夹标签配置。活动文件夹标签的配置不保存在这里，而是在[right]。</description>
+				</section>
+			</category>
+			<category title="自定义属性">
+				<category title="自定义列 (WFX 插件)">
+					<section title="[%CustomFields_WFX%]" name="[%CustomFields_WFX%]" file="Wincmd.ini" version="7.00">
+						<description>保存的为文件系统插件定义的自定义列配置.</description>
+					</section>
+				</category>
+				<section title="自定义列" name="CustomFields" file="Wincmd.ini" version="6.50">
+					<description>保存的自定义列设置</description>
+				</section>
+				<section title="自定义备注" name="HintsCustomField" file="Wincmd.ini" version="6.50">
+					<description>显示在提示中的自定义属性.</description>
+				</section>
+				<section title="替换对话框的自定义备注" name="OverwriteCustomField" file="Wincmd.ini" version="7.00">
+					<description>显示在替换对话框中的自定义项目设置</description>
+				</section>
+				<section title="自定义比较文件内容" name="CompareCustomField" file="Wincmd.ini" version="7.55">
+					<description>同步文件夹: 自定义比较文件内容时的插件.</description>
+				</section>
+			</category>
+			<category title="位置">
+				<category title="主窗口">
+					<key name="X" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="1.10">
+						<description>Total Commander窗口位置（X坐标）</description>
+					</key>
+					<key name="Y" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Y坐标</description>
+					</key>
+					<key name="DX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="1.10">
+						<description>宽度</description>
+					</key>
+					<key name="DY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="1.10">
+						<description>高度</description>
+					</key>
+					<key name="Maximized" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="1.61">
+						<description>0=正常, 1=最大化</description>
+					</key>
+					<key name="Divider" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.00">
+						<description>窗口分隔条的位置，千分数(0～1000)</description>
+					</key>
+					<key name="DividerComments" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="6.00">
+						<description>文件说明显示方式(Ctrl+Shift+F2)下的窗口分隔条位置，千分数(0～1000) </description>
+					</key>
+					<key name="DividerQuickView" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.50">
+						<description>显示快速查看窗口(CTRL+Q)时窗口分隔条位置，千分数。两个分隔条（快速查看窗口打开和未打开）可以分别设置：在相应模式下选择'保存位置'。</description>
+					</key>
+					<key name="Tabstops" file="Wincmd.ini" section="[%Screen_Resolution%]" default="124,127,186,76,429,93" version="4.00">
+						<description>制表符位置</description>
+					</key>
+				</category>
+				<category title="选择命令">
+					<key name="CmdSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>X坐标</description>
+					</key>
+					<key name="CmdSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="CmdSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>宽度</description>
+					</key>
+					<key name="CmdSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>高度</description>
+					</key>
+					<key name="CmdSelMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="同步文件夹">
+					<key name="SyncX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>X坐标</description>
+					</key>
+					<key name="SyncY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="SyncDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>宽度</description>
+					</key>
+					<key name="SyncDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>高度</description>
+					</key>
+					<key name="SyncMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+					<key name="SyncTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="165,257,352,384,476,551" version="4.00">
+						<description>制表符位置.</description>
+					</key>
+				</category>
+				<category title="比较文件内容">
+					<key name="CompareX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.50">
+						<description>X坐标</description>
+					</key>
+					<key name="CompareY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.50">
+						<description>Y坐标</description>
+					</key>
+					<key name="CompareDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.50">
+						<description>宽度</description>
+					</key>
+					<key name="CompareDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.50">
+						<description>高度</description>
+					</key>
+					<key name="CompareMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.50">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="搜索文件">
+					<key name="SearchX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>X坐标</description>
+					</key>
+					<key name="SearchY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="SearchDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>宽度</description>
+					</key>
+					<key name="SearchDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>高度</description>
+					</key>
+					<key name="SearchMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="驱动器选择">
+					<key name="DriveSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-118" version="7.55">
+						<description>X坐标
+注意: X是相对于搜索对话框的左上角的坐标.</description>
+					</key>
+					<key name="DriveSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-108" version="7.55">
+						<description>Y坐标
+注意: Y是相对于搜索对话框的左上角的坐标.</description>
+					</key>
+					<key name="DriveSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="799" version="7.55">
+						<description>宽度</description>
+					</key>
+					<key name="DriveSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="332" version="7.55">
+						<description>高度</description>
+					</key>
+					<key name="DriveSelMax" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.55">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="批量重命名工具">
+					<key name="RenameX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.50">
+						<description>X坐标</description>
+					</key>
+					<key name="RenameY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.50">
+						<description>Y坐标</description>
+					</key>
+					<key name="RenameDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.50">
+						<description>宽度</description>
+					</key>
+					<key name="RenameDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.50">
+						<description>高度</description>
+					</key>
+					<key name="RenameMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.50">
+						<description>0=正常, 1=最大化</description>
+					</key>
+					<key name="RenameTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="115,145,345,518,715" version="4.50">
+						<description>制表符位置.</description>
+					</key>
+				</category>
+				<category title="改变开始菜单">
+					<key name="MenuChangeX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X坐标</description>
+					</key>
+					<key name="MenuChangeY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="MenuChangeDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>宽度</description>
+					</key>
+					<key name="MenuChangeDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>高度</description>
+					</key>
+					<key name="MenuChangeMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="文件夹树">
+					<key name="TreeDlgX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X坐标</description>
+					</key>
+					<key name="TreeDlgY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="TreeDlgDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>宽度</description>
+					</key>
+					<key name="TreeDlgDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>高度</description>
+					</key>
+					<key name="TreeDlgMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="打印预览">
+					<key name="PrintX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X坐标</description>
+					</key>
+					<key name="PrintY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="PrintDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>宽度</description>
+					</key>
+					<key name="PrintDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>高度</description>
+					</key>
+					<key name="PrintMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+				<category title="连接到ftp服务器">
+					<key name="ConnectX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>X坐标</description>
+					</key>
+					<key name="ConnectY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Y坐标</description>
+					</key>
+					<key name="ConnectDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>宽度</description>
+					</key>
+					<key name="ConnectDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>高度</description>
+					</key>
+					<key name="ConnectMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=正常, 1=最大化.</description>
+					</key>
+				</category>
+				<category title="自定义列">
+					<key name="CustColumnX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="6.50">
+						<description>X坐标</description>
+					</key>
+					<key name="CustColumnY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="6.50">
+						<description>Y坐标</description>
+					</key>
+					<key name="CustColumnDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="6.50">
+						<description>宽度</description>
+					</key>
+					<key name="CustColumnDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="6.50">
+						<description>高度</description>
+					</key>
+					<key name="CustColumnMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="6.50">
+						<description>0=正常, 1=最大化</description>
+					</key>
+				</category>
+			</category>
+			<category title="左侧窗口">
+				<key name="Path" file="Wincmd.ini" section="Left" default="path" dialog="Open Folder" version="1.10">
+					<description>上次的活动文件夹</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>显示模式：
+0=列表
+1=详细资料
+2=文件夹树</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>列表中显示：
+1=所有文件
+2=仅程序文件
+3=用户自定义</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Left" default="file_mask" version="2.00">
+					<description>用户自定义的文件类型</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Left" default="100" version="6.50">
+					<description>自定义列视图标志，覆盖show=选项。保存在单独变量中，以避免旧版本Total Commander产生问题。</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>排序
+0=按名字;
+1=扩展名;
+2=大小;
+3=日期;
+4=不排序</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Left" default="0" version="6.50">
+					<description>按自定义列排序（仅自定义列显示模式）：
+100=第1个自定义列;
+101=第2个;
+102=第3个
+…等等。</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>0=正序排列
+1=倒序排列</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Left" default="1" version="7.00">
+					<description>附加的排序关键字。例如: 1,-3,2 代表还按照第1列升序，第3列降序，第2列升序来排序 (列从1开始计数)。</description>
+				</key>
+			</category>
+			<category title="右侧窗口">
+				<key name="Path" file="Wincmd.ini" section="Right" default="path" dialog="Open Folder" version="1.10">
+					<description>上次的活动文件夹</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>显示模式：
+0=列表
+1=详细资料
+2=文件夹树</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>列表中显示：
+1=所有文件
+2=仅程序文件
+3=用户自定义</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Right" default="file_mask" version="2.00">
+					<description>用户自定义的文件类型</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Right" default="100" version="6.50">
+					<description>自定义列视图标志，覆盖show=选项。保存在单独变量中，以避免旧版本Total Commander产生问题。</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>排序
+0=按名字;
+1=扩展名;
+2=大小;
+3=日期;
+4=不排序</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Right" default="0" version="6.50">
+					<description>按自定义列排序（仅自定义列显示模式）：
+100=第1个自定义列;
+101=第2个;
+102=第3个
+…等等。</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>0=正序排列
+1=倒序排列</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Right" default="1" version="7.00">
+					<description>附加的排序关键字。例如: 1,-3,2 代表还按照第1列升序，第3列降序，第2列升序来排序 (列从1开始计数)。</description>
+				</key>
+			</category>
+			<section title="x64 菜单扩展项" name="IgnoreMenuExtensions" file="Wincmd.ini" version="7.50">
+				<description>使用x64（64位系统）的关联菜单时被排除的右键菜单扩展项
+
+0=Extension Name1
+1=Extension Name2</description>
+			</section>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

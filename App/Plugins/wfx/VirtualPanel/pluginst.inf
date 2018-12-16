@@ -1,0 +1,8 @@
+[plugininstall]
+description=VirtualPanel 2.0.7 (32/64): Temporary panel (http://www.ghisler.ch/board/viewtopic.php?t=24293)
+descriptionrus=VirtualPanel 2.0.7 (32/64): Временная панель (http://forum.wincmd.ru/viewtopic.php?t=12969)
+descriptioncz=VirtualPanel 2.0.7 (32/64): Doиasnэ panel (http://www.ghisler.ch/board/viewtopic.php?t=24293)
+descriptiondan=VirtualPanel 2.0.7 (32/64): Temporжrt panel (http://www.ghisler.ch/board/viewtopic.php?t=24293)
+type=wfx
+file=VirtualPanel.wfx
+defaultdir=VirtualPanel

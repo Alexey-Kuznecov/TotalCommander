@@ -1,0 +1,5 @@
+[plugininstall]
+description=Windows Media Audio 2 Plugin 1.2 (requires Windows Media Player 10 or newer)
+type=wfx
+file=wpdplug.wfx
+defaultdir=MediaAudio2

@@ -1,0 +1,18 @@
+Name: hbrowser_1.1.zip
+URL: http://progman13.wincmd.ru/downloads/hbrowser_1.1.zip
+Size: 676170
+Create time: 14.01.2018 19:55:36
+Complete time: 14.01.2018 19:55:38
+Referer: http://wincmd.ru/plugring/http2.html
+Description: HTTP 1.1
+
+Новая версия плагина, основанная на работе Fabio Chelly (http://wincmd.ru/plugring/http.html).
+
+С помощью HTTP Browser вы можете открывать введенные www-адреса в панели Total Commander, осуществлять переходы по ссылкам, скачивать выбранные файлы. Начиная с версии beta 9 появилась также возможность работать через прокси, добавлять закладки, и многое другое.
+
+Категория: Системные плагины
+Статус: Freeware
+Автор: Progman13
+Добавлен: 6.08.2016
+Обновлен: 6.08.2016
+Количество скачиваний: 3507 

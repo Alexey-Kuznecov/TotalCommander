@@ -1,0 +1,188 @@
+[About]
+Language=Polski
+Language_en=Polish
+Translator=fenixproductions, Pawe³ Porwisz, ULTIMA PRIME
+Email=
+
+[MainFrm]
+Btn_Directory=&Katalog
+Btn_File=&Plik
+Btn_Settings=Ustawienia
+Btn_OK=OK
+Btn_Cancel=Anuluj
+MainFrm=Nowy...
+
+[Strings]
+DirNormal=Normalny
+DirHidden=Ukryty
+DirProject=Projekt
+DirList=Lista
+NewFile=Nowy plik
+NewDir=Nowy Katalog
+ODFilter=Pliki wykonywalne
+
+[Settings_Main]
+Settings=Ustawienia
+Btn_OK=Ok
+Btn_Cancel=Anuluj
+
+[Settings_Language]
+Lang_Tab=Jêzyk
+Lang_Settings=Ustawienia jêzyka
+Lang_Text=Tutaj mo¿esz ustawiæ, który plik jêzykowy (*.lng) chcesz u¿yæ.
+Lang_About=O t³umaczeniu
+Lang_Language=Jêzyk:
+Lang_Language_EN=Jêzyk (po angielsku):
+Lang_Translator=T³umaczenie:
+Lang_Email=E-mail t³umacza:
+
+[Settings_About]
+About_Tab=Informacje
+About_About=O TC UP New
+About_Version=Wersja:
+About_Programming=Programowanie:
+About_Idea=Pomys³:
+About_Help=Pomoc i wsparcie:
+About_Build=kompilacja
+
+[Settings_Misc]
+Misc_Tab=Ró¿ne
+Misc_Buttons=Przyciski Menu
+Misc_Buttons_Text=Tutaj mo¿esz zdefiniowaæ zachowanie przycisków "Edycja", "Otwórz katalog" oraz "Zamknij".
+Misc_Buttons_PopUp1=Pokazuj menu
+Misc_Buttons_PopUp2=Ustaw tylko dla nastêpnej opcji
+Misc_Hints=Podpowiedzi
+Misc_Hints_Text=Ustaw zachowanie siê dymków podpowiedzi programu
+Misc_Hints_RB_Show=Wyœwietl podpowiedzi
+Misc_Hints_RB_Hide=Nie wyœwietlaj podpowiedzi
+Misc_Hints_Lbl_Color=Kolor podpowiedzi:
+Misc_Hints_Lbl_DT=Czas wyœwietlania [ms]:
+Misc_Hints_Lbl_HT=Czas ukrywania [ms]:
+Misc_Hints_Btn_Color=Wybierz
+Misc_GB_Alt_Path=Tworzenie plików/Katalogów
+Misc_Lbl_Alt_Path_Desc=Wybierz katalog, w którym zostan¹ utworzone pliki/katalogi (jeœli uruchamiasz oddzielnie program TC UP New)
+Misc_RB_Alt_Path_Ask=Pytaj za ka¿dym razem podczas tworzenia pliku/katalogu
+Misc_RB_Alt_Path_UseIt=Twórz pliki/katalogi w poni¿szym katalogu
+Misc_Lbl_Alt_Path=Katalog:
+Misc_Btn_Alt_Path=Wybierz
+
+[Settings_Settings]
+Settings_Tab=Ustawienia
+Settings_GB=Zapisywanie
+Settings_Text=Zamykaj¹c aplikacjê jej ustawienia zostan¹ zapisane.
+Settings_CB_Names=Zapisuj nazwy plików i katalogów
+Settings_CB_Mode=Zapisuj nazwy u¿ytych trybów
+Settings_GB_History=Usuñ historiê
+Settings_FileName=Usuñ nazwy utworzonych plików
+Settings_Directories=Usuñ nazwy utworzonych katalogów
+Settings_CB_Clear=Wyczyœæ
+Settings_CB_Clear1=Wyczyœæ
+Settings_GB_Edit=Edycja plików
+Settings_Text1=Po utworzeniu plików mo¿esz je edytowaæ. Zdefiniuj program (wraz z parametrami), który odpowiada³ bêdzie za otwieranie plików.
+Settings_Program=Program:
+Settings_Param=Parametry (gdzie: %s jest nazw¹ pliku):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Rozszerzenia
+Extension_GB=U¿yte rozszerzenia
+Extension_Lbl_Ext=Dodaj rozszerzenie:
+Extension_Btn_Add=Dodaj
+Extension_Btn_Remove=Usuñ
+Extension_Btn_Up=W górê
+Extension_Btn_Down=W dó³
+
+[Settings_Name]
+Name_Tab=Nazewnictwo
+Name_GB=Zmiana wprowadzonej nazwy
+Name_Text=Tworz¹c plik o nazwie, która ju¿ istnieje, TC UP New mo¿e automatycznie j¹ dostosowaæ w celu unikniêcia b³êdów.
+Name_FirstNumber=Licznik od:
+Name_Digits=Cyfr:
+Name_Text1=Wzorzec nazwy (gdzie: [N] - nazwa oryginalna, [C] - licznik zdefiniowany poni¿ej).
+Name_Counter=Ustawienia licznika:
+
+[Settings_Appearance]
+Appearance_Tab=Wygl¹d
+Appearance_GB_StayOnTop=Zawsze na wierzchu
+Appearance_Text=Gdy Total Commandrer próbuje znaleŸæ siê na wierzchu, TC UP New uaktywnia w³asne okno by zawsze pozostawaæ nad TC.
+Appearance_CB_Stay=Pozostawaj nad oknem Total Commandera
+Appearance_GB_Pos=Pozycja
+Appearance_Text1=TC UP New potrawi wykryæ pozycjê ostatnio u¿ytego okna Total Commandera. W ten sposób mo¿e ustawiæ swoje po³o¿enie, aby wygl¹daæ jak wbudowany mechanizm TC.
+Appearance_CB_Pos=Sprawdzaj po³o¿enie
+
+[ProjectSelectionFrm]
+ProjectSelection=Schematy
+Project_Lbl_Text=Wybierz schemat projektu:
+Project_Btn_OK=Ok
+Project_Btn_Cancel=Anuluj
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Tryb Plik<0> jest aktywny<b><u>
+Hint_DirModeActive=<3><b><u>Tryb Katalog<0> jest aktywny<b><u>
+Hint_FileMode=<b><u>Tryb Plik<u><b>
+Hint_Btn_CloseFM1=Klikaj¹c ten przycisk, mo¿esz <1>utworzyæ plik<0> oraz:
+Hint_Btn_CloseFM2=- <1>Zamkn¹æ<0> okno TC UP New
+Hint_Btn_CloseFM3=- <1>Pozostawiæ<0> otwarte okno TC UP New
+Hint_Btn_EditFM1=Klikaj¹c ten przycisk, mo¿esz <1>utworzyæ plik<0> oraz:
+Hint_Btn_EditFM2=- <1>Edytowaæ<0> ten plik w powi¹zanej aplikacji
+Hint_Btn_EditFM3=- <1>Edytowaæ<0> ten plik
+Hint_Btn_EditFM4=- <1>Nie edytowaæ<0> tego pliku
+Hint_DirMode=<b><u>Tryb Katalog<u><b>
+Hint_Btn_CloseDM1=Klikaj¹c ten przycisk, mo¿esz <1>utworzyæ katalog<0> oraz:
+Hint_Btn_CloseDM2=- <1>Zamkn¹æ<0> okno TC UP New
+Hint_Btn_CloseDM3=- <1>Pozostawiæ<0> otwarte okno TC UP New
+Hint_Btn_EditDM1=Klikaj¹c ten przycisk, mo¿esz <1>utworzyæ katalog<0> oraz:
+Hint_Btn_EditDM2=- <1>Otworzyæ<0> ten katalog w programie TC UP
+Hint_Btn_EditDM3=- <1>Nie otwieraæ<0> tego katalogu
+Hint_Btn_Directory=Ten przycisk pozwala na zmianê trybu tworzenia pliku/katalogu.
+Hint_Btn_Directory1=Klikniêcie tego przycisku ustawia <1>tryb Katalog<0>, co oznacza, ¿e mo¿esz:
+Hint_Btn_Directory2=- <1>Utworzyæ katalog<0> oraz <1>otworzyæ<0> do w programie TC UP (lub nie).
+Hint_Btn_Directory3=- Mo¿esz równie¿ <1>zamkn¹æ<0> okno TC UP New lub pozostawiæ je otwarte, aby utworzyæ nowy plik/katalog
+Hint_Btn_File=Ten przycisk pozwala na zmianê trybu tworzenia pliku/katalogu.
+Hint_Btn_File1=Klikniêcie tego przycisku ustawia <1>tryb Plik<0>, co oznacza, ¿e mo¿esz:
+Hint_Btn_File2=- <1>Utworzyæ plik<0> oraz <1>edytowaæ<0> ten plik (lub nie) w powi¹zanej aplikacji lub w programie TC UP.
+Hint_Btn_File3=- Mo¿esz równie¿ <1>zamkn¹æ<0> okno TC UP New lub pozostawiæ je otwarte, aby utworzyæ nowy plik/katalog
+Hint_Btn_Settings=Ten przycisk pozwala na otwarcie strony ustawieñ,
+Hint_Btn_Settings1=gdzie mo¿esz zmieniæ opcje programu TC UP New
+Hint_CB_DirFileName=Ta lista rozwijalna pozwala na nadanie nazwy nowotworzonemu plikowi/katalogowi.
+Hint_CB_Ext=Ta lista rozwijana pozwala na wybranie opcji w zale¿nosci od wybranego trybu pracy.
+Hint_CB_Ext1=Jeœli jesteœ w <b>trybie Katalog<b>, mo¿esz wybraæ:
+Hint_CB_Ext2=- Normaly: Tworzy katalog
+Hint_CB_Ext3=- Ukryty: Tworzy katalog z atrybutem Ukryty
+Hint_CB_Ext4=- Projekt: Tworzy pliki projektu, który zdefiniowany jest w Szablonach (patrz Ustawienia)
+Hint_CB_Ext5=- Lista: Tworzy okreœlone katalogi, których nazwy zdefiniowane s¹ w pliku u¿ytkownika
+Hint_CB_Ext6=Jeœli jesteœ w <b>trybie Plik<b>, mo¿esz wybraæ:
+Hint_CB_Ext7=- txt: Rozszerzenie pliku, który zostanie utworzony
+Hint_CB_Ext8=- php: Inne rozszerzenie pliku, który zostanie utworzony
+Hint_CB_Ext9=- etc.. (Mo¿esz dodawaæ kolejne rozszerzenia do listy)
+Hint_Btn_OK=Ten przycisk pozwala na zamkniêcie TC UP New oraz wykonanie jakiejœ akcji
+Hint_Btn_OK1=(jak na przyk³ad: Utworzenie nowego katalogu)
+Hint_Btn_Cancel=Ten przycisk pozwala na zamkniêcie TC UP New bez ¿adnych zmian
+
+[Menu]
+EditMenu1=Nie edytuj
+EditMenu2=Edytuj plik w powi¹zanej aplikacji
+EditMenu3=Edytuj plik
+OpenDirMenu1=Nie otwieraj
+OpenDirMenu2=Otwórz katalog w TC UP
+OpenDirMenu2_=Otwórz katalog
+CloseMenu1=Utwórz plik/katalog i zamknij
+CloseMenu2=Nie zamykaj
+
+[Messages]
+MsgDir1=Katalog
+MsgDir2=nie istnieje!
+MsgDir3=Katalog nie istnieje...
+MsgExtAdd1=Przed klikniêciem przycisku Dodaj rozszerzenie, musisz je okreœliæ.
+MsgExtAdd2=U¿yj poni¿szego pola tekstowego i wpisz tam rozszerzenie, np: txt
+MsgExtAdd3=Dodawanie rozszerzenia...
+MsgExtRemove1=Wybierz rozszerzenie, które chcesz usun¹æ!
+MsgExtRemove2=Usuwanie rozszerzenia...
+MsgCF1=Plik konfiguracyjny:
+MsgCF2=nie istnieje!
+MsgCF3=Plik nie istnieje...
+MsgCFile=Wybierz katalog, w którym zapisany zostanie nowy plik
+MsgCDir=Wybierz katalog, w którym zapisany zostanie nowy katalog
+MsgCFDC=Wybierz
+MsgCFDC1=Wybierz katalog, w którym tworzone bêd¹ pliki/katalogi
+MsgDirError=Nie mo¿na utworzyæ katalogu:

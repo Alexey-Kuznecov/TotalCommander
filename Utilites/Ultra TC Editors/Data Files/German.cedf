@@ -1,0 +1,3431 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl" ?>
+<!--  This file contain all Total Commander 7.56a (Wincmd.ini and Wcx_ftp.ini) configuration keys.-->
+<!--  for more information about this file please read the Help Topics.-->
+<!--  to view the contents of this file as a web page, open it with IE6+, Firefox or Opera.-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander Configuration">
+		<category title="Display">
+			<category title="Main window">
+				<category title="Layout">
+					<key name="ButtonBar" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show button bar.
+0= Hide button bar.</description>
+					</key>
+					<key name="DriveBar1" file="Wincmd.ini" section="Layout" default="0" version="3.00">
+						<description>1= Show drive buttons.
+0= Hide drive buttons.</description>
+					</key>
+					<key name="DriveBar2" file="Wincmd.ini" section="Layout" default="0" version="4.00">
+						<description>1= Show two drive button bars. (fixed width, above file windows).
+0= Hide two drive button bars.
+
+Has no effect if DriveBar1=0.</description>
+					</key>
+					<key name="DriveBarHide" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="7.03">
+						<description>Erlaubt es, verschiedene Teile des Laufwerks-Buttonbars zu verstecken:
+	A-Z=Laufwerke
+	0-9=ftp-Verbindungen
+	\ =Netzwerkumgebung
+	. =Vater- und Hauptverzeichnis
+	- =Datenträgername und freier/totaler Speicherplatz
+Im Gegensatz zur Option Allowed= bleiben die Laufwerke erreichbar, z.B. via Laufwerksliste (Alt+F1/F2), den "cd"-Befehl usw.
+Um Terminal-Server-Laufwerke zu verstecken, müssen diese hinter einem Dollarzeichen angegeben werden:
+DriveBarHide=A$CDE versteckt das lokale Laufwerk A und die Host-Laufwerke CDE.</description>
+					</key>
+					<key name="DriveBarFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= drive buttons appear flat.
+0= drive buttons appear 3D.
+</description>
+					</key>
+					<key name="DriveCombo" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show drive combobox.
+0= Hide drive combobox.</description>
+					</key>
+					<key name="DirectoryTabs" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show directory tabs.
+0= Hide directory tabs.</description>
+					</key>
+					<key name="CurDir" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show current directory.
+0= Hide current directory.</description>
+					</key>
+					<key name="BreadCrumbBar" file="Wincmd.ini" section="Layout" default="1" version="7.50">
+						<description>1= Show clickable path parts ("breadcrumb bar").</description>
+					</key>
+					<key name="HistoryHotlistButtons" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show buttons for history list and hotlist.
+0= Hide buttons for history list and hotlist.</description>
+					</key>
+					<key name="TabHeader" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show tabstop header.
+0= Hide tabstop header.</description>
+					</key>
+					<key name="StatusBar" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Show status bar.
+0= Hide status bar.</description>
+					</key>
+					<key name="CmdLine" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show command line.
+0= Hide command line.</description>
+					</key>
+					<key name="KeyButtons" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show function key buttons.
+0= Hide function key buttons.</description>
+					</key>
+					<key name="InterfaceFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Flat user interface.
+0= 3D user interface.</description>
+					</key>
+					<key name="XPthemeBg" file="Wincmd.ini" section="Layout" default="1" version="7.00">
+						<description>Windows XP theme background (menu+button bar+drive bar).</description>
+					</key>
+				</category>
+				<category title="Visual style">
+					<key name="PanelsVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+						<description>Dateifenster nebeneinander (0) oder übereinander (1)
+</description>
+					</key>
+					<key name="NewStyleProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+						<description>1: Benutze Fortschrittsbalken des Betriebssystems (Standard für Windows &gt;=XP)
+0: Benutze TCs eigenen Fortschrittsbalken (Standard für ältere Windows-Versionen)
+2: Wie 1, aber mit durchgehendem statt segmentiertem Balken (nur im classic-Thema)
+</description>
+					</key>
+					<key name="WantXPLook" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+						<description>Nur unter Windows XP: Zeigt die Buttons im Hauptfenster
+	0: im klassischen Stil
+	1: im XP-Stil.</description>
+					</key>
+					<key name="OverrideDPI" file="Wincmd.ini" section="Configuration" default="96" advanced="Yes" version="7.00">
+						<description>Scales all dialog boxes (except for the main window!) to the given size in dots per inch. Normal is 96 dpi.</description>
+					</key>
+					<key name="ShowInstanceNr" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.00">
+						<description>Nummeriere Total Commander im Titel, wenn mehr als einer offen (1/0)
+</description>
+					</key>
+					<key name="TabHeaderThemed" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Schaltet XP-Thema für die Tabulatorenzeile (Name/Erw./Größe/Datum/Attr.)
+</description>
+					</key>
+					<key name="TabHeaderBoldArrow" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Schaltet fette Pfeile in Tabulatorenzeile ab (Vorgabe: gleich wie TabHeaderThemed)
+</description>
+					</key>
+				</category>
+			</category>
+			<category title="File list">
+				<key name="ShowHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="1.10">
+					<description>Versteckte/Systemdateien anzeigen
+</description>
+				</key>
+				<key name="UseLongNames" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Lange Dateinamen verwenden (1/0)
+</description>
+				</key>
+				<key name="Small83Names" file="Wincmd.ini" section="Configuration" default="0" version="3.00">
+					<description>Zeige DOS-Dateinamen (8 Name und 3 Erweiterung) in Kleinbuchstaben, wie beim Explorer von Win9x (1/0)
+</description>
+				</key>
+				<key name="ShowParentDirInRoot" file="Wincmd.ini" section="Configuration" default="0" version="6.00">
+					<description>Zeigt Vaterverzeichnis [..] auch im Quellverzeichnis (c:\ usw.) an.
+</description>
+				</key>
+				<key name="DirBrackets" file="Wincmd.ini" section="Configuration" default="1" version="3.52">
+					<description>Zeige eckige Klammern um Verzeichnisse (1/0, Voreinstellung=1)
+</description>
+				</key>
+				<key name="BriefViewWidthLimit" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>Setzt eine maximale Breitengrenze (in Bildpunkten) für eine Spalte in Ansicht "Kurz".
+</description>
+				</key>
+				<key name="SortUpper" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>0: Standard-Sortiermethode
+1: Beim Sortieren den Unterstrich _ zuletzt einsortieren
+2: Verwende gemischte Suche, lexikalisch+numerisch, z.B. datei10.txt NACH datei1.txt
+3: Wie 2, aber benutzt StrCmpLogicalW für den Vergleich. Benötigt IE 6.0!
+</description>
+				</key>
+				<key name="SortDirsByName" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Verzeichnisse immer nach Namen sort. (1/0)
+</description>
+				</key>
+				<key name="SortDirExt" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Erlaube die Sortierung von Verzeichnissen nach Erweiterung (nur wenn SortDirsByName=0)
+</description>
+				</key>
+				<key name="Tips" file="Wincmd.ini" section="Configuration" default="3" version="2.00">
+					<description>Tooltips:
+	1=Buttons
+	2=neben Laufwerk
+	3=beide</description>
+				</key>
+				<key name="FileTipWindows" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Zeige Hintfenster für Dateien, die zu lang sind, als dass sie in der Dateiliste komplett angezeigt werden könnten (1/0)
+</description>
+				</key>
+				<key name="OleComments" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Lade Kommentare von:
+	0: Nur aus Kommentardateien descript.ion und files.bbs
+	1: Explorer (aus NTFS-Streams und Word-Dokumenten) und Kommentardateien
+	2: Nur-Explorer-Kommentare
+	3: Keine von beiden (nur aus Plugins, falls definiert)</description>
+				</key>
+				<key name="Win32TipWindows" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>Zeige Win32-artige Tippfenster (nach rechts unten verschoben)
+</description>
+				</key>
+				<key name="MinLineHeight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.03">
+					<description>Setzt die minimale Zeilenhöhe (in Bildpunkten) in dem Dateilisten, sofern der angegebene Wert &gt;0 ist. Falls er negativ ist, wird der Absolutwert zur normalen Zeilenhöhe addiert. Beispiel: MinLineHeight=-2, Zeilenhöhe=16 -&gt; 18.
+</description>
+				</key>
+			</category>
+			<category title="Tabstops and status bar">
+				<key name="Aligned extension" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Dateierweiterung wird ausgerichtet angezeigt
+</description>
+				</key>
+				<key name="0" file="Wincmd.ini" section="Tabstops" default="90" version="1.30">
+					<description>Größe
+</description>
+				</key>
+				<key name="1" file="Wincmd.ini" section="Tabstops" default="93" version="1.30">
+					<description>Datum
+</description>
+				</key>
+				<key name="3" file="Wincmd.ini" section="Tabstops" default="152" version="1.30">
+					<description>Attribute
+</description>
+				</key>
+				<key name="4" file="Wincmd.ini" section="Tabstops" default="42" version="1.30">
+					<description>Erweiterung
+</description>
+				</key>
+				<key name="5" file="Wincmd.ini" section="Tabstops" default="93" version="6.50">
+					<description>Kommentar
+</description>
+				</key>
+				<key name="6" file="Wincmd.ini" section="Tabstops" default="457" advanced="Yes" version="6.50">
+					<description>Referenzbreite (benutzt im Modus "AdjustWidth")
+</description>
+				</key>
+				<key name="AdjustWidth" file="Wincmd.ini" section="Tabstops" default="0" version="4.00">
+					<description>Breite des Namensfeldes automatisch an Fensterbreite anpassen
+</description>
+				</key>
+				<key name="ShowCentury" file="Wincmd.ini" section="Configuration" default="1" version="3.00">
+					<description>Zeige Jahrhundert des Datums an in den Dateilisten (1/0)
+</description>
+				</key>
+				<key name="ShowAMPM" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Zeige Zeit im 12-Stundenformat mit AM/PM (amerikanisches Format)
+</description>
+				</key>
+				<key name="DirsInFooter" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Zeige markierte und totale Anzahl Verzeichnisse in der Fußzeile
+</description>
+				</key>
+				<key name="SizeStyle" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>Stil der Größenanzeige in der Dateiliste:
+	0=Bytes
+	1=kBytes
+	2=dynamisch
+	 3=dynamisch mit 1 Nachkommastelle
+	4/5= wie 2 bzw. 3, aber ohne GBytes (Dateien in GByte-Größe werden in MBytes angezeigt)</description>
+				</key>
+				<key name="SizeFooter" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Stil der Größenanzeige in Kopf- und Fußzeile:
+	0=Bytes
+	1=kBytes
+	2=dynamisch
+	3=dynamisch mit 1 Nachkommastelle
+	4/5= wie 2 bzw. 3, aber ohne GBytes (Dateien in GByte-Größe werden in MBytes angezeigt)</description>
+				</key>
+				<key name="LongInStatus" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Zeige langen Dateinamen in Statuszeile im Modus Ansicht-Lang (1/0)
+</description>
+				</key>
+				<key name="AccessTime" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Lässt Total Commander die Zeit des letzten Zugriffs statt der letzten Veränderung benutzen und anzeigen, etwa zum Kopieren von Dateien, auf die in den letzten n Tagen zugegriffen wurde.
+</description>
+				</key>
+			</category>
+			<category title="Tree">
+				<key name="SeparateTree" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Zeige keinen (0), einen (1) oder zwei (2) separate Verzeichnisbäume
+</description>
+				</key>
+				<key name="SeparateTreeWidth" file="Wincmd.ini" section="Configuration" default="160" version="7.00">
+					<description>Breite der separaten Verzeichnisbaumanzeigen
+</description>
+				</key>
+				<key name="Tree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>Baum unsortiert/sortiert anzeigen
+</description>
+				</key>
+			</category>
+			<category title="Button bar">
+				<key name="Buttonbar" file="Wincmd.ini" section="Buttonbar" default="%COMMANDER_PATH%\default.bar" dialog="Open File" version="1.30">
+					<description>Voreingestellter Buttonbar
+</description>
+				</key>
+				<key name="Buttonheight" file="Wincmd.ini" section="Buttonbar" default="29" version="1.30">
+					<description>Größe der Icons
+</description>
+				</key>
+				<key name="FlatIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Symbole ohne 3d-Effekt
+0: mit 3d-Effekt</description>
+				</key>
+				<key name="SmallIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Benutzt kleine 16x16-Icons
+0: Icons haben eingestellte Größe</description>
+				</key>
+				<key name="SmallIconSize" file="Wincmd.ini" section="Buttonbar" default="16" version="7.00">
+					<description>Uses small icons with user-defined size.
+Works only if SmallIcons=1.</description>
+				</key>
+				<key name="PopupIconSize" file="Wincmd.ini" section="Buttonbar" default="16" advanced="Yes" version="7.50">
+					<description>Symbolgröße im Menü, wenn Buttonbardatei als Menü angezeigt wird. Standard: Gleich wie Symbolgröße im Buttonbar selbst
+</description>
+				</key>
+				<key name="XPstyle" file="Wincmd.ini" section="Buttonbar" default="1" version="7.00">
+					<description>Show buttons:
+	0= Classic style;
+	1= XP style (if available).</description>
+				</key>
+				<key name="ToolTipDelay" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="2.11">
+					<description>Zeitverzögerung in Millisekunden, bis Erklärungen zu den Buttons im Buttonbar angezeigt werden (Voreinstellung = 500)
+</description>
+				</key>
+				<key name="PopupOverlay" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" version="7.50">
+					<description>1: Zeigt kleines Pfeilsymbol über Buttons, die ein Untermenü öffnen
+</description>
+				</key>
+				<key name="BarLimitLines" file="Wincmd.ini" section="Buttonbar" default="0" advanced="Yes" version="7.50">
+					<description>Begrenzt die Anzahl Zeilen im Buttonbar. 0 bedeutet keine Begrenzung
+</description>
+				</key>
+			</category>
+			<category title="Folder tabs">
+				<key name="DirTabOptions" file="Wincmd.ini" section="Configuration" default="824" dialog="Bits Sum" version="6.00">
+					<description>Summe der folgenden Optionen:
+	1: Tabzeile immer sichtbar
+	2: Tabs auf mehreren Zeilen
+	4: Alle Tabs haben dieselbe Breite
+	8: Tab-Titellänge begrenzt (siehe DirTabLimit)
+	16: Bestätigen von "Alle Tabs schließen"
+	32: Tabs mit Doppelklick schließen
+	64: Neue Tabs im Vordergrund öffnen
+	128: Neue Tabs neben aktuellem Tab öffnen
+	256: Gesperrte Tabs mit einem Stern * anzeigen
+	512: Aktiviere Zielfenster beim Klick auf einen anderen Tab
+	1024: Immer Laufwerksbuchstaben im Tabtitel anzeigen</description>
+				</key>
+				<key name="DirTabLimit" file="Wincmd.ini" section="Configuration" default="32" version="6.00">
+					<description>Maximale Anzahl Zeichen, die in einem Ordner-Tab (Register) angezeigt werden sollen.
+</description>
+				</key>
+				<key name="TabSeparator" file="Wincmd.ini" section="Configuration" default=":" advanced="Yes" version="7.00">
+					<description>Legt das Trennzeichen zwischen Laufwerk und aktuellem Ordner in der Tabzeile fest.
+</description>
+				</key>
+			</category>
+			<category title="Directory history">
+				<key name="HistoryAppend" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.51">
+					<description>1= Hängt Verzeichnis, das man aus der History-Liste (ALT+Pfeil ab) wählt, ans Ende der History dran (Voreinstellung)
+0= Verschiebt die aktuelle Position in der History-Liste auf den gewählten Eintrag
+</description>
+				</key>
+				<key name="ReverseHistory" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Verlauf (besuchte Verzeichnisse) in umgekehrter Reihenfolge anzeigen (letztes zuoberst)
+</description>
+				</key>
+			</category>
+			<category title="Drive hints">
+				<key name="CDlabel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.01">
+					<description>Zeige Volumennamen von CDs (und anderen Wechselmedien) in Alt+F1/F2 (1/0)
+</description>
+				</key>
+				<key name="tsclient" file="Wincmd.ini" section="Configuration" default="\\tsclient" advanced="Yes" version="7.55">
+					<description>Bestimmt den Namen des entfernten Hosts, von welchem Laufwerksbuchstaben in der Laufwerksliste und im Laufwerks-Buttonbar angezeigt werden sollen. Nur 1 Zeichen lange Freigaben werden angezeigt. Zum Deaktivieren auf leeren String setzen (tsclient=).
+</description>
+				</key>
+				<key name="A" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive A</description>
+				</key>
+				<key name="B" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive B</description>
+				</key>
+				<key name="C" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive C</description>
+				</key>
+				<key name="D" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive D</description>
+				</key>
+				<key name="E" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive E</description>
+				</key>
+				<key name="F" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive F</description>
+				</key>
+				<key name="G" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive G</description>
+				</key>
+				<key name="H" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive H</description>
+				</key>
+				<key name="I" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive I</description>
+				</key>
+				<key name="J" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive J</description>
+				</key>
+				<key name="K" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive K</description>
+				</key>
+				<key name="L" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive L</description>
+				</key>
+				<key name="M" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive M</description>
+				</key>
+				<key name="N" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive N</description>
+				</key>
+				<key name="O" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive O</description>
+				</key>
+				<key name="P" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive P</description>
+				</key>
+				<key name="Q" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Q</description>
+				</key>
+				<key name="R" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive R</description>
+				</key>
+				<key name="S" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive S</description>
+				</key>
+				<key name="T" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive T</description>
+				</key>
+				<key name="U" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive U</description>
+				</key>
+				<key name="V" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive V</description>
+				</key>
+				<key name="W" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive W</description>
+				</key>
+				<key name="X" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive X</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Y</description>
+				</key>
+				<key name="Z" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Z</description>
+				</key>
+				<key name="\" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for Network Neighborhood/FS-plugins
+Note: This hint appears only for drive buttons bar not drive dropdown list.</description>
+				</key>
+			</category>
+			<category title="Icons">
+				<category title="File list">
+					<key name="Showicons" file="Wincmd.ini" section="Configuration" default="2" version="1.10">
+						<description>Icons:
+	0=keine
+	1=Voreinstellung
+	2=alle</description>
+					</key>
+					<key name="ShowEXEandLNKicons" file="Wincmd.ini" section="Configuration" default="2" version="3.00">
+						<description>Zeige Icons für EXE- und LNK-Dateien (langsam)
+</description>
+					</key>
+					<key name="ShellExtIcons" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+						<description>1=Zeigt Icons von Shellerweiterungen (verschiedene Icons pro Datei)
+0=nicht anzeigen</description>
+					</key>
+					<key name="IconsOnNet" file="Wincmd.ini" section="Configuration" default="1" version="4.53">
+						<description>Lade Icons von EXE- und LNK-Dateien auch bei Netzwerklaufwerken (1/0)
+</description>
+					</key>
+					<key name="IconsSpecialFolders" file="Wincmd.ini" section="Configuration" default="3" version="5.50">
+						<description>Anzeige spezieller Verzeichnisicons (0=keine, 1=lokales Dateisystem, 2=virtuelle Ordner und in Netzumgebung, 3=beide)
+</description>
+					</key>
+					<key name="IconOverlays" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+						<description>(De)aktivieren von überlagerten Symbolen, wie z.B. dem kleinen Pfeil bei Links (1/0)
+</description>
+					</key>
+					<key name="Iconsize32" file="Wincmd.ini" section="[%Screen_Resolution%]" default="16" version="3.00">
+						<description>File list icons size in pixels.</description>
+					</key>
+					<key name="IconLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Icon Library Preview" version="4.00">
+						<description>Lädt alle Standardsymbole für die Dateilisten aus der angegebenen DLL. Siehe www.ghisler.com für eine Beispiel-ICL (16-bit DLL).
+</description>
+					</key>
+					<key name="IconsInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.00">
+						<description>Lade Icons von EXE- und LNK-Dateien in einem eigenen Thread (1/0)
+</description>
+					</key>
+					<key name="IconWin95" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" advanced="Yes" version="1.52">
+						<description>If set to 1, use 16 pixels size for file list icons independently of Iconsize32 value.</description>
+					</key>
+				</category>
+				<category title="Drive bar">
+					<key name="DriveLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.50">
+						<description>Lade die Symbole für den Laufwerksbuttonbar aus der angegebenen Datei.
+</description>
+					</key>
+					<key name="OldDriveIcons" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+						<description>1: Benutze alte Laufwerksicons von TC 6.5x für Laufwerks-Buttonbar
+0: Benutze neue Laufwerksicons
+</description>
+					</key>
+					<key name="IconsInDriveList" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+						<description>Zeige Laufwerksymbole in der Laufwerksliste (Alt+F1/F2) und im Dialog "Laufwerk nicht gefunden"
+</description>
+					</key>
+				</category>
+				<category title="Main menu">
+					<key name="IconsInMenus" file="Wincmd.ini" section="Configuration" default="17" dialog="Bits Sum" version="7.00">
+						<description>Erlaubt die Anzeige von Symbolen aus der Datei wcmicons.dll bzw. wciconex.dll im Hauptmenü. Summe von:
+	1: Symbole im Hauptmenü einschalten
+	2: Symbole umgeben von einem Rahmen anzeigen
+	4: Symbole mit 24x24 Bildpunkten statt 16x16 verwenden
+	8: Symbole mit 32x32 Bildpunkten verwenden
+beides: 4+8: Zeige Symbole mit 48x48 Bildpunkten (für sehr hochauflösende Bildschirme)</description>
+					</key>
+				</category>
+			</category>
+			<category title="Font">
+				<category title="File list">
+					<key name="FontName" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="1.10">
+						<description>Helv Schrift in der Dateilistbox
+Tip: Press &lt;Ctrl+B&gt; to set Font Name, Size, Weight and Charset at once.</description>
+					</key>
+					<key name="FontSize" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Schriftgröße in der Dateilistbox</description>
+					</key>
+					<key name="FontWeight" file="Wincmd.ini" section="[%Screen_Resolution%]" default="700" version="1.30">
+						<description>Gewichtung (400=Normal, 700=Fett)</description>
+					</key>
+					<key name="FontCharset" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Schrift-Zeichensatz (Western, Kyrillisch etc) der Listenschrift
+Some character set codes:
+	Western= 1
+	Greek= 161
+	Turkish= 162
+	Vietnamese= 163
+	Hebrew= 177
+	Arabic= 178
+	Baltic= 186
+	Cyrillic= 204
+	Thai= 222
+	Central European= 238</description>
+					</key>
+				</category>
+				<category title="Main window">
+					<key name="FontNameWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="3.00">
+						<description>Schrift im Rest des Fensters
+Tip: Press &lt;Ctrl+B&gt; to set Font Name, Size, Weight and Charset at once.</description>
+					</key>
+					<key name="FontSizewindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="3.00">
+						<description>Schriftgröße im Rest des Hauptfensters</description>
+					</key>
+					<key name="FontWeightWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="3.00">
+						<description>Gewichtung im Rest des Fensters (400=Normal, 700=Fett)</description>
+					</key>
+					<key name="FontCharsetWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Dasselbe für die Hauptfensterschrift</description>
+					</key>
+				</category>
+				<category title="Dialog boxes">
+					<key name="FontNameDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="4.00">
+						<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name, Size, Weight and Charset at once.</description>
+					</key>
+					<key name="FontSizeDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Font size.</description>
+					</key>
+					<key name="FontWeightDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="4.00">
+						<description>Font weight:
+	400= Normal.
+	700= Bold.</description>
+					</key>
+					<key name="FontCharsetDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="4.00">
+						<description>Font character set (Western, Cyrillic etc).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Color">
+				<category title="File list">
+					<key name="ForeColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Vordergrundfarbe (-1=Voreinstellung)
+</description>
+					</key>
+					<key name="BackColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Hintergrundfarbe (RGB: Rot+256*Grün+65536*Blau, Wert je im Bereich 0..255)
+</description>
+					</key>
+					<key name="BackColor2" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="7.00">
+						<description>Background color for all even lines.
+It's recommended to define a color which differs only slighly from the normal background color.
+
+Tip: Press &lt;Ctrl+B&gt; to choose a color.</description>
+					</key>
+					<key name="MarkColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Markierfarbe
+</description>
+					</key>
+					<key name="CursorColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Cursorfarbe
+</description>
+					</key>
+					<key name="CursorText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="2.11">
+						<description>Cursortextfarbe (nur bei ausgefülltem Cursor)
+</description>
+					</key>
+					<key name="ActiveTitle" file="Wincmd.ini" section="Colors" default="14898176" advanced="Yes" dialog="Color" version="7.55">
+						<description>Farbe der Titelzeile des aktiven Dateipanels
+</description>
+					</key>
+					<key name="ActiveTitleText" file="Wincmd.ini" section="Colors" default="16777215" advanced="Yes" dialog="Color" version="7.55">
+						<description>Farbe des Texts in der Titelzeile des aktiven Dateipanels
+</description>
+					</key>
+					<key name="InactiveTitle" file="Wincmd.ini" section="Colors" default="14653050" advanced="Yes" dialog="Color" version="7.55">
+						<description>Farbe der Titelzeile des inaktiven Dateipanels
+</description>
+					</key>
+					<key name="InactiveTitleText" file="Wincmd.ini" section="Colors" default="16311512" advanced="Yes" dialog="Color" version="7.55">
+						<description>Farbe des Texts in der Titelzeile des inaktiven Dateipanels
+</description>
+					</key>
+					<key name="ThumbnailFrame" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="6.50">
+						<description>Setzt die Farbe des Rahmens um Vorschaubilder: RGB-Wert, oder -1=Standard, oder -2=unsichtbar
+</description>
+					</key>
+					<key name="TreeLineColor" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.00">
+						<description>Farbe der Verbindungslinien im Verzeichnisbaum in den Dateifenstern, dem separaten Verzeichnisbaum, dem CD-Verzeichnisbaum (Alt+F10) und dem FTP-Verbindungsdialog.
+RGB-Wert, oder -1=Standard, oder -2=unsichtbar
+</description>
+					</key>
+					<key name="InverseCursor" file="Wincmd.ini" section="Colors" default="0" version="3.00">
+						<description>Zeige Cursor als ausgefülltes Rechteck (1)
+</description>
+					</key>
+					<key name="InverseSelection" file="Wincmd.ini" section="Colors" default="0" version="5.00">
+						<description>Zeige markierte Dateien als ausgefülltes Rechteck (1)
+</description>
+					</key>
+				</category>
+				<category title="File types">
+					<key name="ColorFilters" file="Wincmd.ini" section="Configuration" default="1" version="4.50">
+						<description>Aktivieren/Deaktivieren von Farben nach Dateityp
+</description>
+					</key>
+					<key name="ColorFilter1" file="Wincmd.ini" section="Colors" default="*.exe" version="4.50">
+						<description>Define file type e.g *.exe
+also you can defined many file types at the same filter e.g. *.exe; *.com; *.bat; *.cmd
+
+				IMPORTANT:
+				===========
+These keys must be in sequence, that is don't set (ColorFilter4 &amp; ColorFilter4Color) before you set the previous (ColorFilter1 &amp; ColorFilter1Color), (ColorFilter2 &amp; ColorFilter2Color) and (ColorFilter3 &amp; ColorFilter3Color).
+Also, the key 'ColorFilters' must set to 1 in order to apply color filter settings.
+
+This category contain only 25 predefined values, if you need more, open this data file in Notepad and add up to ColorFilter250 &amp; ColorFilter250Color value under [File types] category.</description>
+					</key>
+					<key name="ColorFilter1Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter2" file="Wincmd.ini" section="Colors" default="*.dll" version="4.50">
+						<description>Define file type e.g *.dll.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter2Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3" file="Wincmd.ini" section="Colors" default="*.zip" version="4.50">
+						<description>Define file type e.g *.zip
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter4" file="Wincmd.ini" section="Colors" default="*.rar" version="4.50">
+						<description>Define file type e.g *.rar.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter4Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5" file="Wincmd.ini" section="Colors" default="*.txt" version="4.50">
+						<description>Define file type e.g *.txt.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6" file="Wincmd.ini" section="Colors" default="*.ini" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7" file="Wincmd.ini" section="Colors" default="*.bmp" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8" file="Wincmd.ini" section="Colors" default="*.jpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9" file="Wincmd.ini" section="Colors" default="*.gif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10" file="Wincmd.ini" section="Colors" default="*.tif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11" file="Wincmd.ini" section="Colors" default="*.ico" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12" file="Wincmd.ini" section="Colors" default="*.icl" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13" file="Wincmd.ini" section="Colors" default="*.avi" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14" file="Wincmd.ini" section="Colors" default="*.mpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15" file="Wincmd.ini" section="Colors" default="*.mpeg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16" file="Wincmd.ini" section="Colors" default="*.wmv" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17" file="Wincmd.ini" section="Colors" default="*.asf" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18" file="Wincmd.ini" section="Colors" default="*.mp3" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19" file="Wincmd.ini" section="Colors" default="*.wav" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20" file="Wincmd.ini" section="Colors" default="*.mid" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21" file="Wincmd.ini" section="Colors" default="*.htm" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22" file="Wincmd.ini" section="Colors" default="*.html" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23" file="Wincmd.ini" section="Colors" default="*.mht" version="4.50">
+						<description>Define file type
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24" file="Wincmd.ini" section="Colors" default="*.doc" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25" file="Wincmd.ini" section="Colors" default="*.*" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Language">
+				<key name="LanguageIni" file="Wincmd.ini" section="Configuration" default="lng_file" dialog="Open File" version="3.00">
+					<description>Sprach-Datei (WCMD_DEU.LNG etc.)
+</description>
+				</key>
+				<key name="Mainmenu" file="Wincmd.ini" section="Configuration" default="path\mnu_file" dialog="Open File" version="1.30">
+					<description>Enthält benutzerdefinierten Ort+Namen des Hauptmenüs
+</description>
+				</key>
+			</category>
+		</category>
+		<category title="Operation">
+			<category title="Main program">
+				<key name="OnlyOnce" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: Nur 1 Kopie von Total Commander startbar pro Benutzer (z.B. Start via RunAs)
+-1: Nur 1 Kopie von Total Commander startbar für alle Benutzer dieses Rechners
+x&gt;0: Wie 1, aber mehrere Kopien pro Benutzer
+x&lt;0: Wie -1, aber mehrere Kopien (für alle Benutzer zusammen)
+</description>
+				</key>
+				<key name="ActiveRight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.50">
+					<description>1: Die rechte Listbox ist aktiv wenn Total Commander startet (1/0)
+</description>
+				</key>
+				<key name="TrayIcon" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Minimierten Total Commander in Systembereich (Tray) verschieben (1/0)
+</description>
+				</key>
+				<key name="UseIniInProgramDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.50">
+					<description>Diese Variable wird nur gelesen, wenn sie sich in der Datei wincmd.ini im selben Verzeichnis wie das Programm befindet.
+Sie ist die Summe der folgenden Werte:
+	1: Benutze wincmd.ini im Programmverzeichnis, falls kein anderer Ort über Registry oder Kommandozeilenparameter festgelegt wurde
+	2: Benutze wcx_ftp.ini im Programmverzeichnis (sonst wie 1)
+	4: Übergehe Einstellungen in der Registry</description>
+				</key>
+				<key name="ResolutionSpecific" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Auflösungsspezifische Daten wie Schriftstil und -größe werden in einem einzigen Abschnitt namens [AllResolutions] gespeichert
+1: Auflösungsspezifische Daten werden in Abschnitten namens [1024x768 (10x20)] gespeichert
+</description>
+				</key>
+				<key name="KeyPath" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%" advanced="Yes" dialog="Open Folder" version="3.02">
+					<description>Pfad zum Registrierschlüssel (OHNE Dateinamen!). Als Voreinstellung sucht Total Commander in seinem eigenen Verzeichnis. Nützlich, falls der Schlüssel nicht übers Netz gelesen werden kann.
+Mit KeyPath=$ sucht TC in der Registrierdatenbank nach dem Schlüssel (Binärwert "key" im Schlüssel "Software/Ghisler/Total Commander").
+</description>
+				</key>
+				<key name="InstallDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="4.00">
+					<description>Letztes Installationsverzeichnis von Total Commander (gleich wie in der Registry)
+</description>
+				</key>
+				<key name="Version" file="Wincmd.ini" section="Configuration" default="7.01" advanced="Yes" version="1.30">
+					<description>Version von Total Commander (nicht immer angepasst)
+</description>
+				</key>
+				<key name="StartupScreen" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Splashscreen beim Total Commander-Start ein/ausschalten (1/0)
+</description>
+				</key>
+				<key name="MinimizeOnClose" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.56"><description>Minimiert Hauptfenster, statt es zu schließen. Summe von:
+1: Beim Klick auf [X]
+2: Tastenkombination Alt+F4
+4: Button "Alt+F4 Exit"
+Hinweis: Umsch-Taste erzwingt Schließen</description>
+				</key>
+			</category>
+			<category title="Edit/View">
+				<category title="General">
+					<key name="Viewer" file="Wincmd.ini" section="Configuration" default="none" dialog="Open File" version="1.10">
+						<description>Voreingestellter Viewer für ALT+F3
+</description>
+					</key>
+					<key name="Editor" file="Wincmd.ini" section="Configuration" default="notepad.exe" dialog="Open File" version="1.10">
+						<description>Voreingestellter Editor für F4
+</description>
+					</key>
+					<key name="Viewertype" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+						<description>0=Intern/aktuelle Datei
+1=markierte
+2=extern</description>
+					</key>
+					<key name="EditWaitTime" file="Wincmd.ini" section="Configuration" default="2" advanced="Yes" version="7.00">
+						<description>Timeout-Wert beim Bearbeiten von Dateien aus Archiven oder von FTP-Servern: Falls sich ein Editor innerhalb der angegebenen Anzahl Sekunden schließt, wird angenommen, dass es sich um einen Mehrdokumenteeditor handelt. Daraufhin wird ein Dialog angezeigt, mit welchem der Benutzer bestätigen kann, wenn die Datei fertig bearbeitet wurde. Auf 0 setzen, um die Funktion zu deaktivieren. Auf -1 setzen, um diesen Dialog nie anzuzeigen (z.B. falls die Datei via DDE an das Programm übergeben wurde).
+</description>
+					</key>
+					<key name="WmfAllowed" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="6.50">
+						<description>0: WMF-(Windows Metafile)-Dateianzeige ist deaktiviert. Deaktiviert auch die Anzeige von Ordner-Miniaturbildern.
+1: Erlaube das Anzeigen von WMF-Bildern im Lister und der Miniaturansicht.
+2: Erlaubt die Anzeige von Ordner-Miniaturbildern (können WMF-Dateien enthalten)
+3: Zeigt WMF-Dateien und Ordner-Miniaturbilder
+-1: Falls der Windows-Patch installiert ist, werden Ordner-Miniaturbilder wieder angezeigt. WMF-Dateien werden aber nicht angezeigt, weder im Lister noch als Miniaturbilder.
+WMF wurde wegen eines schweren Sicherheitslochs in Windows deaktiviert.
+</description>
+					</key>
+				</category>
+				<section title="Extensions" name="Extensions" file="Wincmd.ini" version="1.30">
+					<description>Verknüpfungen für ALT+F3</description>
+				</section>
+				<section title="Internal Associations" name="Associations" file="Wincmd.ini" version="7.50">
+					<description>Erlaubt es, systemweite Dateiverknüpfung nur im Total Commander durch andere zu ersetzen, hauptsächlich gedacht für das Starten des Programms ab USB-Stick.
+Filter1=*.txt Erster benutzerdefinierter Verknüpfungsfilter. Filter werden in der nummerierten Reihenfolge abgearbeitet, bis der erste zutrifft
+Filter1_open=""%windir%\notepad.exe" "%1""
+Das Standardverb (open) für diesen Filter. Wird benutzt, wenn der Benutzer ENTER drückt. Verben sind vom Filter durch einen Unterstrich "_" getrennt.
+Filter1_Ansehen=""%commander_path%\totalcmd.exe" /S=L "%1""
+Zusätzliches Verb (hier: Ansehen) welches im Rechtsklickmenü angezeigt wird
+Filter1.icon=notepad.exe,-1 Setzt das Symbol für den ersten Filter. Negative Zahlen bedeuten den Symbolindex, positive die Ressourcennummer
+Filter2=*.ini Der zweite benutzerdefinierte Filter
+usw.
+ </description>
+				</section>
+			</category>
+			<category title="Copy">
+				<key name="AlwaysCopyInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.00">
+					<description>1: Total Commander kopiert immer im Hintergrund
+2: Immer im Hintergrund-Transfermanager
+</description>
+				</key>
+				<key name="CopyDefaultMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Immer Standardmethode auf NT-basierten Systemen benutzen (zzt. ist das der Kompatibilitätsmodus)
+</description>
+				</key>
+				<key name="CopyBlockSize" file="Wincmd.ini" section="Configuration" default="32" version="4.52">
+					<description>Setzt die Blockgröße für die Kopierfunktion (in kBytes=1024 Bytes). Voreinstellung und Minimum ist 32 (=32768 Bytes).
+</description>
+				</key>
+				<key name="CopyBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Setzt die Blockgröße beim Kopieren zwischen verschiedenen Laufwerken. Es ist von Vorteil, beim Kopieren zwischen verschiedenen Laufwerken eine kleinere Blockgröße zu verwenden als innerhalb desselben Laufwerks, da beide Laufwerke gleichzeitig Daten lesen bzw. schreiben können. Eine einzelne Platte muss dagegen immer zwischen Quelle und Ziel hin- und herspringen, weshalb eine große Blockgröße besser ist.
+</description>
+				</key>
+				<key name="CopyHugeBlockSize" file="Wincmd.ini" section="Configuration" default="10240" version="5.00">
+					<description>Setzt die Blockgröße beim Kopieren von sehr großen Dateien. Die Dateien werden dann direkt unter Umgehung des Diskcache gelesen und geschrieben. Minimum ist 10 MB. Nur Dateien größer als dieser Wert werden auf diese Weise kopiert, bei kleineren Dateien wird CopyBlockSize verwendet. Ohne Eintrag in der INI-Datei ist diese Funktion abgeschaltet.
+</description>
+				</key>
+				<key name="CopyHugeBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Setzt die Blockgröße beim Kopieren von sehr großen Dateien, beim Kopieren auf ein anderes Laufwerk. Minimum: 256 kB.
+Empfohlene Werte (selber ausprobieren):
+CopyBlockSize=1024
+CopyHugeBlockSize=10240
+CopyBlockSizeOther=32
+CopyHugeBlockSizeOther=32
+</description>
+				</key>
+				<key name="UsbBufSize" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.55">
+					<description>Puffergröße für die USB-Verbindung in kBytes (-1=maximal mögliche Größe verwenden, zzt. 64 kBytes)
+</description>
+				</key>
+				<key name="SamePartitions" file="Wincmd.ini" section="Configuration" default="drives,drives" version="5.00">
+					<description>Erlaubt es festzulegen, welche logischen Laufwerke (Partitionen) zur selben Festplatte gehören. Beispiel. Sie haben 2 Festplatten, eine mit Laufwerken C,E und F, und die andere mit D, G und H. Der Eintrag lautet dann SamePartitions=CEF,DGH
+Beim Kopieren zwischen E und F (selbe physische Platte) werden dann die oberen (i. Allg. größeren) Werte genommen, beim Kopieren zwischen C und D (andere Platte) dagegen die Werte mit 'Other' im Namen.
+</description>
+				</key>
+				<key name="CopyCompatDrives" file="Wincmd.ini" section="Configuration" default="drives" version="6.00">
+					<description>Laufwerke, von/zu welchen im Kompatibilitätsmodus kopiert werden soll (CopyFileEx).
+Empfehlenswert für USB-Sticks und exotische Laufwerkstypen. \ = Netzwerkumgebung, *=Alle Laufwerke. Dieser Modus funktioniert nicht unter Windows 9x/ME.
+</description>
+				</key>
+				<key name="CopyCompatUsbSticks" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Kompatibilitätsmodus für USB-Sticks verwenden
+</description>
+				</key>
+				<key name="ExplorerForCopy" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Benutze eingebaute Kopierfunktion (flexibler), oder Explorer (copy+paste) für F5 und F6 (0/1, Voreinstellung=0)
+</description>
+				</key>
+				<key name="UseFastCtrlC" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55a">
+					<description>Wenn Strg+C oder Strg+X gedrückt wird, lädt TC das Kontextmenü und übergibt den Befehl.
+1: Nur interne Befehle werden geladen
+0: Komplettes Kontextmenü inkl. Explorer-Erweiterungen
+</description>
+				</key>
+				<key name="CopyDirTimeStamp" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Kopiere Verzeichnisdatum in normaler Kopierfunktion (F5)
+</description>
+				</key>
+				<key name="SizeCheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.00">
+					<description>Vor dem Kopieren testen, ob genug Platz vorhanden ist.
+</description>
+				</key>
+				<key name="UseFindForTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Beim Kopieren FindFirstFile statt GetFileTime verwenden, um Dateidatum zu bestimmen (1/0)
+</description>
+				</key>
+				<key name="XPMoveMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.50">
+					<description>1: Beim Verschieben innerhalb eines Laufwerks werden die Permissions des Zielordners genommen
+2: Wie 1, aber die Permissions werden auch auf Dateien und Unterverzeichnisse in verschobenen Verzeichnissen übertragen
+0: Die Permissions der Datei werden beibehalten
+Voreinstellung: XP:1, andere Systeme: 0
+</description>
+				</key>
+				<key name="XPMoveMethodAdmin" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.04">
+					<description>Wie XPMoveMethod, aber fürs Verschieben "Als Administrator" via tcmadmin.exe
+Voreinstellung ist immer 1
+</description>
+				</key>
+				<key name="CountMarked" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>1: Zähle Dateien in Unterverzeichnissen vor dem Kopieren/Löschen, um einen zweiten Prozentbalken anzeigen zu können
+0: Dateien nicht zählen (schneller)
+</description>
+				</key>
+				<key name="CopyStreams" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.51">
+					<description>1: NTFS-Streams werden kopiert
+0: NTFS-Streams werden ignoriert
+</description>
+				</key>
+				<key name="VersionInOverwrite" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Zeigt Dateiversionsinfo im Überschreibendialog. Sollte bei langsamen Netzwerken auf 0 gesetzt werden.
+</description>
+				</key>
+				<key name="CustomFieldsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Zeige benutzerdefinierte Felder  (z.B. [tc.Kommentar]) im Überschreiben-Dialog
+</description>
+				</key>
+				<key name="CopyToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: F5 kopieren: Den Benutzer warnen, wenn er als Zielnamen für eine Datei einen bereits existierenden Verzeichnisnamen angibt
+</description>
+				</key>
+				<key name="MoveToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: F6 verschieben, Umsch+F6: Den Benutzer warnen, wenn er als Zielnamen für eine Datei einen bereits existierenden Verzeichnisnamen angibt
+</description>
+				</key>
+				<key name="LongNameCopy" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>Warnen bei Dateioperationen, falls der Zielname länger als 259 Zeichen ist:
+0=immer
+1=nie
+2=falls der Quellname max 259 Zeichen lang ist
+3=lange Namen verbieten</description>
+				</key>
+				<key name="ESCcheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Teste vor dem Kopieren, ob ESC-Taste stecken geblieben ist (könnte die Kopieraktion unterbrechen)
+</description>
+				</key>
+				<key name="ShowCopyOptions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>1: Die zusätzlichen Optionen im F5-Kopierdialog werden immer angezeigt (festgepinnt)
+</description>
+				</key>
+				<key name="CopyOverwriteDefault" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.56"><description>1..8: Standard für Optionen-Knopf in F5 Kopieren (nur aktiv wenn aufgeklappt)
+
+The numbers correspond to:
+	1. Ask user
+	2. Overwrite all
+	3. Skip all
+	4. Overwrite all older
+	5. Auto-rename copied
+	6. Auto-rename target files
+	7. Copy all larger files (overwrite smaller)
+	8. Copy all smaller files (overwrite larger)</description>
+				</key>
+			</category>
+			<category title="Rename">
+				<key name="RenameSelOnlyName" file="Wincmd.ini" section="Configuration" default="0" version="6.02">
+					<description>Umbenennfunktion: nur Namen, nicht Erweiterung markieren (1), oder Name+Erw. (0)
+</description>
+				</key>
+				<key name="InplaceRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Umbenennen im Fenster an/abschalten bei zweifach-Klick auf Datei (1/0)
+</description>
+				</key>
+				<key name="InplaceRenamePath" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Ändern des aktuellen Verzeichnisses durch Klick auf dieses. Voreinstellung ist der Wert von InplaceRename, falls nicht vorhanden 1.
+2: Deaktiviere inplace rename, aber erlaube schnelle Verzeichniswechsel mit einfachem Klick auf den Pfad-Teil (ohne Shift drücken zu müssen)
+</description>
+				</key>
+				<key name="SetArchiveBitOnRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Beim Umbenennen wird das Archivbit neu gesetzt. Ändern dieser Variable auf 0 verhindert das.
+</description>
+				</key>
+				<key name="MultiRenameEdit" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Editor, mit welchem im Mehrfach-Umbenenntool die Zieldateinamen manuell bearbeitet werden sollen
+</description>
+				</key>
+				<key name="RenameEditUnicode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Einstellungen für Mehrfach-Umbenenntool: Namen bearbeiten
+0: Textdatei als ANSI-Text speichern, außer wenn markierte Namen Unicode-Zeichen von anderen Codeseiten enthalten (z.B. Kyrillisch).
+1: Textdatei immer als Unicode-Text speichern. Nützlich, um z.B. deutsche Namen in russische zu ändern.
+</description>
+				</key>
+				<key name="MultiRenameLoadSettings" file="Wincmd.ini" section="Configuration" default="saved_name" advanced="Yes" version="7.55">
+					<description>Legt fest, mit welchen Einstellungen das Mehrfach-Umbenenntool starten soll:
+(leer lassen): Startet mit den zuletzt benutzten Einstellungen
+Name: Lädt Einstellungen, die unter dem angegebenen Namen gespeichert wurden
+Unbekannter Name: Startet mit Standardeinstellungen
+</description>
+				</key>
+			</category>
+			<category title="Delete">
+				<key name="Win95Delete" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="3.02">
+					<description>Bestimme Ort der Windows-Socket-Bibliothek für FTP (16 bit)
+</description>
+				</key>
+				<key name="VistaDelete" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>Falls =1, wird die neue Löschmethode von Windows Vista oder neuer benutzt, um Dateien in den Papierkorb zu löschen. Verschiebt komplette Verzeichnisse statt einzelne Dateien in den Papierkorb. Warnung: Diese Methode warnt nicht, wenn Dateien mit Attribut nur lesen, versteckt oder System oder nicht-leere Verzeichnisse gelöscht werden, genau wie im Explorer! Nicht benutzen, wenn Sie den Papierkorb bei bestimmten Laufwerken manuell deaktivert haben!
+</description>
+				</key>
+				<key name="UseTrash" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>Benutze Papierkorb von Windows (falls vorhanden und aktiviert)
+</description>
+				</key>
+				<key name="DeleteDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+					<description>Total Commander wartet die angegebene Zeit (in Millisekunden) nach jedem Löschen einer Datei in den Papierkorb. Setzen Sie diesen Wert nach oben (Voreinstellung ist 0), wenn Sie Cleansweep verwenden und Ihr Computer beim Löschen abstürzt.
+</description>
+				</key>
+			</category>
+			<category title="Refresh">
+				<key name="NoReread" file="Wincmd.ini" section="Configuration" default="AB\" version="2.00">
+					<description>Diese Laufwerke nicht neu einlesen (A..Z, \ steht für die 'Netzwerkumgebung', / für Plugins (betrifft nur das Aufstarten), ein Doppelpunkt : für virtuelle Ordner wie den Desktop)
+</description>
+				</key>
+				<key name="NoReread2" file="Wincmd.ini" section="Configuration" default="AB\" version="6.52">
+					<description>Diese Laufwerke nicht neu einlesen beim Schließen und Neustart von Total Commander. Falls noreread2 fehlt, wird der Inhalt von noreread= benutzt, was dem Verhalten von TC-Versionen älter als 6.52 entspricht. Beispiel:
+Noreread=ABC\ und Noreread2=AB\  : Disketten, Laufwerk C und die Netzwerkumgebung nicht automatisch neu einlesen, jedoch Verzeichnisse auf Laufwerk C beim Neustart von Total Commander merken.
+</description>
+				</key>
+				<key name="WatchDirs" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.52">
+					<description>Steuert die Funktion automatischer Verzeichnisupdates. Diese erkennt, wenn Programme außerhalb von Total Commander Dateien anlegen, verändern oder löschen.
+Bilden Sie bitte die Summe folgender Zahlen:
+	1: Funktion einschalten: (Standard: ausgeschaltet).
+	2: Auch Änderungen von Größe, Datum und Attributen erkennen.
+	4: Neu hinzugekommene Dateien ans ENDE der Dateiliste anfügen (sonst: einsortiert)
+	8: Nur auf Änderungen reagieren, wenn Total Commander im Vordergrund ist
+	16: Fußzeile updaten (totale Anzahl). Warnung: Kann in großen Verzeichnissen langsam sein!
+	32: Kopfzeile updaten (freier Plattenplatz). Warnung: Kann auf großen Disks langsam sein!
+	256: Erzeuge einen Standard-Piepton bei jedem Update (nützlich zur Fehlersuche)</description>
+				</key>
+				<key name="WatchDirsExclude" file="Wincmd.ini" section="Configuration" default="Drives" version="6.52">
+					<description>Diese Laufwerke nicht auf Änderungen überwachen, falls die Option WatchDirs= eingeschaltet ist.
+Nützlich z.B. um automatisches Einlesen bei langsamen Laufwerken zu deaktivieren.
+</description>
+				</key>
+				<key name="UpdateEnv" file="Wincmd.ini" section="Configuration" default="3" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Legt fest, ob die Umgebungsvariablen des Systems bei deren Änderung sofort in TC übernommen werden sollen (nur Windows NT/2000/XP/Vista/7). Summe von:
+	1: Schaltet Funktion ein/aus
+	2: Nimmt auch neu hinzugekommene Variablen auf (nicht nur bestehende anpassen)</description>
+				</key>
+			</category>
+			<category title="Quick search">
+				<key name="AltSearch" file="Wincmd.ini" section="Configuration" default="0" version="1.61">
+					<description>Suche mit
+	0=STRG+ALT
+	1=ALT
+	2=Buchstaben
+	3=Buchstaben mit Suchdialog
+	4=Deaktiviert</description>
+				</key>
+				<key name="QuickSearchMatchBeginning" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: Eingabe eines Suchstrings xyz wird als *xyz gelesen
+1: Exakte Übereinstimmung am Anfang: wi findet nur win.ini, nicht otherwin.ini
+</description>
+				</key>
+				<key name="QuickSearchExactMatch" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>0: Eingabe eines Punktes wird wie *. gelesen, win.i findet auch wincmd.ini
+1: Exakte Übereinstimmung: win.i findet nur win.ini, nicht wincmd.ini
+</description>
+				</key>
+				<key name="QuickSearchAutoFilter" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>0: Automatischer Schnellsuchfilter (Strg+S) deaktiviert beim Start von Total Commander
+1: Automatischer Schnellsuchfilter (Strg+S) aktiviert
+-1:Wie 0, aber den Status beim Beenden von TC nicht speichern (Filter beim Start immer aktiviert)
+2: Wie 1, aber den Status ebenfalls nicht speichern (Filter beim Start von TC immer deaktivert)
+</description>
+				</key>
+				<key name="tcmatch" file="Wincmd.ini" section="Configuration" default="%Commander_Path%\tcmatch.dll" advanced="Yes" dialog="Open File" version="7.50">
+					<description>Legt den Ort der Datei tcmatch.dll manuell fest. Muss den kompletten Pfad+Dateinamen enthalten, unterstützt Umgebungsvariablen. tcmatch.dll wird für benutzerdefinierte Schnellsuche benutzt, z.B. nach chinesischen Zeichen.
+</description>
+				</key>
+			</category>
+			<category title="Auto complete">
+				<key name="AutoComplete" file="Wincmd.ini" section="Configuration" default="3" dialog="Bits Sum" version="7.00">
+					<description>Eine Kombination (Summe) der folgenden Optionen:
+	1: Zeige Auto-Vervollständigen-Liste
+	2: Vorgeschlagenen Namen automatisch anhängen</description>
+				</key>
+				<key name="AutoCompleteTab" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Tab wechselt zur aktiven Dateiliste
+1: Wähle nächsten Namen aus Auto-Vervollständigen-Liste, wie '0' falls keiner vorhanden
+2: Wähle nächsten Namen aus Auto-Vervollständigen-Liste, ignorieren falls keiner vorhanden
+</description>
+				</key>
+			</category>
+			<category title="Comments">
+				<key name="CopyComments" file="Wincmd.ini" section="Configuration" default="6" dialog="Bits Sum" version="5.50">
+					<description>Dies ist eine Kombination (Summe) der folgenden Optionen:
+	1: Voreingestellter Kommentartyp ist files.bbs
+	2: Voreingestellter Kommentartyp ist descript.ion
+	4: Lese Kommentare aus beiden Typen
+	8: Kopiere Kommentare zu Dateien. Die Kommentardateien selbst überspringen.
+	16: Benutze DOS-Zeichensatz für descript.ion (files.bbs benutzt diesem immer)
+Hinweis: Falls sowohl 1 als auch 2 gesetzt sind, hat 2 Vorrang.</description>
+				</key>
+				<key name="CmtOemFont" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>Benutze den OEM (DOS)-Zeichensatz in descript.ion Dateien (nur empfohlen falls Sie das Tool 4dos oder 4nt einsetzen).
+</description>
+				</key>
+			</category>
+			<category title="Thumbnails">
+				<key name="ThumbsLocation" file="Wincmd.ini" section="Configuration" default="%$LOCAL_APPDATA%\GHISLER" dialog="Open Folder" version="6.50">
+					<description>Ort des Miniaturbildercache
+</description>
+				</key>
+				<key name="ThumbsCopyDel" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Kopiere/Lösche Miniaturbilder mit Dateien beim Kopieren/Löschen von Dateien
+</description>
+				</key>
+				<key name="ThumbsCustomField" file="Wincmd.ini" section="Configuration" default="[field_contents]" version="7.00">
+					<description>Benutzerdefinierte Felder, die unter den Miniaturbildern angezeigt werden sollen
+</description>
+				</key>
+				<key name="ThumbsCustomFieldsEnabled" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Zeige benutzerdef. Felder unter den Suchstrings
+</description>
+				</key>
+				<key name="ThumbWidthNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Breite der Miniaturbilder, falls kein Cache benutzt wird
+</description>
+				</key>
+				<key name="ThumbHeightNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Höhe der Miniaturbilder, falls kein Cache benutzt wird
+</description>
+				</key>
+				<key name="ThumbExplTypes" file="Wincmd.ini" section="Configuration" default="*.* | *.htm *.html" version="6.50">
+					<description>Suchstring für Miniaturbilder, welche mit der Explorermethode extrahiert werden. HTML-Dateien sind aus Sicherheitsgründen ausgeschlossen, da sie mit dem Internet Explorer extrahiert würden.
+</description>
+				</key>
+				<key name="ThumbPlgTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Suchstring für Miniaturbilder, welche mit Listerplugins extrahiert werden.
+</description>
+				</key>
+				<key name="ThumbIrfXnTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Suchstring für Miniaturbilder, welche mit Irfanview oder Xnview extrahiert werden
+</description>
+				</key>
+				<key name="ThumbTxtTypes" file="Wincmd.ini" section="Configuration" default="*.txt *.ini" version="6.50">
+					<description>Suchstring für Miniaturbilder, welche als reiner Text extrahiert werden.
+</description>
+				</key>
+				<key name="ThumbOptions" file="Wincmd.ini" section="Configuration" default="15" dialog="Bits Sum" version="6.50">
+					<description>Summe der folgenden Optionen:
+	1: Extrahiere Miniaturbilder mit der Explorermethode
+	2: Extrahiere Miniaturbilder mit  Listerplugins
+	4: Extrahiere Miniaturbilder mit Irfanview/Xnview (Pfad im Lister konfiguriert)
+	8: Extrahiere Miniaturbilder als reinen Text</description>
+				</key>
+				<key name="ThumbnailMemoryLimit" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="6.50">
+					<description>Bestimmt, wie viele Vorschaubilder in der Miniaturansicht im Speicher vorgehalten werden. Vorgabe: 200 unter Windows 9x/ME, 500 unter NT/200/XP, Minimum: 100.
+</description>
+				</key>
+				<key name="ThumbnailPrealloc" file="Wincmd.ini" section="Configuration" default="100000" advanced="Yes" version="6.50">
+					<description>Setzt die Anzahl Bytes, die beim Anlegen der Datenbank für die Miniaturansicht vorbelegt werden sollen (reduziert Fragmentierung der OLE-Datenbank).
+</description>
+				</key>
+				<key name="PreloadThumbnails" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>1: Lädt Vorschaubilder schon beim Öffnen des Verzeichnisses, nicht erst beim Blättern an diese Stelle
+2: Wie 1, aber auch im Modus "Zweigansicht"
+3: Nur die nächsten 2 nicht sichtbaren Zeilen im Voraus laden
+0: Voreinstellung: Vorschaubilder erst laden, wenn sie ins Sichtfeld kommen
+</description>
+				</key>
+				<key name="ThumbsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Zeige Miniaturbilder im Überschreiben-Dialog
+</description>
+				</key>
+			</category>
+			<category title="Log file">
+				<key name="LogFile" file="Wincmd.ini" section="Configuration" default="%TEMP%\totalcmd.log" dialog="Open File" version="7.00">
+					<description>Name der Logdatei, um Dateioperationen aufzuzeichnen
+</description>
+				</key>
+				<key name="LogOptions" file="Wincmd.ini" section="Configuration" default="7198" dialog="Bits Sum" version="7.00">
+					<description>Legt fest, welche Operationen geloggt werden sollen. Eine Summe von:
+	1: Die Funktion ist eingeschaltet
+	2: Kopieren, Löschen, Verknüpfungen anlegen
+	4: Dateien löschen
+	8: Verzeichnisse anlegen/löschen
+	16: Pack-/Entpackfunktionen
+	32: zzt. unbenutzt
+	64: Operationen mit Dateisystem-Plugins
+	1024: Die Operation war erfolgreich
+	2048: Die Operation ist fehlgeschlagen
+	4096: Die Operation wurde gestartet, aber die Datei übersprungen</description>
+				</key>
+				<key name="LogRotateLimit" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Falls auf -1 gesetzt, eine neue Logdatei jeden Tag nach Mitternacht beginnen.
+Falls auf einen Wert v&gt;0 gesetzt, eine neue Logdatei immer dann beginnen, wenn die aktuelle Logdatei größer als v kBytes wird.
+</description>
+				</key>
+				<key name="LogKeepCount" file="Wincmd.ini" section="Configuration" default="30" version="7.00">
+					<description>Maximale Anzahl Kopien von Logdateien, die behalten werden sollen, wenn die Logdateirotation benutzt wird
+</description>
+				</key>
+			</category>
+			<category title="Ignore list">
+				<key name="IgnoreListFileEnabled" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Legt fest, ob die unter IgnoreListFile= angegebene Liste aktiviert ist oder nicht. Erlaubt die Funktion temporär abzuschalten, ohne den Ort der Datei zu löschen. Der interne Befehl cm_SwitchIgnoreList schaltet diese Option ein und aus.
+</description>
+				</key>
+				<key name="IgnoreListFile" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Zeigt auf eine Textdatei (Pfad+Dateiname), welche eine Liste von Namen enthält, die von Total Commander ignoriert werden sollen (nicht anzeigen, kopieren, löschen etc). Unterstützt Platzhalterzeichen * und ? in den Dateinamen sowie Namen mit oder ohne Pfad (mit und ohne Laufwerk). Die Zeilen können die folgenden Formen annehmen:
+Dateiname.ext Verstecke Dateiname.ext in allen Unterverzeichnissen
+c:\test\Dateiname.ext Verstecke Dateiname.ext nur in c:\test
+\System volume information Verstecke dieses Verzeichnis auf allen Laufwerken
+*.bak *.~* Verstecke diese Dateitypen in allen Unterverzeichnissen
+c:\test\*.bak *.~* Verstecke diese Dateitypen nur in c:\test
+\test\*.bak *.~* Verstecke diese Dateitypen in \test auf allen Laufwerken
+c:\test\"abc def.*" *.~* Namen mit Leerzeichen müssen in "" stehen,
+  sofern sie Platzhalterzeichen enthalten (* oder ?)
+</description>
+				</key>
+			</category>
+			<category title="Drives">
+				<key name="CdCloseDoor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Wenn der Laufwerkwechsel auf ein CD-Laufwerk fehlschlägt, versuchen, die CD-Schublade zu schließen. Abschalten mit CdCloseDoor=0
+</description>
+				</key>
+				<key name="DeviceChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.52">
+					<description>1= reagiere auf wm_devicechange Meldungen (entdeckt Diskwechsel)
+0= ignorieren</description>
+				</key>
+				<key name="DriveisCD" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="4.54">
+					<description>Definiert die Laufwerke F, G und H als CD-ROM-Laufwerke. Beim Kopieren von diesen Laufwerken wird das "nur lesen" Attribut nicht mit kopiert. Nützlich für CD-ROM Laufwerke im Netzwerk, die nicht automatisch als solche erkannt werden können.
+</description>
+				</key>
+				<key name="DriveTipDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.11">
+					<description>Zeitverzögerung in Millisekunden, bis Laufwerkserklärungen neben der Laufwerkauswahlbox angezeigt werden (Voreinstellung = 0)
+</description>
+				</key>
+				<key name="AlwaysToRoot" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Wenn=1, wird beim Laufwerkwechsel immer ins Hauptverzeichnis des Laufwerks gewechselt (wie beim Explorer)
+</description>
+				</key>
+				<key name="DrivesShowUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Zeige Laufwerke in Großbuchstaben u.a. in Laufwerksbuttonbar, Laufwerksliste und akt. Pfad
+</description>
+				</key>
+				<key name="DrivesExportUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Exportiere Laufwerksbuchstaben in Großschreibung bei Funktionen wie cm_CopyFullNamesToClip, oder beim Starten von Programmen (im Programmnamen und aktuellen Verzeichnis)
+Hinweis: Wenn DrivesShowUpcase gesetzt ist und DrivesExportUpcase nicht, wird der Wert von Ersterem übernommen
+</description>
+				</key>
+				<key name="HideRemovableNoMedia" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Falls !=0 werden Wechsellaufwerke wie USB-Kartenleser nur dann angezeigt, wenn sie ein Medium enthalten. CD/DVD-ROM- und Diskettenlaufwerke werden immer angezeigt. Betrifft:
+1: Den Laufwerks-Buttonbar
+2: Die Laufwerksliste
+3. Beide
+Hinweis: Diese Funktion kann bei bestimmten Laufwerken stark bremsen. Schalten Sie sie wieder aus, falls Total Commander merkbar langsamer wird.</description>
+				</key>
+			</category>
+			<category title="Folder tabs">
+				<key name="LockedGoToDriveRoot" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>0: Klick auf [ \ ] wechselt in Basisverzeichnis des gesperrten Ordner-Tabs
+1: Klick auf [ \ ] wechselt in Hauptverzeichnis (Wurzel) des Laufwerks
+</description>
+				</key>
+				<key name="LockedTabChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Was soll beim Verzeichniswechsel bei einem gesperrten Ordner-Tab geschehen:
+	0: Immer einen neuen Tab erzeugen
+	1: Tab mit selbem Verzeichnis wiederverwenden
+	2: Ersten nicht gesperrten Tab verwenden
+	3: Letzten nicht gesperrten Tab verwenden</description>
+				</key>
+				<key name="TabDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="7.00">
+					<description>Ort merken, wo Ordnertabs zuletzt gespeichert/geladen wurden
+</description>
+				</key>
+				<key name="TabEnterDirChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Was soll passieren, wenn der Benutzer ENTER drückt bei einem Verzeichnis auf einem gesperrten Ordner-Tab?
+	0: nichts
+	1: neues Tab öffnen
+	2: Benutzer fragen</description>
+				</key>
+				<key name="TabSwitchMode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Strg+Tab wechselt Tabs erst beim Loslassen der STRG-Taste
+1: Strg+Tab wechselt Tabs bei jedem Drücken der Tabulatortaste
+</description>
+				</key>
+			</category>
+			<category title="Tree">
+				<key name="OldStyleTree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Diese Option betrifft nur Verzeichnisbäume in einem der beiden normalen Dateifenster:
+	0: Lade explorerartigen Verzeichnisbaum für alle Laufwerke
+	1: Lade immer den gesamten Verzeichnisbaum eines Laufwerks
+	2: Lade Verzeichnisbaum nur für aktuelles Laufwerk</description>
+				</key>
+				<key name="AutoTreeChange" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>Wenn=1, wechselt ein einfacher Klick im Verzeichnisbaum das Verzeichnis im anderen Fenster.
+</description>
+				</key>
+				<key name="UpdateTreeAtStartup" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Legt fest, ob ein separater Verzeichnisbaum bereits beim Start bis zum aktuellen Verzeichnis geöffnet wird (1), oder erst beim ersten Verzeichniswechsel durch den Benutzer (0).
+</description>
+				</key>
+				<key name="AllowSetCursorPos" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Bestimmt das Verhalten beim Anzeigen von vielen Unterordnern eines Ordners in der Baumansicht (mit der Maus), z.B. durch Klick auf das [+]-Symbol:
+	1: Der Mauszeiger wird bewegt, so dass er auf dem geöffneten Ordner bleibt
+	0: Der Mauszeiger wird nicht bewegt</description>
+				</key>
+				<key name="TreeUpdateLimit" file="Wincmd.ini" section="Configuration" default="2048" advanced="Yes" version="7.00">
+					<description>Größe (in kBytes), bis zu welcher die Verzeichnisbaumdatei treeinfo.wc bei Dateioperationen wie Kopieren und Löschen automatisch nachgeführt werden soll. Bei sehr großen Verzeichnisbäumen würde dieses Update sehr lange dauern.
+</description>
+				</key>
+				<key name="TreeFileLocation" file="Wincmd.ini" section="Configuration" default="Tree_File_Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Legt den Ort der Datei treeinfo.wc fest, z.B. treefilelocation=c:\somedir\treeinfo%D%.wc
+%D% wird ersetzt durch den Laufwerksbuchstaben (bzw. Wurzelverzeichnis der Freigabe)
+%R% wird ersetzt durch das Wurzelverzeichnis.
+%L% wird ersetzt durch den Laufwerksnamen.
+Bitte beachten Sie, dass diese Variablen GROSS geschrieben werden müssen, ansonsten sucht TC nach so benannten Umgebungsvariablen!
+</description>
+				</key>
+				<key name="TreeFileLocationE" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Bestimmt den Ort der Datei treeinfo nur für Laufwerk E. Funktioniert nur, falls treefilelocation= auch gesetzt ist!
+</description>
+				</key>
+				<key name="TreeFileLocation__server_share" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Bestimmt den Ort der Datei treeinfo für \\server\share (treefilelocation= MUSS auch gesetzt sein).
+</description>
+				</key>
+			</category>
+			<category title="Breadcrumb">
+				<key name="BreadcrumbSeparator" file="Wincmd.ini" section="Configuration" default="-3" advanced="Yes" version="7.50">
+					<description>Legt den Anfang der Zone fest, in die man den Mauszeiger bewegen muss, um Unterverzeichnisse zu öffnen:
+0..100: Wert in Prozent, wo die Zone beginnt. 0=die gesamte Breite wird benutzt
+-1,-2 usw.: Absolutwert der Zonenbreite, von rechts her gemessen, in Mehrfachen der Zeilenhöhe
+</description>
+				</key>
+				<key name="BreadcrumbDelayButton" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Zeit in Millisekunden, die der Mauszeiger über dem Verzeichnispfad stehen muss, bis der Knopf angezeigt wird, mit dem man die Liste der Unterverzeichnisse öffnen kann. Bei negativen Werten wird die Liste der Unterverzeichnisse sofort angezeigt, kein Knopf
+</description>
+				</key>
+				<key name="BreadcrumbDelayDir" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Zeit in Millisekunden, die der Mauszeiger in der Unterordnerzone verweilen muss, bis sich der Unterordner als Untermenü öffnet
+</description>
+				</key>
+				<key name="BreadcrumbDelayFtp" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Wie oben, aber für FTP-Verbindungen
+</description>
+				</key>
+				<key name="BreadcrumbDelayPlugin" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Wie oben, aber für Dateisystem-Plugins
+</description>
+				</key>
+				<key name="BreadcrumbDelayVirtual" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Wie oben, aber für virtuelle Ordner wie den Desktop
+</description>
+				</key>
+				<key name="BreadCrumbMaxWidth" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>Begrenzt die Breite der Liste der Unterverzeichnisse der Brotkrumenleiste, in Bildpunkten.
+  -1 bedeutet halbe Bildschirmbreite.
+Die Breite ist begrenzt auf 100 Bildpunkte (Minimum) und die aktuelle Schirmbreite (Maximum).
+</description>
+				</key>
+			</category>
+			<category title="Network">
+				<key name="AllHiddenNetNames" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Zeige nur versteckte Laufwerke C$ bei der Wahl von "Zeige administrative Freigaben"
+1: Zeige alle versteckten Freigaben
+</description>
+				</key>
+				<key name="Netwarebugfix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: Dateien auf Netzlaufwerk nicht direkt umbenennen!
+</description>
+				</key>
+				<key name="PortInDriver" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+					<description>1: transferiert ganze Blöcke im Treiber (Voreinstellung) -&gt; schneller, schlechtes Multitasking
+0: Transfer im Benutzermodus -&gt; langsamer, aber besseres Multitasking
+Diese Einstellung betrifft nur Win95/98/ME. Unter WinNT/2000 und neuer müssen alle Transfers im Treiber ablaufen.
+</description>
+				</key>
+				<key name="TestIfSharedDir" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Testen, ob ein Verzeichnis im Netzwerk freigegeben ist. Falls ja, wird das mit einer Hand unter dem Icon angezeigt (1/0)
+</description>
+				</key>
+				<key name="UseShellConnect" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Falls =1, verwende alte Methode zum Verbinden mit Netzlaufwerken (Workaround für VINES)
+</description>
+				</key>
+				<key name="NetHoodInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Lade Netzwerkumgebung in Hintergrundthread
+</description>
+				</key>
+				<key name="ThreadFindFirst" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Wenn auf 1 gesetzt wird die Funktion FindFirstFile im Hintergrund ausgeführt, so dass man das Einlesen von Verzeichnissen bei einer hängenden Netzwerkverbindung abbrechen kann.
+</description>
+				</key>
+				<key name="AdminShares" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>1: Administrative Freigaben (wie C$) immer anzeigen, nur WinNT-basierte Systeme
+</description>
+				</key>
+				<key name="PromptForUser" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>0: Beim Verbinden eines Netzlaufwerks nur Parameter CONNECT_INTERACTIVE benutzen
+1: Auch Parameter CONNECT_PROMPT setzen, damit immer nach dem Namen gefragt wird
+</description>
+				</key>
+			</category>
+			<category title="Privacy">
+				<key name="Savepath" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Aktuelle Pfade beim Beenden speichern (1/0)
+</description>
+				</key>
+				<key name="Savepanels" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Einstellungen beim Beenden speichern (1/0)
+</description>
+				</key>
+				<key name="SaveCommands" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Kommandozeilen speichern beim Beenden? (1/0)
+</description>
+				</key>
+				<key name="SaveHistory" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Liste der zuletzt besuchten Verzeichnisse (Alt+Pfeil ab) speichern in [LeftHistory] bzw. [RightHistory]
+</description>
+				</key>
+			</category>
+			<category title="Security">
+				<key name="RestrictInterface" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="3.50">
+					<description>Deaktiviert Teile der Benutzeroberfläche von Total Commander. Bilden Sie einfach die Summe der folgenden Optionen:
+	1=Startmenü
+	2=Kommandozeile
+	4=Buttonbar ändern
+	8=Laufwerks-Rechtsklickmenü
+	16=Datei-Rechtsklickmenü
+	32=Liste oft benutzter Verzeichnisse ändern
+	64=FTP (STRG+N, STRG+F)
+	128=ENTER-Taste (Programme starten, Dokumente öffnen)
+	256=Dateisystem-Plugins
+	512=Port-Verbindung (via USB oder LPT)</description>
+				</key>
+				<key name="Allowed" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="2.00">
+					<description>Erlaubte Laufwerke -&gt; Zugriff einschränken!
+\ steht für die 'Netzwerkumgebung'.
+</description>
+				</key>
+				<key name="AdminTimeout" file="Wincmd.ini" section="Configuration" default="180" advanced="Yes" version="7.00">
+					<description>Legt fest, nach wie vielen Sekunden Inaktivität das Programm tcmadmin.exe (benutzt zum Kopieren/Löschen usw. als Administrator) beendet werden soll. Auf 0 setzen für kein Timeout, -1 um Kopieren als Admin komplett zu deaktivieren.
+</description>
+				</key>
+				<key name="x64DisableRedirection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>1: Deaktiviert die Umleitung des Verzeichnisses windows\system32 auf windows\syswow64 unter 64-bit Windows-Versionen. Kann diverse negative Auswirkungen haben, etwa das Nicht-Funktionieren von bestimmten Plugins.
+</description>
+				</key>
+			</category>
+			<category title="Confirmation">
+				<key name="deleteDirs" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Nicht leere Verzeichnisse löschen (1/0)
+</description>
+				</key>
+				<key name="OverwriteFiles" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Dateien überschreiben (1/0)
+</description>
+				</key>
+				<key name="OverwriteReadonly" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Als 'nur lesen' markierte Dateien überschreiben (1/0)
+</description>
+				</key>
+				<key name="OverwriteHidSys" file="Wincmd.ini" section="Confirmation" default="1" version="2.11">
+					<description>Als versteckt/system markierte Dateien überschreiben (1/0)
+</description>
+				</key>
+				<key name="MouseActions" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Bei Drag&amp;Drop nachfragen (1/0)
+</description>
+				</key>
+				<key name="AppendWarning" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.00">
+					<description>Wenn=0 zeigt Total Commander keine Warnung vor dem Anhängen von Daten an eine Datei
+</description>
+				</key>
+			</category>
+			<category title="Mouse">
+				<key name="SingleClickStart" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.51">
+					<description>0= Doppelklick startet Programme
+1= Ein einzelner Klick startet Programme und öffnet Dateien (Win98 WEB-Stil)
+2= Ein einzelner Klick öffnet nur Ordner, für Dateien ist ein Doppelklick erforderlich
+4 addieren: der Textcursor folgt nicht mehr automatisch dem Mauszeiger
+</description>
+				</key>
+				<key name="UseRightButton" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Benutze rechte Maustaste zum Markieren
+</description>
+				</key>
+				<key name="IgnoreWheel" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Maus-Rad (Intellimouse) ignorieren
+</description>
+				</key>
+				<key name="DropExtensions" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Erlaube Drag&amp;Drop-Shellerweiterungen für ziehen+fallenlassen mit rechter Maustaste (1/0)
+</description>
+				</key>
+				<key name="ContextProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Forschrittsbalken anzeigen beim Rechtsklick zur Anzeige des Kontextmenüs (1/0)
+</description>
+				</key>
+			</category>
+			<category title="Keyboard">
+				<category title="General">
+					<key name="CmdUpDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+						<description>Bewege Cursor im Dateifenster auf/ab, auch wenn das aktive Fenster die Kommandozeile ist (1/0)
+</description>
+					</key>
+					<key name="CtrlArrow" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.03">
+						<description>1: Benutze interne Strg+Pfeil-Bewegungsmethode in Editboxen wie der Kommandozeile
+0: Benutze Standard-Windowsmethode
+</description>
+					</key>
+					<key name="MarkDirectories" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+						<description>Verzeichnisse markieren (mit +)
+</description>
+					</key>
+					<key name="CountSpace" file="Wincmd.ini" section="Configuration" default="1" version="5.00">
+						<description>1: Zähle Dateien in Unterverzeichnissen beim Markieren mit der Leertaste
+0: Dateien nicht zählen (schneller)
+</description>
+					</key>
+					<key name="SpaceMovesDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+						<description>1= Beim Markieren mit der &lt;LEERTASTE&gt;, gehe zur nächsten Datei (wie mit &lt;EINFÜGEN&gt;)
+</description>
+					</key>
+					<key name="SpecialCursorMovement" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.00">
+						<description>Neuer Cursorbewegungsmodus. Summe der folgenden Optionen:
+	1: Pfeil nach links springt zur ersten Datei, rechts zur letzten
+	2: Pfeil nach links wechselt 1 Verzeichnis höher, rechts öffnet Verzeichnis/Archiv unter Cursor
+	4: Benutze den neuen Cursorbewegmodus auch in benutzerdef. Ansichten mit horizontalem Rollbalken. Falls nicht gesetzt, springt Pfeil nach links nur dann zur ersten Datei, wenn sich der Rollbalken bereits ganz links befindet.
+	8: Springe um eine Seite nach oben/unten statt an Anfang/Ende</description>
+					</key>
+					<key name="KeyboardID" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+						<description>Tastaturbelegung ändern, wenn TC aktiviert wird oder Umbenennen endet:
+	0: deaktiviert, Tastaturbelegung nicht ändern
+	1: auf standard-Lokale ändern, z.B. deutsches Layout bei deutscher Spracheinstellung
+Andere Werte (Beispiele):
+	$0409: Englische Tastatur (QWERTY)
+	$0407: Deutsche Tastatur (QWERTZ)
+	$0807: Schweizerdeutsche Tastatur
+	$040C: Französische Tastatur (AZERTY)
+	$0408: Hellenische (Griechische) Tastatur
+	$0419: Russische Tastatur (kyrillisch)
+	$e00e0804: Chinesisch mit Microsoft PinYin IME
+	$e0010411: Japanisch mit Standard-IME
+Das $-Zeichen bedeutet eine Hexadezimalzahl. Sprachidentifikationsnummern können an folgender Adresse gefunden werden (erste Spalte):
+http://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx</description>
+					</key>
+					<key name="SkipCharOnCursor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.56"><description>Cursorbewegung in Textfeldern bei vorhandener Markierung:
+0: Cursor wird vor/hinter Markierung gestellt
+3: Cursor bewegt sich, als ob keine Markierung vorhanden war (Windows-Standard)
+1/2: Wie 3, aber separat für Pfeiltaste links bzw. rechts</description>
+					</key>
+				</category>
+				<section title="Shortcuts" name="Shortcuts" file="Wincmd.ini" version="4.50">
+					<description>Definiert Tastenkürzel, welche die Standard-Tastenkürzel ersetzen
+CAS+F2=cm_renameonly In diesem Beispiel ruft ein Druck auf Strg+Alt+Umsch+F2 (Strg+Alt+Shift+F2) die interne Funktion cm_renameonly auf.
+C=Strg(Ctrl)
+A=Alt
+S=Umschalt(Shift))</description>
+				</section>
+				<section title="ShortcutsWin" name="ShortcutsWin" file="Wincmd.ini" version="7.50">
+					<description>Wie [shortcuts], aber zusammen mit der Windows-Taste.</description>
+				</section>
+				<section title="Alias" name="Alias" file="Wincmd.ini" version="7.00">
+					<description>Alias-Befehlsdefinitionen aus Konfigurieren - Diverses</description>
+				</section>
+			</category>
+			<category title="Run once">
+				<key name="FirstTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.10">
+					<description>Total Commander wird zum 1. Mal gestartet (1/0)
+</description>
+				</key>
+				<key name="FirstTimeUnpack" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="2.00">
+					<description>Erstes mal "Alles entpacken" -&gt; Hinweis
+</description>
+				</key>
+				<key name="FirstTimeZIP" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.30">
+					<description>Erstes Mal packen/entpacken -&gt;Hinweis
+</description>
+				</key>
+				<key name="FirstFTPSync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Synchronisieren mit FTP wurde noch nie aufgerufen -&gt; Zeige Warnseite in der Hilfe an
+</description>
+				</key>
+				<key name="FirstMLSDsync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>Synchronisieren per FTP mit MLSD-Befehl statt LIST wurde noch nie benutzt -&gt; Zeige Warnseite in der Hilfe an
+</description>
+				</key>
+				<key name="UnicodeListWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Diese Option wird in TC 7.5 oder neuer nicht mehr benutzt
+</description>
+				</key>
+			</category>
+			<category title="Programs opening">
+				<key name="LongNamesToDos" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+					<description>Übergebe kurze/lange Dateinamen an eine DOS-Box bei Umsch+Enter (0/1).
+</description>
+				</key>
+				<key name="LastRunAs" file="Wincmd.ini" section="Configuration" default="Administrator" advanced="Yes" version="7.00">
+					<description>Letzter Benutzername, der in der Funktion cm_OpenAsUser benutzt wurde
+</description>
+				</key>
+			</category>
+			<category title="Misc">
+				<key name="AppendLnk" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Verknüpfungen (Softlinks, *.lnk) werden wie folgt erzeugt:
+	0: file.ext -&gt; file.lnk
+	1: file.ext -&gt; file.ext.lnk</description>
+				</key>
+				<key name="SearchInFiles" file="Wincmd.ini" section="Configuration" default="*.ext" advanced="Yes" version="5.50">
+					<description>Hier können Sie zusätzliche Dateierweiterungen von Archiven angeben, in welchen gesucht werden soll.
+Beispiel: SearchInFiles=*.EXE *.JAR</description>
+				</key>
+				<key name="SearchKeepLast" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.56"><description>Letztes Suchresultat beim Schließen des Suchen-Dialogs behalten, ausser bei "Anwenden"</description>
+				</key>				
+				<key name="SoundDelay" file="Wincmd.ini" section="Configuration" default="10" version="5.00">
+					<description>Minimale Zeit (in Sekunden), die eine Dateioperation dauern muss, damit der Klang für das Operationsende abgespielt wird.
+</description>
+				</key>
+				<key name="OldStyleDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Benutze SetCurDir zum Testen, ob Verzeichnis existiert / Benutze direkt FindFirstFile (1/0)
+</description>
+				</key>
+				<key name="FlushFile" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Allow user to turn on/off flush before closing files.
+	0= Off;
+	1= when copying;
+	2= when unpacking;
+	3= when copying and unpacking.
+It's strongly recommended to disable this mode, otherwise TC will be very slow.</description>
+				</key>
+				<key name="WipeDir" file="Wincmd.ini" section="Configuration" default="%temp%\_tc0\" advanced="Yes" dialog="Open Folder" version="7.00">
+					<description>Pfad zum TEMP-Verzeichnis von TC (zum Löschen wenn TC geöffnet wird)
+Ignoriert, falls es nicht $wc oder (in TC7) \_tc enthält.
+</description>
+				</key>
+				<key name="BrushForCursor" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Diese Option auf 1 setzen, wenn Total Commander beim Bewegen des Cursors (markierte Datei) einen Rahmen um die nicht markierten Dateien hinterlässt (Bug in Grafikkarte).
+</description>
+				</key>
+				<key name="ClearListBackground" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>0: Reduziert Flackern beim Verzeichniswechsel (Hintergrund wird nicht vorher gelöscht)
+1: Hintergrund wird gelöscht (Standard)
+</description>
+				</key>
+				<key name="X64WaitTime" file="Wincmd.ini" section="Configuration" default="15" advanced="Yes" version="7.50">
+					<description>Maximale Wartezeit in Sekunden, bis tcmdx64.exe das X64-Untermenü unter 64-bit Windows zurückliefern muss, bevor eine Fehlermeldung angezeigt wird. Hinweis: Dies beinhaltet nicht die Zeit, die für den Start von tcmdx64.exe benötigt wird.
+</description>
+				</key>
+				<key name="Firstmnu" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>The internal counter. This key is mainly used to check whether the wincmd.ini is writable. Now it does not contain any meaningful information and does not affect any configurations. It is reserved for the future to count how many days you use Total Commander already.</description>
+				</key>
+				<key name="Test" file="Wincmd.ini" section="Configuration" default="128" advanced="Yes" version="5.50">
+					<description>Dieser Schlüssel wird nur intern verwendet um zu testen, ob die ini-Datei verändert werden kann. Ansonsten wird eine Fehlermeldung gezeigt.
+</description>
+				</key>
+				<key name="SelectionMarker" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.56"><description>SelectionMarker= Rückgabe dieser Zeichen bei WM_GETTEXT (für Screenreader)</description>
+				</key>				
+			</category>
+		</category>
+		<category title="Packers">
+			<category title="General">
+				<key name="AlwaysPackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: zip im Hintergrund
+2: zip+externe Packer im Hintergrund
+3: wie 2, aber startet externe Packer minimiert
+</description>
+				</key>
+				<key name="AlwaysUnpackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: unzip im Hintergrund
+2: unzip+externe Entpacker im Hintergrund
+3: wie 2, aber startet externe Entpacker minimiert
+</description>
+				</key>
+				<key name="ZIPlikeDirectory" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Gepackte Dateien wie Verzeichnisse behandeln
+</description>
+				</key>
+				<key name="ExpertMode" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="3.51">
+					<description>1: startet Dateien in ZIP-Datei sofort nach ENTER;
+0: zeigt Eigenschaften-Dialog</description>
+				</key>
+				<key name="LastUsedPacker" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Zuletzt benutzter Packer
+</description>
+				</key>
+				<key name="DefPlugin" file="Wincmd.ini" section="Packer" default="cab" version="6.00">
+					<description>Zuletzt benutztes Packer-Plugin
+</description>
+				</key>
+				<key name="UnZIPSeparateSubdirs" file="Wincmd.ini" section="Packer" default="-1" advanced="Yes" version="7.55">
+					<description>Speichert Option "Jedes Archiv in separates Verzeichnis entpacken":
+	0: Option aus, Benutzeränderungen werden gespeichert
+	1: Option ein, Benutzeränderungen werden gespeichert
+	-1: Option aus, Benutzeränderungen werden NICHT gespeichert (Standard)
+	-2: Option ein, Benutzeränderungen werden NICHT gespeichert
+	-3: Wie -2, aber nur, wenn mehr als ein Archiv markiert ist</description>
+				</key>
+				<key name="ZIPDirectoryOfFile" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Verzeichnis mit packen
+</description>
+				</key>
+				<key name="ZIPRecurseSubdirs" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Verzeichnisse in Verzeichnissen packen
+</description>
+				</key>
+				<key name="ExtractPathInZIP" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Pfade mit entpacken
+</description>
+				</key>
+				<key name="UnZIPOverwrite" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Beim Entpacken immer überschreiben
+</description>
+				</key>
+				<key name="WipeEncrypted" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Wenn eine Datei aus einem verschlüsselten Archiv angezeigt/bearbeitet/geöffnet/verglichen wird, muss sie dafür temporär ins TEMP-Verzeichnis entpackt werden. Standardmäßig wird diese temporäre Datei aus Sicherheitsgründen vor dem Löschen mit Nullen überschrieben. Dies kann mit WipeEncrypted=0 verhindert werden, um Zeit zu sparen.
+</description>
+				</key>
+			</category>
+			<category title="ZIP packer">
+				<key name="InternalZip" file="Wincmd.ini" section="Packer" default="1" version="2.11">
+					<description>Benutze internen ZIP-Packer
+</description>
+				</key>
+				<key name="InternalUnzip" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Internes Unzip verwenden
+</description>
+				</key>
+				<key name="ZIP" file="Wincmd.ini" section="Packer" default="pkzip.exe" dialog="Open File" version="1.10">
+					<description>Pfad zu PKzip
+</description>
+				</key>
+				<key name="UnZIP" file="Wincmd.ini" section="Packer" default="pkunzip.exe" dialog="Open File" version="1.10">
+					<description>Pfad zu PKunzip
+</description>
+				</key>
+				<key name="InternalZipRate" file="Wincmd.ini" section="Packer" default="6" version="2.11">
+					<description>Packrate für internen ZIP-Packer (0=ohne Kompression, 1=schnellste, 9=beste)  (0-9)
+</description>
+				</key>
+				<key name="InternalzipTemp" file="Wincmd.ini" section="Packer" default="%temp%" version="2.11">
+					<description>Pfad für temporäre Dateien für internen ZIP-Packer
+</description>
+				</key>
+				<key name="OpenPartial" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Öffne partielle ZIP-Archive, z.B. teilweise heruntergeladene
+</description>
+				</key>
+				<key name="nodelete" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Entpackte Dateien mit falscher CRC-Quersumme nicht löschen
+</description>
+				</key>
+				<key name="PluginOverrideZip" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Erlaubt die Benutzung eines Packer-Plugins für ZIP-Dateien
+0: Die interne Unzip-Funktion hat immer Vorrang
+</description>
+				</key>
+				<key name="RemovableInTemp" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="4.00">
+					<description>1: Total Commander verändert ZIP-Dateien auf Wechselplatten so:
+erzeuge neues Archiv im TEMP-Verzeichnis, lösche altes Archiv, kopiere neues auf Wechselplatte
+0: Für Disketten wie 1, für größere Platten (ZIP, JAZ) direkt auf der Platte ohne TEMP-Verzeichnis
+</description>
+				</key>
+				<key name="VerifyZIP" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="2.11">
+					<description>1=ZIP-Datei testen nach packen,
+0=nicht testen</description>
+				</key>
+				<key name="WarnTooBig" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Warnen, dass einige Packer die ZIP-Datei nicht entpacken können, falls sie größer als 2GB wird
+</description>
+				</key>
+				<key name="ZipUnicode" file="Wincmd.ini" section="Packer" default="0" version="7.50">
+					<description>Legt fest, wie Unicode-Dateinamen in ZIP-Archive gepackt werden:
+	0: Jedes Mal fragen, wenn ein Unicode-Name auftritt
+	1: Speichere Unicode-Namen als UTF-8 (Pkzip 4.5/Winzip 11.2-Methode)
+	2: Alle als UTF-8, falls mindestens einer Unicode enthält
+	3: Alle als UTF-8, falls mindestens einer nicht englische Zeichen enthält
+	4: Speichere Unicode-Name in Extra-Feld (Info-Zip-Methode)
+	5: Speichere alle Namen mit nicht-englischen Zeichen in Extra-Feld
+	6: Speichere Unicode-Zeichen als '?'</description>
+				</key>
+				<key name="Zip83Name" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Packe Dateien mit ihren alternativen Dateinamen (DOS, 8 Name und 3 Erweiterung), anstelle der langen Dateinamen. (1/0)
+</description>
+				</key>
+				<key name="ZipAES" file="Wincmd.ini" section="Packer" default="0" version="7.00">
+					<description>Setzt das Verschlüsselungsformat für ZIP:
+	0: ZIP2.0-Verschlüsselung
+	1: AES mit 128 bit-Schlüssel
+	2: AES 192 bit
+	3: AES 256 bit</description>
+				</key>
+				<key name="ZipAnsiNames" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Speichere Namen in ZIP-Archiven mit dem ANSI (Windows)-Zeichensatz statt OEM (DOS). Hinweis: Einige Entpacker können dann Archive mit Umlauten nicht richtig entpacken.
+</description>
+				</key>
+				<key name="ZipSetDateToNewest" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Setze beim Packen mit dem internen Packer das Datum der ZIP-Datei auf das Datum der jüngsten Datei in dieser ZIP-Datei. (1/0)
+</description>
+				</key>
+				<key name="ZipMagic" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Überspringe ZipMagic-Erkennung beim Öffnen von ZIP-Dateien
+</description>
+				</key>
+				<key name="zipnt" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Benutze Info-ZIP für NT (0=nein, 1 = Version 2.0.1 (erfolgreich angepasst), 2= unerkannte Version)
+</description>
+				</key>
+				<key name="LzmaAllowed" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.50">
+					<description>1: ZIP-Packer: Erlaubt LZMA-Kompression (nicht empfohlen, nur Winzip &gt;=12 kann das entpacken). Falls aktiv, kann als Packrate 10 für LZMA eingestellt werden.
+</description>
+				</key>
+			</category>
+			<category title="Other packers">
+				<key name="ARJ" file="Wincmd.ini" section="Packer" default="arj.exe" dialog="Open File" version="1.10">
+					<description>Pfad zu ARJ
+</description>
+				</key>
+				<key name="ARJlongnames" file="Wincmd.ini" section="Packer" default="0" version="3.50">
+					<description>Übergebe beim Packen lange Dateinamen an ARJ (geht nur unter Win95/Win98)
+</description>
+				</key>
+				<key name="ACE" file="Wincmd.ini" section="Packer" default="ace.exe" dialog="Open File" version="3.50">
+					<description>Pfad zum Packer ACE
+</description>
+				</key>
+				<key name="LHA" file="Wincmd.ini" section="Packer" default="lha.exe" dialog="Open File" version="1.10">
+					<description>Pfad zu LHA
+</description>
+				</key>
+				<key name="RAR" file="Wincmd.ini" section="Packer" default="rar.exe" dialog="Open File" version="2.00">
+					<description>Pfad zu RAR
+</description>
+				</key>
+				<key name="UC2" file="Wincmd.ini" section="Packer" default="uc2.exe" dialog="Open File" version="2.00">
+					<description>Pfad zu UC2
+</description>
+				</key>
+				<key name="InternalUnarj" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Dito für ARJ
+</description>
+				</key>
+				<key name="InternalUnace" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Dito für ACE
+</description>
+				</key>
+				<key name="InternalUnlzh" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Dito für LHA
+</description>
+				</key>
+				<key name="InternalUnrar" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Dito für RAR
+</description>
+				</key>
+				<key name="LinuxCompatible" file="Wincmd.ini" section="Packer" default="1" version="5.00">
+					<description>1: Erzeuge Linux-kompatible TAR-Archive
+0: Erzeuge SunOS-kompatible TAR-Archive
+</description>
+				</key>
+			</category>
+		</category>
+		<category title="Plugins">
+			<category title="General">
+				<key name="AutoInstallPlugins" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Wenn=0 ist die automatische Installation von Plugins beim Öffnen von Plugin-Archiven deaktiviert.
+</description>
+				</key>
+				<key name="PluginBaseDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="6.50">
+					<description>Verzeichnis, unter welchem Plugins automatisch installiert werden. TC hängt an diesen Pfad den Plugintyp sowie das Standard-Pluginverzeichnis an, wenn er ein neues Plugin installiert.
+Beispiel: pluginbasedir=%COMMANDER_PATH%\plugins
+Vorgeschlagener Pfad für Packer Plugin sample_packer:
+%COMMANDER_PATH%\plugins\wcx\sample_packer\
+</description>
+				</key>
+				<key name="MrtReplacePluginChars" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Schaltet die automatische Ersetzung von ungültigen Zeichen von Inhaltsplugins im Mehrfach-Umbenenntool ab (z.B. ':' -&gt; '.') -&gt; der Benutzer muss sich selber darum kümmern
+</description>
+				</key>
+				<key name="DllLoad" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.56a"><description>DLL-Lademethode:
+	-1: Nie aus aktuellem Verzeichnis (am sichersten)
+	0: Nur im Kontextmenü (z.B. für Outlook 2003)
+	1: Immer</description>
+				</key>
+			</category>
+			<section title="Packer plugins" name="PackerPlugins" file="Wincmd.ini" dialog="Dialogs List" version="4.00">
+				<description>Listet alle konfigurierten Packerweiterungen (siehe Konfigurieren - Packer)
+bz2=27,c:\totalcmd\bzip2dll.dll Erweiterung für bzip2-Packer. 27 ist die Summe aller DLL-Fähigkeiten:
+	1: Kann neue Archive erzeugen
+	2: Kann bestehende Archive ändern
+	4: Mehrere Dateien in einem Archiv erlaubt
+	8: Kann Dateien aus Archiv löschen
+	16: Unterstützt den Optionendialog
+	32: Unterstützt Packen im Speicher
+	64: Erkenne Archivtyp nach Inhalt
+	128: Erlaubt die Suche nach Text in diesen Archiven
+	256: Archiv nicht mit Enter öffnen, nur mit Strg+BildAb
+	512: Unterstützt Verschlüsselung
+Setzen Sie diese Zahl nicht von Hand - Total Commander setzt sie automatisch beim ersten Laden der DLL!
+ </description>
+			</section>
+			<section title="File system plugins" name="FileSystemPlugins" file="Wincmd.ini" dialog="Open File" version="5.50">
+				<description>Installierte Dateisystemplugins
+&lt;pluginname&gt;=&lt;pluginpath&gt; Pfad zu einem Dateisystemplugin (gespeichert nach Namen)</description>
+			</section>
+			<section title="Lister plugins" name="ListerPlugins" file="Wincmd.ini" dialog="Open File" version="5.51">
+				<description>Installierte Listerplugins</description>
+			</section>
+			<section title="Content plugins" name="ContentPlugins" file="Wincmd.ini" dialog="Open File" version="6.50">
+				<description>Installierte Inhaltsplugins</description>
+			</section>
+		</category>
+		<category title="FTP">
+			<category title="General">
+				<key name="ConnectRetries" file="Wcx_ftp.ini" section="General" default="10" version="4.00">
+					<description>Anzahl Verbindungsversuche bei anonymen FTP-Servern
+</description>
+				</key>
+				<key name="WaitDelay" file="Wcx_ftp.ini" section="General" default="5" version="4.00">
+					<description>Wartezeit zwischen 2 Verbindungsversuchen
+</description>
+				</key>
+				<key name="transfermode" file="Wcx_ftp.ini" section="General" default="I" version="3.52">
+					<description>Transfermodus beim Aufstarten:
+A=Text
+I=Binär
+X=Automatisch
+</description>
+				</key>
+				<key name="Ascii" file="Wcx_ftp.ini" section="General" default="*.txt *.htm* *.pas *.c *.cpp *.h *.bas *.tex" version="4.00">
+					<description>Dateierweiterungen, die als Textdateien erkannt werden sollen
+</description>
+				</key>
+				<key name="FtpOpenIn" file="Wcx_ftp.ini" section="General" default="0" version="7.00">
+					<description>Öffne FTP-Verbindungen standardmäßig im:
+0: Aktiven Fenster
+1: Linken Fenster
+2: Rechten Fenster
+</description>
+				</key>
+				<key name="LogFile" file="Wcx_ftp.ini" section="General" default="%TEMP%\totalcmd.log" dialog="Open File" version="4.00">
+					<description>Schreibe eine Log-Datei mit dem angegebenen Namen
+</description>
+				</key>
+				<key name="LogFile2" file="Wcx_ftp.ini" section="General" default="path\filename" advanced="Yes" dialog="Open File" version="5.00">
+					<description>Schreibe Log-Datei mit nur den wichtigsten Infos (übertragene Dateien)
+</description>
+				</key>
+				<key name="FtpInBackground" file="Wcx_ftp.ini" section="General" default="0" version="4.52">
+					<description>Falls 1, werden FTP-Transfers immer im Hintergrund gestartet (separate Verbindung)
+</description>
+				</key>
+				<key name="pasvmode" file="Wcx_ftp.ini" section="default" default="0" version="3.50">
+					<description>1: Immer den Passivmodus für neue Verbindungen verwenden
+0: Immer den aktiven Modus verwenden</description>
+				</key>
+				<key name="PortFrom" file="Wcx_ftp.ini" section="General" default="10000" version="7.00">
+					<description>Startport für Portmodus
+</description>
+				</key>
+				<key name="PortTo" file="Wcx_ftp.ini" section="General" default="11000" version="7.00">
+					<description>Endport für Portmodus
+</description>
+				</key>
+				<key name="ModeZ" file="Wcx_ftp.ini" section="General" default="1" version="7.00">
+					<description>Komprimierte Übertragungen aktivieren/deaktivieren:
+0 deaktiviert
+1 aktiviert für das Internet (nicht im lokalen Netz)
+2 aktiviert auch im lokalen Netz (LAN)
+</description>
+				</key>
+				<key name="AutoResume" file="Wcx_ftp.ini" section="General" default="30" version="7.00">
+					<description>Timeout in Sekunden bis Total Commander versucht, eine hängende Verbindung wieder aufzunehmen und den Transfer fortzusetzen. Auf -1 setzen zum deaktivieren.
+</description>
+				</key>
+				<key name="E-Mail" file="Wcx_ftp.ini" section="General" default="xyz@server.com" version="3.50">
+					<description>E-Mail-Adresse, die bei anonymen Verbindungen als Passwort gesendet wird
+</description>
+				</key>
+				<key name="FtpShowHidden" file="Wcx_ftp.ini" section="General" default="0" version="4.54">
+					<description>1: Die Option "FTP versteckte Dateien anzeigen" beim Aufstarten aktivieren (1/0)
+</description>
+				</key>
+				<key name="Lastmd5" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Die zuletzt benutzte Option bei Dateien - Erzeuge CRC-Quersummen war MD5
+</description>
+				</key>
+				<key name="ListName" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%\ftplist.txt" version="7.00">
+					<description>Letzter Listendateiname, der in "Später herunterladen" und "FTP aus Liste herunterladen" benutzt wurde.
+</description>
+				</key>
+				<key name="LowercaseUpload" file="Wcx_ftp.ini" section="default" default="0" version="4.00">
+					<description>1: Dateinamen beim Upload in Kleinbuchstaben umwandeln
+0: Dateinamen so hochladen, wie sie auf der Platte stehen</description>
+				</key>
+				<key name="MDTM" file="Wcx_ftp.ini" section="General" default="3" dialog="Bits Sum" version="7.00">
+					<description>Benutze den MDTM-Befehl zum setzen des Zeitstempels von hochgeladenen Dateien (wird zzt. nur von der Sync-Funktion unterstützt). Summe von:
+1: Funktion ein/ausschalten
+2: Sende Zeitstempel in Universalzeit (GMT). Die meisten Server erwarten das.
+</description>
+				</key>
+				<key name="MLSD" file="Wcx_ftp.ini" section="General" default="-1" version="7.00">
+					<description>0: Benutze LIST-Befehl für Verzeichnislisten
+1: Benutze MLSD-Befehl für Verzeichnislisten
+-1: Benutze MLSD falls der Server dessen Unterstützung meldet, sonst LIST
+Hinweis: Kann auch für jeden Server separat gesetzt werden</description>
+				</key>				
+				<key name="AutoDisconnect" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="4.01">
+					<description>Definiert was passiert, wenn der Benutzer versucht, eine zweite Verbindung aufzubauen, während bereits eine im selben Fenster aktiv ist:
+0: Benutzer fragen (Vorgabe)
+1: vorherige Verbindung abbrechen
+2: vorherige Verbindung behalten
+</description>
+				</key>
+				<key name="GetModeFromLocalFile" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.52">
+					<description>1: Die Dateierweiterung der lokalen Datei legt fest, ob die Datei im automatischen Modus als Binär- oder Textdatei übertragen wird (Standard: Datei auf dem Server).
+</description>
+				</key>
+				<key name="Httptimeout" file="Wcx_ftp.ini" section="General" default="30" advanced="Yes" version="4.53">
+					<description>xx Sekunden warten auf Reaktion des Web-Servers bei HTTP-Downloads
+</description>
+				</key>
+				<key name="KeepAliveTransfer" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Sendet keep alive auch während eines Transfers. Diese Funktion sendet lediglich neue Zeilen an die Kontrollverbindung, damit die Firewall/der Gateway die Verbindung nicht trennt. Kann auch bei individuellen Verbindungen gesetzt werden (geht nicht im Hintergrund-Transfermanager). Hinweis: Diese Option kann einige FTP-Server verwirren, bei anderen kann es der letzte Ausweg bei häufigen Verbindungsabbrüchen sein.
+</description>
+				</key>
+				<key name="KeepMasterPassword" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Behalte das Hauptpasswort im Speicher wenn:
+1: das Programm minimiert wird
+2: der Bildschirmschoner startet
+3: in beiden Fällen
+</description>
+				</key>
+				<key name="PreferIPv6" file="Wcx_ftp.ini" section="General" default="-1" advanced="Yes" version="6.52">
+					<description>-1 IPv6 abgeschaltet (Voreinstellung)
+1 bevorzuge IPv6 für Server, welche IPv4 und IPv6 unterstützen
+0 bevorzuge IPv4 (normale Internetadressen)
+</description>
+				</key>
+				<key name="PreventFEAT" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Den Befehl FEAT (Server-Features) nicht an den FTP-Server senden. Einige FTP-Proxies scheinen bei diesem Befehl hängen zu bleiben.
+</description>
+				</key>
+				<key name="SpecialFlags" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Summe folgender Optionen:
+1: Erzwinge implizites SSL (keine Klartextverbindungen)
+2: Erzwinge explizites SSL
+4: Erzwinge TLS-Authentifizierung
+8: Erzwinge SSL23-Authentifizierung
+16: Detailliertes Log auch für Hintergrundtransfers
+32: Kein Test, ob Dateien komplett hochgeladen wurden (mit SIZE-Befehl)
+64: Kein Test, ob Dateien komplett hochgeladen wurden (mit SIZE-Befehl) falls Dateigrösse von der Grösse via LIST/MLSD abweicht
+128: FTP über SSL/TLS: Sessions nicht wiederverwenden (via SSL_copy_session_id)
+256: Befehle aus dem Feld "Sende Befehle" NICHT im Hintergrund-Transfermanager senden
+512: Sendet MLSD -la zum Anzeigen von versteckten Dateien (nicht unterstützt von den meisten Servern, da nicht Standard)
+1024: Wandle lokale IP-Adresse, die vom PASV-Befehl zurückgemeldet wird, nicht in die Adresse des Servers um
+</description>
+				</key>
+				<key name="sslwarn" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="7.00">
+					<description>0: Schaltet Warnung bei ungültigem SSL-Zertifikat ab. TC zeigt dann immer noch ein rotes offenes Schloss als Warnung an
+</description>
+				</key>
+				<key name="TcpKeepAlive" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.02">
+					<description>1: Benutze TCP keep alive bei allen Verbindungen: Nützlich für gewisse Firewalls/Router, wenn die Verbindung oft abbricht.
+</description>
+				</key>
+				<key name="UploadBlockSize" file="Wcx_ftp.ini" section="General" default="512" advanced="Yes" version="6.03">
+					<description>Größe des Uploadpuffers. Bei schnellen Netzwerken können größere Puffer mehr Geschwindigkeit bringen, etwa 1492 oder gar 8192 Bytes.
+</description>
+				</key>
+				<key name="WarnWrongMode" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="4.00">
+					<description>1: Warnt beim Upload/Download von Binärdateien im Textmodus
+0: Keine Warnung (wie bei Commander 3.5x)
+</description>
+				</key>
+				<key name="Zlibratiobin" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9: Zlib-Kompressionsverhältnis für Uploads. 0=keine, 1=schnellste, 9=stärkste
+</description>
+				</key>
+				<key name="Zlibratiotxt" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9: wie zlibratiobin, aber für Textdateien. Sollte u.U. auf höheren Wert gesetzt werden, da Textdateien sich besser komprimieren lassen. Achtung: Die Cisco PIX-Firewall mag Stärke 1 nicht, und bricht den upload ab!
+</description>
+				</key>
+				<key name="PreserveDates" file="Wcx_ftp.ini" section="default" default="0" version="7.00">
+					<description>Datum/Zeit von Dateien beim Herunterladen mit kopieren</description>
+				</key>
+				<key name="PreserveDatesUpload" file="Wcx_ftp.ini" section="default" default="0" version="7.56">
+					<description>Datum/Zeit von Dateien beim Hochladen mit kopieren (sofern vom Server unterstützt)</description>
+				</key>				
+				<key name="SpeedLimit" file="Wincmd.ini" section="Configuration" default="5.0" version="7.00">
+					<description>Zuletzt benutzte Geschwindigkeitslimite in kBytes/s im Hintergrund-Transfermanager
+</description>
+				</key>
+				<key name="SpeedLimitEnabled" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1: Geschwindigkeitslimite sofort beim Öffnen des Hintergrund-Transfermanagers aktivieren
+</description>
+				</key>
+				<key name="Wsock32" file="Wincmd.ini" section="Configuration" default="%windir%\wsock32.dll" advanced="Yes" dialog="Open File" version="3.50">
+					<description>Bestimme Ort der Windows-Socket-Bibliothek für FTP (32 bit)
+</description>
+				</key>
+				<key name="AESVerify" file="Wcx_ftp.ini" section="General" default="??" advanced="Yes" version="7.50">
+					<description>Wird benutzt, um zu überprüfen, ob der Benutzer das richtigen AES-Hauptpasswort für den Passwortmanager eingegeben hat.
+</description>
+				</key>
+				<key name="Allowhook" file="Wcx_ftp.ini" section="General" default="2" advanced="Yes" version="7.50">
+					<description>Diese Option kontrolliert die Tastatureingabe im Hauptpassworteingabedialog:
+0: Erlaubt keinen Tastaturhook, zeige Warnsymbol
+1: Erlaubt Tastaturhook, und zeigt ein Symbol an, dass es funktioniert
+2: Erlaubt Tastaturhook, und zeigt kein Symbol an
+Erklärung: Total Commander liest die Tastendrucke über einen eigenen Tastaturhook und löscht die Tasten dann, damit einfache Keylogger die Tasten auf diese Weise nicht mitlesen können. Da einige Antivirenprogramme dabei einen Alarm anzeigen können, lässt sich die Funktion auch deaktivieren.
+</description>
+				</key>
+				<key name="ForceHTTP11" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>0: Benutze HTTP 1.0 für alle Transfers außer für wiederaufgenommene (resume)
+1: Benutze HTTP 1.1 für alle Transfers.
+Nachteil von HTTP 1.1: Viele Server senden dynamische Seiten dann im Modus "chunked" ohne Größenangabe. Dadurch ist keine Fortschrittsanzeige möglich.
+Vorteil: Der Server kann die Seite bereits zu schicken beginnen, während er sie noch erzeugt.
+</description>
+				</key>
+				<key name="UserAgent" file="Wcx_ftp.ini" section="General" default="&quot;Mozilla/4.0 (compatible; Totalcmd; Windows x)&quot;" advanced="Yes" version="7.55">
+					<description>Setzt das Feld "User agent" bei HTTP-Verbindungen.
+Standard: "Mozilla/4.0 (compatible; Totalcmd; Windows x)" mit x der aktuellen Windows-Version
+</description>
+				</key>
+				<key name="PortIP" file="Wcx_ftp.ini" section="General" default="IP" advanced="Yes" version="7.50">
+					<description>Externe IPv4-Adresse dieses Rechners für den PORT-Modus. Hier können Sie entweder eine fixe IP-Adresse, einen DNS-Namen (DynDNS) oder eine URL mit vorangestelltem http:// eintragen. Im letzteren Fall muss die Webseite die IP-Adresse als Text zurückmelden.
+</description>
+				</key>
+				<key name="PortIPEnabled" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Schaltet obige externe IP-Adresse ein/aus.
+</description>
+				</key>
+				<key name="DisconnectOnSuspend" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.50">
+					<description>Summe von:
+1: Trennt alle FTP-Verbindungen beim Aktivieren des Schlafmodus
+2: Trennt alle Dateisystem-Plugins, die eine "Disconnect"-Funktion haben
+</description>
+				</key>
+			</category>
+			<category title="Connections">
+				<section title="URL" name="OldConnections" file="Wcx_ftp.ini" version="3.50">
+					<description>This section contains list of connections made earlier in the dialog New Connection.</description>
+				</section>
+				<category title="Predefined connections">
+					<section title="Connections list" name="Connections" file="Wcx_ftp.ini" version="3.50">
+						<description>This section contains ftp predefined connections.</description>
+					</section>
+					<section title="[%Connection_Name%]" name="[%Connection_Name%]" file="Wcx_ftp.ini" version="3.50">
+						<description>Verbindungsdetails für eine der Verbindungen unter [connections]
+
+anonymous=1 1: Anonyme Verbindung, 0: Verbindung mit Passwort
+
+directory=/pub/subdir Verzeichnis auf dem Server, das nach der Verbindung gesetzt wird
+
+localdir=c:\local Verzeichnis auf dem lokalen Rechner, das nach der Verbindung gesetzt wird
+
+firewall=1 1: Benutze den unter [Firewall] konfigurierten Server als Firewall/Proxy
+
+host=ftp.site1.com:2121 Name des Servers, eventuell Port (durch Doppelpunkt getrennt)
+
+password=00000000000000 Passwort, verschleiert (NICHT verschlüsselt, ist prinzipiell unmöglich!)
+
+acct=00000000000000 Account-Passwort, muss manuell gesetzt werden (durch Kopieren von password)
+
+pasvmode=0 0: Benutzt aktiven Modus (PORT-Befehl)
+1: Benutzt passiven Modus (PASV-Befehl) - nützlich für gewisse Firewalls
+
+username=test Benutzername für den Server
+
+hosttype= Benutzerdefinierter Servertyp (Name)
+
+InitCommands= Befehle, die gleich nach dem Einloggen zum Server gesendet werden sollen
+
+keepalive= Wiederholrate zum Aufrechterhalten der Verbindung in Sekunden, gefolgt vom gesendeten Befehl, z.B. 90,NOOP
+
+MLSD=-1
+0: Benutze LIST-Befehl für Verzeichnislisten
+1: Benutze MLSD-Befehl für Verzeichnislisten
+-1: Benutze MLSD falls der Server dessen Unterstützung meldet, sonst LIST
+
+CacheDirs=1 0: Verzeichnis bei jedem Besuch erneut einlesen
+1: Inhalt von bereits besuchten Verzeichnissen zwischenspeichern
+
+SpecialFlags=0 Siehe Abschnitt [General] Die Optionen pro Site haben Vorrang
+</description>
+					</section>
+				</category>
+			</category>
+			<category title="Server Types">
+				<section title="[%Server_Type%]" name="[%Server_Type%]" file="Wcx_ftp.ini" version="7.00">
+					<description>Server definitions.</description>
+				</section>
+			</category>
+			<section title="Server aliases" name="CertAlias" file="Wcx_ftp.ini" version="7.00">
+				<description>This section stores server aliases when the user chooses to trust an ftps (ftp over ssl) server by clicking on the open locker icon.
+
+Example: server.com=hostcompany.com
+User connects to server.com, but the server certificate belongs to hostcompany.com</description>
+			</section>
+			<section title="Firewall" name="Firewall" file="Wcx_ftp.ini" version="3.50">
+				<description>Angaben zum Firewall oder Proxyserver
+host=localhost:80 Name und Portnummer des Firewalls
+password= Passwort (nicht bei allen Firewalls nötig)
+username= Benutzername (nicht bei allen Firewalls nötig)
+Method=1 Firewall-Methode (Reihenfolge wie in Dialogbox)
+default=1 1: Immer den Firewall für neue Verbindungen verwenden
+0: Den Firewall für neue Verbindungen NICHT verwenden
+Diese Option wird bei jedem Speichern einer Verbindung automatisch geändert.
+httphost= Diese 3 Angaben gelten für HTTP-Downloads.
+Name und Portnummer des Firewalls
+httpuser= Benutzername (http)
+httppass= Passwort (http)</description>
+			</section>
+			<section title="Time zone" name="TimeZone" file="Wcx_ftp.ini" version="7.00">
+				<description>Speichert Zeitverschiebung separat per Server (für Verzeichnisse synchronisieren)</description>
+			</section>
+			<section title="Empty folders" name="|empty_folders|" file="Wcx_ftp.ini" version="7.50">
+				<description>List of empty folders (non-connection) of any nested levels in the dialog box "Connect to ftp server". Folders containing a connection, not specified here.</description>
+			</section>
+		</category>
+		<separator title="--------"/>
+		<category title="Lister">
+			<category title="General">
+				<key name="TabWidth" file="Wincmd.ini" section="Lister" default="8" advanced="Yes" version="2.00">
+					<description>Breite der Tabulatoren (Voreinstellung: 8)
+</description>
+				</key>
+				<key name="textwidth" file="Wincmd.ini" section="Lister" default="81" version="1.61">
+					<description>Textbreite (in Zeichen)
+</description>
+				</key>
+				<key name="binwidth" file="Wincmd.ini" section="Lister" default="75" version="1.61">
+					<description>Breite binäre Anzeige
+</description>
+				</key>
+				<key name="Wrap" file="Wincmd.ini" section="Lister" default="1" version="3.50">
+					<description>Schalte Zeilenumbruch ein (1) oder aus (0)
+</description>
+				</key>
+				<key name="IView" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>Benutze Irfanview zum Laden anderer Bilder wie JPG etc.
+</description>
+				</key>
+				<key name="IViewPath" file="Wincmd.ini" section="Lister" default="Path" dialog="Open File" version="4.00">
+					<description>Pfad zur Irfanview/Xnview EXE-Datei.
+</description>
+				</key>
+				<key name="IviewAdditionalTypes" file="Wincmd.ini" section="Lister" default="*.xyz" advanced="Yes" version="6.50">
+					<description>Zusätzliche Dateitypen, die an Irfanview/Xnview zur Umwandlung geschickt werden sollen
+Beispiel: *.xyz *.abc
+Wird hier ein bereits intern unterstützter Dateityp angegeben, z.B. *.jpg, dann wird die Datei nicht noch zusätzlich nach Inhalt erkannt. Folgende Dateitypen werden an Irfanview/Xnview geschickt ohne diesen Eintrag:
+gif, jpg, jpeg, jfif, tga, tif, tiff, pcx, png, ani, acr, cam, clp, cpt, cur, dcx, dib, eps, g3, iff, img, lbm, lwf, pbm, pgm, pcd, ppm, psd, psp, ps, ras, rle, sfw, iw44, djvu, rgb, dcm, acr, wbmp, mos, kdc, xbm, xpm, swf, fpx, sgi, jp2, j2k
+</description>
+				</key>
+				<key name="SearchGoBack" file="Wincmd.ini" section="Lister" default="3" version="4.00">
+					<description>Anzahl Zeilen, die der Lister beim Suchen oberhalb des Suchbegriffs anzeigen soll
+</description>
+				</key>
+				<key name="CenterBitmap" file="Wincmd.ini" section="Lister" default="0" version="7.00">
+					<description>Zentriere angezeigtes Bitmap im Lister (1/0)
+</description>
+				</key>
+				<key name="ShrinkBitmap" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>1: Verkleinere/Vergrößere Bild auf Fenstergröße
+2: Nur zu große verkleinern, zu kleine nicht vergrößern
+</description>
+				</key>
+				<key name="Startup" file="Wincmd.ini" section="Lister" default="0" dialog="Bits Sum" version="1.61">
+					<description>Speichert Modus und Schrift wenn Lister gestartet wird:
+0=Automatisch, 1=Text, 2=Binär, 3=Hex
+0=Automatisch, 16=ANSI, 32=Ascii, 48=Variabel
+</description>
+				</key>
+				<key name="BmpStartup" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Versucht immer Bilder zu laden und anzuzeigen
+0: Lädt als Binärdatei, aber zeigt als Bild falls der User Modus 'Bild' wählt
+</description>
+				</key>
+				<key name="Multimedia" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Versucht immer Sound+Videos zu laden und abzuspielen
+0: Lädt als Binärdatei, aber spielt ab falls der User Modus 'Bild' wählt
+</description>
+				</key>
+				<key name="RTF" file="Wincmd.ini" section="Lister" default="1" version="5.50">
+					<description>Automatische Erkennung von RTF-Dateien
+</description>
+				</key>
+				<key name="HTMLasText" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>Automatische Konvertierung von HTML in Text mit Links
+</description>
+				</key>
+				<key name="LinkBraces" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>HTML-Ansicht: Zeige geschweifte Klammern {} um Links
+</description>
+				</key>
+				<key name="Caret" file="Wincmd.ini" section="Lister" default="1" version="7.00">
+					<description>Zeige Caret (Textcursor), z.B. zum Markieren von Text mit der Tastatur.
+</description>
+				</key>
+				<key name="HebrewListerFix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Falls =1, benutze Koordinatenkorrektur im Lister für englische Texte unter Hebräischem Windows (nur bei inaktivem Uniscribe).
+</description>
+				</key>
+				<key name="Uniscribe" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" version="7.50">
+					<description>Benutze Uniscribe für Unicode und fremde Codeseiten im Lister. Uniscribe ist eine Bibliothek, welche die korrekte Anzeige von rechts-nach-links-Texten (Arabisch, Hebräisch) erlaubt
+</description>
+				</key>
+				<key name="Codepage" file="Wincmd.ini" section="Lister" default="-1" version="7.50">
+					<description>Benutzerdefinierte Codeseite vom Untermenü "Codierung". -1: Festgelegt durch aktuelle Schrift
+</description>
+				</key>
+				<key name="UserEncodings" file="Wincmd.ini" section="Lister" default="codepage" version="7.55">
+					<description>Benutzerdefinierte Codierungen, gespeichert in der Form "Kodierungsname (Kodierungsnummer)", getrennt durch vertikale Linie |
+</description>
+				</key>
+			</category>
+			<category title="Font">
+				<key name="Font1" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font (falls nicht voreingestellter Font)
+</description>
+				</key>
+				<key name="Font2" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>ASCII font (fixed width).</description>
+				</key>
+				<key name="Font3" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Custom font (incl. variable width).</description>
+				</key>
+			</category>
+			<category title="Color">
+				<key name="FgColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+					<description>Textfarbe. Vorgabe ist die Standard-Textfarbe von Windows (Systemsteuerung).
+</description>
+				</key>
+				<key name="BgColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+					<description>Hintergrundfarbe. Vorgabe ist die Standard-Hintergrundfarbe von Windows.
+</description>
+				</key>
+				<key name="FgSelColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+					<description>Textfarbe von Markierungen. Vorgabe ist die Hintergrundfarbe.
+</description>
+				</key>
+				<key name="BgSelColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+					<description>Hintergrundfarbe von Markierungen. Vorgabe ist die Vordergrundfarbe.
+</description>
+				</key>
+				<key name="LinkColor" file="Wincmd.ini" section="Lister" default="8388608" dialog="Color" version="6.00">
+					<description>Farbe von Verknüpfungen (Links). Vorgabe ist Dunkelblau (128*65536)
+</description>
+				</key>
+			</category>
+			<category title="Position">
+				<key name="X" file="Wincmd.ini" section="Lister" default="24" version="1.61">
+					<description>Position (x)
+</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="Lister" default="8" version="1.61">
+					<description>Position (y)
+</description>
+				</key>
+				<key name="DX" file="Wincmd.ini" section="Lister" default="750" version="1.61">
+					<description>Breite
+</description>
+				</key>
+				<key name="DY" file="Wincmd.ini" section="Lister" default="550" version="1.61">
+					<description>Höhe
+</description>
+				</key>
+				<key name="Maximized" file="Wincmd.ini" section="Lister" default="0" version="1.61">
+					<description>Volle Bildschirmgröße
+</description>
+				</key>
+			</category>
+			<category title="Printer">
+				<key name="Font4" file="Wincmd.ini" section="Lister" default="Courier New,18,b" version="4.00">
+					<description>New,18,b Druckerschrift (feste Breite)
+</description>
+				</key>
+				<key name="Font5" file="Wincmd.ini" section="Lister" default="Arial,20" version="4.00">
+					<description>Druckerschrift (variable Breite)
+</description>
+				</key>
+				<key name="LeftMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Ränder für den Druck (in 1/10-mm)
+</description>
+				</key>
+				<key name="RightMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Right margin for printing (in 1/10 of a mm).</description>
+				</key>
+				<key name="TopMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Top margin for printing (in 1/10 of a mm).</description>
+				</key>
+				<key name="BottomMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Bottom margin for printing (in 1/10 of a mm).</description>
+				</key>
+			</category>
+		</category>
+		<category title="Compare by content">
+			<category title="General">
+				<key name="CompareCaseSensitive" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>1: Vergleich nach Inhalt berücksichtigt Groß-/Kleinschreibung
+0: Ignorieren (a und A werden als gleich erkannt)
+</description>
+				</key>
+				<key name="CompareIgnoreRepeatedLines" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: Vergleich nach Inhalt ignoriert Zeilen, die sich oft wiederholen (z.B. begin/end). Nützlich vor allem zum Vergleichen von Quellcode und anderen Dateien mit Wiederholungen, die nicht vergleichsrelevant sind.
+1: Funktion deaktiviert. Nützlich für Dateien, wo sich auch relevante Zeilen oft wiederholen, z.B. für Stücklisten.
+</description>
+				</key>
+				<key name="CompareIgnoreRepSpace" file="Wincmd.ini" section="Configuration" default="1" version="6.00">
+					<description>1: Ignoriere wiederholte Leerzeichen, also "a b" ist dasselbe wie "a       b"
+0: Unterschiedliche Anzahl Leerzeichen als unterschiedlich erkennen
+</description>
+				</key>
+				<key name="CompareVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>1: Vergleichsfenster übereinander anzeigen
+0: Nebeneinander
+</description>
+				</key>
+				<key name="CompareSaveOriginal" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>1: Beim Speichern wird die Datei nach Dateiname.bak kopiert, und anschließend in Dateiname geschrieben. Vorteil: zusätzliche Streams, Spezialattribute etc. bleiben erhalten.
+0: Beim Speichern wird in Dateiname.tmp gespeichert, dann die Datei in Dateiname.bak umbenannt, und anschließend Dateiname.tmp in Dateiname umbenannt. Vorteil: Datei muss nur 1x geschrieben werden, und bleibt im Falle eines Schreibfehlers intakt.
+</description>
+				</key>
+				<key name="CompareAlwaysSaveWithBom" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1: Editor in Vergleich nach Inhalt speichert UTF-8/16-Unicode-Dateien immer mit Byte-Reihenfolgemarkierung (BOM)
+0: Die BOM wird nur gespeichert, falls die Datei von Anfang an eine enthielt
+</description>
+				</key>
+				<key name="CompareUtf8Detect" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.56a"><description>Erkennung von UTF-8 im Vergleichstool:
+	0: Nur mit BOM
+	1: Nach Inhalt (Multibyte-Zeichen oder HTML-Header)
+	2: Alle Texte, falls keine ungültige UTF-8-Sequenz (z.B. ANSI-Umlaute) enthalten</description>
+				</key>
+				<key name="Comparetool" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.54">
+					<description>Setzt externes Vergleichstool für "Vergleich nach Inhalt", z.B. WinMerge
+</description>
+				</key>
+				<key name="CompareSkipFirstL" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Skip the first x characters in each line of left file during compare by content (e.g. the date/time in a log file).</description>
+				</key>
+				<key name="CompareSkipFirstR" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Skip the first x characters in each line of right file during compare by content (e.g. the date/time in a log file).</description>
+				</key>
+			</category>
+			<category title="Color">
+				<key name="CompareText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>Dateivergleich, Textmodus: Farbe der Unterschiede
+</description>
+				</key>
+				<key name="CompareTextSel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>dito, aber bei markiertem Text
+</description>
+				</key>
+				<key name="CompareBinary" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>Dateivergleich, Binärmodus: Farbe der Unterschiede
+</description>
+				</key>
+				<key name="CompareBinarySel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+					<description>dito, aber bei markiertem Text
+</description>
+				</key>
+				<key name="CompareDifferenceBack" file="Wincmd.ini" section="Colors" default="-2" advanced="Yes" dialog="Color" version="7.55">
+					<description>Hintergrundfarbe für Zeilen mit Unterschieden:
+-1=Gleiche Farbe wie Zeilen ohne Unterschiede
+-2=minimal heller bzw. dunkler (abhängig von der normalen Hintergrundfarbe)
+sonst=RGB-Farbwert
+</description>
+				</key>
+				<key name="CompareNormalBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>Hintergrundfarbe für Zeilen ohne Unterschiede. -1=Standard: COLOR_WINDOW
+</description>
+				</key>
+				<key name="CompareNormalText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>Textfarbe für Zeilen ohne Unterschiede. -1=Standard: COLOR_WINDOWTEXT
+</description>
+				</key>
+				<key name="CompareSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>Hintergrundfarbe für markierten Text. -1=Standard: COLOR_HIGHLIGHT
+</description>
+				</key>
+				<key name="CompareSelText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+					<description>0: Schaltet XP-Thema für die Tabulatorenzeile (Name/Erw./Größe/Datum/Attr.)
+</description>
+				</key>
+			</category>
+		</category>
+		<category title="Synchronize directories">
+			<category title="General">
+				<key name="SyncButtons" file="Wincmd.ini" section="Configuration" default="63" dialog="Bits Sum" version="5.00">
+					<description>Speichert den Status der Buttons von 'Verzeichnisse synchronisieren', als Summe von:
+	1: Links nach rechts
+	2: Gleiche Dateien
+	4: Ungleiche Dateien
+	8: Rechts nach links
+	16: Doppelte (Datei auf beiden Seiten vorhanden)
+	32: Einzelne (Datei nur auf einer Seite vorhanden)</description>
+				</key>
+				<key name="SyncFlags" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="4.00">
+					<description>Behält die letzten Einstellungen von 'Verzeichnisse synchronisieren'. Die folgenden Konstanten werden addiert:
+	1: Unterverzeichnisse einschließen
+	2: Vergleich nach Inhalt
+	4: Datum der Dateien ignorieren
+	8: Asymmetrischer Modus</description>
+				</key>
+				<key name="SyncHideHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>Erlaubt es, versteckte und Systemdateien vom Synchronisieren auszuschließen:
+0: versteckte und Systemdateien nicht ausschließen
+1: Ausschließen, falls beide Dateien links+rechts mindestens eines der Attribute haben
+2: Ausschließen, falls mindestens eine der Dateien eines der Attribute hat
+4 addieren: Einstellungen für versteckte und Systemdateien im Hauptprogramm beachten
+</description>
+				</key>
+				<key name="SyncIgnoreJunctions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>0: Beim Synchronisieren auch Verbindungen (Junctions, reparse points) zu Verzeichnissen folgen
+1: Junctions vom Synchronisieren ausschließen
+Warnung: Falls ein Verzeichnis mit demselben Namen wie der Link im Zielverzeichnis existiert, sieht es so aus, als würden die Dateien nur auf jener Seite existieren, weil die Junctions im Quellverzeichnis ausgeschlossen wurden!
+</description>
+				</key>
+				<key name="SyncWarnErrors" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>Synchronisieren: Legt fest, wann der Benutzer gewarnt wird, wenn der Zugriff auf Verzeichnisse fehlschllägt oder verweigert wird:
+	0: nie
+	1: wenn das Einlesen fehlschlägt (z.B. bei Verbindungsverlust)
+	2: wenn der Zugriff verweigert wird (Fehler 5, z.B. fehlende Rechte)
+	3: beides</description>
+				</key>
+				<key name="1hourdif" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>1: Ignoriere Zeitdifferenz von genau 1 Stunde beim Dateivergleich, nützlich beim Vergleich zwischen NTFS- und FAT-Laufwerken (Sommerzeitumstellung!)
+</description>
+				</key>
+			</category>
+			<category title="Color">
+				<key name="SyncSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.56"><description>Synchronisieren: Hintergrund fur markierte Zeilen.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Print directory">
+			<key name="FontName" file="Wincmd.ini" section="PrintDir" default="Arial" dialog="Font" version="5.00">
+				<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name and Size at once.</description>
+			</key>
+			<key name="FontSize" file="Wincmd.ini" section="PrintDir" default="12" version="5.00">
+				<description>Font size.</description>
+			</key>
+			<key name="FontFlags" file="Wincmd.ini" section="PrintDir" default="BI" version="5.00">
+				<description>Font flag:
+	B= bold;
+	I= italic.</description>
+			</key>
+			<key name="HeaderText" file="Wincmd.ini" section="PrintDir" default="%d - Page %p/%t" version="5.00">
+				<description>Format of the printed pages header:
+	%d= inserts directory path.
+	%D= inserts system date.
+	%p= inserts current page number.
+	%t= inserts total pages number.</description>
+			</key>
+			<key name="HeaderMargin" file="Wincmd.ini" section="PrintDir" default="50" version="5.00">
+				<description>Header margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="LeftMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Left margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="RightMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Right margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="BottomMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Bottom margin for printing (in 1/10 of a mm).</description>
+			</key>
+		</category>
+		<separator title="--------"/>
+		<category title="Redirect settings">
+			<key name="AlternateUserIni" file="Wincmd.ini" section="Configuration" default="&lt;somename&gt;" advanced="Yes" version="7.00">
+				<description>Leitet das Speichern von Einstellungen für vom Benutzer definierte Abschnitte in eine andere ini-Datei um, außer für Abschnitt [Configuration]. Nützlich für Firmen, welche die wincmd.ini schreibschützen wollen.
+Alle Abschnitte außer den folgenden werden standardmäßig umgeleitet: 	Configuration
+	Layout
+	Packer
+	Confirmation
+	Extensions
+	Shortcuts
+	PackerPlugins
+	FileSystemPlugins
+	ListerPlugins
+	ContentPlugins
+In allen Abschnitten kann separat mit einem Eintrag RedirectSection= festgelegt werden, ob dieser Abschnitt umgeleitet werden soll oder nicht: Werte:
+	0: nicht umleiten,
+	1: umleiten an den mit AlternateUserIni=&lt;Dateiname&gt; angegebenen Ort,
+	&lt;ininame&gt;: in diese Datei umleiten.</description>
+			</key>
+			<category title="Sections NOT redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>Siehe Beschreibung von AlternateUserIni. Bitte beachten Sie, dass RedirectSection unter [Configuration] alle Variablen dieses Abschnitts umlenkt außer AlternatUserIni und UseIniInProgramDir, welche immer aus der Haupt-INI-Datei gelesen werden.
+</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Layout" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Layout
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Packer
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Confirmation" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Confirmation
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Extensions" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Extensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Associations" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	Associations
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Shortcuts" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Shortcuts
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ShortcutsWin" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	ShortcutsWin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PackerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PackerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="FileSystemPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	FileSystemPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ListerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ListerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ContentPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ContentPlugins
+	************</description>
+				</key>
+			</category>
+			<category title="Sections redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Left" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Left
+	************
+Values:
+---------
+	RedirectSection=0  -&gt; no redirect;
+	RedirectSection=1  -&gt; redirect to AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirect to that specific ini.
+
+These values are apply to all RedirectSection under all other sections.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Right" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Right
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lefttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lefttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Righttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Righttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Colors" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Colors
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Buttonbar
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Command line history" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Command line history
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DriveHints" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DriveHints
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lister
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CustomFields
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="HintsCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	HintsCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="OverwriteCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	OverwriteCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="LeftHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	LeftHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RightHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RightHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="MkDirHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	MkDirHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SyncOptions" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SyncOptions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Tabstops" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Tabstops
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="attrplugin" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	attrplugin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Alias" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Alias
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="User" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	User
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DirMenu" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DirMenu
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Searches" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Searches
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchName" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchIn" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchIn
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchText" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchText
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Selection" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Selection
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Rename" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Rename
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameTemplates" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameTemplates
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchFind" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchFind
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchReplace" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchReplace
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PrintDir" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PrintDir
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SplitPerFile" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SplitPerFile
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="IgnoreMenuExtensions" default="1" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	IgnoreMenuExtensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Screen resolution-dependent data
+	************
+
+"Configuration Editor" automatically detecting this section actual name.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="AllResolutions" default="1" advanced="Yes" version="7.00">
+					<description>
+	AllResolutions
+	************
+
+Note: Used only when ResolutionSpecific=0.</description>
+				</key>
+			</category>
+		</category>
+		<separator title="--------"/>
+		<category title="Other settings">
+			<category title="Start and Directory menu">
+				<section title="Start menu" name="User" file="Wincmd.ini" dialog="Open File" version="1.10">
+					<description>Benutzerdefiniertes Menü
+	menuxx = Titel.
+	cmdxx = Kommando.
+	paramxx = Parameters.
+	pathxx = Start verzeichnis.
+	iconicxx = 1=Starte als Symbol, -1=maxmized, 0=normal.
+	keyxx = Tastenkombination.</description>
+				</section>
+				<section title="Directory menu" name="DirMenu" file="Wincmd.ini" dialog="Open Folder" version="3.50">
+					<description>Benutzerdefinierte Verzeichnisliste (STRG+D)
+	menuxx = Titel.
+	cmdxx = Kommando.
+	pathxx = Start verzeichnis.
+</description>
+				</section>
+			</category>
+			<category title="History sections">
+				<section title="Command line history" name="Command line history" file="Wincmd.ini" dialog="Open File" version="1.20">
+					<description>Liste der zuletzt aufgerufenen Befehle</description>
+				</section>
+				<section title="Selection" name="Selection" file="Wincmd.ini" version="3.00">
+					<description>Speichert die zuletzt benutzten Parameter der Dateiauswahl (Num +)</description>
+				</section>
+				<section title="Search for" name="SearchName" file="Wincmd.ini" version="3.00">
+					<description>Last used search mask.</description>
+				</section>
+				<section title="Search in" name="SearchIn" file="Wincmd.ini" dialog="Open Folder" version="3.00">
+					<description>Last used search paths.</description>
+				</section>
+				<section title="Find text" name="SearchText" file="Wincmd.ini" version="3.00">
+					<description>Last used find text in "Find files" dialog box and lister "Find" dialog.</description>
+				</section>
+				<section title="Searches" name="Searches" file="Wincmd.ini" version="3.00">
+					<description>Saved options of the search dialog.</description>
+				</section>
+				<section title="Rename mask" name="RenameTemplates" file="Wincmd.ini" version="4.50">
+					<description>Zuletzt benutzte Zeichenketten im Mehrfachumbenenntool</description>
+				</section>
+				<section title="Rename search for" name="RenameSearchFind" file="Wincmd.ini" version="6.50">
+					<description>Zuletzt benutzte Suchstrings für Suchen+Ersetzen</description>
+				</section>
+				<section title="Rename replace with" name="RenameSearchReplace" file="Wincmd.ini" version="6.50">
+					<description>Zuletzt benutzte Ersetzstrings für Suchen+Ersetzen</description>
+				</section>
+				<section title="Rename" name="Rename" file="Wincmd.ini" version="5.50">
+					<description>Saved options of the multi-rename tool.</description>
+				</section>
+				<section title="Left history" name="LeftHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Liste der zuletzt besuchten Verzeichnisse links bzw. rechts. Das Speichern kann deaktiviert werden via SaveHistory=0</description>
+				</section>
+				<section title="Right history" name="RightHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Liste der zuletzt besuchten Verzeichnisse links bzw. rechts. Das Speichern kann deaktiviert werden via SaveHistory=0</description>
+				</section>
+				<section title="New directory" name="MkDirHistory" file="Wincmd.ini" version="7.00">
+					<description>Liste der zuletzt angelegten Verzeichnisse (mit F7)</description>
+				</section>
+				<section title="Synchronize options" name="SyncOptions" file="Wincmd.ini" version="7.00">
+					<description>Gespeicherte Optionen für "Verzeichnisse synchronisieren"</description>
+				</section>
+				<section title="Plugin attributes" name="AttrPlugin" file="Wincmd.ini" version="7.00">
+					<description>Attribut-Dialog: Gespeicherte Plugin-Optionen</description>
+				</section>
+				<section title="Split sizes" name="SplitPerFile" file="Wincmd.ini" version="7.00">
+					<description>Speichert die vom Benutzer eingegebenen Größen der Funktion Dateien - Aufspalten sowie der Funktion Dateien - Packen für mehrteilige Archive.</description>
+				</section>
+			</category>
+			<category title="Folder tabs">
+				<section title="Left tabs" name="LeftTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Konfiguration der Ordnertabs des linken bzw. rechten Dateifensters. Die Konfiguration des aktiven Tabs wird nicht hier gespeichert, sondern im Abschnitt [left] bzw. [right].</description>
+				</section>
+				<section title="Right tabs" name="RightTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Konfiguration der Ordnertabs des linken bzw. rechten Dateifensters. Die Konfiguration des aktiven Tabs wird nicht hier gespeichert, sondern im Abschnitt [left] bzw. [right].</description>
+				</section>
+			</category>
+			<category title="Custom fields">
+				<category title="Custom columns (WFX plugins)">
+					<section title="[%CustomFields_WFX%]" name="[%CustomFields_WFX%]" file="Wincmd.ini" version="7.00">
+						<description>Gespeicherte benutzerdefinierte Spalten für Dateisystem-Plugins.</description>
+					</section>
+				</category>
+				<section title="Custom columns" name="CustomFields" file="Wincmd.ini" version="6.50">
+					<description>Gespeicherte benutzerdefinierte Spalten</description>
+				</section>
+				<section title="Custom hints" name="HintsCustomField" file="Wincmd.ini" version="6.50">
+					<description>Benutzerdef. Felder im Tipp-Fenster von Dateien</description>
+				</section>
+				<section title="Overwrite custom fields" name="OverwriteCustomField" file="Wincmd.ini" version="7.00">
+					<description>Gespeicherte benutzerdefinierte Zeilen für den Überschreiben-Dialog.</description>
+				</section>
+				<section title="Custom comparison by content" name="CompareCustomField" file="Wincmd.ini" version="7.55">
+					<description>Synchronize dirs: Custom comparison by content with plugins.</description>
+				</section>
+			</category>
+			<category title="Positions">
+				<category title="Main window">
+					<key name="X" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="1.10">
+						<description>x-Position von Total Commander beim Aufstarten</description>
+					</key>
+					<key name="Y" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>y-Position</description>
+					</key>
+					<key name="DX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="1.10">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="DY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="1.10">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="Maximized" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="1.61">
+						<description>0=Normal, 1=maximale Größe beim Aufstarten</description>
+					</key>
+					<key name="Divider" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.00">
+						<description>Position der Fenstertrennlinie in Promille (0..1000)</description>
+					</key>
+					<key name="DividerComments" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="6.00">
+						<description>Position of window divider in permille while in comments view (Ctrl+Shift+F2).</description>
+					</key>
+					<key name="DividerQuickView" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.50">
+						<description>Position der Fenstertrennlinie in Promille während der Darstellung der Schnellansicht (STRG+Q). Die beiden Werte lassen sich getrennt einstellen, indem man 'Position speichern' im jeweiligen Modus wählt (mit oder ohne Schnellansicht).</description>
+					</key>
+					<key name="Tabstops" file="Wincmd.ini" section="[%Screen_Resolution%]" default="124,127,186,76,429,93" version="4.00">
+						<description>Tabstop header positions.</description>
+					</key>
+				</category>
+				<category title="Choose command">
+					<key name="CmdSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>X position.</description>
+					</key>
+					<key name="CmdSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Y position.</description>
+					</key>
+					<key name="CmdSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="CmdSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="CmdSelMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Synchronize directories">
+					<key name="SyncX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>X position.</description>
+					</key>
+					<key name="SyncY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Y position.</description>
+					</key>
+					<key name="SyncDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="SyncDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="SyncMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+					<key name="SyncTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="165,257,352,384,476,551" version="4.00">
+						<description>Tabstop header positions.</description>
+					</key>
+				</category>
+				<category title="Compare contents">
+					<key name="CompareX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.50">
+						<description>X position.</description>
+					</key>
+					<key name="CompareY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.50">
+						<description>Y position.</description>
+					</key>
+					<key name="CompareDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.50">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="CompareDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.50">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="CompareMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.50">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Find files">
+					<key name="SearchX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>X position.</description>
+					</key>
+					<key name="SearchY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Y position.</description>
+					</key>
+					<key name="SearchDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="SearchDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="SearchMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Drive selection">
+					<key name="DriveSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-118" version="7.55">
+						<description>X position.
+Note: X is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-108" version="7.55">
+						<description>Y position.
+Note: Y is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="799" version="7.55">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="DriveSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="332" version="7.55">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="DriveSelMax" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.55">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Multi-Rename tool">
+					<key name="RenameX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.50">
+						<description>X position.</description>
+					</key>
+					<key name="RenameY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.50">
+						<description>Y position.</description>
+					</key>
+					<key name="RenameDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.50">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="RenameDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.50">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="RenameMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.50">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+					<key name="RenameTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="115,145,345,518,715" version="4.50">
+						<description>Tabstop header positions.</description>
+					</key>
+				</category>
+				<category title="Change start menu">
+					<key name="MenuChangeX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X position.</description>
+					</key>
+					<key name="MenuChangeY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y position.</description>
+					</key>
+					<key name="MenuChangeDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="MenuChangeDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="MenuChangeMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Directories tree">
+					<key name="TreeDlgX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X position.</description>
+					</key>
+					<key name="TreeDlgY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y position.</description>
+					</key>
+					<key name="TreeDlgDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="TreeDlgDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="TreeDlgMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Print preview">
+					<key name="PrintX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>X position.</description>
+					</key>
+					<key name="PrintY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Y position.</description>
+					</key>
+					<key name="PrintDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="PrintDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="PrintMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Connect to ftp server">
+					<key name="ConnectX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>X position.</description>
+					</key>
+					<key name="ConnectY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Y position.</description>
+					</key>
+					<key name="ConnectDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="ConnectDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="ConnectMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+				<category title="Custom columns">
+					<key name="CustColumnX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="6.50">
+						<description>X position.</description>
+					</key>
+					<key name="CustColumnY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="6.50">
+						<description>Y position.</description>
+					</key>
+					<key name="CustColumnDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="6.50">
+						<description>Größe (x) beim Aufstarten.</description>
+					</key>
+					<key name="CustColumnDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="6.50">
+						<description>Größe (y) beim Aufstarten.</description>
+					</key>
+					<key name="CustColumnMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="6.50">
+						<description>0=Normal
+1=maximale Größe beim Aufstarten</description>
+					</key>
+				</category>
+			</category>
+			<category title="Left">
+				<key name="Path" file="Wincmd.ini" section="Left" default="path" dialog="Open Folder" version="1.10">
+					<description>Letztes aktives Verzeichnis
+</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>0=Nur Dateinamen, 1=Alle Angaben, 2=Baum
+</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>1=Alle, 2=nur Programme, 3=Benutzerdefiniert
+</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Left" default="file_mask" version="2.00">
+					<description>Benutzergewählte Dateierweiterung
+</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Left" default="100" version="6.50">
+					<description>Nummer der benutzerdefinierten Spaltenansicht, hat Vorrang vor dem Wert von show=. Wird separat gespeichert, um Probleme mit älteren Versionen von Total Commander zu vermeiden.
+</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Sortierung nach 0=Name, 1=Erweiterung, 2=Größe, 3=Datum, 4=Unsortiert
+</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Left" default="0" version="6.50">
+					<description>Sortierung nach benutzerdefinierter Spalte (im benutzerdef. Spaltenmodus), 100=erste benutzerdefinierte Spalte, 101=zweite etc.
+</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Absteigend sortiert (1)
+</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Left" default="1" version="7.00">
+					<description>Zusätzliche Sortierreihenfolgen. Beispiel: 1,-3,2 bedeutet zusätzlich nach der 1. Spalte aufsteigend, 3. Spalte absteigend und 2. Spalte aufsteigend sortieren (Zählung beginnt bei 1).
+</description>
+				</key>
+			</category>
+			<category title="Right">
+				<key name="Path" file="Wincmd.ini" section="Right" default="path" dialog="Open Folder" version="1.10">
+					<description>Letztes aktives Verzeichnis
+</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>0=Nur Dateinamen, 1=Alle Angaben, 2=Baum
+</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>1=Alle, 2=nur Programme, 3=Benutzerdefiniert
+</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Right" default="file_mask" version="2.00">
+					<description>Benutzergewählte Dateierweiterung
+</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Right" default="100" version="6.50">
+					<description>Nummer der benutzerdefinierten Spaltenansicht, hat Vorrang vor dem Wert von show=. Wird separat gespeichert, um Probleme mit älteren Versionen von Total Commander zu vermeiden.
+</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Sortierung nach 0=Name, 1=Erweiterung, 2=Größe, 3=Datum, 4=Unsortiert
+</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Right" default="0" version="6.50">
+					<description>Sortierung nach benutzerdefinierter Spalte (im benutzerdef. Spaltenmodus), 100=erste benutzerdefinierte Spalte, 101=zweite etc.
+</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Absteigend sortiert (1)
+</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Right" default="1" version="7.00">
+					<description>Zusätzliche Sortierreihenfolgen. Beispiel: 1,-3,2 bedeutet zusätzlich nach der 1. Spalte aufsteigend, 3. Spalte absteigend und 2. Spalte aufsteigend sortieren (Zählung beginnt bei 1).
+</description>
+				</key>
+			</category>
+			<section title="x64 Menu Extensions" name="IgnoreMenuExtensions" file="Wincmd.ini" version="7.50">
+				<description>Filtert gewisse Rechtsklickmenüerweiterungen aus beim Benutzen des x64- (64-bit) Untermenüs.
+0=Erweiterung1
+1=Erweiterung2</description>
+			</section>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

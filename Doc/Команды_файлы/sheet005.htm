@@ -1,0 +1,385 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+p.Обычный
+{margin:0.0pt;
+margin-top:0.0pt;
+margin-bottom:0.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+}
+
+</style>
+</head>
+<body>
+<table width="1128" cellspacing="0">
+ <tr height="1">
+  <td width="135">
+  </td>
+  <td width="352">
+  </td>
+  <td width="640">
+  </td>
+ </tr>
+ <tr height="43">
+  <td colspan="3" align=left valign=center>
+  <p class=Обычный><span style='font-size:14.0pt;'>Параметры для панелей инструментов, пользовательских меню и команд</span>
+  </p>
+  
+  </td>
+ </tr>
+ <tr height="27">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Параметр</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Значение</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:11.0pt;font-weight:bold;'>Комментарий</span></b></p>
+  
+  </td>
+ </tr>
+ <tr height="98">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>Диск:\Каталог</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Загружает в открытом виде первый (или единственный) каталог/архив, переданный TC, в левую панель, а второй (если
+  он указан) — в правую</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Имена с пробелами должны быть заключены в двойные кавычки! Всегда указывайте полный путь, включая диск, или
+  используйте переменные окружения! Чтобы при открытии каталога курсор устанавливался не на первый элемент списка, а на определённый
+  файл, включите его имя в путь. См. также описание параметра /A.<br>Используйте в качестве пути ftpopen:имя_соединения для открытия
+  сохранённого FTP-соединения</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/O</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Активизирует уже запущенный TC и передаёт путь (пути) из командной строки в эту копию программы</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Имеет больший приоритет, чем значение ключа Onlyonce в wincmd.ini, позволяющее открывать несколько окон TC</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/N</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Всегда открывает новое окно TC</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Имеет больший приоритет, чем значение ключа Onlyonce в wincmd.ini, позволяющее запускать только одну копию TC</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/L=</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Устанавливает путь в левой панели</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: totalcmd.exe /L=c:\data</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/R=</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Устанавливает путь в правой панели</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: totalcmd.exe /R=&quot;d:\Письма от Петрова&quot;</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/A</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Если указан путь к архиву, открывает вместо архива содержащий его каталог и устанавливает курсор на имя архива</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: totalcmd.exe /A /R=d:\Archive.rar</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Воспринимает переданные каталоги как исходный/целевой вместо левого/правого</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Для совместного применения с параметром /O. Например, каталог, переданный с ключом /R= будет воспринят как каталог
+  назначения</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S=C</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Запускает инструмент &quot;Сравнение по содержимому&quot; непосредственно, без открытия главного окна TC</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: totalcmd.exe /S=C c:\файл1 d:\файл2</p>
+  
+  </td>
+ </tr>
+ <tr height="134">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S=F</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Открывает диалоговое окно &quot;Поиск файлов&quot; непосредственно, без открытия главного окна TC</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: totalcmd.exe /S=F &quot;c:\исходный_путь&quot;<br><br>Принимает дополнительные параметры, отделённые двоеточием. Пример:
+  /S=F:S1LArchives<br>S — Сортировать результаты по 1: имени, 2: расширению, 3: размеру, 4: дате/времени. Отрицательные значения — для сортировки
+  в обратном порядке<br>L[имя_шаблона] (в качестве последнего параметра) — Загрузить указанный шаблон поиска. Если в имени есть
+  пробелы, его (или весь параметр) надо заключить в кавычки! Пример: /S=F:L&quot;New Files&quot;.</p>
+  
+  </td>
+ </tr>
+ <tr height="278">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S=L</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Запускает внутренний просмотрщик непосредственно, передавая ему имя файла для просмотра (требуется указывать
+  полный путь). Воспринимает дополнительные параметры, записанные подряд и отделённые от основного параметра двоеточием
+  (например, /S=L:AT1C1251)</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Дополнительные параметры:<br>A — Текст в кодировке ANSI/Windows; S — Текст в кодировке ASCII/DOS, V — Другая кодировка или
+  пропорциональный шрифт<br><br>T1..T7 — Вид при просмотре 1-7 (1: Только текст, 2: Двоичный, 3: Шестнадцатеричный, 4: Графика/Мультимедиа/LS-плагины,
+  5: HTML, 6: Unicode, 7: UTF-8)<br><br>C[номер_кодовой_страницы] — Кодовая страница, например, C1251 для кириллицы<br>
+  <br>N —Автоматический выбор режима, кроме графики/мультимедиа/плагинов<br>
+  <br>N —Автоматический выбор режима, кроме графики/мультимедиа/плагинов<br>
+  <br>P[имя_плагина] (в качестве последнего параметра) — Выбрать загружаемый LS-плагин. Пример: /S=L:Piclview для плагина ICLView (указывается
+  имя, отображаемое в заголовке окна Lister&#39;а)</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S=P:PORT</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Запускает сервер для подключения по параллельному или USB-порту</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>В качестве имени порта используйте LPT1 или USB</p>
+  
+  </td>
+ </tr>
+ <tr height="80">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/S=S</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Запускает инструмент &quot;Синхронизация каталогов&quot; непосредственно, принимая в качестве параметров два пути
+  или, в виде альтернативы, имя шаблона синхронизации в форме /S=S:имя_шаблона</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Если параметр начинается со знака равенства, например, /S=S:=имя_шаблона, сравнение начнётся немедленно. Если
+  этот знак указан как параметр без значения (/S=S:=), сравнение начнётся с переданных каталогов с последними использованными
+  настройками</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/O=имя_списка</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Только в комбинации с /S=S: Передаёт файловый список для функции &quot;Выделенные (в главном окне)&quot;</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Пример: /O=%F</p>
+  
+  </td>
+ </tr>
+ <tr height="26">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/T</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Открывает переданные каталоги в новых вкладках</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Этот параметр работает и в том случае, если TC не был запущен до этого</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/P=</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Устанавливает активную панель при запуске: /P=L — левую, /P=R — правую</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Имеет больший приоритет, чем ключ ActiveRight в wincmd.ini</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/i=имя.ini</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Указывает, что вместо wincmd.ini для сохранения настроек следует использовать другой INI-файл</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Этот параметр имеет абсолютный приоритет перед любым иным способом указания рабочего INI-файла. Пример: totalcmd.exe
+  /i=Petrov.ini</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/F=имя.ini</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Указывает, что вместо wcx_ftp.ini для сохранения настроек встроенного FTP-клиента следует использовать другой INI-файл</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Этот параметр имеет абсолютный приоритет перед любым иным способом указания рабочего INI-файла. Пример: totalcmd.exe
+  /F=MyFtp.ini</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/D=N</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Задерживает запуск TC на N секунд</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Предполагается использовать в системной папке автозагрузки, если есть проблемы с одновременным запуском TC
+  и других программ</p>
+  
+  </td>
+ </tr>
+ <tr height="62">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/INSTALLDRIVER</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Устанавливает драйвер LPT-порта</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Только когда вы хотите использовать подключение через параллельный порт как обычный пользователь, а не администратор.
+  Для запуска требует прав администратора; работает только в WinNT</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/REMOVEDRIVER</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Удаляет драйвер, установленный параметром /INSTALLDRIVER</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает только в WinNT</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/INSTALLDRIVERQ</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Устанавливает драйвер LPT-порта без вывода каких-либо сообщений</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает только в WinNT. Это полезно, например, в удалённых скриптах установки</p>
+  
+  </td>
+ </tr>
+ <tr height="44">
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='color:Teal;font-weight:bold;'>/REMOVEDRIVERQ</span></b></p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Удаляет драйвер LPT-порта без вывода каких-либо сообщений</p>
+  
+  </td>
+  <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt ;' align=left valign=center>
+  <p class=Обычный>Работает только в WinNT</p>
+  
+  </td>
+ </tr>
+</table>
+</body>
+</html>

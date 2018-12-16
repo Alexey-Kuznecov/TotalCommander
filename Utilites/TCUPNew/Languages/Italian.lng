@@ -1,0 +1,188 @@
+[About]
+Language=Italiano
+Language_en=Italian
+Translator=Douglas Quaid
+Email=dglsquaid@gmail.com
+
+[MainFrm]
+Btn_Directory=&Directory
+Btn_File=&File
+Btn_Settings=Opzioni
+Btn_OK=OK
+Btn_Cancel=Cancella
+MainFrm=Nuovo...
+
+[Strings]
+DirNormal=Normale
+DirHidden=Nascosta
+DirProject=Progetto
+DirList=Lista
+NewFile=Nuovo file
+NewDir=Nuova directory
+ODFilter=File Eseguibili
+
+[Settings_Main]
+Settings=Configurazione
+Btn_OK=OK
+Btn_Cancel=Cancella
+
+[Settings_Language]
+Lang_Tab=Lingua
+Lang_Settings=Seleziona una lingua
+Lang_Text=Qui puoi Selezionaere quale file (*.lng) usare.
+Lang_About=Traduzione
+Lang_Language=Lingua:
+Lang_Language_EN=Language (in English):
+Lang_Translator=Tradotto da:
+Lang_Email=e-mail del traduttore:
+
+[Settings_About]
+About_Tab=Info
+About_About=su TC UP New
+About_Version=Versione:
+About_Programming=Programmazione:
+About_Idea=Idea:
+About_Help=Aiuto e Supporto:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Misc.
+Misc_Buttons=Pulsanti menu
+Misc_Buttons_Text=Qui puoi configurare il comportamento dei pulsanti "Modifica", "Apri directory" e "Chiudi" .
+Misc_Buttons_PopUp1=Menu pop-up
+Misc_Buttons_PopUp2=Seleziona l'opzione successiva
+Misc_Hints=Suggerimenti
+Misc_Hints_Text=Qui puoi configurare il comportamento dei suggerimenti
+Misc_Hints_RB_Show=Mostra suggerimenti
+Misc_Hints_RB_Hide=Non mostrare suggerimenti
+Misc_Hints_Lbl_Color=Colore suggerimenti:
+Misc_Hints_Lbl_DT=Tempo permanenza suggerimenti [ms]:
+Misc_Hints_Lbl_HT=Tempo scomparsa suggerimenti [ms]:
+Misc_Hints_Btn_Color=Seleziona
+Misc_GB_Alt_Path=Creazione Files/Directories 
+Misc_Lbl_Alt_Path_Desc=Seleziona la directory, in cui saranno creati i files/directories (se esegui TC UP New separatamente)
+Misc_RB_Alt_Path_Ask=Chiedi ogni volta 
+Misc_RB_Alt_Path_UseIt=Usa la seguentei directory per creare i file/directory
+Misc_Lbl_Alt_Path=Directory:
+Misc_Btn_Alt_Path=Seleziona
+
+[Settings_Settings]
+Settings_Tab=Configurazione
+Settings_GB=Salva
+Settings_Text=Quando chiudi il programma, salva la configurazione, i nomi dei file e delle directories create, l'ultima modalità d'uso.
+Settings_CB_Names=Salva i nomi
+Settings_CB_Mode=Salva modalità d'uso
+Settings_GB_History=Cancella storia
+Settings_FileName=Cancella i nomi dei files creati
+Settings_Directories=Cancella i nomi delle directories create
+Settings_CB_Clear=Cancella
+Settings_CB_Clear1=Cancella
+Settings_GB_Edit=Modifica files
+Settings_Text1=Quando crei un file puoi modificarlo. Qui puoi configurare quale programma usare per aprirlo e con quali parametri.
+Settings_Program=Programma:
+Settings_Param=Parametri (dove %s è il nome del file):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Estensioni
+Extension_GB=Tutte le estensioni presenti
+Extension_Lbl_Ext=Estensione da aggiungere:
+Extension_Btn_Add=Aggiungi
+Extension_Btn_Remove=Rimuovi
+Extension_Btn_Up=Muovi Su
+Extension_Btn_Down=Muovi Giù
+
+[Settings_Name]
+Name_Tab=Nome
+Name_GB=Cambia il nome
+Name_Text=Se il file esiste il programma cambierà il nome del file, qui puoi configurare come cambiarlo.
+Name_FirstNumber=Primo numero:
+Name_Digits=Cifre:
+Name_Text1=Maschera del nome (dove [N] è il nome originale e [C] è il contatore) (vedi sotto).
+Name_Counter=Contatore:
+
+[Settings_Appearance]
+Appearance_Tab=Aspetto
+Appearance_GB_StayOnTop=Sempre in primo piano
+Appearance_Text=Quando Total Commander è attivo, TC UP New riattiva sè stesso, questo perchè deve essere in primo piano rispetto a TC.
+Appearance_CB_Stay=Sempre in primo piano
+Appearance_GB_Pos=Posizione
+Appearance_Text1=TC UP New rileva l'esatta la posizione dell'ultima finestra di Total Commander. Inoltre si posiziona in modo tale da apparire come componente di Total Commander.
+Appearance_CB_Pos=Ricevi posizione
+
+[ProjectSelectionFrm]
+ProjectSelection=Templates
+Project_Lbl_Text=Seleziona un project template:
+Project_Btn_OK=OK
+Project_Btn_Cancel=Cancella
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>File mode<0> è attivo<b><u>
+Hint_DirModeActive=<3><b><u>Directory mode<0> è attivo<b><u>
+Hint_FileMode=<b><u>File mode<u><b>
+Hint_Btn_CloseFM1=Con questo pulsante puoi <1>Creare file<0> e:
+Hint_Btn_CloseFM2=- <1>Chiudere<0> la finestra di TC UP New
+Hint_Btn_CloseFM3=- <1>Lasciare<0> la finestra TC UP New come è
+Hint_Btn_EditFM1=Con questo pulsante puoi <1>Creare file<0> e:
+Hint_Btn_EditFM2=- <1>Modificare<0> file con l'applicazione associata
+Hint_Btn_EditFM3=- <1>Modificare<0> file
+Hint_Btn_EditFM4=- <1>Non modificare<0> file
+Hint_DirMode=<b><u>Directory mode<u><b>
+Hint_Btn_CloseDM1=Con questo pulsante puoi <1>Creare directory<0> e:
+Hint_Btn_CloseDM2=- <1>Chiudere<0> la finestra di TC UP New
+Hint_Btn_CloseDM3=- <1>Lasciare<0> la finestra TC UP New come è
+Hint_Btn_EditDM1=Con questo pulsante puoi <1>Creare directory<0> e:
+Hint_Btn_EditDM2=- <1>Aprire<0> questa directory in TC UP
+Hint_Btn_EditDM3=- <1>Non aprire<0> la directory
+Hint_Btn_Directory=Questo pulsante permette di cambiare la modalità di creazione di files/directories.
+Hint_Btn_Directory1=Questo pulsante imposta il <1>Directory mode<0>, con cui si può:
+Hint_Btn_Directory2=- <1>Creare directory<0> e <1>Aprire<0> in TC UP (o no).
+Hint_Btn_Directory3=- Si può inoltre <1>Chiudere0> la finestra di TC UP New o lasciarla aperta per creare altri file/directory
+Hint_Btn_File=Questo pulsante permette di cambiare la modalità di creazione di files/directories.
+Hint_Btn_File1=Questo pulsante imposta il <1>File mode<0>, con cui si può:
+Hint_Btn_File2=- <1>Creare file<0> e <1>Modificare<0> questo file (o no) con l'applicazione associata o con TC UP.
+Hint_Btn_File3=- Si può inoltre <1>Chiudere<0> la finestra di TC UP New o lasciarla aperta per creare altri file/directory
+Hint_Btn_Settings=Questo pulsante apre la pagina Impostazioni,
+Hint_Btn_Settings1=in cui si possono cambiare le opzioni di TC UP New
+Hint_CB_DirFileName=Questo ComboBox permette di scrivere il nome della Directory/File da creare.
+Hint_CB_Ext=Questo ComboBox permette di Selezionaere le opzioni in base alla modalità scelta.
+Hint_CB_Ext1=In modalità <b>Directory mode<b>, si può Selezionaere:
+Hint_CB_Ext2=- Normale: Crea una directory
+Hint_CB_Ext3=- Nascosta: Crea una directory nascosta
+Hint_CB_Ext4=- Progetto: Crea un Project file, definito dai Templates (vedi Impostazioni)
+Hint_CB_Ext5=- Lista: Crea un set di directories, che sono sulla lista utente
+Hint_CB_Ext6=In modalità <b>File mode<b>, si può Selezionaere:
+Hint_CB_Ext7=- txt: Estensione del file da creare
+Hint_CB_Ext8=- php: Altra estensione del file da creare
+Hint_CB_Ext9=- etc.. (Si può aggiungere la propria estensione a questa lista)
+Hint_Btn_OK=Questo pulsante permette di chiudere TC UP New dando un comando
+Hint_Btn_OK1=(come ad esempio: Creare una nuova directory)
+Hint_Btn_Cancel=Questo pulsante permette di chiudere TC UP New senza dare comandi
+
+[Menu]
+EditMenu1=Non modificare
+EditMenu2=Modifica con l'applicazione associata
+EditMenu3=Modifica file
+OpenDirMenu1=Non aprire
+OpenDirMenu2=Apri directory in TC UP
+OpenDirMenu2_=Apri directory
+CloseMenu1=Crea file/directory e chiudi
+CloseMenu2=Non chiudere
+
+[Messages]
+MsgDir1=Directory
+MsgDir2=Non esiste !
+MsgDir3=La directory non esiste...
+MsgExtAdd1=Prima di usare il pulsante Aggiungi estensione, bisogna specificare l'estensione.
+MsgExtAdd2=Usa il seguente spazio per scrivere l'estensione, per esmpio: txt
+MsgExtAdd3=Aggiunta estensione...
+MsgExtRemove1=Seleziona l'estensione da rimuovere!
+MsgExtRemove2=Rimozione estensione...        
+MsgCF1=File di configurazione:
+MsgCF2=Non esiste!
+MsgCF3=Il file non esiste...
+MsgCFile=Seleziona la directory in cui salvare il nuovo file
+MsgCDir=Seleziona la directory in cui salvare la nuova directory
+MsgCFDC=Seleziona
+MsgCFDC1=Seleziona la directory, in cui i files/directories saranno creati
+MsgDirError=Non posso creare la directory:

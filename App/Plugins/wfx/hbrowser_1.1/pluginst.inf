@@ -1,0 +1,6 @@
+[plugininstall]
+description=Allows to connect to websites via TC and see links, pictures or any downloadable links as files.
+type=wfx
+file=httpbrowser.wfx
+defaultdir=HTTPBrowser
+version=1.1

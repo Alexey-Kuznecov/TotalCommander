@@ -1,0 +1,188 @@
+[About]
+Language=Magyar
+Language_en=Hungarian
+Translator=Major Péter
+Email=major.peter@mailbox.hu
+
+[MainFrm]
+Btn_Directory=&Mappa
+Btn_File=&Fájl
+Btn_Settings=Beállítások
+Btn_OK=OK
+Btn_Cancel=Mégse
+MainFrm=Új...
+
+[Strings]
+DirNormal=Normál
+DirHidden=Rejtett
+DirProject=Projekt
+DirList=Lista
+NewFile=Új fájl
+NewDir=Új mappa
+ODFilter=Executable files
+
+[Settings_Main]
+Settings=Beállítások
+Btn_OK=Ok
+Btn_Cancel=Mégse
+
+[Settings_Language]
+Lang_Tab=Nyelv
+Lang_Settings=Nyelvi fájl beállítása
+Lang_Text=Itt be tudod állítani, hogy melyik nyelvi (*.lng) fájlt használjam.
+Lang_About=A fordításról
+Lang_Language=Nyelv:
+Lang_Language_EN=Nyelv (angolul):
+Lang_Translator=Fordította:
+Lang_Email=Fordító e-mail címe:
+
+[Settings_About]
+About_Tab=Névjegy
+About_About=A TC UP New névjegye
+About_Version=Verzió:
+About_Programming=Programozás:
+About_Idea=Ötlet:
+About_Help=Segítség és támogatás:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Egyéb
+Misc_Buttons=Menü gombok
+Misc_Buttons_Text=Itt állíthatod be a "Szerkesztés", "Mappa megnyitása" és "Bezárás" gombok mûködését.
+Misc_Buttons_PopUp1=Menü ugrik fel
+Misc_Buttons_PopUp2=Léptetés a következõ lehetõségre
+Misc_Hints=Help hints
+Misc_Hints_Text=Here you can set the behavior of application hints
+Misc_Hints_RB_Show=Tippek mutatása
+Misc_Hints_RB_Hide=Ne mutasson tippeket
+Misc_Hints_Lbl_Color=Tipp színe:
+Misc_Hints_Lbl_DT=Tipp-mutatás ideje [ms]:
+Misc_Hints_Lbl_HT=Tipp-elrejtés ideje [ms]:
+Misc_Hints_Btn_Color=Válassz
+Misc_GB_Alt_Path=Fájl/Mappa létrehozása
+Misc_Lbl_Alt_Path_Desc=Mappa kiválasztása, ahol a fájlt/mappát létrehozom (ha a TC UP New külön fut)
+Misc_RB_Alt_Path_Ask=Mindig kérdezze fájl/mappa létrehozásakor
+Misc_RB_Alt_Path_UseIt=Használja az alábbi mappát fájl/mappa létrehozásához
+Misc_Lbl_Alt_Path=Mappa:
+Misc_Btn_Alt_Path=Kiválasztás
+
+[Settings_Settings]
+Settings_Tab=Beállítások
+Settings_GB=Mentés
+Settings_Text=Amikor bezárod a programot, elmenti a beállításaidat, a létrehozott fájlok és mappák neveit és a legutoljára használt módot.
+Settings_CB_Names=Nevek mentése
+Settings_CB_Mode=Mód mentése
+Settings_GB_History=Elõzmények törlése
+Settings_FileName=Létrehozott fájlok neveinek törlése
+Settings_Directories=Létrehozott mappák neveinek törlése
+Settings_CB_Clear=Törlés
+Settings_CB_Clear1=Törlés
+Settings_GB_Edit=Fájlok szerkesztése
+Settings_Text1=Ha létrehoztál egy fájlt, szerkesztheted is. Itt állíthatod be, hogy melyik programot használjam a megnyitáshoz, milyen paraméterekkel.
+Settings_Program=Program:
+Settings_Param=Paraéterek (ahol %s a fájlnevet helyettesíti):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Kiterjesztések
+Extension_GB=Használható kiterjesztések
+Extension_Lbl_Ext=Hozzáadandó típus:
+Extension_Btn_Add=Hozzáadás
+Extension_Btn_Remove=Eltávolítás
+Extension_Btn_Up=Mozgatás fel
+Extension_Btn_Down=Mozgatás le
+
+[Settings_Name]
+Name_Tab=Elnevezés
+Name_GB=A megadott név módosítása
+Name_Text=Amikor olyan fájlt akarsz létrehozni, ami már létezik, a program megváltoztatja a megadott nevet, itt állíthatod be, hogy hogyan.
+Name_FirstNumber=Elsõ szám:
+Name_Digits=Számjegyek:
+Name_Text1=Elnevezési minta (ahol [N] az eredeti név, és [C] a számláló (lásd lejjebb).
+Name_Counter=Számláló beállítása:
+
+[Settings_Appearance]
+Appearance_Tab=Megjelenés
+Appearance_GB_StayOnTop=A TC tetején marad
+Appearance_Text=Amikor a Total Commander aktiválódik, a TC UP New aktiválja magát, így mindig a TC fölött marad.
+Appearance_CB_Stay=Total Commander fölött maradás
+Appearance_GB_Pos=Pozíció
+Appearance_Text1=A TC UP New képes érzékelni a Total Commander-ablak pontos pozícióját. Képes úgy módosítani a pozícióját, hogy a Total Commander részének tûnjön.
+Appearance_CB_Pos=Pozíció fogadása
+
+[ProjectSelectionFrm]
+ProjectSelection=Sablonok
+Project_Lbl_Text=Válassz egy projekt-sablont:
+Project_Btn_OK=Ok
+Project_Btn_Cancel=Mégse
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Fájl mód<0> aktív<b><u>
+Hint_DirModeActive=<3><b><u>Mappa mód<0> aktív<b><u>
+Hint_FileMode=<b><u>Fájl mód<u><b>
+Hint_Btn_CloseFM1=Ha erre kattintasz, <1>Létrehozol egy fájlt<0> és:
+Hint_Btn_CloseFM2=- <1>Bezárod<0> a TC UP New-ablakot
+Hint_Btn_CloseFM3=- <1>Így hagyod<0> a TC UP New-ablakot
+Hint_Btn_EditFM1=Ha erre kattintasz, <1>Létrehozol egy fájlt<0> és:
+Hint_Btn_EditFM2=- <1>Szerkeszted<0> a hozzárendelt alkalmazással
+Hint_Btn_EditFM3=- <1>Szerkeszted<0> a fájlt
+Hint_Btn_EditFM4=- <1>Nem szerkeszted<0> a fájlt
+Hint_DirMode=<b><u>Mappa mód<u><b>
+Hint_Btn_CloseDM1=Ha erre kattintasz, <1>Létrehozol egy mappát<0> és:
+Hint_Btn_CloseDM2=- <1>Bezárod<0> a TC UP New-ablakot
+Hint_Btn_CloseDM3=- <1>Így hagyod<0> a TC UP New-ablakot
+Hint_Btn_EditDM1=Ha erre kattintasz, <1>Létrehozol egy mappát<0> és:
+Hint_Btn_EditDM2=- <1>Megnyitod<0> a TC UP-ban
+Hint_Btn_EditDM3=- <1>Nem nyitod meg<0>
+Hint_Btn_Directory=Ezzel a gombbal megváltoztatható a fájlok/mappák létrehozásának módja.
+Hint_Btn_Directory1=Ez a gomb beállítja a <1>Mappa mód<0>ot, amivel:
+Hint_Btn_Directory2=- <1>Létrehozol egy mappát<0> és <1>Megnyitod<0> ebben a TC UP-ban (vagy nem).
+Hint_Btn_Directory3=- <1>Be is zárhatod<0> a TC UP New ablakát vagy nyitva hagyhatod másik fájl/mappa létrehozásához
+Hint_Btn_File=Ezzel a gombbal fájl/mappa létehozási mód között lehet váltani.
+Hint_Btn_File1=Ez a gomb beállítja a <1>Fájl mód<0>ot, amivel:
+Hint_Btn_File2=- <1>Létrehozol egy fájlt<0> és <1>Szerkeszted<0> (vagy nem) a hozzárendelt alkalmazással vagy TC UP segítségével. 
+Hint_Btn_File3=- <1>Be is zárhatod<0> a TC UP New ablakát vagy nyitva hagyhatod másik fájl/mappa létrehozásához
+Hint_Btn_Settings=Ezzel a gombbal megnyitod a Beállítások lapot,
+Hint_Btn_Settings1=ahol beállíthatod a TC UP New-t
+Hint_CB_DirFileName=Ebbe a legördülõ menübe kell beírni az új Mappa/Fájl nevét.
+Hint_CB_Ext=Ezzel a legördülõ menüvel a kiválasztott müd szerint lehet beállítani valamit.
+Hint_CB_Ext1=Ha <b>Mappa mód<b>ban vagy, választhatsz:
+Hint_CB_Ext2=- Normál: Létrehoz egy sima mappát
+Hint_CB_Ext3=- Rejtett: Létrehoz egy rejtett mappát
+Hint_CB_Ext4=- Projekt: Létrehozza egy projekt fájljait, amik a Sablonokban vannak beállítva (lásd Beállítások)
+Hint_CB_Ext5=- Lista: Több mappát hoz létre, amik a listán vannak
+Hint_CB_Ext6=Ha <b>Fájl mód<b>ban vagy, választhatsz:
+Hint_CB_Ext7=- txt: Létrehozandó fájl kiterjesztése
+Hint_CB_Ext8=- php: Más kiterjesztés a létrehozandó fájlnak
+Hint_CB_Ext9=- stb.. (Hozzáadhatod a saját kiterjesztéseidet)
+Hint_Btn_OK=Ezzel a gombbal bezárható a TC UP New és végrehajtható valamilyen mûvelet
+Hint_Btn_OK1=(például: Létrehozható egy új mappa)
+Hint_Btn_Cancel=Ezzel a gombbal bezárod a TC UP New, bármilyen mûvelet végrehajtása nélkül
+
+[Menu]
+EditMenu1=Nincs szerkesztés
+EditMenu2=Szerkesztés a hozzárendelt alkalmazással
+EditMenu3=Szerkesztés
+OpenDirMenu1=Ne nyissa meg
+OpenDirMenu2=Megnyitás TC UP-ban
+OpenDirMenu2_=Megnyitás
+CloseMenu1=Fájl/mappa létrehozása és bezárás
+CloseMenu2=Ne zárja be
+
+[Messages]
+MsgDir1=Mappa
+MsgDir2=nem létezik!
+MsgDir3=A mappa nem létezik...
+MsgExtAdd1=Mielõtt a Kiterjesztés hozzáadása gombra kattintasz, meg kell adod a kiterjesztést.
+MsgExtAdd2=Használd az alábbi szövegmezõt a kiterjesztés megadásához, például: txt
+MsgExtAdd3=Kiterjesztés hozzáadása...
+MsgExtRemove1=Válaszd ki az eltávolítandó kiterjesztést!
+MsgExtRemove2=Kiterjesztés eltávolítása...        
+MsgCF1=Konfigurációs fájl:
+MsgCF2=nem létezik!
+MsgCF3=A fájl nem létezik...
+MsgCFile=Válaszd ki a mappát ahova a fájlt mentsem
+MsgCDir=Válaszd ki a mappát ahova a mappát mentsem
+MsgCFDC=Kiválasztás
+MsgCFDC1=Válaszd ki a mappát, ahova a fájlok/mappák kerülnek
+MsgDirError=Mappa nem hozható létre:

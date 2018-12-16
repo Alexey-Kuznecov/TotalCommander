@@ -1,0 +1,652 @@
+; Danish language for Ultra TC Editors 6.40
+; Translated by Peter H. S. Madsen http://madsenworld.dk
+
+[UserLanguage]
+101=&Fil
+102=&Ny
+103=Å&bn...
+104=&Gem
+105=Ge&m som...
+106=Til&pas totalcmd.inc...
+107=Seneste &filer
+108=Ingen seneste filer
+109=&Ryd liste
+110=&Afslut
+111=Eks&porter til totalcmd.inc...
+112=&Eksporter...
+113=&Importer...
+114=Åbn &datafil...
+115=Ge&m datafil
+116=Gem og genstart Total &Commander
+118=Eksporter til hoved&menu...
+119=Dan f&uld menu (alle kommandoer)
+120=&Eksporter til tekstfil...
+
+121=R&ediger
+122=Tilføj &menu
+123=Tilføj &undermenu
+124=Tilføj se&parator
+125=Tilføj &kommentar
+126=G&entag
+127=S&tartmenu
+128=&Help Break
+129=Flyt &op
+130=Flyt &ned
+131=Flyt t&il...
+132=&Slet
+133=Om&døb
+134=De&finition
+135=Tilføj &kommando
+136=Tilf&øj Ultra TC
+137=&Egenskaber
+138=&Tilføj punkt
+139=S&let alt...
+140=&Kommentar
+
+141=&Vis
+142=&Værktøjslinje
+143=&Statuslinje
+144=&Kommandoliste
+145=Vertikale &paneler
+146=&Byt paneler
+147=&Udvid træ
+148=Indskrænk &træ
+149=Sorteret &liste
+150=&Opsætning...
+151=&Beskrivelse
+152=&Alle indstillinger
+153=A&ktive indstillinger
+154=I&naktive indstillinger
+155=&Altid øverst
+156=Sorter &alle menuer
+157=Sorter &valgte menu
+158=K&un avancerede indstillinger
+159=U&dfoldet visning
+
+161=&Hjælp
+162=&Emner i Hjælp
+163=&Om...
+
+171=&Tilføj
+172=&Fjern
+173=Vælg &alt
+
+176=&Definition
+177=&Kategoriseret liste
+178=Vælg alle akti&ve
+179=Vælg alle &inaktive
+
+184=Fil
+185=Standard
+186=Avanceret
+187=Version
+188=Ja
+189=-
+190=&Fortryd
+191=&Gendan
+192=&Rediger værdi
+193=Værdi = &1
+194=Værdi = &0
+195=Gennemse &værdier...
+196=Indstilling
+197=Værdi
+198=Sektion
+
+200=Favori&tter
+201=&Tilføj til Favoritter...
+202=&Organiser Favoritter...
+203=&Favoritnavn:
+204=Kan ikke finde denne Favorit!
+205=Tilføj Favorit
+206=Organiser Favoritter
+207=Favoritliste kan ikke indeholde mere end 99 punkter.
+208=Der er allerede en Favorit for den indstilling.
+
+220=&Ny indstilling...
+221=O&mdøb...
+222=Ny indstilling
+223=Omdøb
+224=&Navn på indstilling:
+225=Der eksisterer allerede en indstilling med det angivne navn. Angiv venligst et andet navn.
+
+250=&Søg
+251=&Find...
+252=Find &næste
+253=Find
+254=&Find hvad:
+255=Søg i:
+256=&Navn på indstilling
+257=&Beskrivelse af indstiling
+258=Match kun hele &ord
+259=Kan ikke finde
+260=&Titel
+261=&Sti
+262=&Værdi af indstilling
+263=&Find:
+264=Anvend &mønster-matchning
+
+301=&Kommando:
+302=&Parametre:
+303=St&art-mappe:
+304=Des&tinationssti:
+305=&Genvejstast:
+306=Åbn i &TC
+307=&Ikonfil:
+308=&Ballon-hjælp:
+
+311=Ændre ikon
+312=Denne fil indeholder ingen ikoner, vælg venligst en anden fil.
+315=Vælg kommando
+
+320=Eksporter til totalcmd.inc filen
+321=De følgende kommandoer vil blive tilføjet totalcmd.inc filen.
+322=Du kan bruge enhver af disse kommandoer i din hovedmenu.
+323=&Eksporter kun kommando.  (Anbefales)
+325=&Opdater [Shortcuts], [ShortcutsWin] og [Alias] sektionerne i wincmd.ini.
+326=Kommando &prefix:
+327=Kategori&navn:
+
+400=&Genvejstast:
+401=&Control +
+402=&Alt +
+403=S&kift +
+404=Ctrl
+405=Alt
+406=Skift
+407=Vælg kolonner for eksport
+408=Eksempel:
+410=A&lias:
+411=Num
+412=Modifikationstaster:
+413=&Rækkefølge:
+414=Se&parator:
+415=&Win +
+416=Win
+
+420=Eksporter til hovedmenu
+421=Eksporter kun &første værdi i hver kolonne
+422=Eksporter kun &en kolonne for hver kommando
+423=&Rækkefølge af kolonner:
+424=&Prioritering af kolonner:
+425=&Separator:
+426=&Gennemse...
+427=&Fjern mellemrum fra genveje
+428=Eksporter re&definerede standardgenveje
+429=Mær&k redefinerede standardgenveje
+430=Ins|Del|Home|End|PgUp|PgDn|Mellemrum|SletBagud|Tab|Enter|Esc|Venstre|Højre|Op|Ned
+
+500=Total Commander hovedmenu
+501=STARTMENU
+502=HELP_BREAK
+510=Total Commander startmenu
+511=Total Commander favoritmapper
+512=Total Commander udvidede kommandoer
+
+529=Modificer data for indstilling
+530=Tilføj ny indstilling
+531=&Navn
+532=&Fil
+533=&Sektion
+534=Standard&værdi
+535=&Avanceret
+536=&Dialog
+537=&Beskrivelse
+538=V&ersion
+540=Ja
+541=Nej
+542=(Ingen)
+543=Åbn fil
+544=Åbn mappe
+545=Farve
+546=Skrifttype
+547=Bit sum
+548=Vis Ikonbibliotek
+549=Vælg fra dialogliste
+
+560=&Datafil
+561=&Tilføj indstilling...
+562=&Modificer indstilling...
+563=&Slet indstilling
+570=Ønsker du virkelig at slette indstillingen '%s' fra datafilen?
+
+601=&Tilpas...
+602=Tilpas Værktøjslinje
+
+1000=Opsætning:
+1001=Opsætning
+1002=Layout
+1003=Ikoner
+1004=Farve og skrifttype
+1005=Operation
+1006=Sprog
+1007=Standard
+1008=OK
+1009=Annuller
+1010=&Udfør
+
+1021=Visuelle effekter:
+1022=Vis træ&ikoner
+1023=Vis træ&linjer
+1024=Vis &gitterlinjer
+1025=Låste &kanter
+1026=&Flad brugerflade
+1027=&Vis metode på gem-ikonet
+1028=&Vis programikoner
+1029=Vis indstillingens &værdi umiddelbart efter indstillingens navn
+1030=Vis &standardværdi for inaktive indstilinger
+1031=Vis ik&oner for interne kommandoer
+3407=Vis laveste version, som er &nødvendig for den valgte indstilling
+
+1034=Se&paratorlinje:
+1035=&Fanebredde:
+
+1041=Ikonstil:
+1042=Brug stan&dardikoner
+1043=&Størrelse:
+1044=&Ændre...
+
+1051=Tekst:
+1052=Forgrund
+1053=Baggrund
+1054=Aktuelle menu:
+1055=Forgrundsfarve for andre elementer:
+1056=Kommentar
+1057=Separator
+
+1059=Brudt link
+
+1061=Låst faneblad
+1062=Inaktiv indstilling
+1063=Aktiv indstilling (Wincmd.ini)
+1064=Aktiv indstilling (Wcx_ftp.ini)
+3402=Aktiv kommando
+3403=Inaktiv kommando
+3404=Kommando med genvejstast
+3405=Kommando uden genvejstast
+1065=Skrifttype:
+1066=Brug skrifttypev&alg på felterne for kommandoegenskaber
+1067=Beskrivelse:
+
+1071=Læs TC's interne kommandoer fra:
+1072=&Standard totalcmd.inc fil.
+1073=&Anden fil.
+1074=Diverse:
+1075=&Indlæs automatisk seneste fil.
+1076=Asso&cier TC menufiler (*.mnu) med dette program.
+1077=Saml &kommentarer i gruppen mens filen læses. (Anbefales)
+1078=A&ntal mellemrum for indrykning af hver menu i den gemte fil:
+1079=A&ntal mellemrum for indrykninger i datafil:
+
+1089=Skift sprog:
+1090=Brug &standardsprog
+1091=&Andre
+
+1101=Autoudfør:
+1102=Brug automatisk kommandoen som titel på punktet
+1103=Fjern filtypen fra titlen
+1104=Opret automatisk en ny kommando eller vælg den næste
+1107=Søg efter tilstedeværelsen af filer og mapper i netværket
+1108=Søg efter tilstedeværelsen af filer og mapper på flytbare drev
+1111=Eksporter:
+1112=Eksporter altid til totalcmd.inc filen når menuen gemmes
+1113=Husk mig altid på at eksportere ændringerne
+1120=&Vælg automatisk næste indstilling efter redigering
+1121=&Genstart automatisk Total Commander efter at ændringer er gemt
+1123=&Vis genvejstaster i omvendt rækkefølge
+1124=Eksporter altid til hovedmenufilen når der gemmes
+1125=Udvid automatisk &kategoritræ ved start
+1126=Vælg automatisk &næste kommando efter redigering af den valgte
+1127=&Læs kun indstillinger som findes i datafilen
+
+1201=Tilpas totalcmd.inc
+1202=Kategoriseret
+1203=Alfabetisk
+1204=Som den er
+1205=Gem...
+1206=Luk
+1207=Vis eksempel
+1208=IKKE I HOVEDMENU
+1209=Fil
+1210=Udskriv
+1211=Separator udseende:
+1212=Br&ug menuoverskrift som beskrivelse.
+1213=Føj &kommandokode til beskrivelsen.
+1214=&Tilføj separator ved hver undermenu.
+
+1231=Tilpa&s referencefil...
+1232=Tilpas referencefil
+1233=&Knyt til...
+1234=Små &ikoner
+1235=Vælg kommando
+1236=&Vis kommandoer, som er listet i referencefilen
+1237=Fordi hovedmenuen indeholder eksterne kommandoer, skal den gemmes før referencefilen kan tilpasses. Dette er vigtigt for at kunne matche eksterne kommandoer med deres kodenummer.\n\nGem ændringer nu?
+1238=Gem ændringer i "%s"?
+1239=Reference til...
+1240=Vælg ikon for "%s"
+1241=(Ingen)
+1242=Eksterne kommandoer skal findes i hovedmenuen, for at der kan laves en reference imellem kommando og ikon.
+
+
+1251=Flyt til
+1252=Flyt [
+1253=] til...
+
+1280=Rediger parameterliste
+1281=&Tilføj
+1282=&Op
+1283=&Ned
+1284=&Standard
+1285=Parameterliste
+1286=Parameter
+1287=Beskrivelse
+1288=&Vis som menu
+1289=Rediger parameter
+1290=Tilføj ny parameter
+1291=&Parameter:
+1292=&Beskrivelse:
+
+1501=Om
+1502=Programmeret af:
+1503=Version:
+1504=Dette program er registeret til:
+1505=Besøg venligst programmets hjemmeside for de seneste informationer om dette program.
+1506=Website:
+1507=E-mail:
+1508=Besøg nu
+
+1601=Marker sektion(er) for import.
+1602=Marker sektion(er) for eksport.
+1603=Importer
+1604=Eksporter
+1605=Åbn
+1606=Gem
+1607=Gem som
+
+1611=&Vælg kategorier der skal importeres.
+1612=&Vælg kategorier der skal eksporteres.
+1613=Valg for import:
+1614=Valg for eksport:
+1615=&Aktive indstillinger
+1616=I&naktive indstillinger
+1617=E&kskluder omdirigerede indstillinger (anbefales)
+
+1650=Slet alt
+1651=Marker sektion(er) du ønsker at slette.
+1652=Slet også låste f&aneblade.
+
+2001=Total Commander hovedknappanel
+2002=Rediger med Ultra TC Button Bar Editor
+2003=Knap %i
+2004=Vis som panel
+2005=Vis som menu
+2006=Tilbage til hovedknappanel
+2007=Linjeskift
+2008=Rediger tilknyttet knappanel
+2009=Filliste for knappanel
+
+2101=Tilføj &underpanel
+2102=Tilføj &linjeskift
+2103=Tilføj k&nap
+2111=&Klip
+2112=Kopie&r
+2113=Inds&æt
+2122=&Knappanel
+2123=K&nappanel som træ
+2124=Knappanel u&dseende
+
+2151=Kan ikke åbne Udklipsholder.
+2152=Ønsker du at gemme dette knappanel som standard? (Standard knappanelet aktiveres når Total Commander startes.)
+2153=Kan ikke finde det tilknyttede knappanel "%s"
+
+2201=Udseende
+2202=St&ørrelse:
+2203=&XP-layout
+2204=Fla&de ikoner
+2205=Sm&å ikoner
+2206=Pop&up ikonstørrelse:
+
+2211=Ikonstørrelse for &træ:
+2212=Ikonstørrelse for &knappanel:
+
+3000=Gem kommandoer som tekst
+3001=Gem kommandoer som decimaltal
+3002=Gem kommandoer som hexadecimaltal
+3003=Beskrivelse
+3004=Kommando
+3005=Kode
+3006=Du kan ikke placere en kommando her.
+3007=Help_Break kan ikke placeres i en menu.
+3008=Der er intet at gemme!
+3009=Er du sikker?
+3010=Kan desværre ikke gentage dette punkt
+3011=Menuen er ikke tom
+3012=Denne kommentarblok er ikke tom
+3013=Du kan ikke flytte en menu til sin egen undermenu !!!
+3014=Kan ikke finde kommando
+3015=Der er en fejl i filen
+3016=Linje:
+3017=Programmet kan ikke fortsætte!
+3018=Ugyldig format på menufilen!
+3019=Kan ikke åbne filen
+3020=Gem ændringer i
+3021=Kan ikke finde denne fil
+3022=Check venligst, at der er angivet korrekt sti og filnavn.
+3023=%i kommando(er) valgt
+3024=%i kommando(er) i [%s] menu
+3401=%i kommando(er) i [%s] kategori
+3025=Indlæser kommandoer... Vent venligst.
+3026=Gemmer menu... Vent venligst.
+3027=Læser menu... Vent venligst.
+3028=Tilføjer... Vent venligst.
+3029=Fjerner... Vent venligst.
+3030=TC ikon
+3031=Menu
+3032=Aktulle menu
+
+3035=Separator
+3036=Startmenu
+3037=Help Break
+3038=Kommentar
+3039=For stort billede. Vælg venligst et andet.
+3040=Ugyldig ikon, prøv en anden.
+3041=Gyldige værdier er hele tal fra 1 til 32.
+3042=Tom sti.
+
+3045=Kan ikke finde Total Commander ini-fil [wcx_ftp.ini]
+3046=Kan ikke finde Total Commander ini-fil [wincmd.ini]
+3047=Kan ikke finde din totalcmd.inc fil !
+3048=Kan ikke finde sprogfil!
+3049=Husk
+3050=Eksporter ændringerne til totalcmd.inc filen?
+3051=Du skal gemme Startmenuen før du eksporterer den. Dette er vigtigt for at undgå forkerte menupunkter i totalcmd.inc filen, hvis du eksporterer en menu, der ikke er gemt.
+3052=Gem ændringer nu?
+3053=Favoritmenuen kan ikke indeholde mere end 199 punkter.
+3054=Startmenuen kan ikke indeholde mere end 199 punkter.
+3055=Mappe ikke fundet.
+3056=Fil ikke fundet.
+3057=eksisterer allerede i:
+3058=Ønsker du at tilføje det igen?
+3059=Denne genvej er allerede knyttet til:
+3060=Ønsker du at knytte det til:
+3061=Denne fil indeholder ikke noget afsnit for Favoritmenuen!
+3062=Denne fil indeholder ikke noget afsnit for Startmenuen!
+3063=Ændringen af ikonopsætningen vil effektueres næste gang programmet startes.
+3064=Intern kommando
+3065=Ekstern kommando
+3066=Mappelink
+3067=(ingen)
+3068=Kør normalt
+3069=Kør minimeret
+3070=Kør maksimeret
+3071=Startmenu
+3072=Favoritmenu
+
+3073=Total Commander opsætning
+3074=Kan ikke finde datafil! Åbn venligst en for at fortsætte
+3076=Gem ændringer i programdatafilen?
+3077=%i indstilling(er)
+3078=Datafil:
+3079=Målsektion:
+3080=Beskrivelse ikke til rådighed!
+3406=Total Commander %s og højere
+
+3081=Total Commander historik
+3082=Kommandolinje
+3083=Søg efter:
+3084=Søg i:
+3085=Find tekst:
+3086=Hent/Gem
+3087=Valg
+3088=Omdøb maske:
+3089=F2 Hent/Gem
+3090=Faneblade venstre
+3091=Faneblade højre
+3092=Eksempel panel. Der kan ikke redigeres her!
+3093=Der kan kun tilføjes %1 punkter til en sektion.
+3094=&Overskrift:
+3095=&Lås denne fane
+3096=Tom
+3097=Omdøb søg efter:
+3098=Omdøb erstat med:
+3099=Låst, men ma&ppeændringer tilladt.
+3100=Historik venstre
+3101=Historik højre
+3102=Oprettede mapper
+3103=Gemte synkroniseringer
+3104=Plugin attributter
+3105=Størrelser for opdeling
+3106=Gamle FTP-forbindelser
+3107=Dublet Filfinder: plugin-felter
+3108=Dublet Filfinder: mappemønster
+
+3110=Udvidede kommandoer
+3111=Udvidet kommando
+
+3120=Adgang til
+3121=i denne fil er blevet begrænset.
+
+3141=Denne kategori har ingen indstillinger!
+3142=Der er manglende eller ukorrekte datafelter for denne indstilling!
+3143=Ret venligst denne fejl i den aktuelle datafil.
+3144=Den datafil du er ved at åbne er i gammelt format. Ønsker du at konvertere den til det nye format?
+3145=[Tom sektion]
+3146=Vis ikonbibliotek
+3147=&DLL / ICL / EXE fil:
+3148=Bit sum
+3149=Datafilen indeholder følgende fejl:\n\nLinje: %i\nPosition: %i\nÅrsag: %s\n
+
+
+3160=Kommentarer
+3161=Skriv din kommentar her
+3171=Startmenupunkt %i
+3172=Favoritmenupunkt %i
+3173=Udvidet_kommando_%i
+3176=Rediger med Ultra TC Start Menu Editor
+3177=Rediger med Ultra TC Directory Menu Editor
+3178=Ultra_TC_Udvidet_Kommando_Editor
+
+3200=Standard genvejstast
+3201=Brugerdefineret genvejstast
+3202=Tilføj genvejstast
+3203=Standard genvejstast for:
+3204=Aktuelle genvejstast for:
+3205=Slet alle genvejstaster
+3206=Du er ved at slette de brugerdefinerede genvejstaster for ALLE kommandoer.
+3207=i din Total Commander Startmenu
+3208=Vigtigt
+3209=Genvejstasterne i denne liste er endnu ikke gemt i din Total Commander ini-fil.
+3210=Du må gemme genvejstasterne før du eksporterer til hovedmenufilem. Dette er vigtigt for at undgå fejl, når du eksporterer en liste med genvejstaster, der ikke er gemt.
+
+3220=Kategori
+3221=Alias:
+3222=Tilføj alias
+3223=Slet alle alias
+3224=Nuværende alias for:
+3225=Ønsker du at tilknytte det til:
+3226=Du er ved at slette alias for ALLE kommandoer
+
+3236=Total Commander liste over genvejstaster
+3237=Total Commander startmenu genvejstaster:
+3238=Eksporter til tekstfil
+3239=Ekporter som HTML kode
+
+3241=&Beskrivelse
+3242=Ko&mmando
+3243=&Kode
+3244=&Standard genvejstast
+3245=Bruger&defineret genvejstast
+3246=&Alias
+3247=Eksporter a&lle kommandoer
+3248=&Vis skrifttype
+3249=Tilføj se&parator
+3250=Læser... Vent venligst.
+3251=Gemmer... Vent venligst.
+3252=Importerer... Vent venligst.
+3253=Eksporterer... Vent venligst.
+3254=Opretter... Vent venligst.
+
+3301=Rediger hovedmenu
+3302=Rediger startmenu
+3303=Rediger favoritmapper
+3304=Rediger udvidede kommandoer
+3305=Rediger historik
+3306=Rediger opsætning
+3307=Rediger genvejstaster
+3308=Altid øverst
+3309=Rediger knappanel
+
+3321=Chec&k bogstaver til tastaturnavigering...
+3322=Der blev ikke fundet duplikerede bogstaver til tastaturnavigering.
+3323=Duplikerede bogstaver til tastaturnavigering:\n\n '%s' bruges allerede i: '%s' \n\nFølgende bogstaver bruges ikke: %s
+3324=Duplikerede bogstaver til tastaturnavigering:\n\n '%s' bruges allerede i: '%s' \n\nIngen unikke bogstaver til rådighed.
+3325=Fremhæv &duplikerede bogstaver til tastaturnavigering.
+3326=Fremhæv &linjer der ikke indeholder bogstaver til tastaturnavigering.
+3327=Alle linjer indeholder bogstaver til tastaturnavigering.
+
+3341=Impo&rter overskrifter...
+3342=Importer overskrifter for &alle kommandoer.
+3343=Importer kun overskrifter for &kommandoer under '%s' menu.
+
+3350=%s\nDenne file er UTF-8 kodet.\n\nADVARSEL: Elementer som indeholder tegn fra tegntabeller som er forskellige fra dit systems standardtegntabel vil miste disse tegn, hvis elementet er blevet omdøbt indefra programmet.\n\nBemærk: Elementer som indeholder sådanne tegn, men som ikke er blevet omdøbt indefra programmet, vil ikke blive påvirket. Fortsæt?
+3351=%s\nDenne file er UTF-8 kodet.\n\nEksport af genvejstaster til en UTF-8 kodet fil kan ødelægge den. Fortsæt?
+
+3601=?   som første parameter = åbner boks for indtastning af parametre
+3602=%P  indsætter aktuelle kildesti
+3603=%N  indsætter filnavn under cursor
+3604=%T  indsætter aktuelle destinationssti
+3605=%M  indsætter aktuelle filnavn fra destinationsmappen
+3606=%O  indsætter aktuelle filnavn uden type
+3607=%E  indsætter aktuelle filtype (uden punktum forrest)
+3608=%%  indsætter procenttegn
+3610=%p  indsætter aktuelle kildesti (kort)
+3611=%n  indsætter filnavn under cursor (kort)
+3612=%t  indsætter aktuelle destinationssti (kort)
+3613=%m  indsætter aktuelle filnavn fra destinationsmappen (kort)
+3614=%o  indsætter aktuelle filnavn uden type (kort)
+3615=%e  indsætter aktuelle filtype (uden punktum forrest) (kort)
+3618=%L  lange filnavne inkl. komplet sti
+3619=%l  korte filnavne inkl. komplet sti
+3621=%F  lange filnavne uden sti, f.eks. Long name.exe
+3622=%f  korte filnavne uden sti, f.eks. LONGNA~1.EXE
+3624=%D  korte filnavne inkl. komplet sti, (DOS tegnsæt)
+3625=%d  korte filnavne uden sti, (DOS tegnsæt)
+3626=%S  indsætter navnene på alle valgte filer
+3627=%s  indsætter navnene på alle valgte filer (kort)
+3628=%S10  indsætter navnene på de første 10 valgte filer
+3629=%s10  indsætter navnene på de første 10 valgte filer (kort)
+3630=%A  indsætter resten af den indtastede kommandolinje
+3631=%A0  som %A, kan anvendes når parametren efterfølges af et ciffer
+3632=%A1-%A9  indsætter den første til den niende parameter
+3633=%Z  overfører arkiver som stinavne til programmer for %P eller %T i åbnet arkiv
+3634=%R  indsætter navnene på alle valgte filer fra destinationsmappen
+3635=%r  indsætter navnene på alle valgte filer fra destinationsmappen (kort)
+3636=%R10  indsætter navnene på de første 10 valgte filer fra destinationsmappen
+3637=%r10  indsætter navnene på de første 10 valgte filer fra destinationsmappen (kort)
+3638=%X  fortolker de efterfølgende parametre som Venstre/Højre i stedet for Kilde/Destination
+3639=%x  fortolker igen de efterfølgende parametre som Kilde/Destination
+3640=%UL  som %L, med med en UTF-8 Unicode listefil
+3641=%WL  som %L, med med en UTF-16 Unicode listefil
+3642=%UF  som %F, med med en UTF-8 Unicode listefil
+3643=%WF  som %F, med med en UTF-16 Unicode listefil
+3644=%v  Indsætter virtuelle filnavn i tilfælde med filsystem-plugins som f.eks. 'Virtual Panel'
+3645=%V  Som %v, men inkluderer den fulde sti (inklusive plugin-navnet)

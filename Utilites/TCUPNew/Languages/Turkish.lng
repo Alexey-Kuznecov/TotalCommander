@@ -1,0 +1,188 @@
+[About]
+Language=Turkish
+Language_en=Turkish
+Translator=Müh. Mahmut VURAL "VuMa"
+Email=mahmut.vural@windowslive.com
+
+[MainFrm]
+Btn_Directory=Dizin
+Btn_File=Dosya
+Btn_Settings=Ayarlar
+Btn_OK=TAMAM
+Btn_Cancel=ÝPTAL
+MainFrm=Yeni...
+
+[Strings]
+DirNormal=Normal
+DirHidden=Gizli
+DirProject=Proje
+DirList=Liste
+NewFile=Yeni dosya
+NewDir=Yeni dizin
+ODFilter=Executable files
+
+[Settings_Main]
+Settings=Ayarlar
+Btn_OK=Tamam
+Btn_Cancel=Ýptal
+
+[Settings_Language]
+Lang_Tab=Dil
+Lang_Settings=Dil dosyasýný ayarla
+Lang_Text=Buradaki (*.lng) uzantýlý dil dosyasýný kullanmak için ayarla.
+Lang_About=Tercüme hakkýnda
+Lang_Language=Dil:
+Lang_Language_EN=Dil (Ýngilizceden):
+Lang_Translator=Terüme eden:
+Lang_Email=Tercümanýn e-mail adresi:
+
+[Settings_About]
+About_Tab=Hakkýnda
+About_About=TC UP New hakkýnda
+About_Version=Versiyon:
+About_Programming=Programcý:
+About_Idea=Fikir ve Görüþler:
+About_Help=Yardým ve Destek:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Karýþýk.
+Misc_Buttons=Menü butonlarý
+Misc_Buttons_Text="Düzenle", "Dizini aç" ve "Kapat" butonlarýnýn davranýþlarýný düzenleyebilirsiniz.
+Misc_Buttons_PopUp1=Açýlýr pencere menüsü
+Misc_Buttons_PopUp2=Sadece ilerdeki özellikler için ayarla
+Misc_Hints=Help hints
+Misc_Hints_Text=Here you can set the behavior of application hints
+Misc_Hints_RB_Show=Show hints
+Misc_Hints_RB_Hide=Do not show hints
+Misc_Hints_Lbl_Color=Hint color:
+Misc_Hints_Lbl_DT=Hint display time [ms]:
+Misc_Hints_Lbl_HT=Hint hide time [ms]:
+Misc_Hints_Btn_Color=Choose
+Misc_GB_Alt_Path=Files/Directories creating
+Misc_Lbl_Alt_Path_Desc=Choose directory, where files/directories will be created (if you run TC UP New separate)
+Misc_RB_Alt_Path_Ask=Ask each time you create file/directory
+Misc_RB_Alt_Path_UseIt=Use below directory to create file/directory
+Misc_Lbl_Alt_Path=Directory:
+Misc_Btn_Alt_Path=Choose
+
+[Settings_Settings]
+Settings_Tab=Ayarlar
+Settings_GB=Kayýt
+Settings_Text=Program kapatýldýðýnda,  oluþturulan klasör ve dosya isimleri, en son kullaným þekli ve ayarlarýnýz kaydedilecek.
+Settings_CB_Names=Adlarý kaydet
+Settings_CB_Mode=Kullanýlan oturumu kaydet
+Settings_GB_History=Geçmiþi sil
+Settings_FileName=Oluþturulan dosya adlarýný sil
+Settings_Directories=Oluþturulan dizin adlarýný sil
+Settings_CB_Clear=Temizle
+Settings_CB_Clear1=Temizle
+Settings_GB_Edit=Dosyalarý düzenle
+Settings_Text1=Oluþturduðunuz dosyayý düzenlemek için çaðýrabilirsiniz. Hangi parametrelerle ve hangi programla açýlacaðýný ayarlayabilirsiniz.
+Settings_Program=Program:
+Settings_Param=Parametreler (%s dosyasýndan):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Uzantýlar
+Extension_GB=Kullanýlabilir tüm uzantýlar
+Extension_Lbl_Ext=Extension to add:
+Extension_Btn_Add=Ekle
+Extension_Btn_Remove=Kaldýr
+Extension_Btn_Up=Move Up
+Extension_Btn_Down=Move Down
+
+[Settings_Name]
+Name_Tab=Adlandýr
+Name_GB=Girdiðiniz ismi deðiþtirin
+Name_Text=Oluþturmak istediðiniz dosya ismi ile ayný olan baþka dosya mevcut ise, onu deðiþtirmek için kullanabileceðiniz þablonlar.
+Name_FirstNumber=Ýlk Sayý:
+Name_Digits=Rakamlar:
+Name_Text1=Adlandýrma kalýplarý ([N] Orjinal adlandýr , ve [C] numaralandýr (aþaðýdaki gibi).
+Name_Counter=Sayýcý ayarlarý:
+
+[Settings_Appearance]
+Appearance_Tab=Uygulama
+Appearance_GB_StayOnTop=TC her zaman üstte
+Appearance_Text=Total Commander aktif olduðunda, TC UP New yeniden devreye girsin, TC her zaman Z-sýralamasý üstündedir.
+Appearance_CB_Stay=TC her zaman yukarda
+Appearance_GB_Pos=Konum
+Appearance_Text1=TC UP New Total Commander programýnýn en son kullanmýþ olduðu pozisyonu algýlayabilir. Kendisini, Total Commander programýnýn bir parçasý gibi benzer þekilde konumlandýrabilir.
+Appearance_CB_Pos=Konumlandýr
+
+[ProjectSelectionFrm]
+ProjectSelection=Þablonlar
+Project_Lbl_Text=Proje için bir þablon seçiniz:
+Project_Btn_OK=Tamam
+Project_Btn_Cancel=Ýptal
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>File mode<0> is active<b><u>
+Hint_DirModeActive=<3><b><u>Directory mode<0> is active<b><u>
+Hint_FileMode=<b><u>File mode<u><b>
+Hint_Btn_CloseFM1=By clicking this button you can <1>Create file<0> and:
+Hint_Btn_CloseFM2=- <1>Close<0> TC UP New window
+Hint_Btn_CloseFM3=- <1>Leave<0> TC UP New window as it is
+Hint_Btn_EditFM1=By clicking this button you can <1>Create file<0> and:
+Hint_Btn_EditFM2=- <1>Edit<0> file with associated application
+Hint_Btn_EditFM3=- <1>Edit<0> file
+Hint_Btn_EditFM4=- <1>Do not Edit<0> file
+Hint_DirMode=<b><u>Directory mode<u><b>
+Hint_Btn_CloseDM1=By clicking this button you can <1>Create directory<0> and:
+Hint_Btn_CloseDM2=- <1>Close<0> TC UP New window
+Hint_Btn_CloseDM3=- <1>Leave<0> TC UP New window as it is
+Hint_Btn_EditDM1=By clicking this button you can <1>Create directory<0> and:
+Hint_Btn_EditDM2=- <1>Open<0> this Directory in TC UP
+Hint_Btn_EditDM3=- <1>Do not open<0> it
+Hint_Btn_Directory=This button let you change files/directories creation mode.
+Hint_Btn_Directory1=Clicking this button sets <1>Directory mode<0>, what means that you can:
+Hint_Btn_Directory2=- <1>Create directory<0> and <1>Open<0> this in TC UP (or not).
+Hint_Btn_Directory3=- You can also <1>Close<0> TC UP New window or leave it opened to create another file/directory
+Hint_Btn_File=This button let you change files/directories creation mode.
+Hint_Btn_File1=Clicking this button sets <1>File mode<0>, what means that you can:
+Hint_Btn_File2=- <1>Create file<0> and <1>Edit<0> this file (or not) in associated application or in TC UP.
+Hint_Btn_File3=- You can also <1>Close<0> TC UP New window or leave it opened to create another file/directory
+Hint_Btn_Settings=This button let you open Settings page,
+Hint_Btn_Settings1=where you can change options for TC UP New
+Hint_CB_DirFileName=This ComboBox control let you write the Directory/File name to be created.
+Hint_CB_Ext=This ComboBox control let you choose options according to choosen mode.
+Hint_CB_Ext1=If you are in <b>Directory mode<b>, you can choose:
+Hint_CB_Ext2=- Normal: Creates Normal directory
+Hint_CB_Ext3=- Hidden: Creates Directory that is hidden
+Hint_CB_Ext4=- Project: Creates Project files, defined in Templates (see Settings)
+Hint_CB_Ext5=- List: Creates a set of directories, that are on the user list
+Hint_CB_Ext6=If you are in <b>File mode<b>, you can choose:
+Hint_CB_Ext7=- txt: File extension to be created
+Hint_CB_Ext8=- php: Other file extension to be created
+Hint_CB_Ext9=- etc.. (You can add own extensions to this list)
+Hint_Btn_OK=This button let you close TC UP New and do some action
+Hint_Btn_OK1=(like for example: Creating new directory)
+Hint_Btn_Cancel=This button let you close TC UP New without any actions
+
+[Menu]
+EditMenu1=Do not edit
+EditMenu2=Edit file with associated application
+EditMenu3=Edit file
+OpenDirMenu1=Do not open
+OpenDirMenu2=Open directory in TC UP
+OpenDirMenu2_=Open directory
+CloseMenu1=Create file/directory and close
+CloseMenu2=Do not close
+
+[Messages]
+MsgDir1=Directory
+MsgDir2=doeasn't exists!
+MsgDir3=Directory doeasn't exists...
+MsgExtAdd1=Before you click Add extension button, you have to specify that extension.
+MsgExtAdd2=Use below edit text field and write here extension, for example: txt
+MsgExtAdd3=Adding extension...
+MsgExtRemove1=Select extension you want to remove!
+MsgExtRemove2=Removing extension...        
+MsgCF1=Configuration file:
+MsgCF2=doeasnt exists!
+MsgCF3=File doeasn't exists...
+MsgCFile=Select directory to save there new file
+MsgCDir=Select directory to save there new directory
+MsgCFDC=Choose
+MsgCFDC1=Choose directory, where files/directories will be created
+MsgDirError=Cannot create directory:

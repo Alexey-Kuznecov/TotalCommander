@@ -1,0 +1,8 @@
+[plugininstall]
+description=TCTorrent: retrieve and view information about .torrent files. **NOTE** This installer will install lister plugin. If you need content plugin, you have to install it manually
+descriptionRUS=TCTorrent: извлечение и просмотр информации о файлах .torrent. **ВНИМАНИЕ** Этот инсталлятор устанавливает плагин просмотра. Если вам нужен контентный плагин, то его необходимо устанавливать вручную.
+descriptionUKR=TCTorrent: видобування та перегляд інформації про файли .torrent
+descriptionESP=TCTorrent: Obtiene y visualiza informacion de ficheros .torrent
+type=wlx
+file=TCTorrent.wlx
+defaultdir=TCTorrent

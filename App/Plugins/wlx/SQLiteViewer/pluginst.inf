@@ -1,0 +1,7 @@
+[plugininstall]
+description=Simple plugin for view SQLite database files
+descriptionrus=Простой плагин для просмотра файлов баз данных SQLite
+type=wlx
+file=SQLiteViewer.wlx
+defaultdir=Plugins\wlx\SQLiteViewer
+version=1.9.6.7

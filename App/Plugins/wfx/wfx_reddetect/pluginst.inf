@@ -1,0 +1,6 @@
+[plugininstall]
+description=FS-plugin for detecting unknown hardware using PCI ID
+descriptionrus=FS-плагин для идентификации неизвестного оборудования
+type=wfx
+file=wfx_pcidetect.wfx 
+defaultdir=PCIDetect

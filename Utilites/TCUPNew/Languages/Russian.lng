@@ -1,0 +1,188 @@
+[About]
+Language=Русский
+Language_en=Russian
+Translator=Vadim Kazakov
+Email=avada1@yandex.ru
+
+[MainFrm]
+Btn_Directory=&Каталог
+Btn_File=&Файл
+Btn_Settings=Настройки
+Btn_OK=ОК
+Btn_Cancel=Отмена
+MainFrm=Создать новый...
+
+[Strings]
+DirNormal=Обычный
+DirHidden=Скрытый
+DirProject=Проект
+DirList=Список
+NewFile=Новый файл
+NewDir=Новый каталог
+ODFilter=Исполняемые файлы
+
+[Settings_Main]
+Settings=Настройки
+Btn_OK=ОК
+Btn_Cancel=Отмена
+
+[Settings_Language]
+Lang_Tab=Язык
+Lang_Settings=Выбор языкового файла
+Lang_Text=Здесь вы можете выбрать язык интерфейса программы
+Lang_About=О переводе
+Lang_Language=Язык:
+Lang_Language_EN=Язык (по-английски):
+Lang_Translator=Переводчик:
+Lang_Email=E-Mail:
+
+[Settings_About]
+About_Tab=О программе
+About_About=О программе TC UP New
+About_Version=Версия:
+About_Programming=Программирование:
+About_Idea=Идея:
+About_Help=Помощь и поддержка:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Разное
+Misc_Buttons=Кнопки и меню
+Misc_Buttons_Text=Здесь вы можете задать, что делать по щелчку на кнопках "Редактировать файл"/"Открыть каталог" и "Закрыть":
+Misc_Buttons_PopUp1=Открыть контекстное меню кнопки
+Misc_Buttons_PopUp2=Просто выбрать следующую опцию
+Misc_Hints=Подсказки
+Misc_Hints_Text=Управление поведением и видом подсказок в TC UP New
+Misc_Hints_RB_Show=Отображать подсказки
+Misc_Hints_RB_Hide=Отображать подсказки
+Misc_Hints_Lbl_Color=Цвет подсказки:
+Misc_Hints_Lbl_DT=Время показа (мсек):
+Misc_Hints_Lbl_HT=Время скрытия (мсек):
+Misc_Hints_Btn_Color=Выбрать
+Misc_GB_Alt_Path=Создание файлов/каталогов
+Misc_Lbl_Alt_Path_Desc=Выберите папку для создания файлов/каталогов (при отдельном запуске TC UP New)
+Misc_RB_Alt_Path_Ask=Запрашивать каждый раз при создании файлов/каталогов
+Misc_RB_Alt_Path_UseIt=Использовать для этой цели указанную ниже папку
+Misc_Lbl_Alt_Path=Папка:
+Misc_Btn_Alt_Path=Выбрать
+
+[Settings_Settings]
+Settings_Tab=Настройки
+Settings_GB=Сохранение настроек
+Settings_Text=При закрытии программы сохраняются ваши настройки, имена созданных файлов/каталогов и последний выбранный режим
+Settings_CB_Names=Сохранять имена
+Settings_CB_Mode=Сохранять использованный режим
+Settings_GB_History=Удаление истории ввода
+Settings_FileName=Удалять имена созданных файлов
+Settings_Directories=Удалять имена созданных каталогов
+Settings_CB_Clear=Очистить
+Settings_CB_Clear1=Очистить
+Settings_GB_Edit=Редактирование файлов
+Settings_Text1=Создав файл, можно сразу же начать его редактирование. Здесь вы можете указать, какую программу для этого использовать и с какими параметрами.
+Settings_Program=Программа:
+Settings_Param=Параметры (где %s означает имя файла):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Расширения
+Extension_GB=Все используемые расширения
+Extension_Lbl_Ext=Добавить расширения:
+Extension_Btn_Add=Добавить
+Extension_Btn_Remove=Удалить
+Extension_Btn_Up=Вверх
+Extension_Btn_Down=Вниз
+
+[Settings_Name]
+Name_Tab=Переименование
+Name_GB=Изменение введённого имени
+Name_Text=При попытке создать уже существующие файл/каталог программа изменит введённое имя, и вы можете указать, как это сделать
+Name_FirstNumber=Отсчёт вести с:
+Name_Digits=Цифр в числе:
+Name_Text1=Шаблон переименования (где [N] - оригинальное имя файла, а [C] - счётчик, параметры см. ниже.)
+Name_Counter=Параметры счетчика:
+
+[Settings_Appearance]
+Appearance_Tab=Вид
+Appearance_GB_StayOnTop=Отображать поверх окна TC
+Appearance_Text=Когда Total Commander активен, TC UP New будет всегда отображаться поверх окна TC
+Appearance_CB_Stay=Отображать поверх окна Total Commander
+Appearance_GB_Pos=Положение окна
+Appearance_Text1=TC UP New может точно определить текущую позицию окна Total Commander и установить своё расположение так, чтобы выглядеть частью Total Commander.
+Appearance_CB_Pos=Учитывать позицию окна TC
+
+[ProjectSelectionFrm]
+ProjectSelection=Шаблоны
+Project_Lbl_Text=Выберите шаблон:
+Project_Btn_OK=ОК
+Project_Btn_Cancel=Отмена
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Режим файлов<0> активен<b><u>
+Hint_DirModeActive=<3><b><u>Режим каталогов<0> активен<b><u>
+Hint_FileMode=<b><u>Режим файлов<u><b>
+Hint_Btn_CloseFM1=При щелчке по кнопке вы можете <1>создать файл<0> и:
+Hint_Btn_CloseFM2=- <1>закрыть<0> окно TC UP New
+Hint_Btn_CloseFM3=- <1>остаться<0> в окне TC UP New
+Hint_Btn_EditFM1=Щёлкнув по кнопке, вы можете <1>создать файл<0> и:
+Hint_Btn_EditFM2=- <1>редактировать<0> его в связанном приложении
+Hint_Btn_EditFM3=- <1>редактировать<0> его в заданном приложении
+Hint_Btn_EditFM4=- <1>не редактировать<0> файл
+Hint_DirMode=<b><u>Режим каталогов<u><b>
+Hint_Btn_CloseDM1=Щёлкнув по кнопке, вы можете <1>создать каталог<0> и:
+Hint_Btn_CloseDM2=- <1>закрыть<0> окно TC UP New
+Hint_Btn_CloseDM3=- <1>остаться<0> в окне TC UP New
+Hint_Btn_EditDM1=Щёлкнув по кнопке, вы можете <1>создать каталог<0> и:
+Hint_Btn_EditDM2=- <1>открыть<0> его в TC UP
+Hint_Btn_EditDM3=- <1>не открывать<0> каталог
+Hint_Btn_Directory=Эта кнопка позволяет изменить режим создания файлов/каталогов.
+Hint_Btn_Directory1=Щёлкнув по кнопке, задайте <1>режим создания каталогов<0>:
+Hint_Btn_Directory2=- <1>создать каталог<0> и <1>открыть<0> его (либо нет) в TC UP
+Hint_Btn_Directory3=- <1>закрыть<0> окно TC UP New или оставить его открытым для создания новых объектов
+Hint_Btn_File=Эта кнопка позволяет изменить режим создания файлов/каталогов.
+Hint_Btn_File1=Щёлкнув по кнопке, задайте <1>режим создания файлов<0>:
+Hint_Btn_File2=- <1>создать<0> файл и <1>отредактировать<0> его (либо нет) в связанном/заданном редакторе
+Hint_Btn_File3=- <1>закрыть<0> окно TC UP New или оставить его открытым для создания новых папок/файлов
+Hint_Btn_Settings=Эта кнопка позволяет открыть диалог настроек
+Hint_Btn_Settings1=для изменения опций TC UP New
+Hint_CB_DirFileName=Здесь вы можете вписать имя файла/каталога, который будет создан
+Hint_CB_Ext=Здесь вы можете выбрать опции согласно заданному режиму.
+Hint_CB_Ext1=В режиме <b>Каталог<b> можно выбрать один из следующих вариантов:
+Hint_CB_Ext2=- Обычная: Создать обычный каталог
+Hint_CB_Ext3=- Скрытая: Создать каталог с атрибутом "скрытый"
+Hint_CB_Ext4=- Проект: Создать также файлы для проекта согласно шаблонам
+Hint_CB_Ext5=- Список: Создать также набор подкаталогов согласно файлу-списку
+Hint_CB_Ext6=В режиме <b>Файл<b>  можно выбрать один из следующих вариантов:
+Hint_CB_Ext7=- txt: Будет создан файл с указанным расширением
+Hint_CB_Ext8=- php: ...или с другим расширением
+Hint_CB_Ext9=- и т.д. (можете добавить в список свои расширения)
+Hint_Btn_OK=Эта кнопка закроет окно TC UP New после выполнении какой-либо операции
+Hint_Btn_OK1=(например, создания нового каталога)
+Hint_Btn_Cancel=Эта кнопка закроет окно TC UP New без выполнения операции
+
+[Menu]
+EditMenu1=Не редактировать
+EditMenu2=Редактировать файл в ассоциированном приложении
+EditMenu3=Редактировать файл в заданном вами приложении
+OpenDirMenu1=Не открывать
+OpenDirMenu2=Открыть каталог в TC UP
+OpenDirMenu2_=Открыть каталог
+CloseMenu1=Создать файл/каталог и закрыть TC UP New
+CloseMenu2=Не закрывать
+
+[Messages]
+MsgDir1=Каталог
+MsgDir2=не существует!
+MsgDir3=Каталог не существует...
+MsgExtAdd1=Прежде чем нажать кнопку "Добавить расширение", задайте это расширение.
+MsgExtAdd2=Укажите в соответствующем поле расширение, например, txt
+MsgExtAdd3=Добавление расширения...
+MsgExtRemove1=Выберите расширение, которое хотите удалить!
+MsgExtRemove2=Удаление расширения...        
+MsgCF1=Файл конфигурации:
+MsgCF2=не существует!
+MsgCF3=Файл конфигурации не существует...
+MsgCFile=Выберите папку, где будет сохранён новый файл
+MsgCDir=Выберите папку, где будет сохранён новый каталог
+MsgCFDC=Выбрать
+MsgCFDC1=Выберите папку, где будут созданы файлы/каталоги
+MsgDirError=Не удаётся создать каталог:

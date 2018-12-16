@@ -1,0 +1,64 @@
+
+Горячие клавиши используемые в этой портативной версии, некоторые клавиши используются поумолчанию
+
+================================================================================================
+Описание                                       + Клавиши                 + Имя команды
+================================================================================================
+                                      АКТИВНАЯ -                         -
+Быстрый просмотр                               - ALT + Q                 - cm_SrcQuickview					    		  		                           
+Просмотр эскизов                               - CTRL + 1                - cm_SrcThumbs
+Пользовательский набор колонок                 - CTRL + 2                - cm_SrcCustomView1                                            
+Задать фильтр                                  - SHIFT + F               - cm_SrcUserDef
+Показать комментарии                           - ALT + N                 - cm_SrcComments
+Меню пользовательских калонок                  - CTRL + 2                - cm_SrcCustomViewMenu
+                            ОПЕРАЦИЯ С ФАЙЛАМИ -                         -
+                                               -                         -
+Переименовать/Переместить файлы                - CTRL + F2               - cm_RenMov
+Переименовать файл                             - F2                      - cm_RenameOnly
+Изменить атрибут                               - SHIFT + W               - cm_SetAttrib
+                                        РАЗНОЕ -                         -
+                                               -                         -
+Открыть командную консоль                      - SHIFT + ALT + INS       - cm_ExecuteDos
+Сравнить каталоги                              - SHIFT + F2              - cm_CompareDirs
+Сравнить каталоги с учетом подкаталогов        -                         - cm_CompareDirsWithSubdirs
+Сравнить каталоги с учетом подкаталогов        -                         - cm_ContextMenuInternal
+Получатель = Источнику                         - ALT + S                 - cm_MatchSrc
+Правка комментария к файлу                     - CTRL + N                - cm_EditComment
+                                  БУФЕР ОБМЕНА -                         -
+                                               -                         -
+Копировать имена файлов                        - SHIFT + C               - cm_CopyFullNamesToClip
+Копировать путь к файлам                       - SHIFT + CTRL + C        - cm_CopyNamesToClip
+Копировать файлы в буфер                       - CTRL + C                - cm_CopyToClipboard
+                                     НАВИГАЦИЯ -                         -
+                                               -                         -
+Перейти в корневой каталог                     - SHIFT + BACK            - cm_GoToRoot
+Перейти в родительский каталог                 - BACK                    - cm_GoToParent
+Избранные каталоги                             - CTRL + Q                - cm_DirectoryHotlist
+Вперед                                         - СTRL +, CTRL + RIGHT    - cm_GotoNextDir
+Назад                                          - CTRL -, CTRL + LEFT     - cm_GotoPreviousDir
+                                           ВИД -                         -
+                                               -                         -
+Показать скрыть системные файлы                - CTRL + ALT + H          - cm_SwitchHidSys
+Показать все файлы без подкаталогов            - ALT + F1                - cm_DirBranch
+Показать все файлы без подкаталогов            -                         -
+(только в выделенном)                          - SHIFT + ALT + F2        - cm_DirBranchSel
+Командная стока                                - Не назначена            - cm_VisCmdLine
+Показать телько выделеные объекты              - SHIFT + ALT + F3        - cm_ShowOnlySelect
+                                     ВЫДЕЛЕНИЕ -                         -
+                                               -                         -
+Инверитровать выделение                        - *                       - cm_ExchangeSelection
+Выделить группу                                - ALT + OEM_+             - cm_SpreadSelection
+Снять выделения(по маске)                      - NUM-                    - cm_ShrinkSelection
+Снять выделения: только файлов()               - ALT + OEM_-             - cm_ClearFile
+Выделить файлы и папки по текущему расширенияю - ALT + NUM+              - cm_SelectCurrentExension
+Снять выделение файлы и папки по текущему      - ALT + NUM-              - cm_UnselectCurrentExension
+расширенияю                                    -                         -
+Снять выделение(файлы)                         - CTRL + ALT + DEL        - cm_ClearSelCfg
+Снять выделение(файлы и папки)                 - CTRL + SHIFT + NUM-     - cm_ClearAll
+                                               -                         - 
+Командная строка: Копировать путь в            - CTRL + SHIFT + V        - cm_AddPathToCmdline
+командную строку                               -                         -
+Инструменты: Поиск файлов отдельмы процессом   - CTRL + S                - cm_SearchStandalone
+Справа: Задать фильтр                          - SHIFT + F               - cm_RightUserDef
+Инструменты: Групповое переименование          - ALT + F2                - cm_MultiRenameFiles
+

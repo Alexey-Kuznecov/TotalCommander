@@ -1,0 +1,54 @@
+[Eng]
+Width=Width
+Height=Height
+Pixel=Pixel
+Diagonal=Diagonal
+Orientation=Orientation
+Size=Size
+Aspect Ratio=Aspect Ratio
+Bpp=Bpp
+Dpi=Dpi
+
+[Deu]
+Width=Breite
+Height=Höhe
+Pixel=Pixel
+Diagonal=Diagonale
+Orientation=Ausrichtung
+Size=Bildgrösse
+Aspect Ratio=Seitenverhältnis
+Bpp=Bpp
+Dpi=Dpi
+
+[Fra] 
+Width=Largeur 
+Height=Hauteur 
+Pixel=Pixels 
+Diagonal=Diagonale
+Orientation=Alignement
+Size=Taille
+Aspect Ratio=Largeur/Hauteur
+Bpp=Bpp
+Dpi=Dpi
+
+[Esp]
+Width=Anchura
+Height=Altura
+Pixel=Pixels
+Diagonal=Diagonal
+Orientation=Orientacion
+Size=Tamaño
+Aspect Ratio=Cociente de Aspecto
+Bpp=Bpp
+Dpi=Dpi
+
+[Dan]
+Width=Bredde
+Height=Højde
+Pixel=Pixel
+Diagonal=Diagonal
+Orientation=Orientering
+Size=Størrelse
+Aspect Ratio=Størrelsesforhold
+Bpp=BPP
+Dpi=Dpi

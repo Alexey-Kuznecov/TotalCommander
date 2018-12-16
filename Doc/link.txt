@@ -1,0 +1,39 @@
+﻿http://msiter.ru/tutorials/uchebnik-po-xml-shemam
+http://msiter.ru/tutorials/uchebnik-po-xml-shemam/primer-xml-shemy
+https://www.codeproject.com/
+https://www.youtube.com/watch?v=CVkcv7UP7m4
+52Fce87F5daFbdF
+Mantista
+
+Teamviewer
+DESKTOP-2GERVME
+
+Партрет 500x700
+Большое изображения
+%COMMANDER_PATH%\..\App\Temp\
+
+МТС 89842718544
+Мегафон 89294346849
+Телега 89087758685
+
+fake.geralt@yandex.ru
+
+https://materializecss.com/breadcrumbs.html#!
+http://pcvector.net/scripts/slideshow_and_scroller/464-pgwslider-adaptivnyy-slayder.html
+
+http://tes-game.ru/load/witcher_3/9/rebalans_run_i_glifov/98-1-0-20586
+
+
+Git:
+$ git checkout -b iss53 // Чтобы создать ветку и сразу же перейти на неё,вы можете выполнить команду git checkout с ключом -b:
+$ git remote add origin git://github.com/paulboone/ticgit.git // Добавить удаленный репозиторий
+$ git remote -v // Текущий удаленный репозиторий
+origin git://github.com/schacon/ticgit.git
+origin git://github.com/paulboone/ticgit.git
+git remote rm origin // Удаление удаленного репозитория
+git push origin master // Залить на githab
+$ git rm --cached readme.txt // Удалить файлы из отслеживаемых
+
+Слияние веток
+$ git checkout master /перейти на ветку master
+$ git merge iss53 /слить изменения из ветки iss53

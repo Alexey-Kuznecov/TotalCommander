@@ -1,0 +1,33 @@
+[activetabs]
+0_path=::
+0_caption=Рабочий стол
+0_options=6|0|0|0|0|0|0
+1_path=C:\Games\The Witcher 3 Wild Hunt\content\
+1_options=6|0|1|0|0|0|0
+2_path=C:\Games\The Witcher 3 Wild Hunt\Mods\
+2_options=6|0|0|0|0|0|0
+3_path=C:\Games\The Witcher 3 Wild Hunt\dlc\
+3_options=6|0|1|0|0|0|0
+4_path=C:\Games\The Witcher 3 Wild Hunt\bin\config\r4game\user_config_matrix\pc\
+4_options=6|0|1|0|0|0|0
+5_path=C:\Users\Алексей\Documents\The Witcher 3\
+5_options=6|1|0|0|0|0|0
+6_path=P:\Games\The Witcher 3 (nemos)\mod (install)\Armor and Sword\
+6_options=11|0|1|0|0|0|100
+activetab=6
+[inactivetabs]
+0_path=C:\Users\Алексей\AppData\Local\Temp\
+0_options=6|0|1|0|0|0|0
+1_path=P:\Games\The Witcher 3 (nemos)\mod (install)\Armor and Sword\
+1_options=6|0|0|0|0|0|0
+2_path=C:\Games\The Witcher 3 Wild Hunt\dlc\
+2_options=6|0|0|0|0|0|0
+3_path=P:\Games\The Witcher 3 (nemos)\mod (install)\Persona\Better Call Ciri\Better Call Ciri.rar\bin\config\r4game\user_config_matrix\pc\
+3_options=6|0|0|90|4|0|0
+4_path=P:\Games\The Witcher 3 (nemos)\
+4_options=6|2|1|0|0|0|0
+5_path=D:\Downloads\
+5_options=6|0|0|0|0|0|0
+6_path=P:\Games\The Witcher 3 (nemos)\mod (install)\Graphic\dark_armor_set_kaer_morhen\
+6_options=6|0|1|0|0|0|0
+activetab=4

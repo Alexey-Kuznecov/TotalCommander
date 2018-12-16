@@ -1,0 +1,188 @@
+[About]
+Language=Deutsch
+Language_en=German
+Translator=crowley
+Email=ag_idas@email.de
+
+[MainFrm]
+Btn_Directory=&Verzeichnis
+Btn_File=&Datei
+Btn_Settings=Einstellungen
+Btn_OK=Ok
+Btn_Cancel=Abbrechen
+MainFrm=Neu...
+
+[Strings]
+DirNormal=Normal
+DirHidden=Versteckt
+DirProject=Projekt
+DirList=Liste
+NewFile=Neue Datei
+NewDir=Neues Verzeichnis
+ODFilter=Ausführbare Dateien
+
+[Settings_Main]
+Settings=Einstellungen
+Btn_OK=Ok
+Btn_Cancel=Abbrechen
+
+[Settings_Language]
+Lang_Tab=Sprache
+Lang_Settings=Sprachdatei auswählen
+Lang_Text=Hier können Sie die Sprachdatei (*.lng) auswählen, die verwendet werden soll.
+Lang_About=Über die Übersetzung
+Lang_Language=Sprache:
+Lang_Language_EN=Sprache (in Englisch):
+Lang_Translator=Übersetzt von:
+Lang_Email=Übersetzer Email:
+
+[Settings_About]
+About_Tab=Über
+About_About=Über TC UP New
+About_Version=Version:
+About_Programming=Programmierung:
+About_Idea=Idee:
+About_Help=Hilfe und Unterstützung:
+About_Build=build
+
+[Settings_Misc]
+Misc_Tab=Verschiedenes
+Misc_Buttons=Menü Schaltflächen
+Misc_Buttons_Text=Hier können Sie das Verhalten der Schaltflächen "Bearbeiten", "Verzeichnis öffen" und "Schließen" bearbeiten.
+Misc_Buttons_PopUp1=Ein Menü öffnet sich
+Misc_Buttons_PopUp2=Eine Einstellung weitersetzen
+Misc_Hints=Hinweise
+Misc_Hints_Text=Hier können Sie das Verhalten der Anwendungshinweise einstellen
+Misc_Hints_RB_Show=Hinweise anzeigen
+Misc_Hints_RB_Hide=Keine Hinweise anzeigen
+Misc_Hints_Lbl_Color=Hinweisfarbe:
+Misc_Hints_Lbl_DT=Hinweis Anzeigedauer [ms]:
+Misc_Hints_Lbl_HT=Hinweise Wartezeit [ms]:
+Misc_Hints_Btn_Color=Wählen
+Misc_GB_Alt_Path=Dateien/Verzeichnisse erstellen
+Misc_Lbl_Alt_Path_Desc=Wählen des Verzeichnisses, in dem Datei/Verzeichnisse erstellt werden sollen (wenn Sie TC UP New selbständig ausführen)
+Misc_RB_Alt_Path_Ask=Jedes Mal nachfragen, wenn Sie eine/ein Datei/Verzwichnis erstellen
+Misc_RB_Alt_Path_UseIt=Verwende untenstehendes Verzeichnis, um dort Dateien/Verzeichnisse zu erstellen
+Misc_Lbl_Alt_Path=Verzeichnis:
+Misc_Btn_Alt_Path=Wählen
+
+[Settings_Settings]
+Settings_Tab=Einstellungen
+Settings_GB=Speichern
+Settings_Text=Wenn Sie das Programm schließen, speichert es Ihre Einstellungen, die Namen der erstellen Dateien und Verzeichnisse sowie den zuletzt verwendeten Modus.
+Settings_CB_Names=Speichern der Namen
+Settings_CB_Mode=Speichern des zuletzt verwendeten Modus
+Settings_GB_History=Verlauf leeren
+Settings_FileName=Entfernen der Namen der erzeugten Dateien
+Settings_Directories=Entfernen der Namen der erzeugten Verzeichnisse
+Settings_CB_Clear=Leeren
+Settings_CB_Clear1=Leeren
+Settings_GB_Edit=Dateien bearbeiten
+Settings_Text1=Wenn Sie eine Datei erstellt haben, möchten Sie diese ggf. bearbeiten. Hier können Sie einstellen, mit welchem Programm es geöffnet werden soll und welche Parameter verwendet werden.
+Settings_Program=Programm:
+Settings_Param=Parameter (wobei %s der Dateiname ist):
+Settings_Browse=...
+
+[Settings_Extension]
+Extension_Tab=Erweiterungen
+Extension_GB=Alle brauchbaren Erweiterungen
+Extension_Lbl_Ext=Erweiterung hinzufügen:
+Extension_Btn_Add=Hinzufügen
+Extension_Btn_Remove=Entfernen
+Extension_Btn_Up=Aufwärts
+Extension_Btn_Down=Abwärts
+
+[Settings_Name]
+Name_Tab=Namensgebung
+Name_GB=Ändern des eingegebenen Namens
+Name_Text=Wenn Sie versuchen, eine Datei zu erstellen, die bereits existiert, wird das Programm den vorgegebenen Namen ändern. HIer können Sie das Verhalten anpassen.
+Name_FirstNumber=Erste Nummer:
+Name_Digits=Ziffern:
+Name_Text1=Namensschablone (wobei [N] der Originalname ist und [C] einen Zähler darstellt (siehe unten))
+Name_Counter=Zählereinstellungen:
+
+[Settings_Appearance]
+Appearance_Tab=Erscheinungsbild
+Appearance_GB_StayOnTop=Im Vordergrund von TC halten
+Appearance_Text=Wenn Total Commander aktiviert wird, bringt sich TC UP New in den Vordergrund. Auf diese Weise ist es immer über TC in Z-Reihenfolge.
+Appearance_CB_Stay=Über Total Commander halten
+Appearance_GB_Pos=Position
+Appearance_Text1=TC UP New kann die exakte Position des zuletzt verwendeten Total Commander Fensters ermitteln. So kann es seine Position so einnehmen, dass es wie ein Bestandteil von Total Commander aussieht.
+Appearance_CB_Pos=Position übertragen
+
+[ProjectSelectionFrm]
+ProjectSelection=Schablonen
+Project_Lbl_Text=Wählen Sie eine Projektschablone:
+Project_Btn_OK=Ok
+Project_Btn_Cancel=Abbrechen
+
+[Hints_Main]
+Hint_FileModeActive=<3><b><u>Dateimodus<0> ist aktiv<b><u>
+Hint_DirModeActive=<3><b><u>Verzeichnismodus<0> ist aktiv<b><u>
+Hint_FileMode=<b><u>Dateimodus<u><b>
+Hint_Btn_CloseFM1=Durch Betätigen dieser Schaltfläche können Sie die <1>Datei erstellen<0> und:
+Hint_Btn_CloseFM2=- <1>Schließe<0> das TC UP New Fenster
+Hint_Btn_CloseFM3=- <1>Verlasse<0> das TC UP New Fenster, wie es ist
+Hint_Btn_EditFM1=Durch Betätigen dieser Schaltfläche können Sie die <1>Datei erstellen<0> und:
+Hint_Btn_EditFM2=- <1>Bearbeite<0> die Datei mit verknüpftem Programm
+Hint_Btn_EditFM3=- <1>Bearbeite<0> die Datei
+Hint_Btn_EditFM4=- <1>Bearbeite nicht<0> die Datei
+Hint_DirMode=<b><u>Verzeichnismodus<u><b>
+Hint_Btn_CloseDM1=Durch Betätigen dieser Schaltfläche können Sie das <1>Verzeichnis erstellen<0> und:
+Hint_Btn_CloseDM2=- <1>Schließe<0> das TC UP New Fenster
+Hint_Btn_CloseDM3=- <1>Verlasse<0> das TC UP New Fenster, wie es ist
+Hint_Btn_EditDM1=Durch Betätigen dieser Schaltfläche können Sie das <1>Verzeichnis erstellen<0> und:
+Hint_Btn_EditDM2=- <1>Öffnen<0> dieses Verzeichnisses in TC UP
+Hint_Btn_EditDM3=- <1>Nicht öffnen<0> des Verzeichnisses
+Hint_Btn_Directory=Diese Schaltfläche ermöglicht Ihnen, zwischen Datei- und Verzeichnismodus zu wechseln.
+Hint_Btn_Directory1=Betätigen dieser Schaltfläche aktiviert den <1>Verzeichnismodus<0>, was bedeutet, dass Sie wählen können zwischen:
+Hint_Btn_Directory2=- <1>Ein Verzeichnis erstellen<0> und dieses in TC UP <1>öffnen<0> (falls gewünscht).
+Hint_Btn_Directory3=- Sie können ebenso das TC UP New Fenster <1>schließen<0> oder es geöffnet lassen, um weitere Dateien/Verzeichnisse zu erstellen.
+Hint_Btn_File=Diese Schaltfläche ermöglicht Ihnen, zwischen Datei- und Verzeichnismodus zu wechseln.
+Hint_Btn_File1=Betätigen dieser Schaltfläche aktiviert den <1>Dateimodus<0>, was bedeutet, dass Sie wählen können zwischen:
+Hint_Btn_File2=- <1>Eine Datei erstellen<0> und diese (falls gewünscht) mit dem verknüpften Programm oder in TC UP <1>bearbeiten<0> können.
+Hint_Btn_File3=- Sie können ebenso das TC UP New Fenster <1>schließen<0> oder es geöffnet lassen, um weitere Dateien/Verzeichnisse zu erstellen.
+Hint_Btn_Settings=Diese Schaltfläche ermöglicht Ihnen, den Konfigurationsdialog zu öffnen,
+Hint_Btn_Settings1=in dem Sie Änderungen an den Einstellungen von TC UP New vornehmen können.
+Hint_CB_DirFileName=Dieses Kombinationslistenfeld ermöglicht Ihnen, den Namen der/des zu erstellenden Datei/Verzeichnisses vorzugeben.
+Hint_CB_Ext=Dieses Kombinationslistenfeld ermöglicht Ihnen, Einstellungen aufgrund des ausgewählten Modus auszuwählen.
+Hint_CB_Ext1=Wenn Sie sich im <b>Verzeichnismodus<b> befinden, können Sie zwischen den folgenden Möglichkeiten wählen:
+Hint_CB_Ext2=- Normal: Erstellt ein normales Verzeichnis
+Hint_CB_Ext3=- Versteckt: Erstellt ein verstecktes Verzeichnis
+Hint_CB_Ext4=- Projekt: Erstellt Projektdateien, die in den Schablonen definiert sind (siehe Einstellungen)
+Hint_CB_Ext5=- Liste: Erstellt einen Satz Verzeichnisse, die in der Anwenderliste stehen
+Hint_CB_Ext6=Wenn Sie sich im <b>Dateimodus<b> befinden, können Sie zwischen den folgenden Möglichkeiten wählen:
+Hint_CB_Ext7=- txt: Erweiterung für die zu erstellende Datei
+Hint_CB_Ext8=- php: Andere Erweiterung für die zu erstellende Datei
+Hint_CB_Ext9=- etc.. (Sie können eigene Erweiterungen zu dieser Liste hinzufügen)
+Hint_Btn_OK=Diese Schaltfläche ermöglicht Ihnen, TC UP New mit einer Aktion zu schließen
+Hint_Btn_OK1=(wie z.B.: Erstellen eines neuen Verzeichnisses)
+Hint_Btn_Cancel=Diese Schaltfläche ermöglicht Ihnen, TC UP New ohne irgendwelche Aktionen zu schließen
+
+[Menu]
+EditMenu1=Datei nicht bearbeiten
+EditMenu2=Datei mit dem verknüpften Programm bearbeiten
+EditMenu3=Datei bearbeiten
+OpenDirMenu1=Verzeichnis nicht öffnen
+OpenDirMenu2=Verzeichnis öffnen in TC UP
+OpenDirMenu2_=Verzeichnis öffnen
+CloseMenu1=Datei/Verzeichnis erstellen und schließen
+CloseMenu2=Nicht schließen
+
+[Messages]
+MsgDir1=Verzeichnis
+MsgDir2=nicht vorhanden!
+MsgDir3=Verzeichnis nicht vorhanden...
+MsgExtAdd1=Bevor Sie die Schaltfläche "Erweiterung hinzufügen" betätigen, müssen Sie diese Erweiterung erst angeben.
+MsgExtAdd2=Verwenden Sie das untenstehende Eingabefeld und schreiben Sie dorthin die Erweiterung (z.B.: txt)
+MsgExtAdd3=Erweiterung hinzufügen...
+MsgExtRemove1=Wählen Sie die Erweiterung, die Sie entfernen möchten!
+MsgExtRemove2=Entferne Erweiterung...        
+MsgCF1=Konfigurationsdatei:
+MsgCF2=nicht vorhanden!
+MsgCF3=Datei nicht vorhanden...
+MsgCFile=Verzeichnis wählen, um dort die neue Datei zu erstellen
+MsgCDir=Verzeichnis wählen, um dort das neue Verzeichnis zu erstellen
+MsgCFDC=Wählen
+MsgCFDC1=Wählen des Verzeichnisses, in dem Datei/Verzeichnisse erstellt werden sollen
+MsgDirError=Kann Verzeichnis nicht erstellen:

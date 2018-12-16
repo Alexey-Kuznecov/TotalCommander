@@ -1,0 +1,392 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style>
+p.Обычный
+{margin:0.0pt;
+margin-top:0.0pt;
+margin-bottom:0.0pt;
+margin-left:0.0pt;
+margin-right:0.0pt;
+text-indent:0.0pt;
+font-family:"Arial";
+font-size:10.0pt;
+color:Black;
+font-weight:normal;
+}
+
+</style>
+</head>
+<body>
+<table width="1161" cellspacing="0">
+ <tr height="1">
+  <td width="350">
+  </td>
+  <td width="811">
+  </td>
+ </tr>
+ <tr height="46">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=center>
+  <p class=Обычный><b><span style='font-size:14.0pt;font-weight:bold;'>Команды с параметрами</span>
+  </b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Навигация</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="179">
+  <td rowspan="2" style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>cd имя_каталога <br>cd имя_маски <br>cd &gt;имя_шаблона <br>cd имя_архива<br>
+  cd имя_файла</p>
+  
+  </td>
+  <td rowspan="2" style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Перейти в заданный каталог/архив или на заданный файл. (Чтобы архив не открывался, допишите в конец имени, например,
+  \: — это работает везде, кроме командной строки.) К имени каталога можно добавить имя файла (на него установится курсор) или
+  маску для фильтрации (отобразятся только определённые объекты). Для перехода/фильтрации в текущем каталоге укажите имя/
+  маску без пути. Например, команда cd *.*|*\ оставляет в текущей панели только файлы, скрывая папки. Формат записи cd имя_каталога\&gt;имя_шаблона
+  или cd &gt;имя_шаблона обеспечивает фильтрацию согласно указанному шаблону поиска</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+ </tr>
+ <tr height="105">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>cd \\сервер\каталог<br>cd \\\имя_плагина</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть в панели сетевого окружения TC сетевой каталог или папку FS-плагина. Соответствующий элемент сети/плагина
+  обязательно указывается с полным путём (пример: cd \\\WebDav\My Disk\). Команда cd \\ просто открывает панель сетевого окружения. Добавив
+  параметр /user: (в нижнем регистре!), вы можете задать имя пользователя для подключения к удалённому компьютеру, а если имя не
+  указано, будет выведен запрос логина и пароля. Пример: cd \\сервер\каталог /user:имя_пользователя</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>FTP</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>cd ftp://имя_сервера</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть FTP-соединение с указанным сервером. Этот вариант, в отличие от команды ftpopen имя_соединения, не требует
+  предварительного конфигурирования соединения, но существенно ограничен в возможностях настроек</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td rowspan="3" style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>ftpopen имя_соединения</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть FTP-соединение с именем, заданным в диалоговом окне &quot;Cоединение с FTP-сервером&quot;, и с соответствующими
+  настройками.</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Команда ftpopen имя_соединения|/подкаталог открывает новое соединение в предпочтительной файловой панели с переходом
+  в указанный подкаталог.</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Команда ftpopen имя_соединения|*/подкаталог делает то же самое, но всегда в активной панели (например, в меню избранного,
+  открытом по Ctrl+D)</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Операции с файлами</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="87">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>selectfiles имя_маски</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Выделить файлы/папки по маске, шаблону или регулярному выражению. Поддерживаемые суффиксы-модификаторы: D (только
+  папки), B (папки и файлы), U (снять выделение), L (левая панель), R (правая), T (целевая), S (при нажатой клавише Shift выполнять альтернативное
+  выделение — только файлы или же файлы и папки), Шаблоны должны начинаться с символа &gt;, а регулярные выражения с символа
+  &lt;</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>selectfiles &gt;имя_шаблона</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>selectfiles &lt;регулярное_выражение</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>syncopen имя_шаблона </p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть сохранённые параметры синхронизации, используя имя шаблона, сохранённого ранее в диалоговом окне
+  &quot;Синхронизация каталогов&quot;</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>loadsearch имя_шаблона</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть сохранённые параметры поиска, используя имя шаблона, сохранённого ранее в диалоговом окне &quot;Поиск
+  файлов&quot;</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>multirename имя_шаблона</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Открыть инструмент группового переименования с сохранёнными в указанном шаблоне переименования настройками</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>zipfromlist имя_архива</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Упаковать файлы по списку в ZIP-архив. В поле &quot;Команда&quot; следует указать имя ZIP-файла. Ему могут предшествовать
+  следующие параметры:</p>
+  
+  </td>
+ </tr>
+ <tr height="87">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>&nbsp;
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>1) -m (перемещать в архив), -o (перезаписывать без запросов), -0..-9 (степень сжатия), -c0 (шифровать ZIP2.0), -c1 (шифровать
+  AES128), -c2 (шифровать AES192, -c3 (шифровать AES256), -c0pass..-c3pass (шифровать выбранным методом с явно заданным паролем). В поле &quot;Параметры&quot;
+  указывается имя файла, содержащего список файлов для упаковки, по одному в строке. Команда не входит в totalcmd.inc</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Панели инструментов</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="87">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>openbar имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Загрузить главную панель инструментов из указанного BAR-файла (или скрыть, если указан пустой файл наподобие
+  No.bar). Если путь к BAR-файлу не задан, выполняется его поиск по имени в каталоге TC. Для открытия BAR-файла под курсором следует
+  в диалоге настроек панели инструментов, пользовательского меню или пользовательской команды вместо имени конкретного
+  файла в поле &quot;Команда&quot; указать, например, %P%N в поле &quot;Параметры&quot;</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>openbar1 имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Загрузить из указанного BAR-файла главную панель инструментов</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>openbar2 имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Загрузить из указанного BAR-файла вертикальную панель инструментов</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Вкладки</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="141">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>appendtabs имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Загрузить из TAB-файла набор вкладок (ранее сохранённый через контекстное меню вкладки) с дополнением текущего
+  набора. Другой способ выполнения: Enter на TAB-файле. Для открытия TAB-файла под курсором следует в диалоге настроек панели инструментов,
+  пользовательского меню или пользовательской команды вместо имени конкретного файла в поле &quot;Команда&quot; указать, например,
+  %P%N в поле &quot;Параметры&quot;. Команда без параметра вызывает диалог открытия файла (как в контекстном меню вкладки). Чтобы вкладки,
+  сохранённые для активной файловой панели, добавились в левой/правой панели (во избежание инверсии при активности другой
+  панели), допишите к имени команды суффикс, соответственно, L или R</p>
+  
+  </td>
+ </tr>
+ <tr height="141">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>opentabs имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Загрузить из TAB-файла набор вкладок (ранее сохранённый через контекстное меню вкладки) c заменой текущего набора.
+  Другой способ выполнения: S+Enter на TAB-файле. Для открытия TAB-файла под курсором следует в диалоге настроек панели инструментов,
+  пользовательского меню или пользовательской команды вместо имени конкретного файла в поле &quot;Команда&quot; указать, например,
+  %P%N в поле &quot;Параметры&quot;. Команда без параметра вызывает диалог открытия файла (как в контекстном меню вкладки). Чтобы вкладки,
+  сохранённые для активной файловой панели, добавились в левой/правой панели (во избежание инверсии при активности другой
+  панели), допишите к имени команды суффикс, соответственно, L или R</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabs имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки активной панели (в секцию [activetabs]). Без параметра команды сохранения вкладок
+  не работают!</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabsL имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки левой панели (в секцию [activetabs])</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabsR имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки правой панели (в секцию [activetabs])</p>
+  
+  </td>
+ </tr>
+ <tr height="51">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabs2 имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки обеих панелей (сначала активной в секцию [activetabs], затем неактивной в [inactivetabs])</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabs2L имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки обеих панелей (сначала левой в секцию [activetabs], затем правой в [inactivetabs])</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>savetabs2R имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Сохранить в указанный TAB-файл вкладки обеих панелей (сначала правой в секцию [activetabs], затем левой в [inactivetabs])</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Наборы колонок</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="69">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>opencustomview имя_набора_колонок</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Переключиться на первый пользовательский набор колонок с указанным именем (регистр имени важен). Чтобы выполнить
+  переключение в конкретной панели, допишите к имени команды суффикс L (левая панель), R (правая), S (исходная), T (целевая) или B
+  (обе)</p>
+  
+  </td>
+ </tr>
+ <tr height="33">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>
+  <p class=Обычный><b><span style='font-weight:bold;'>Языковые файлы</span></b></p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;background:#E5E5FF;' align=left valign=justify>&nbsp;
+  </td>
+ </tr>
+ <tr height="87">
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>openlanguagefile имя_файла</p>
+  
+  </td>
+  <td style='padding:5.5pt 8.5pt 5.5pt 5.5pt ;' align=left valign=justify>
+  <p class=Обычный>Быстро переключить язык интерфейса и/или главного меню TC. Если указан LNG-файл — использовать его и одноимённые
+  файлы (INC и MNU из подкаталога Language). Если указан MNU-файл — использовать его с прежним LNG-файлом (при указании .MNU без имени используется
+  встроенное английское меню). Если параметр не указан — использовать для интерфейса и меню встроенный английский язык.</p>
+  
+  </td>
+ </tr>
+</table>
+</body>
+</html>

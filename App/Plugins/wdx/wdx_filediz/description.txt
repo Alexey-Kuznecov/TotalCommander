@@ -1,0 +1,2 @@
+URL: http://ghisler.fileburst.com/content/wdx_filediz.zip
+Описание: File Description 32+64 bit - Shows file descriptions: from files.bbs/descript.ion, from contents of text/HTML files, for executables/DLLs: from VersionInfo fields. Sources included!
